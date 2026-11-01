@@ -48,7 +48,7 @@ const transparentLabel = row => 'Transparent' + (row.finish.split(';').map(s=>s.
 const displayLabel = row => transparent(row) ? transparentLabel(row) : effective(row) || 'Colour unknown';
 const categoryLabel = row => catalog.categories[row.category] || catalog.categories.unknown;
 const categoryBadge = row => `<span class="category-badge category-${escapeHtml(row.category || 'unknown')}">${escapeHtml(categoryLabel(row))}</span>`;
-const tagLabel = tag => String(tag).toLowerCase() === 'glitter' ? `\u2728 ${escapeHtml(tag)} \u2728` : escapeHtml(tag);
+const tagLabel = tag => String(tag).toLowerCase() === 'glitter' ? `\u2728 ${escapeHtml(tag)} \u2728` : escapeHtml(String(tag).replace(/-/g, ' '));
 function polishTags(tags = []) {
   const labels = [...new Set(tags.map(normalizePolishTag))];
   return labels.length ? `<div class="polish-tags" aria-label="Polish tags">${labels.map(tag=>`<span class="polish-tag">${tagColourDot(tag)}${tagLabel(tag)}</span>`).join('')}</div>` : '<p class="muted">No tags recorded.</p>';
@@ -91,7 +91,7 @@ function overviewCard(row) {
     </div>
     <div class="overview-card-body"><h2>${escapeHtml(row.shade_name)}</h2><p class="overview-brand">${brandMark(row.brand)}</p>
     ${swatch(effective(row),'small-swatch',row)}
-    <div class="overview-attributes">${attributes.slice(0,4).map(value => `<span class="overview-attribute">${tagColourDot(value.toLowerCase())}${escapeHtml(value)}</span>`).join('')}</div>
+    <div class="overview-attributes">${attributes.slice(0,4).map(value => `<span class="overview-attribute">${tagColourDot(value.toLowerCase())}${tagLabel(value)}</span>`).join('')}</div>
     ${!publicMode && missing.length ? `<span class="overview-missing" aria-label="Missing images: ${escapeHtml(missing.join(', '))}">＋ Add ${escapeHtml(missing.join(' & '))}</span>` : publicMode ? '' : '<span class="overview-complete">✓ Bottle & swatch recorded</span>'}
     </div></a>`;
 }
@@ -140,7 +140,7 @@ function render() {
     function list() {
       const query = normalizePolishQuery(document.querySelector('#search').value.trim());
       const category = document.querySelector('#category-filter').value;
-      const rows = catalog.rows.filter(r => (!category || r.category === category) && (!overviewState.tags.size || (overviewState.tagMode === 'or' ? [...overviewState.tags].some(tag => filterTags(r).includes(tag)) : [...overviewState.tags].every(tag => filterTags(r).includes(tag)))) && [r.brand,r.shade_name,categoryLabel(r),...filterTags(r)].join(' ').toLowerCase().includes(query));
+      const rows = catalog.rows.filter(r => (!category || r.category === category) && (!overviewState.tags.size || (overviewState.tagMode === 'or' ? [...overviewState.tags].some(tag => filterTags(r).includes(tag)) : [...overviewState.tags].every(tag => filterTags(r).includes(tag)))) && [r.brand,r.shade_name,categoryLabel(r),...filterTags(r),...filterTags(r).map(tag => tag.replace(/-/g, ' '))].join(' ').toLowerCase().includes(query));
       // AND counts describe the result of adding each tag to the current filters.
       const counts = overviewState.tagMode === 'and'
         ? new Map(tags.map(tag => [tag, rows.filter(row => filterTags(row).includes(tag)).length]))
@@ -190,7 +190,7 @@ function render() {
   }
   if (publicMode) { renderPublicPolish(row); return; }
   current = {...row};
-  app.innerHTML = `<a href="#">← All polishes</a><p class="tag">${brandMark(row.brand)}</p><h1>${escapeHtml(row.shade_name)}</h1><p class="muted">${escapeHtml([row.color_family,row.finish,row.role].filter(Boolean).join(' · '))}</p><p>Color in use: <strong id="effective"></strong></p>${gallery(row)}<div class="grid">${reference('manufacturer','Manufacturer reference','A listed hex or a sample from a manufacturer picture.')}${reference('personal','Your manicure / swatch','Sample a nail in your own photo, in the lighting you prefer.')}<section class="card"><h2>Your override</h2><p class="muted">Fine-tune the color used for this polish.</p><div id="override-preview" class="swatch"></div><label for="override_hex">Hex</label><input id="override_hex" placeholder="#735A91" maxlength="7"><label for="hue">Hue <output id="hue-value"></output></label><input type="range" id="hue" min="0" max="360" value="280"><label for="saturation">Saturation <output id="saturation-value"></output></label><input type="range" id="saturation" min="0" max="100" value="40"><label for="lightness">Lightness <output id="lightness-value"></output></label><input type="range" id="lightness" min="0" max="100" value="50"><button id="clear" class="secondary">Clear override</button></section></div><button id="save">Save colors</button><p id="status" role="status" aria-live="polite">Saved colors load from the JSON record. Changes are saved with the button above.</p><p class="muted">A single hex is a representative color; shimmer, transparency and magnetic effects vary with lighting. Photo samples are estimates.</p>`;
+  app.innerHTML = `<a href="#">← All polishes</a><p class="tag">${brandMark(row.brand)}</p><h1>${escapeHtml(row.shade_name)}</h1><p class="muted">${escapeHtml([row.color_family,row.finish,row.role].filter(Boolean).join(' · ').replace(/-/g, ' '))}</p><p>Color in use: <strong id="effective"></strong></p>${gallery(row)}<div class="grid">${reference('manufacturer','Manufacturer reference','A listed hex or a sample from a manufacturer picture.')}${reference('personal','Your manicure / swatch','Sample a nail in your own photo, in the lighting you prefer.')}<section class="card"><h2>Your override</h2><p class="muted">Fine-tune the color used for this polish.</p><div id="override-preview" class="swatch"></div><label for="override_hex">Hex</label><input id="override_hex" placeholder="#735A91" maxlength="7"><label for="hue">Hue <output id="hue-value"></output></label><input type="range" id="hue" min="0" max="360" value="280"><label for="saturation">Saturation <output id="saturation-value"></output></label><input type="range" id="saturation" min="0" max="100" value="40"><label for="lightness">Lightness <output id="lightness-value"></output></label><input type="range" id="lightness" min="0" max="100" value="50"><button id="clear" class="secondary">Clear override</button></section></div><button id="save">Save colors</button><p id="status" role="status" aria-live="polite">Saved colors load from the JSON record. Changes are saved with the button above.</p><p class="muted">A single hex is a representative color; shimmer, transparency and magnetic effects vary with lighting. Photo samples are estimates.</p>`;
   app.querySelector('h1').insertAdjacentHTML('afterend', categoryBadge(row) + polishTags(row.tags) + swatch(effective(current), 'product-swatch', current));
   // Compact image enrichment inside the detail view; uses the existing editor endpoint.
   const imageEntry = imageReferences[row.brand + '/' + row.shade_name] || {};
@@ -246,7 +246,7 @@ function render() {
 }
 function renderPublicPolish(row) {
     current = null;
-    app.innerHTML = `<a href="#">← All polishes</a><p class="tag">${brandMark(row.brand)}</p><h1>${escapeHtml(row.shade_name)}</h1>${categoryBadge(row)}${polishTags(row.tags)}<p class="muted">${escapeHtml([row.color_family, row.finish, row.role].filter(Boolean).join(' · '))}</p>${swatch(effective(row), 'product-swatch', row)}<p>Colour in use: ${escapeHtml(displayLabel(row))}</p>${gallery(row)}<div class="grid">${['manufacturer', 'personal', 'override'].map(type => `<section class="card"><h2>${escapeHtml({manufacturer:'Manufacturer reference', personal:'Personal reference', override:'User override'}[type])}</h2>${swatch(row[type + '_hex'], 'small-swatch')}<p>${escapeHtml(row[type + '_hex'] || 'Not recorded')}</p></section>`).join('')}</div><p class="muted">Colour and finish previews are illustrative. </p><p><a href="../colour-lab/">Explore colour combinations →</a></p>`;
+    app.innerHTML = `<a href="#">← All polishes</a><p class="tag">${brandMark(row.brand)}</p><h1>${escapeHtml(row.shade_name)}</h1>${categoryBadge(row)}${polishTags(row.tags)}<p class="muted">${escapeHtml([row.color_family, row.finish, row.role].filter(Boolean).join(' · ').replace(/-/g, ' '))}</p>${swatch(effective(row), 'product-swatch', row)}<p>Colour in use: ${escapeHtml(displayLabel(row))}</p>${gallery(row)}<div class="grid">${['manufacturer', 'personal', 'override'].map(type => `<section class="card"><h2>${escapeHtml({manufacturer:'Manufacturer reference', personal:'Personal reference', override:'User override'}[type])}</h2>${swatch(row[type + '_hex'], 'small-swatch')}<p>${escapeHtml(row[type + '_hex'] || 'Not recorded')}</p></section>`).join('')}</div><p class="muted">Colour and finish previews are illustrative. </p><p><a href="../colour-lab/">Explore colour combinations →</a></p>`;
     for (const image of app.querySelectorAll('.photo-grid img')) {
         image.onerror = () => {
             image.hidden = true;

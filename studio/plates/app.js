@@ -27,9 +27,9 @@ async function start() {
     app.innerHTML = '<h1>Stamping plates</h1><label for="search">Search plates and stamp motifs</label><input id="search" type="search" placeholder="Circuits, lettering, gaming…"><label for="card-size">Card size</label><select id="card-size"><option value="standard">Standard</option><option value="large">Large</option><option value="extra-large">Extra large</option></select><p id="count" role="status"></p><div class="grid" id="plates" data-card-size="standard"></div>';
     const render = () => {
       const q = document.querySelector('#search').value.toLowerCase();
-      const found = plates.filter(p => JSON.stringify(p).toLowerCase().includes(q));
+      const found = plates.filter(p => (JSON.stringify(p) + ' ' + JSON.stringify(p).replace(/-/g, ' ')).toLowerCase().includes(q));
       document.querySelector('#count').textContent = `${found.length} plate(s)`;
-      document.querySelector('#plates').innerHTML = found.map(p => `<a class="card" href="?id=${encodeURIComponent(p.id)}">${p.reference_image ? img(p.reference_image, title(p)) : ''}<h2>${esc(title(p))}</h2><p>${esc(p.status)} · ${p.stamps.length} stamps</p><p class="tag">${esc(p.tags.join(', '))}</p></a>`).join('');
+      document.querySelector('#plates').innerHTML = found.map(p => `<a class="card" href="?id=${encodeURIComponent(p.id)}">${p.reference_image ? img(p.reference_image, title(p)) : ''}<h2>${esc(title(p))}</h2><p>${esc(p.status)} · ${p.stamps.length} stamps</p><p class="tag">${esc(p.tags.join(', ').replace(/-/g, ' '))}</p></a>`).join('');
     };
     document.querySelector('#card-size').addEventListener('change', event => {
       document.querySelector('#plates').dataset.cardSize = event.target.value;
@@ -63,12 +63,12 @@ async function start() {
   });
 }
 function renderPublicPlate(plate) {
-    app.innerHTML = `<a href="?">← All plates</a><h1>${esc(title(plate))}</h1>${plate.reference_image ? img(plate.reference_image, 'Plate-only reference', 'reference') : '<p>Reference image pending.</p>'}<p class="tag">${esc(plate.tags.join(', '))}</p><h2>Stamp designs</h2><p class="muted">IDs describe reference positions, not manufacturer numbers. Sizes are approximate. Save corrections through Nail Studio chat using plate ID: ${esc(plate.id)}.</p><p><a href="../stamp-explorer/">Open Stamp Designer →</a></p><label for="stamp-search">Filter stamps by motif</label><input type="search" id="stamp-search"><p id="stamp-count" role="status"></p><div class="grid" id="stamps"></div>`;
+    app.innerHTML = `<a href="?">← All plates</a><h1>${esc(title(plate))}</h1>${plate.reference_image ? img(plate.reference_image, 'Plate-only reference', 'reference') : '<p>Reference image pending.</p>'}<p class="tag">${esc(plate.tags.join(', ').replace(/-/g, ' '))}</p><h2>Stamp designs</h2><p class="muted">IDs describe reference positions, not manufacturer numbers. Sizes are approximate. Save corrections through Nail Studio chat using plate ID: ${esc(plate.id)}.</p><p><a href="../stamp-explorer/">Open Stamp Designer →</a></p><label for="stamp-search">Filter stamps by motif</label><input type="search" id="stamp-search"><p id="stamp-count" role="status"></p><div class="grid" id="stamps"></div>`;
     const render = () => {
         const query = document.querySelector('#stamp-search').value.trim().toLowerCase();
-        const stamps = plate.stamps.filter(stamp => [stamp.id, stamp.title, stamp.position, ...stamp.tags].join(' ').toLowerCase().includes(query));
+        const stamps = plate.stamps.filter(stamp => [stamp.id, stamp.title, stamp.position, ...stamp.tags, ...stamp.tags.map(tag => tag.replace(/-/g, ' '))].join(' ').toLowerCase().includes(query));
         document.querySelector('#stamp-count').textContent = `${stamps.length} of ${plate.stamps.length} stamps`;
-        document.querySelector('#stamps').innerHTML = stamps.map(stamp => `<section class="card stamp" id="${esc(stamp.id)}"><a href="#${esc(stamp.id)}">${esc(stamp.id)} · ${esc(stamp.position)}</a>${img(stamp.image, stamp.title)}<h3>${esc(stamp.title)}</h3><p>${esc(stamp.tags.join(', '))}</p></section>`).join('') || '<p>No designs match, or this plate has no separate crops.</p>';
+        document.querySelector('#stamps').innerHTML = stamps.map(stamp => `<section class="card stamp" id="${esc(stamp.id)}"><a href="#${esc(stamp.id)}">${esc(stamp.id)} · ${esc(stamp.position)}</a>${img(stamp.image, stamp.title)}<h3>${esc(stamp.title)}</h3><p>${esc(stamp.tags.join(', ').replace(/-/g, ' '))}</p></section>`).join('') || '<p>No designs match, or this plate has no separate crops.</p>';
     };
     document.querySelector('#stamp-search').addEventListener('input', render);
     render();
