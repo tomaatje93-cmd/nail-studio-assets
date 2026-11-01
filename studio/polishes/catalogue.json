@@ -137,11 +137,10 @@
             "tags": [
                 "topper",
                 "silver",
-                "holographic",
+                "holo",
                 "magnetic",
                 "layering",
-                "glitter",
-                "holo"
+                "glitter"
             ]
         },
         {
@@ -363,11 +362,10 @@
             "tags": [
                 "topper",
                 "lilac",
-                "holographic",
+                "holo",
                 "confetti",
                 "purple",
-                "glitter",
-                "holo"
+                "glitter"
             ]
         },
         {
@@ -668,7 +666,7 @@
             ]
         },
         {
-            "brand": "HEMA",
+            "brand": "Hema",
             "shade_name": "Can You Teal The Love",
             "color_family": "green",
             "finish": "",
@@ -903,7 +901,7 @@
             ]
         },
         {
-            "brand": "HEMA",
+            "brand": "Hema",
             "shade_name": "Liquorice",
             "color_family": "black",
             "finish": "",
@@ -1058,7 +1056,7 @@
             ]
         },
         {
-            "brand": "HEMA",
+            "brand": "Hema",
             "shade_name": "Purpalicious",
             "color_family": "purple",
             "finish": "",
@@ -1210,7 +1208,7 @@
             ]
         },
         {
-            "brand": "HEMA",
+            "brand": "Hema",
             "shade_name": "Tickle Tackle",
             "color_family": "",
             "finish": "",
@@ -1327,7 +1325,7 @@
             ]
         },
         {
-            "brand": "HEMA",
+            "brand": "Hema",
             "shade_name": "Wicked Wine",
             "color_family": "red",
             "finish": "",
@@ -1457,10 +1455,9 @@
             "tags": [
                 "collection",
                 "aqua-blue",
-                "holographic",
+                "holo",
                 "glitter",
-                "blue",
-                "holo"
+                "blue"
             ]
         },
         {
@@ -1493,10 +1490,9 @@
             "id": "holo-taco-anti-hero",
             "tags": [
                 "collection",
-                "holographic",
+                "holo",
                 "jelly",
-                "purple",
-                "holo"
+                "purple"
             ]
         },
         {
@@ -1532,11 +1528,10 @@
             "id": "holo-taco-be-kind-rewind",
             "tags": [
                 "collection",
-                "holographic",
+                "holo",
                 "jelly",
                 "blue",
-                "green",
-                "holo"
+                "green"
             ]
         },
         {
@@ -1555,7 +1550,6 @@
                 "topper",
                 "flakie",
                 "blue",
-                "holographic",
                 "holo"
             ]
         },
@@ -1573,9 +1567,8 @@
             "id": "holo-taco-blue-freezie",
             "tags": [
                 "collection",
-                "holographic",
-                "blue",
-                "holo"
+                "holo",
+                "blue"
             ]
         },
         {
@@ -1592,11 +1585,10 @@
             "id": "holo-taco-blue-rizzler",
             "tags": [
                 "collection",
-                "holographic",
+                "holo",
                 "iridescent",
                 "shimmer",
-                "blue",
-                "holo"
+                "blue"
             ]
         },
         {
@@ -1614,9 +1606,8 @@
             "tags": [
                 "collection",
                 "glitter",
-                "holographic",
-                "green",
-                "holo"
+                "holo",
+                "green"
             ]
         },
         {
@@ -1664,10 +1655,9 @@
             "id": "holo-taco-box-office-bomb",
             "tags": [
                 "collection",
-                "holographic",
+                "holo",
                 "jelly",
-                "orange",
-                "holo"
+                "orange"
             ]
         },
         {
@@ -1720,10 +1710,9 @@
             "tags": [
                 "collection",
                 "glitter",
-                "holographic",
+                "holo",
                 "orange",
-                "pink",
-                "holo"
+                "pink"
             ]
         },
         {
@@ -1742,7 +1731,6 @@
                 "collection",
                 "red",
                 "shimmer",
-                "holographic",
                 "holo"
             ]
         },
@@ -1796,7 +1784,6 @@
             "id": "holo-taco-circuit-breaker",
             "tags": [
                 "gray",
-                "holographic",
                 "holo"
             ]
         },
@@ -1815,9 +1802,8 @@
             "tags": [
                 "collection",
                 "glitter",
-                "holographic",
-                "gold",
-                "holo"
+                "holo",
+                "gold"
             ]
         },
         {
@@ -1866,10 +1852,9 @@
             "id": "holo-taco-coral-chaser",
             "tags": [
                 "collection",
-                "holographic",
+                "holo",
                 "orange",
-                "pink",
-                "holo"
+                "pink"
             ]
         },
         {
@@ -1906,14 +1891,13 @@
             "tags": [
                 "topper",
                 "glitter",
-                "holographic",
-                "iridescent",
-                "holo"
+                "holo",
+                "iridescent"
             ]
         },
         {
             "brand": "Holo Taco",
-            "color_family": "dark red",
+            "color_family": "dark-red",
             "finish": "holo",
             "manufacturer_hex": "",
             "override_hex": "#611C32",
@@ -1925,9 +1909,8 @@
             "id": "holo-taco-crimson-void",
             "tags": [
                 "collection",
-                "holographic",
-                "red",
-                "holo"
+                "holo",
+                "red"
             ]
         },
         {
@@ -1945,9 +1928,8 @@
             "tags": [
                 "collection",
                 "glitter",
-                "holographic",
-                "pink",
-                "holo"
+                "holo",
+                "pink"
             ]
         },
         {
@@ -1981,10 +1963,9 @@
             "id": "holo-taco-dead-petals",
             "tags": [
                 "collection",
-                "holographic",
+                "holo",
                 "red",
-                "purple",
-                "holo"
+                "purple"
             ]
         },
         {
@@ -2034,9 +2015,8 @@
             "id": "holo-taco-dream-eater",
             "tags": [
                 "collection",
-                "holographic",
-                "purple",
-                "holo"
+                "holo",
+                "purple"
             ]
         },
         {
@@ -2140,7 +2120,6 @@
             "tags": [
                 "topper",
                 "flakie",
-                "holographic",
                 "holo"
             ]
         },
@@ -2243,10 +2222,9 @@
             "id": "holo-taco-girly-ghoul",
             "tags": [
                 "collection",
-                "holographic",
+                "holo",
                 "shimmer",
-                "purple",
-                "holo"
+                "purple"
             ]
         },
         {
@@ -2280,9 +2258,8 @@
             "tags": [
                 "collection",
                 "glitter",
-                "holographic",
-                "purple",
-                "holo"
+                "holo",
+                "purple"
             ]
         },
         {
@@ -2318,7 +2295,6 @@
             "tags": [
                 "topper",
                 "gold",
-                "holographic",
                 "holo"
             ]
         },
@@ -2356,9 +2332,8 @@
             "id": "holo-taco-green-taffy",
             "tags": [
                 "collection",
-                "holographic",
-                "green",
-                "holo"
+                "holo",
+                "green"
             ]
         },
         {
@@ -2411,10 +2386,9 @@
             "id": "holo-taco-hi-def",
             "tags": [
                 "collection",
-                "holographic",
+                "holo",
                 "jelly",
-                "yellow",
-                "holo"
+                "yellow"
             ]
         },
         {
@@ -2481,7 +2455,6 @@
             "tags": [
                 "collection",
                 "white",
-                "holographic",
                 "holo"
             ]
         },
@@ -2504,7 +2477,7 @@
         },
         {
             "brand": "Holo Taco",
-            "color_family": "berry pink",
+            "color_family": "berry-pink",
             "finish": "holo;shimmer",
             "manufacturer_hex": "",
             "override_hex": "#B44481",
@@ -2516,11 +2489,10 @@
             "id": "holo-taco-jam-session",
             "tags": [
                 "collection",
-                "holographic",
+                "holo",
                 "iridescent",
                 "shimmer",
-                "pink",
-                "holo"
+                "pink"
             ]
         },
         {
@@ -2570,9 +2542,8 @@
             "id": "holo-taco-lavender-syrup",
             "tags": [
                 "collection",
-                "holographic",
-                "purple",
-                "holo"
+                "holo",
+                "purple"
             ]
         },
         {
@@ -2605,9 +2576,8 @@
             "id": "holo-taco-lemon-spritzer",
             "tags": [
                 "collection",
-                "holographic",
-                "yellow",
-                "holo"
+                "holo",
+                "yellow"
             ]
         },
         {
@@ -2624,9 +2594,8 @@
             "id": "holo-taco-lemon-sucker",
             "tags": [
                 "collection",
-                "holographic",
-                "yellow",
-                "holo"
+                "holo",
+                "yellow"
             ]
         },
         {
@@ -2643,10 +2612,9 @@
             "id": "holo-taco-life-in-plastic",
             "tags": [
                 "collection",
-                "holographic",
+                "holo",
                 "jelly",
-                "pink",
-                "holo"
+                "pink"
             ]
         },
         {
@@ -2663,7 +2631,6 @@
             "id": "holo-taco-linear-holo-taco",
             "tags": [
                 "topper",
-                "holographic",
                 "holo"
             ]
         },
@@ -2686,7 +2653,7 @@
         },
         {
             "brand": "Holo Taco",
-            "color_family": "dark green",
+            "color_family": "dark-green",
             "finish": "holo",
             "manufacturer_hex": "",
             "override_hex": "#174E42",
@@ -2698,9 +2665,8 @@
             "id": "holo-taco-lost-in-the-woods",
             "tags": [
                 "collection",
-                "holographic",
-                "green",
-                "holo"
+                "holo",
+                "green"
             ]
         },
         {
@@ -2749,10 +2715,9 @@
             "id": "holo-taco-magneta-jelly",
             "tags": [
                 "collection",
-                "holographic",
+                "holo",
                 "pink",
-                "purple",
-                "holo"
+                "purple"
             ]
         },
         {
@@ -2803,9 +2768,8 @@
             "id": "holo-taco-mint-mojito",
             "tags": [
                 "collection",
-                "holographic",
-                "green",
-                "holo"
+                "holo",
+                "green"
             ]
         },
         {
@@ -2944,9 +2908,8 @@
             "id": "holo-taco-orange-drink",
             "tags": [
                 "collection",
-                "holographic",
-                "orange",
-                "holo"
+                "holo",
+                "orange"
             ]
         },
         {
@@ -2979,10 +2942,9 @@
             "id": "holo-taco-peach-tea",
             "tags": [
                 "collection",
-                "holographic",
+                "holo",
                 "orange",
-                "pink",
-                "holo"
+                "pink"
             ]
         },
         {
@@ -2999,9 +2961,8 @@
             "id": "holo-taco-pink-fizz",
             "tags": [
                 "collection",
-                "holographic",
-                "pink",
-                "holo"
+                "holo",
+                "pink"
             ]
         },
         {
@@ -3019,7 +2980,6 @@
             "tags": [
                 "collection",
                 "pink",
-                "holographic",
                 "holo"
             ]
         },
@@ -3056,11 +3016,10 @@
             "id": "holo-taco-pop-rocker",
             "tags": [
                 "collection",
-                "holographic",
+                "holo",
                 "iridescent",
                 "shimmer",
-                "pink",
-                "holo"
+                "pink"
             ]
         },
         {
@@ -3077,9 +3036,8 @@
             "id": "holo-taco-purple-slushie",
             "tags": [
                 "collection",
-                "holographic",
-                "purple",
-                "holo"
+                "holo",
+                "purple"
             ]
         },
         {
@@ -3128,9 +3086,8 @@
             "id": "holo-taco-red-licorice",
             "tags": [
                 "collection",
-                "holographic",
-                "red",
-                "holo"
+                "holo",
+                "red"
             ]
         },
         {
@@ -3164,7 +3121,6 @@
             "id": "holo-taco-scattered-holo-taco",
             "tags": [
                 "topper",
-                "holographic",
                 "holo"
             ]
         },
@@ -3200,7 +3156,6 @@
             "tags": [
                 "topper",
                 "glitter",
-                "holographic",
                 "holo"
             ]
         },
@@ -3275,11 +3230,10 @@
             "id": "holo-taco-sour-note",
             "tags": [
                 "collection",
-                "holographic",
+                "holo",
                 "iridescent",
                 "shimmer",
-                "green",
-                "holo"
+                "green"
             ]
         },
         {
@@ -3344,16 +3298,15 @@
             "id": "holo-taco-sugar-rush",
             "tags": [
                 "collection",
-                "holographic",
+                "holo",
                 "iridescent",
                 "shimmer",
-                "white",
-                "holo"
+                "white"
             ]
         },
         {
             "brand": "Holo Taco",
-            "color_family": "dark teal",
+            "color_family": "dark-teal",
             "finish": "holo",
             "manufacturer_hex": "",
             "override_hex": "#164D65",
@@ -3365,11 +3318,10 @@
             "id": "holo-taco-sunken-secrets",
             "tags": [
                 "collection",
-                "holographic",
+                "holo",
                 "teal",
                 "blue",
-                "green",
-                "holo"
+                "green"
             ]
         },
         {
@@ -3386,12 +3338,11 @@
             "id": "holo-taco-sunshine-crush",
             "tags": [
                 "collection",
-                "holographic",
+                "holo",
                 "iridescent",
                 "shimmer",
                 "yellow",
-                "orange",
-                "holo"
+                "orange"
             ]
         },
         {
@@ -3468,7 +3419,7 @@
         },
         {
             "brand": "Holo Taco",
-            "color_family": "dark purple",
+            "color_family": "dark-purple",
             "finish": "holo",
             "manufacturer_hex": "",
             "override_hex": "#3E245D",
@@ -3480,9 +3431,8 @@
             "id": "holo-taco-violet-nightmares",
             "tags": [
                 "collection",
-                "holographic",
-                "purple",
-                "holo"
+                "holo",
+                "purple"
             ]
         },
         {
@@ -4126,7 +4076,7 @@
             ]
         },
         {
-            "brand": "Nails Inc.",
+            "brand": "Nails Inc",
             "color_family": "",
             "finish": "",
             "manufacturer_hex": "",
@@ -4817,7 +4767,7 @@
         "Hema/Buttercup": {
             "images": []
         },
-        "HEMA/Can You Teal The Love": {
+        "Hema/Can You Teal The Love": {
             "images": [
                 {
                     "url": "https://tomaatje93-cmd.github.io/nail-studio-assets/polishes/hema-can-you-teal-the-love/reference-1-2026-10-30.jpg",
@@ -4866,7 +4816,7 @@
         "Hema/Lilac You a Lot": {
             "images": []
         },
-        "HEMA/Liquorice": {
+        "Hema/Liquorice": {
             "images": [
                 {
                     "url": "https://tomaatje93-cmd.github.io/nail-studio-assets/polishes/hema-liquorice/reference-1-2026-10-30.png",
@@ -4913,7 +4863,7 @@
         "Hema/Pink Sunrise": {
             "images": []
         },
-        "HEMA/Purpalicious": {
+        "Hema/Purpalicious": {
             "images": [
                 {
                     "url": "https://tomaatje93-cmd.github.io/nail-studio-assets/polishes/hema-purpalicious/reference-1-2026-10-30.png",
@@ -4960,7 +4910,7 @@
         "Hema/Sunny Flowers": {
             "images": []
         },
-        "HEMA/Tickle Tackle": {
+        "Hema/Tickle Tackle": {
             "images": [
                 {
                     "url": "https://tomaatje93-cmd.github.io/nail-studio-assets/polishes/hema-tickle-tackle/reference-1-2026-10-30.png",
@@ -5007,7 +4957,7 @@
         "Hema/White Lie": {
             "images": []
         },
-        "HEMA/Wicked Wine": {
+        "Hema/Wicked Wine": {
             "images": [
                 {
                     "url": "https://tomaatje93-cmd.github.io/nail-studio-assets/polishes/hema-wicked-wine/reference-1-2026-10-30.png",
@@ -7205,7 +7155,7 @@
         "Nails Inc/Dream Dust": {
             "images": []
         },
-        "Nails Inc./Rainbow Wishes": {
+        "Nails Inc/Rainbow Wishes": {
             "images": []
         },
         "OPI/Abstract After Dark": {

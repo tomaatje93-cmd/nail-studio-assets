@@ -3,7 +3,9 @@ const publicMode = document.body.dataset.catalogueMode === 'public';
 let catalog, current, dirty = false, imageReferences = {};
 let finishReviewIds = null;
 const overviewState = { scrollY: 0, search: '', category: '', tags: new Set(), tagMode: 'and' };
-const filterTags = row => [...new Set([...(row.tags || []), ...[row.finish, row.color_family].flatMap(value => (value || '').split(';'))].map(value => value.trim().toLowerCase()).filter(Boolean))];
+const normalizePolishTag = value => value.trim().toLowerCase();
+const normalizePolishQuery = value => value.toLowerCase().replace(/\bholographic\b/g, 'holo').replace(/\bdark (blue|green|purple)\b/g, 'dark-$1').replace(/\bgrey\b/g, 'gray');
+const filterTags = row => [...new Set([...(row.tags || []), ...[row.finish, row.color_family].flatMap(value => (value || '').split(';'))].map(normalizePolishTag).filter(Boolean))];
 function tagGroup(tag) {
   if (tagColourDot(tag) || catalog.rows.some(row => (row.color_family || '').split(';').some(value => value.trim().toLowerCase() === tag))) return 'colour';
   if (['holo','holographic','iridescent','flakie','foil','duochrome','multichrome','reflective'].includes(tag) || catalog.rows.some(row => (row.finish || '').split(';').some(value => value.trim().toLowerCase() === tag))) return 'finish';
@@ -25,6 +27,7 @@ function tagColourDot(tag) {
     'rainforest-green':'#28705A', 'sapphire-blue':'#2366AE', 'space-cadet-blue':'#424361',
     'steel-silver':'#999BAE', teal:'#278D8E', violet:'#8554B5',
     'dark-blue':'#243C69', 'dark-green':'#174E42', 'dark-purple':'#3E245D',
+    'dark-red':'#651D35', 'dark-teal':'#164D65', 'berry-pink':'#B44481',
     'clear-base':'transparent', transparent:'transparent'
   };
   if (tag === 'multicolor') return '<span class="tag-colour-dot tag-colour-multicolor" aria-hidden="true"></span>';
@@ -47,7 +50,8 @@ const categoryLabel = row => catalog.categories[row.category] || catalog.categor
 const categoryBadge = row => `<span class="category-badge category-${escapeHtml(row.category || 'unknown')}">${escapeHtml(categoryLabel(row))}</span>`;
 const tagLabel = tag => String(tag).toLowerCase() === 'glitter' ? `\u2728 ${escapeHtml(tag)} \u2728` : escapeHtml(tag);
 function polishTags(tags = []) {
-  return tags.length ? `<div class="polish-tags" aria-label="Polish tags">${tags.map(tag=>`<span class="polish-tag">${tagColourDot(tag.toLowerCase())}${tagLabel(tag)}</span>`).join('')}</div>` : '<p class="muted">No tags recorded.</p>';
+  const labels = [...new Set(tags.map(normalizePolishTag))];
+  return labels.length ? `<div class="polish-tags" aria-label="Polish tags">${labels.map(tag=>`<span class="polish-tag">${tagColourDot(tag)}${tagLabel(tag)}</span>`).join('')}</div>` : '<p class="muted">No tags recorded.</p>';
 }
 async function load() {
   const response = await fetch(publicMode ? 'catalogue.json' : 'api.php');
@@ -65,8 +69,10 @@ function gallery(row) {
 }
 const brandIconDomains = {"Holo Taco":"holotaco.com","Hema":"hema.nl","Essie":"essie.com","Essence":"essence.eu","Sally Hansen":"sallyhansen.com","OPI":"opi.com","Orly":"orlybeauty.com","Mooncat":"mooncat.com","Cirque Colors":"cirquecolors.com","Kiko":"kikocosmetics.com","Nails Inc":"nailsinc.com","Nails Inc.":"nailsinc.com","Herzlack":"herzlack.de","Emily de Molly":"emilydemolly.com","Kruidvat":"kruidvat.nl","Miss Sporty":"miss-sporty.com","BLP":"blpbeauty.com","DA":"da.nl","Catrice":"catrice.eu","MoYou":"moyou.co.uk"};
 function brandMark(brand) {
-  const domain = brandIconDomains[brand];
-  const image = domain ? `<img class="brand-logo" src="https://www.google.com/s2/favicons?domain=${encodeURIComponent(domain)}&sz=64" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.hidden=true">` : '';
+  const domain = brandIconDomains[brand === 'MoYou London' ? 'MoYou' : brand];
+  const whiteLogo = brand === 'Holo Taco';
+  const url = whiteLogo ? 'https://www.holotaco.com/cdn/shop/files/favicon.png?crop=center&height=32&v=1613599192&width=32' : domain ? `https://www.google.com/s2/favicons?domain=${encodeURIComponent(domain)}&sz=64` : '';
+  const image = url ? `<img class="brand-logo${whiteLogo ? ' brand-logo-white' : ''}" src="${escapeHtml(url)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.hidden=true">` : '';
   return `<span class="brand-mark">${image}<span>${escapeHtml(brand || 'Unspecified brand')}</span></span>`;
 }
 function overviewCard(row) {
@@ -97,6 +103,15 @@ function swatch(value, extra = '', row = null) {
   if(row && transparent(row)) return `<div class="swatch swatch-transparent ${extra}" role="img" aria-label="${escapeHtml(transparentLabel(row) + '. ' + description)}" title="${escapeHtml(description)}">${layers}</div>`;
   return `<div class="swatch ${extra}" role="img" aria-label="${escapeHtml((value || 'Colour unknown') + '. ' + description)}" title="${escapeHtml(description)}" ${value ? `style="background-color:${escapeHtml(value)}"` : ''}>${value ? layers : 'Colour unknown'}</div>`;
 }
+function polishHashMatches(row, hash) {
+  if (key(row) === hash) return true;
+  try {
+    const decoded = decodeURIComponent(hash);
+    const slash = decoded.indexOf('/');
+    const brandKey = value => value.trim().toLowerCase().replace(/\./g, '');
+    return slash >= 0 && brandKey(decoded.slice(0, slash)) === brandKey(row.brand) && decoded.slice(slash + 1) === row.shade_name;
+  } catch { return false; }
+}
 function render() {
   if (publicMode && ['#enrich', '#finish-review'].includes(location.hash)) {
     current = null;
@@ -107,7 +122,7 @@ function render() {
   if (location.hash === '#enrich') { renderEnrichment(); return; }
   if (location.hash === '#finish-review') { renderFinishReview(); return; }
   finishReviewIds = null;
-  const row = catalog.rows.find(item => key(item) === location.hash.slice(1) || encodeURIComponent(item.brand + '/' + item.shade_name) === location.hash.slice(1));
+  const row = catalog.rows.find(item => polishHashMatches(item, location.hash.slice(1)));
   dirty = false;
   if (!row) {
     current = null;
@@ -123,7 +138,7 @@ function render() {
     tags.sort((a, b) => tagCounts.get(b) - tagCounts.get(a) || a.localeCompare(b));
     document.querySelector('#result-count').insertAdjacentHTML('beforebegin', `<details class="tag-filters"${overviewState.tags.size ? ' open' : ''}><summary>Filter by tags <span id="tag-filter-count"></span></summary><div class="tag-match-mode" role="group" aria-label="Match selected tags"><span>Match selected tags</span><button type="button" class="tag-mode-button" data-mode="and" aria-pressed="${overviewState.tagMode === 'and'}" title="Match all selected tags">AND</button><button type="button" class="tag-mode-button" data-mode="or" aria-pressed="${overviewState.tagMode === 'or'}" title="Match any selected tag">OR</button></div><div class="tag-legend" aria-label="Tag colour key"><span class="tag-group-colour">Colour</span><span class="tag-group-finish">Finish / effect</span><span class="tag-group-role">Product role</span><span class="tag-group-context">Collection / context</span></div><div class="tag-filter-options">${tags.map(tag => `<button type="button" class="tag-filter tag-group-${tagGroup(tag)}" title="${tagGroup(tag) === 'context' ? 'Collection / context' : tagGroup(tag)}" data-tag="${escapeHtml(tag)}" aria-pressed="${overviewState.tags.has(tag)}">${tagColourDot(tag)}${tagLabel(tag)} (${tagCounts.get(tag)})</button>`).join('')}</div><button type="button" class="secondary clear-tag-filters">Clear tags</button></details>`);
     function list() {
-      const query = document.querySelector('#search').value.trim().toLowerCase();
+      const query = normalizePolishQuery(document.querySelector('#search').value.trim());
       const category = document.querySelector('#category-filter').value;
       const rows = catalog.rows.filter(r => (!category || r.category === category) && (!overviewState.tags.size || (overviewState.tagMode === 'or' ? [...overviewState.tags].some(tag => filterTags(r).includes(tag)) : [...overviewState.tags].every(tag => filterTags(r).includes(tag)))) && [r.brand,r.shade_name,categoryLabel(r),...filterTags(r)].join(' ').toLowerCase().includes(query));
       // AND counts describe the result of adding each tag to the current filters.

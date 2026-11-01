@@ -59,4 +59,5 @@
 /* Compact brand identity in catalogue cards and polish detail headers. */
 .brand-mark{display:inline-flex;align-items:center;gap:7px;vertical-align:middle;max-width:100%;font:inherit;letter-spacing:normal}
 .brand-logo{display:block;width:18px;height:18px;flex:none;object-fit:contain;border-radius:3px}
+.brand-logo-white{filter:brightness(0) invert(1)}
 .overview-brand .brand-mark{font-size:inherit}

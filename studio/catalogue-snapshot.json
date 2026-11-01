@@ -241,11 +241,10 @@
                 "tags": [
                     "topper",
                     "silver",
-                    "holographic",
+                    "holo",
                     "magnetic",
                     "layering",
-                    "glitter",
-                    "holo"
+                    "glitter"
                 ],
                 "data": {
                     "brand": "Cirque Colors",
@@ -610,11 +609,10 @@
                 "tags": [
                     "topper",
                     "lilac",
-                    "holographic",
+                    "holo",
                     "confetti",
                     "purple",
-                    "glitter",
-                    "holo"
+                    "glitter"
                 ],
                 "data": {
                     "brand": "Essence",
@@ -1111,13 +1109,13 @@
             "hema-can-you-teal-the-love": {
                 "id": "hema-can-you-teal-the-love",
                 "type": "polish",
-                "name": "HEMA Can You Teal The Love",
+                "name": "Hema Can You Teal The Love",
                 "tags": [
                     "green",
                     "color"
                 ],
                 "data": {
-                    "brand": "HEMA",
+                    "brand": "Hema",
                     "shade_name": "Can You Teal The Love",
                     "color_family": "green",
                     "finish": "",
@@ -1423,13 +1421,13 @@
             "hema-liquorice": {
                 "id": "hema-liquorice",
                 "type": "polish",
-                "name": "HEMA Liquorice",
+                "name": "Hema Liquorice",
                 "tags": [
                     "black",
                     "color"
                 ],
                 "data": {
-                    "brand": "HEMA",
+                    "brand": "Hema",
                     "shade_name": "Liquorice",
                     "color_family": "black",
                     "finish": "",
@@ -1643,13 +1641,13 @@
             "hema-purpalicious": {
                 "id": "hema-purpalicious",
                 "type": "polish",
-                "name": "HEMA Purpalicious",
+                "name": "Hema Purpalicious",
                 "tags": [
                     "purple",
                     "color"
                 ],
                 "data": {
-                    "brand": "HEMA",
+                    "brand": "Hema",
                     "shade_name": "Purpalicious",
                     "color_family": "purple",
                     "finish": "",
@@ -1860,12 +1858,12 @@
             "hema-tickle-tackle": {
                 "id": "hema-tickle-tackle",
                 "type": "polish",
-                "name": "HEMA Tickle Tackle",
+                "name": "Hema Tickle Tackle",
                 "tags": [
                     "color"
                 ],
                 "data": {
-                    "brand": "HEMA",
+                    "brand": "Hema",
                     "shade_name": "Tickle Tackle",
                     "color_family": "",
                     "finish": "",
@@ -2038,13 +2036,13 @@
             "hema-wicked-wine": {
                 "id": "hema-wicked-wine",
                 "type": "polish",
-                "name": "HEMA Wicked Wine",
+                "name": "Hema Wicked Wine",
                 "tags": [
                     "red",
                     "color"
                 ],
                 "data": {
-                    "brand": "HEMA",
+                    "brand": "Hema",
                     "shade_name": "Wicked Wine",
                     "color_family": "red",
                     "finish": "",
@@ -2219,10 +2217,9 @@
                 "tags": [
                     "collection",
                     "aqua-blue",
-                    "holographic",
+                    "holo",
                     "glitter",
-                    "blue",
-                    "holo"
+                    "blue"
                 ],
                 "data": {
                     "brand": "Holo Taco",
@@ -2285,10 +2282,9 @@
                 "name": "Holo Taco Anti-Hero",
                 "tags": [
                     "collection",
-                    "holographic",
+                    "holo",
                     "jelly",
-                    "purple",
-                    "holo"
+                    "purple"
                 ],
                 "data": {
                     "brand": "Holo Taco",
@@ -2372,11 +2368,10 @@
                 "name": "Holo Taco Be Kind Rewind",
                 "tags": [
                     "collection",
-                    "holographic",
+                    "holo",
                     "jelly",
                     "blue",
-                    "green",
-                    "holo"
+                    "green"
                 ],
                 "data": {
                     "brand": "Holo Taco",
@@ -2419,7 +2414,6 @@
                     "topper",
                     "flakie",
                     "blue",
-                    "holographic",
                     "holo"
                 ],
                 "data": {
@@ -2461,9 +2455,8 @@
                 "name": "Holo Taco Blue Freezie",
                 "tags": [
                     "collection",
-                    "holographic",
-                    "blue",
-                    "holo"
+                    "holo",
+                    "blue"
                 ],
                 "data": {
                     "brand": "Holo Taco",
@@ -2504,11 +2497,10 @@
                 "name": "Holo Taco Blue Rizzler",
                 "tags": [
                     "collection",
-                    "holographic",
+                    "holo",
                     "iridescent",
                     "shimmer",
-                    "blue",
-                    "holo"
+                    "blue"
                 ],
                 "data": {
                     "brand": "Holo Taco",
@@ -2550,9 +2542,8 @@
                 "tags": [
                     "collection",
                     "glitter",
-                    "holographic",
-                    "green",
-                    "holo"
+                    "holo",
+                    "green"
                 ],
                 "data": {
                     "brand": "Holo Taco",
@@ -2641,10 +2632,9 @@
                 "name": "Holo Taco Box Office Bomb",
                 "tags": [
                     "collection",
-                    "holographic",
+                    "holo",
                     "jelly",
-                    "orange",
-                    "holo"
+                    "orange"
                 ],
                 "data": {
                     "brand": "Holo Taco",
@@ -2757,10 +2747,9 @@
                 "tags": [
                     "collection",
                     "glitter",
-                    "holographic",
+                    "holo",
                     "orange",
-                    "pink",
-                    "holo"
+                    "pink"
                 ],
                 "data": {
                     "brand": "Holo Taco",
@@ -2803,7 +2792,6 @@
                     "collection",
                     "red",
                     "shimmer",
-                    "holographic",
                     "holo"
                 ],
                 "data": {
@@ -2904,7 +2892,6 @@
                 "name": "Holo Taco Circuit Breaker",
                 "tags": [
                     "gray",
-                    "holographic",
                     "holo"
                 ],
                 "data": {
@@ -2935,9 +2922,8 @@
                 "tags": [
                     "collection",
                     "glitter",
-                    "holographic",
-                    "gold",
-                    "holo"
+                    "holo",
+                    "gold"
                 ],
                 "data": {
                     "brand": "Holo Taco",
@@ -3027,10 +3013,9 @@
                 "name": "Holo Taco Coral Chaser",
                 "tags": [
                     "collection",
-                    "holographic",
+                    "holo",
                     "orange",
-                    "pink",
-                    "holo"
+                    "pink"
                 ],
                 "data": {
                     "brand": "Holo Taco",
@@ -3115,9 +3100,8 @@
                 "tags": [
                     "topper",
                     "glitter",
-                    "holographic",
-                    "iridescent",
-                    "holo"
+                    "holo",
+                    "iridescent"
                 ],
                 "data": {
                     "brand": "Holo Taco",
@@ -3158,13 +3142,12 @@
                 "name": "Holo Taco Crimson Void",
                 "tags": [
                     "collection",
-                    "holographic",
-                    "red",
-                    "holo"
+                    "holo",
+                    "red"
                 ],
                 "data": {
                     "brand": "Holo Taco",
-                    "color_family": "dark red",
+                    "color_family": "dark-red",
                     "finish": "holo",
                     "manufacturer_hex": "",
                     "override_hex": "#611C32",
@@ -3202,9 +3185,8 @@
                 "tags": [
                     "collection",
                     "glitter",
-                    "holographic",
-                    "pink",
-                    "holo"
+                    "holo",
+                    "pink"
                 ],
                 "data": {
                     "brand": "Holo Taco",
@@ -3267,10 +3249,9 @@
                 "name": "Holo Taco Dead Petals",
                 "tags": [
                     "collection",
-                    "holographic",
+                    "holo",
                     "red",
-                    "purple",
-                    "holo"
+                    "purple"
                 ],
                 "data": {
                     "brand": "Holo Taco",
@@ -3367,9 +3348,8 @@
                 "name": "Holo Taco Dream Eater",
                 "tags": [
                     "collection",
-                    "holographic",
-                    "purple",
-                    "holo"
+                    "holo",
+                    "purple"
                 ],
                 "data": {
                     "brand": "Holo Taco",
@@ -3586,7 +3566,6 @@
                 "tags": [
                     "topper",
                     "flakie",
-                    "holographic",
                     "holo"
                 ],
                 "data": {
@@ -3776,10 +3755,9 @@
                 "name": "Holo Taco Girly Ghoul",
                 "tags": [
                     "collection",
-                    "holographic",
+                    "holo",
                     "shimmer",
-                    "purple",
-                    "holo"
+                    "purple"
                 ],
                 "data": {
                     "brand": "Holo Taco",
@@ -3842,9 +3820,8 @@
                 "tags": [
                     "collection",
                     "glitter",
-                    "holographic",
-                    "purple",
-                    "holo"
+                    "holo",
+                    "purple"
                 ],
                 "data": {
                     "brand": "Holo Taco",
@@ -3928,7 +3905,6 @@
                 "tags": [
                     "topper",
                     "gold",
-                    "holographic",
                     "holo"
                 ],
                 "data": {
@@ -4002,9 +3978,8 @@
                 "name": "Holo Taco Green Taffy",
                 "tags": [
                     "collection",
-                    "holographic",
-                    "green",
-                    "holo"
+                    "holo",
+                    "green"
                 ],
                 "data": {
                     "brand": "Holo Taco",
@@ -4110,10 +4085,9 @@
                 "name": "Holo Taco Hi-Def",
                 "tags": [
                     "collection",
-                    "holographic",
+                    "holo",
                     "jelly",
-                    "yellow",
-                    "holo"
+                    "yellow"
                 ],
                 "data": {
                     "brand": "Holo Taco",
@@ -4233,7 +4207,6 @@
                 "tags": [
                     "collection",
                     "white",
-                    "holographic",
                     "holo"
                 ],
                 "data": {
@@ -4291,15 +4264,14 @@
                 "name": "Holo Taco Jam Session",
                 "tags": [
                     "collection",
-                    "holographic",
+                    "holo",
                     "iridescent",
                     "shimmer",
-                    "pink",
-                    "holo"
+                    "pink"
                 ],
                 "data": {
                     "brand": "Holo Taco",
-                    "color_family": "berry pink",
+                    "color_family": "berry-pink",
                     "finish": "holo;shimmer",
                     "manufacturer_hex": "",
                     "override_hex": "#B44481",
@@ -4386,9 +4358,8 @@
                 "name": "Holo Taco Lavender Syrup",
                 "tags": [
                     "collection",
-                    "holographic",
-                    "purple",
-                    "holo"
+                    "holo",
+                    "purple"
                 ],
                 "data": {
                     "brand": "Holo Taco",
@@ -4450,9 +4421,8 @@
                 "name": "Holo Taco Lemon Spritzer",
                 "tags": [
                     "collection",
-                    "holographic",
-                    "yellow",
-                    "holo"
+                    "holo",
+                    "yellow"
                 ],
                 "data": {
                     "brand": "Holo Taco",
@@ -4493,9 +4463,8 @@
                 "name": "Holo Taco Lemon Sucker",
                 "tags": [
                     "collection",
-                    "holographic",
-                    "yellow",
-                    "holo"
+                    "holo",
+                    "yellow"
                 ],
                 "data": {
                     "brand": "Holo Taco",
@@ -4536,10 +4505,9 @@
                 "name": "Holo Taco Life in Plastic",
                 "tags": [
                     "collection",
-                    "holographic",
+                    "holo",
                     "jelly",
-                    "pink",
-                    "holo"
+                    "pink"
                 ],
                 "data": {
                     "brand": "Holo Taco",
@@ -4580,7 +4548,6 @@
                 "name": "Holo Taco Linear Holo Taco",
                 "tags": [
                     "topper",
-                    "holographic",
                     "holo"
                 ],
                 "data": {
@@ -4663,13 +4630,12 @@
                 "name": "Holo Taco Lost in the Woods",
                 "tags": [
                     "collection",
-                    "holographic",
-                    "green",
-                    "holo"
+                    "holo",
+                    "green"
                 ],
                 "data": {
                     "brand": "Holo Taco",
-                    "color_family": "dark green",
+                    "color_family": "dark-green",
                     "finish": "holo",
                     "manufacturer_hex": "",
                     "override_hex": "#174E42",
@@ -4767,10 +4733,9 @@
                 "name": "Holo Taco Magneta Jelly",
                 "tags": [
                     "collection",
-                    "holographic",
+                    "holo",
                     "pink",
-                    "purple",
-                    "holo"
+                    "purple"
                 ],
                 "data": {
                     "brand": "Holo Taco",
@@ -4874,9 +4839,8 @@
                 "name": "Holo Taco Mint Mojito",
                 "tags": [
                     "collection",
-                    "holographic",
-                    "green",
-                    "holo"
+                    "holo",
+                    "green"
                 ],
                 "data": {
                     "brand": "Holo Taco",
@@ -5138,9 +5102,8 @@
                 "name": "Holo Taco Orange Drink",
                 "tags": [
                     "collection",
-                    "holographic",
-                    "orange",
-                    "holo"
+                    "holo",
+                    "orange"
                 ],
                 "data": {
                     "brand": "Holo Taco",
@@ -5202,10 +5165,9 @@
                 "name": "Holo Taco Peach Tea",
                 "tags": [
                     "collection",
-                    "holographic",
+                    "holo",
                     "orange",
-                    "pink",
-                    "holo"
+                    "pink"
                 ],
                 "data": {
                     "brand": "Holo Taco",
@@ -5246,9 +5208,8 @@
                 "name": "Holo Taco Pink Fizz",
                 "tags": [
                     "collection",
-                    "holographic",
-                    "pink",
-                    "holo"
+                    "holo",
+                    "pink"
                 ],
                 "data": {
                     "brand": "Holo Taco",
@@ -5290,7 +5251,6 @@
                 "tags": [
                     "collection",
                     "pink",
-                    "holographic",
                     "holo"
                 ],
                 "data": {
@@ -5369,11 +5329,10 @@
                 "name": "Holo Taco Pop Rocker",
                 "tags": [
                     "collection",
-                    "holographic",
+                    "holo",
                     "iridescent",
                     "shimmer",
-                    "pink",
-                    "holo"
+                    "pink"
                 ],
                 "data": {
                     "brand": "Holo Taco",
@@ -5414,9 +5373,8 @@
                 "name": "Holo Taco Purple Slushie",
                 "tags": [
                     "collection",
-                    "holographic",
-                    "purple",
-                    "holo"
+                    "holo",
+                    "purple"
                 ],
                 "data": {
                     "brand": "Holo Taco",
@@ -5506,9 +5464,8 @@
                 "name": "Holo Taco Red Licorice",
                 "tags": [
                     "collection",
-                    "holographic",
-                    "red",
-                    "holo"
+                    "holo",
+                    "red"
                 ],
                 "data": {
                     "brand": "Holo Taco",
@@ -5590,7 +5547,6 @@
                 "name": "Holo Taco Scattered Holo Taco",
                 "tags": [
                     "topper",
-                    "holographic",
                     "holo"
                 ],
                 "data": {
@@ -5655,7 +5611,6 @@
                 "tags": [
                     "topper",
                     "glitter",
-                    "holographic",
                     "holo"
                 ],
                 "data": {
@@ -5826,11 +5781,10 @@
                 "name": "Holo Taco Sour Note",
                 "tags": [
                     "collection",
-                    "holographic",
+                    "holo",
                     "iridescent",
                     "shimmer",
-                    "green",
-                    "holo"
+                    "green"
                 ],
                 "data": {
                     "brand": "Holo Taco",
@@ -5934,11 +5888,10 @@
                 "name": "Holo Taco Sugar Rush",
                 "tags": [
                     "collection",
-                    "holographic",
+                    "holo",
                     "iridescent",
                     "shimmer",
-                    "white",
-                    "holo"
+                    "white"
                 ],
                 "data": {
                     "brand": "Holo Taco",
@@ -5979,15 +5932,14 @@
                 "name": "Holo Taco Sunken Secrets",
                 "tags": [
                     "collection",
-                    "holographic",
+                    "holo",
                     "teal",
                     "blue",
-                    "green",
-                    "holo"
+                    "green"
                 ],
                 "data": {
                     "brand": "Holo Taco",
-                    "color_family": "dark teal",
+                    "color_family": "dark-teal",
                     "finish": "holo",
                     "manufacturer_hex": "",
                     "override_hex": "#164D65",
@@ -6024,12 +5976,11 @@
                 "name": "Holo Taco Sunshine Crush",
                 "tags": [
                     "collection",
-                    "holographic",
+                    "holo",
                     "iridescent",
                     "shimmer",
                     "yellow",
-                    "orange",
-                    "holo"
+                    "orange"
                 ],
                 "data": {
                     "brand": "Holo Taco",
@@ -6200,13 +6151,12 @@
                 "name": "Holo Taco Violet Nightmares",
                 "tags": [
                     "collection",
-                    "holographic",
-                    "purple",
-                    "holo"
+                    "holo",
+                    "purple"
                 ],
                 "data": {
                     "brand": "Holo Taco",
-                    "color_family": "dark purple",
+                    "color_family": "dark-purple",
                     "finish": "holo",
                     "manufacturer_hex": "",
                     "override_hex": "#3E245D",
@@ -7343,12 +7293,12 @@
             "nails-inc-rainbow-wishes": {
                 "id": "nails-inc-rainbow-wishes",
                 "type": "polish",
-                "name": "Nails Inc. Rainbow Wishes",
+                "name": "Nails Inc Rainbow Wishes",
                 "tags": [
                     "multicolor"
                 ],
                 "data": {
-                    "brand": "Nails Inc.",
+                    "brand": "Nails Inc",
                     "color_family": "",
                     "finish": "",
                     "manufacturer_hex": "",
@@ -10136,7 +10086,7 @@
             "moyou-crazy-cat-lady-10": {
                 "id": "moyou-crazy-cat-lady-10",
                 "type": "plate",
-                "name": "MoYou Crazy Cat Lady 10",
+                "name": "MoYou London Crazy Cat Lady 10",
                 "tags": [
                     "cats",
                     "animal",
@@ -10145,7 +10095,7 @@
                     "lettering"
                 ],
                 "data": {
-                    "brand": "MoYou",
+                    "brand": "MoYou London",
                     "collection": "Crazy Cat Lady",
                     "plate_number": "10",
                     "status": "owned",
@@ -10738,7 +10688,7 @@
             "moyou-frenchy-20": {
                 "id": "moyou-frenchy-20",
                 "type": "plate",
-                "name": "MoYou Frenchy 20",
+                "name": "MoYou London Frenchy 20",
                 "tags": [
                     "french-tip",
                     "geometric",
@@ -10746,7 +10696,7 @@
                     "lettering"
                 ],
                 "data": {
-                    "brand": "MoYou",
+                    "brand": "MoYou London",
                     "collection": "Frenchy",
                     "plate_number": "20",
                     "status": "owned",
@@ -11259,7 +11209,7 @@
             "moyou-geek-05": {
                 "id": "moyou-geek-05",
                 "type": "plate",
-                "name": "MoYou Geek 05",
+                "name": "MoYou London Geek 05",
                 "tags": [
                     "geek",
                     "technology",
@@ -11268,7 +11218,7 @@
                     "lettering"
                 ],
                 "data": {
-                    "brand": "MoYou",
+                    "brand": "MoYou London",
                     "collection": "Geek",
                     "plate_number": "05",
                     "status": "owned",
@@ -11486,7 +11436,7 @@
             "moyou-holy-shapes-5": {
                 "id": "moyou-holy-shapes-5",
                 "type": "plate",
-                "name": "MoYou Holy Shapes 5",
+                "name": "MoYou London Holy Shapes 5",
                 "tags": [
                     "geometric",
                     "minimal",
@@ -11494,7 +11444,7 @@
                     "triangles"
                 ],
                 "data": {
-                    "brand": "MoYou",
+                    "brand": "MoYou London",
                     "collection": "Holy Shapes",
                     "plate_number": "5",
                     "status": "owned",
@@ -11799,7 +11749,7 @@
             "moyou-illusion-08": {
                 "id": "moyou-illusion-08",
                 "type": "plate",
-                "name": "MoYou Illusion 08",
+                "name": "MoYou London Illusion 08",
                 "tags": [
                     "geometric",
                     "optical",
@@ -11807,7 +11757,7 @@
                     "repeating"
                 ],
                 "data": {
-                    "brand": "MoYou",
+                    "brand": "MoYou London",
                     "collection": "Illusion",
                     "plate_number": "08",
                     "status": "owned",
@@ -12028,14 +11978,14 @@
             "moyou-minimal-10": {
                 "id": "moyou-minimal-10",
                 "type": "plate",
-                "name": "MoYou Minimal 10",
+                "name": "MoYou London Minimal 10",
                 "tags": [
                     "geometric",
                     "minimal",
                     "linework"
                 ],
                 "data": {
-                    "brand": "MoYou",
+                    "brand": "MoYou London",
                     "collection": "Minimal",
                     "plate_number": "10",
                     "status": "owned",
@@ -12612,7 +12562,7 @@
             "moyou-origami-04": {
                 "id": "moyou-origami-04",
                 "type": "plate",
-                "name": "MoYou Origami 04",
+                "name": "MoYou London Origami 04",
                 "tags": [
                     "geometric",
                     "origami",
@@ -12620,7 +12570,7 @@
                     "dashed-lines"
                 ],
                 "data": {
-                    "brand": "MoYou",
+                    "brand": "MoYou London",
                     "collection": "Origami",
                     "plate_number": "04",
                     "status": "owned",
@@ -12841,7 +12791,7 @@
             "moyou-sci-fi-05": {
                 "id": "moyou-sci-fi-05",
                 "type": "plate",
-                "name": "MoYou Sci-Fi 05",
+                "name": "MoYou London Sci-Fi 05",
                 "tags": [
                     "technology",
                     "circuits",
@@ -12849,7 +12799,7 @@
                     "sci-fi"
                 ],
                 "data": {
-                    "brand": "MoYou",
+                    "brand": "MoYou London",
                     "collection": "Sci-Fi",
                     "plate_number": "05",
                     "status": "owned",
@@ -13067,7 +13017,7 @@
             "moyou-the-pro-2": {
                 "id": "moyou-the-pro-2",
                 "type": "plate",
-                "name": "MoYou The Pro 2",
+                "name": "MoYou London The Pro 2",
                 "tags": [
                     "geometric",
                     "ornamental",
@@ -13075,7 +13025,7 @@
                     "repeating"
                 ],
                 "data": {
-                    "brand": "MoYou",
+                    "brand": "MoYou London",
                     "collection": "The Pro",
                     "plate_number": "2",
                     "status": "owned",
@@ -13383,7 +13333,7 @@
             "moyou-tropical-8": {
                 "id": "moyou-tropical-8",
                 "type": "plate",
-                "name": "MoYou Tropical 8",
+                "name": "MoYou London Tropical 8",
                 "tags": [
                     "fruit",
                     "tropical",
@@ -13391,7 +13341,7 @@
                     "repeating"
                 ],
                 "data": {
-                    "brand": "MoYou",
+                    "brand": "MoYou London",
                     "collection": "Tropical",
                     "plate_number": "8",
                     "status": "owned",
