@@ -591,7 +591,14 @@
                     "personal_hex": "",
                     "override_hex": "",
                     "category": "unknown",
-                    "images": []
+                    "images": [
+                        {
+                            "url": "https://i8.amplience.net/i/Cosnova/5304770",
+                            "kind": "manufacturer",
+                            "caption": "Provisional indexed-search image; visual review and download validation pending",
+                            "source": "https://www.essence.eu/pt-br/p/934888/gel-nail-colour"
+                        }
+                    ]
                 }
             },
             "essence-let-it-indi-go": {
@@ -613,7 +620,14 @@
                     "shade_name": "Let It Indi-Go",
                     "status": "owned",
                     "category": "unknown",
-                    "images": []
+                    "images": [
+                        {
+                            "url": "https://i8.amplience.net/i/Cosnova/6956910",
+                            "kind": "manufacturer",
+                            "caption": "Provisional indexed-search image; review pending",
+                            "source": "https://www.essence.eu/de-at/p/958575/gel-nail-polish"
+                        }
+                    ]
                 }
             },
             "essence-love-you": {
@@ -673,7 +687,14 @@
                     "shade_name": "Midnight Magic",
                     "status": "owned",
                     "category": "unknown",
-                    "images": []
+                    "images": [
+                        {
+                            "url": "https://www.my-origines.com/dw/image/v2/BJRD_PRD/on/demandware.static/-/Sites-base-master/default/dw939d7a46/images/Q074402V_P.jpg?sh=1500&sm=fit&sw=1500",
+                            "kind": "manufacturer",
+                            "caption": "Provisional indexed-search image; review pending",
+                            "source": "https://www.my-origines.com/gb/midnight-magic-Q074402V.html"
+                        }
+                    ]
                 }
             },
             "essence-ocean-eyes": {
@@ -694,7 +715,14 @@
                     "shade_name": "Ocean Eyes",
                     "status": "owned",
                     "category": "unknown",
-                    "images": []
+                    "images": [
+                        {
+                            "url": "https://cdn.shop-apotheke.at/images/mp/prod/fa545dfbfcd646b68e846821bddb227a",
+                            "kind": "manufacturer",
+                            "caption": "Provisional indexed-search image; review pending",
+                            "source": "https://www.shop-apotheke.at/beauty/upmEKRM34/essence-gel-nagellack.htm"
+                        }
+                    ]
                 }
             },
             "essence-pink-ventures": {
@@ -827,7 +855,14 @@
                     "personal_hex": "",
                     "override_hex": "",
                     "category": "unknown",
-                    "images": []
+                    "images": [
+                        {
+                            "url": "https://eclatcosmetics.fr/6379-large_default/743-bonbon-nuit-vernis-a-ongles-essie.jpg",
+                            "kind": "manufacturer",
+                            "caption": "Provisional indexed-search image; visual review and download validation pending",
+                            "source": "https://www.eclatcosmetics.fr/vernis/2294-743-bonbon-nuit-vernis-a-ongles-essie-0000030162945.html"
+                        }
+                    ]
                 }
             },
             "essie-get-on-board": {
@@ -846,7 +881,14 @@
                     "personal_hex": "",
                     "override_hex": "",
                     "category": "unknown",
-                    "images": []
+                    "images": [
+                        {
+                            "url": "https://i5.walmartimages.com/seo/essie-Let-It-Ripple-Collection-Nail-Polish-Get-on-Board-0-46-fl-oz-Bottle_5a5b76d0-2b3a-4d41-a453-9fc94674a476_1.5f5a005f6572b7f524a9815e807771dd.jpeg",
+                            "kind": "manufacturer",
+                            "caption": "Provisional indexed-search image; visual review and download validation pending",
+                            "source": "https://www.walmart.com/ip/542976077"
+                        }
+                    ]
                 }
             },
             "essie-licorice": {
@@ -908,7 +950,14 @@
                     "shade_name": "Light as Linen",
                     "status": "owned",
                     "category": "unknown",
-                    "images": []
+                    "images": [
+                        {
+                            "url": "https://www.imagebeauty.com/cdn/shop/products/Essie-Nail-Polish-1672-Light-As-Linen-5-Oz_grande.jpg?v=1642113123",
+                            "kind": "manufacturer",
+                            "caption": "Provisional indexed-search image; visual review and download validation pending",
+                            "source": "https://www.imagebeauty.com/products/essie-nail-polish-spring-2021-collection"
+                        }
+                    ]
                 }
             },
             "essie-now-or-never": {
@@ -929,7 +978,14 @@
                     "shade_name": "Now or Never",
                     "status": "owned",
                     "category": "unknown",
-                    "images": []
+                    "images": [
+                        {
+                            "url": "https://www.essie.com/-/media/project/loreal/brand-sites/essie/americas/us/2025-rebranding/new-pdp-image/quick-dry/packshot/gray/essie-nail-polish-expressie-now-or-never-av11-1000x1000.jpg?rev=1e950ad5ece34043ace26b5b5d3aedf5",
+                            "kind": "manufacturer",
+                            "caption": "Provisional indexed-search image; review pending",
+                            "source": "https://www.essie.com/nail-polish/quick-dry/grays/now-or-never"
+                        }
+                    ]
                 }
             },
             "essie-pearly-white": {
@@ -951,7 +1007,14 @@
                     "shade_name": "Pearly White",
                     "status": "owned",
                     "category": "unknown",
-                    "images": []
+                    "images": [
+                        {
+                            "url": "https://www.harmoniq.se/image/163941/0000030095069_1.jpg",
+                            "kind": "manufacturer",
+                            "caption": "Provisional indexed-search image; review pending",
+                            "source": "https://www.harmoniq.se/p/varumarken/essie/essie-classic-nail-polish-4-pearly-white-135-ml.html"
+                        }
+                    ]
                 }
             },
             "essie-play-date": {
@@ -1002,7 +1065,14 @@
                     "shade_name": "Really Red",
                     "status": "owned",
                     "category": "unknown",
-                    "images": []
+                    "images": [
+                        {
+                            "url": "https://static.chemistwarehouse.com.au/ams/media/pi/110086/2DF_800.jpg",
+                            "kind": "manufacturer",
+                            "caption": "Provisional indexed-search image; review pending",
+                            "source": "https://www.chemistwarehouse.com.au/buy/110086/essie-nail-polish-really-red-60"
+                        }
+                    ]
                 }
             },
             "essie-surrounded-by-studs-sluts": {
@@ -1232,7 +1302,14 @@
                     "shade_name": "Cosmos Blue",
                     "status": "owned",
                     "category": "unknown",
-                    "images": []
+                    "images": [
+                        {
+                            "url": "https://www.hema.nl/dw/image/v2/BBRK_PRD/on/demandware.static/-/Sites-HEMA-master-catalog/default/dw2a454983/product/11241004_01_001.jpg?bgcolor=FFFFFF&sfrm=png&sw=1200",
+                            "kind": "manufacturer",
+                            "caption": "Provisional indexed-search image; review pending",
+                            "source": "https://www.hema.nl/mooi-gezond/make-up/nagellak?start=72&sz=48"
+                        }
+                    ]
                 }
             },
             "hema-delft-blue": {
@@ -1254,7 +1331,14 @@
                     "shade_name": "Delft Blue",
                     "status": "owned",
                     "category": "unknown",
-                    "images": []
+                    "images": [
+                        {
+                            "url": "https://www.hema.nl/dw/image/v2/BBRK_PRD/on/demandware.static/-/Sites-HEMA-master-catalog/default/dw362bde98/product/11241003_01_001.jpg?bgcolor=FFFFFF&sfrm=png&sw=1200",
+                            "kind": "manufacturer",
+                            "caption": "Provisional indexed-search image; review pending",
+                            "source": "https://www.hema.nl/mooi-gezond/make-up/nagellak/long-lasting-nagellak/long-lasting-nagellak-347-delft-blue-11241003.html"
+                        }
+                    ]
                 }
             },
             "hema-dutch-denim": {
@@ -1276,7 +1360,14 @@
                     "shade_name": "Dutch Denim",
                     "status": "owned",
                     "category": "unknown",
-                    "images": []
+                    "images": [
+                        {
+                            "url": "https://www.hema.nl/dw/image/v2/BBRK_PRD/on/demandware.static/-/Sites-HEMA-master-catalog/default/dwc18484ac/product/11241005_01_001.jpg?bgcolor=FFFFFF&sfrm=png&sw=600",
+                            "kind": "manufacturer",
+                            "caption": "Provisional indexed-search image; review pending",
+                            "source": "https://www.hema.nl/mooi-gezond/make-up/nagellak/long-lasting-nagellak/long-lasting-nagellak-348-dutch-denim-11241005.html"
+                        }
+                    ]
                 }
             },
             "hema-fancy-pearl": {
@@ -1385,7 +1476,14 @@
                     "shade_name": "Gold Stars",
                     "status": "owned",
                     "category": "unknown",
-                    "images": []
+                    "images": [
+                        {
+                            "url": "https://www.hema.nl/dw/image/v2/BBRK_PRD/on/demandware.static/-/Sites-HEMA-master-catalog/default/dw38ef389c/product/11241027_01_001.jpg?bgcolor=FFFFFF&sfrm=png&sw=1600",
+                            "kind": "manufacturer",
+                            "caption": "Provisional indexed-search image; review pending",
+                            "source": "https://www.hema.nl/mooi-gezond/make-up/nagellak/long-lasting-nagellak/long-lasting-nagellak-1027-gold-stars-11241027.html"
+                        }
+                    ]
                 }
             },
             "hema-lava-out-loud": {
@@ -1429,7 +1527,14 @@
                     "shade_name": "Lilac You a Lot",
                     "status": "owned",
                     "category": "unknown",
-                    "images": []
+                    "images": [
+                        {
+                            "url": "https://www.hema.nl/dw/image/v2/BBRK_PRD/on/demandware.static/-/Sites-HEMA-master-catalog/default/dw017dea4b/product/11241024_01_004.jpg?bgcolor=FFFFFF&sfrm=png&sw=1600",
+                            "kind": "manufacturer",
+                            "caption": "Provisional indexed-search image; review pending",
+                            "source": "https://www.hema.nl/mooi-gezond/make-up/nagellak/long-lasting-nagellak/long-lasting-nagellak-1024-lilac-you-a-lot-11241024.html"
+                        }
+                    ]
                 }
             },
             "hema-liquorice": {
@@ -1462,6 +1567,12 @@
                             "url": "../../polishes/hema-liquorice/reference-2-2026-10-30.png",
                             "kind": "swatch",
                             "caption": "Official polish texture / color reference",
+                            "source": "https://www.hema.nl/mooi-gezond/make-up/nagellak/long-lasting-nagellak/long-lasting-nagellak-407-liquorice-11241022.html"
+                        },
+                        {
+                            "url": "https://static.hema.nl/dw/image/v2/BBRK_PRD/on/demandware.static/-/Sites-HEMA-master-catalog/default/dw845f7ca9/product/11241022_01_001.jpg?bgcolor=FFFFFF&sfrm=png&sw=395",
+                            "kind": "manufacturer",
+                            "caption": "Provisional indexed-search image; review pending",
                             "source": "https://www.hema.nl/mooi-gezond/make-up/nagellak/long-lasting-nagellak/long-lasting-nagellak-407-liquorice-11241022.html"
                         }
                     ]
