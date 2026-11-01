@@ -4,11 +4,11 @@ let catalog, current, dirty = false, imageReferences = {};
 const overviewState = { scrollY: 0, search: '', category: '', tags: new Set(), tagMode: 'and' };
 const normalizePolishTag = value => value.trim().toLowerCase();
 const normalizePolishQuery = value => value.toLowerCase().replace(/\bholographic\b/g, 'holo').replace(/\bdark (blue|green|purple)\b/g, 'dark-$1').replace(/\bgrey\b/g, 'gray');
-const filterTags = row => [...new Set([...(row.tags || []), ...[row.finish, row.color_family].flatMap(value => (value || '').split(';'))].map(normalizePolishTag).filter(Boolean))];
+const filterTags = row => [...new Set([...(row.tags || []), ...[row.finish, row.color_family, row.role].flatMap(value => (value || '').split(';'))].map(normalizePolishTag).filter(Boolean))];
 function tagGroup(tag) {
   if (tagColourDot(tag) || catalog.rows.some(row => (row.color_family || '').split(';').some(value => value.trim().toLowerCase() === tag))) return 'colour';
   if (['holo','holographic','iridescent','flakie','foil','duochrome','multichrome','reflective'].includes(tag) || catalog.rows.some(row => (row.finish || '').split(';').some(value => value.trim().toLowerCase() === tag))) return 'finish';
-  if (['base','color','colour','topper','treatment','stamping'].includes(tag)) return 'role';
+  if (['base','color','colour','topper','treatment','stamping'].includes(tag) || catalog.rows.some(row => (row.role || '').split(';').some(value => value.trim().toLowerCase() === tag))) return 'role';
   return 'context';
 }
 function tagColourDot(tag) {

@@ -70,5 +70,11 @@
 .enrichment-checkbox input{width:auto;flex:none;margin:0}
 .enrichment-actions{display:flex;gap:12px;flex-wrap:wrap}
 .enrichment-actions button{width:auto}
+.enrichment-term-group{border:1px solid var(--studio-border,#d5c7d3);border-radius:12px;margin-block:16px;padding:12px;min-width:0}
+.enrichment-term-options{display:flex;flex-wrap:wrap;gap:7px;max-height:240px;overflow:auto;margin-block:8px}
+.enrichment-term-options .term-choice{width:auto;margin:0;padding:7px 10px;background:var(--studio-control,#fff);color:inherit;border:1px solid var(--studio-control-border,#aaa)}
+.enrichment-term-options .term-choice[aria-pressed=true]{background:var(--studio-accent,#713f60);color:#fff}
+.enrichment-term-group [data-add-term]{width:auto}
+#enrichment-colour-picker{height:48px;width:100%;padding:3px;cursor:pointer}
 @media(max-width:600px){.enrichment-queue-row{align-items:start;flex-direction:column}.enrichment-actions button{width:100%}}
 .overview-brand .brand-mark{font-size:inherit}
