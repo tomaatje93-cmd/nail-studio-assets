@@ -2,7 +2,7 @@
     "schema_version": 1,
     "counts": {
         "polish": 252,
-        "plate": 19
+        "plate": 18
     },
     "records": {
         "polish": {
@@ -350,8 +350,8 @@
                 "type": "polish",
                 "name": "Essence Black Plum & Done",
                 "tags": [
-                    "swatch photographed",
-                    "purple"
+                    "purple",
+                    "swatch photographed"
                 ],
                 "data": {
                     "brand": "Essence",
@@ -364,7 +364,14 @@
                     "personal_hex": "",
                     "override_hex": "",
                     "category": "unknown",
-                    "images": []
+                    "images": [
+                        {
+                            "url": "https://i8.amplience.net/i/Cosnova/5335342",
+                            "kind": "manufacturer",
+                            "caption": "User-verified product / bottle reference",
+                            "source": "https://i8.amplience.net/i/Cosnova/5335342"
+                        }
+                    ]
                 }
             },
             "essence-colour-stay-topcoat": {
@@ -6321,8 +6328,8 @@
                 "name": "Kiko Blazing Burgundy",
                 "tags": [
                     "burgundy",
-                    "red",
-                    "purple"
+                    "purple",
+                    "red"
                 ],
                 "data": {
                     "brand": "Kiko",
@@ -6335,7 +6342,14 @@
                     "shade_name": "Blazing Burgundy",
                     "status": "owned",
                     "category": "unknown",
-                    "images": []
+                    "images": [
+                        {
+                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLMhfngxd2cqg6itoyzEU05rewpLMDznqz1g6T0_DW0-tvl4aIJm8QQdmI&s=10",
+                            "kind": "manufacturer",
+                            "caption": "User-verified product / bottle reference",
+                            "source": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLMhfngxd2cqg6itoyzEU05rewpLMDznqz1g6T0_DW0-tvl4aIJm8QQdmI&s=10"
+                        }
+                    ]
                 }
             },
             "kiko-starry-gold": {
@@ -6347,15 +6361,15 @@
                 ],
                 "data": {
                     "brand": "Kiko",
-                    "color_family": "",
-                    "finish": "",
+                    "color_family": "gold/copper;orange",
+                    "finish": "shimmer;secret-topper",
                     "manufacturer_hex": "",
-                    "override_hex": "",
+                    "override_hex": "#FFA909",
                     "personal_hex": "",
-                    "role": "",
+                    "role": "color",
                     "shade_name": "Starry Gold",
                     "status": "owned",
-                    "category": "unknown",
+                    "category": "specialty",
                     "images": []
                 }
             },
@@ -7659,19 +7673,26 @@
                     "personal_hex": "",
                     "override_hex": "#B8A6C7",
                     "category": "specialty",
-                    "images": []
+                    "images": [
+                        {
+                            "url": "https://whatsupbeauty.com/cdn/shop/files/IMG_1222_93ff84f7-dfe5-4d08-816e-99c2cc71abea_800x.jpg?v=1780268114",
+                            "kind": "manufacturer",
+                            "caption": "User-verified product / bottle reference",
+                            "source": "https://www.emilydemolly.com/products/so-extra?_su_rec=HxxUpNMLHgE6esyWWDCitSFZMPL2GJJsxyo4Butl28eUsYvdyz3LWMo4jyPKQq5iMk_9nW5lIwrftZ7ZUxR_dt5BV8ajr1DfdYczPoIiuTAvDyVD13jRbL7M04uCC9E8jPsilGJ5g3QtDk4ejEkL_-Jon5iFIEdd0H79-t4Oo73wy4ohoF06PoL_7i2dRADz339OO3JyF5EooEonA3u8C9FxqcUC0FHmoJ6ItOacor0ufeOjFvCNlbAt-ggc4kP9ygI2ighje4WHXg_nLe3673G3ihIi92yYFGOZqNht&_su_rec_id=c0220305-1992-4a26-8b5a-ac0eb5c189ae-1793554956"
+                        }
+                    ]
                 }
             },
             "starry-gold": {
                 "id": "starry-gold",
                 "type": "polish",
-                "name": "Starry Gold",
+                "name": "Kiko Starry Gold",
                 "tags": [
-                    "topper",
-                    "gold"
+                    "gold",
+                    "topper"
                 ],
                 "data": {
-                    "brand": "",
+                    "brand": "Kiko",
                     "color_family": "gold/copper",
                     "finish": "",
                     "manufacturer_hex": "",
@@ -7681,7 +7702,14 @@
                     "shade_name": "Starry Gold",
                     "status": "owned",
                     "category": "specialty",
-                    "images": []
+                    "images": [
+                        {
+                            "url": "https://imgcache.dealmoon.com/thumbimg.dealmoon.com/dealmoon/bcf/af8/e2e/81b5feef355083ffef71120.jpg_600_0_3_73b1.jpg",
+                            "kind": "manufacturer",
+                            "caption": "User-verified product / bottle reference",
+                            "source": "https://imgcache.dealmoon.com/thumbimg.dealmoon.com/dealmoon/bcf/af8/e2e/81b5feef355083ffef71120.jpg_600_0_3_73b1.jpg"
+                        }
+                    ]
                 }
             },
             "white-powder-over-sticky-base": {
@@ -13009,322 +13037,6 @@
                                 209,
                                 100,
                                 138
-                            ]
-                        }
-                    ]
-                }
-            },
-            "moyou-the-pro-2": {
-                "id": "moyou-the-pro-2",
-                "type": "plate",
-                "name": "MoYou London The Pro 2",
-                "tags": [
-                    "geometric",
-                    "ornamental",
-                    "floral",
-                    "repeating"
-                ],
-                "data": {
-                    "brand": "MoYou London",
-                    "collection": "The Pro",
-                    "plate_number": "2",
-                    "status": "owned",
-                    "reference_image": "plates/images/moyou-the-pro-2/plate-only.png",
-                    "reference_size": [
-                        788,
-                        409
-                    ],
-                    "layout": "separate",
-                    "stamps": [
-                        {
-                            "id": "s01",
-                            "title": "Triangle and dotted bands",
-                            "position": "row 1, column 1",
-                            "tags": [
-                                "repeating",
-                                "triangles",
-                                "dots"
-                            ],
-                            "image": "plates/images/moyou-the-pro-2/s01.png",
-                            "crop": [
-                                72,
-                                52,
-                                100,
-                                82
-                            ]
-                        },
-                        {
-                            "id": "s02",
-                            "title": "Crossing fine diagonals",
-                            "position": "row 1, column 2",
-                            "tags": [
-                                "repeating",
-                                "lines"
-                            ],
-                            "image": "plates/images/moyou-the-pro-2/s02.png",
-                            "crop": [
-                                180,
-                                52,
-                                100,
-                                82
-                            ]
-                        },
-                        {
-                            "id": "s03",
-                            "title": "Nested right chevrons",
-                            "position": "row 1, column 3",
-                            "tags": [
-                                "repeating",
-                                "chevrons"
-                            ],
-                            "image": "plates/images/moyou-the-pro-2/s03.png",
-                            "crop": [
-                                288,
-                                52,
-                                100,
-                                82
-                            ]
-                        },
-                        {
-                            "id": "s04",
-                            "title": "Angular arrow mosaic",
-                            "position": "row 1, column 4",
-                            "tags": [
-                                "repeating",
-                                "arrows"
-                            ],
-                            "image": "plates/images/moyou-the-pro-2/s04.png",
-                            "crop": [
-                                396,
-                                52,
-                                100,
-                                82
-                            ]
-                        },
-                        {
-                            "id": "s05",
-                            "title": "Decorative triangle bands",
-                            "position": "row 1, column 5",
-                            "tags": [
-                                "repeating",
-                                "triangles"
-                            ],
-                            "image": "plates/images/moyou-the-pro-2/s05.png",
-                            "crop": [
-                                504,
-                                52,
-                                100,
-                                82
-                            ]
-                        },
-                        {
-                            "id": "s06",
-                            "title": "Dotted right-angle corner",
-                            "position": "row 1, column 6",
-                            "tags": [
-                                "repeating",
-                                "dots"
-                            ],
-                            "image": "plates/images/moyou-the-pro-2/s06.png",
-                            "crop": [
-                                612,
-                                52,
-                                100,
-                                82
-                            ]
-                        },
-                        {
-                            "id": "s07",
-                            "title": "Linked diamond lattice",
-                            "position": "row 2, column 1",
-                            "tags": [
-                                "repeating",
-                                "lattice"
-                            ],
-                            "image": "plates/images/moyou-the-pro-2/s07.png",
-                            "crop": [
-                                72,
-                                160,
-                                100,
-                                82
-                            ]
-                        },
-                        {
-                            "id": "s08",
-                            "title": "Flowing curled waves",
-                            "position": "row 2, column 2",
-                            "tags": [
-                                "repeating",
-                                "waves"
-                            ],
-                            "image": "plates/images/moyou-the-pro-2/s08.png",
-                            "crop": [
-                                180,
-                                160,
-                                100,
-                                82
-                            ]
-                        },
-                        {
-                            "id": "s09",
-                            "title": "Overlapping rounded squares",
-                            "position": "row 2, column 3",
-                            "tags": [
-                                "repeating",
-                                "squares"
-                            ],
-                            "image": "plates/images/moyou-the-pro-2/s09.png",
-                            "crop": [
-                                288,
-                                160,
-                                100,
-                                82
-                            ]
-                        },
-                        {
-                            "id": "s10",
-                            "title": "Scattered doodle shapes",
-                            "position": "row 2, column 4",
-                            "tags": [
-                                "repeating",
-                                "abstract"
-                            ],
-                            "image": "plates/images/moyou-the-pro-2/s10.png",
-                            "crop": [
-                                396,
-                                160,
-                                100,
-                                82
-                            ]
-                        },
-                        {
-                            "id": "s11",
-                            "title": "Diamond zigzag pattern",
-                            "position": "row 2, column 5",
-                            "tags": [
-                                "repeating",
-                                "diamonds"
-                            ],
-                            "image": "plates/images/moyou-the-pro-2/s11.png",
-                            "crop": [
-                                504,
-                                160,
-                                100,
-                                82
-                            ]
-                        },
-                        {
-                            "id": "s12",
-                            "title": "Striped block and angular pattern",
-                            "position": "row 2, column 6",
-                            "tags": [
-                                "repeating",
-                                "stripes"
-                            ],
-                            "image": "plates/images/moyou-the-pro-2/s12.png",
-                            "crop": [
-                                612,
-                                160,
-                                100,
-                                82
-                            ]
-                        },
-                        {
-                            "id": "s13",
-                            "title": "Floral diamond lattice",
-                            "position": "row 3, column 1",
-                            "tags": [
-                                "repeating",
-                                "floral"
-                            ],
-                            "image": "plates/images/moyou-the-pro-2/s13.png",
-                            "crop": [
-                                72,
-                                266,
-                                100,
-                                82
-                            ]
-                        },
-                        {
-                            "id": "s14",
-                            "title": "Striped floral ornament",
-                            "position": "row 3, column 2",
-                            "tags": [
-                                "repeating",
-                                "floral"
-                            ],
-                            "image": "plates/images/moyou-the-pro-2/s14.png",
-                            "crop": [
-                                180,
-                                266,
-                                100,
-                                82
-                            ]
-                        },
-                        {
-                            "id": "s15",
-                            "title": "Curling floral scrolls",
-                            "position": "row 3, column 3",
-                            "tags": [
-                                "repeating",
-                                "floral",
-                                "scrolls"
-                            ],
-                            "image": "plates/images/moyou-the-pro-2/s15.png",
-                            "crop": [
-                                288,
-                                266,
-                                100,
-                                82
-                            ]
-                        },
-                        {
-                            "id": "s16",
-                            "title": "Floral lace corner",
-                            "position": "row 3, column 4",
-                            "tags": [
-                                "repeating",
-                                "floral",
-                                "lace"
-                            ],
-                            "image": "plates/images/moyou-the-pro-2/s16.png",
-                            "crop": [
-                                396,
-                                266,
-                                100,
-                                82
-                            ]
-                        },
-                        {
-                            "id": "s17",
-                            "title": "Repeating small floral tiles",
-                            "position": "row 3, column 5",
-                            "tags": [
-                                "repeating",
-                                "floral"
-                            ],
-                            "image": "plates/images/moyou-the-pro-2/s17.png",
-                            "crop": [
-                                504,
-                                266,
-                                100,
-                                82
-                            ]
-                        },
-                        {
-                            "id": "s18",
-                            "title": "Concentric circles",
-                            "position": "row 3, column 6",
-                            "tags": [
-                                "repeating",
-                                "circles"
-                            ],
-                            "image": "plates/images/moyou-the-pro-2/s18.png",
-                            "crop": [
-                                612,
-                                266,
-                                100,
-                                82
                             ]
                         }
                     ]

@@ -200,8 +200,8 @@
             "category": "unknown",
             "id": "essence-black-plum-done",
             "tags": [
-                "swatch photographed",
-                "purple"
+                "purple",
+                "swatch photographed"
             ]
         },
         {
@@ -3532,21 +3532,21 @@
             "id": "kiko-blazing-burgundy",
             "tags": [
                 "burgundy",
-                "red",
-                "purple"
+                "purple",
+                "red"
             ]
         },
         {
             "brand": "Kiko",
-            "color_family": "",
-            "finish": "",
+            "color_family": "gold/copper;orange",
+            "finish": "shimmer;secret-topper",
             "manufacturer_hex": "",
-            "override_hex": "",
+            "override_hex": "#FFA909",
             "personal_hex": "",
-            "role": "",
+            "role": "color",
             "shade_name": "Starry Gold",
             "status": "owned",
-            "category": "unknown",
+            "category": "specialty",
             "id": "kiko-starry-gold",
             "tags": [
                 "gold"
@@ -4349,7 +4349,7 @@
             ]
         },
         {
-            "brand": "",
+            "brand": "Kiko",
             "color_family": "gold/copper",
             "finish": "",
             "manufacturer_hex": "",
@@ -4361,8 +4361,8 @@
             "category": "specialty",
             "id": "starry-gold",
             "tags": [
-                "topper",
-                "gold"
+                "gold",
+                "topper"
             ]
         },
         {
@@ -4541,7 +4541,14 @@
             "images": []
         },
         "Essence/Black Plum & Done": {
-            "images": []
+            "images": [
+                {
+                    "url": "https://i8.amplience.net/i/Cosnova/5335342",
+                    "kind": "manufacturer",
+                    "caption": "User-verified product / bottle reference",
+                    "source": "https://i8.amplience.net/i/Cosnova/5335342"
+                }
+            ]
         },
         "Essence/Colour Stay Topcoat": {
             "images": [
@@ -6798,10 +6805,24 @@
             "images": []
         },
         "Kiko/Blazing Burgundy": {
-            "images": []
+            "images": [
+                {
+                    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLMhfngxd2cqg6itoyzEU05rewpLMDznqz1g6T0_DW0-tvl4aIJm8QQdmI&s=10",
+                    "kind": "manufacturer",
+                    "caption": "User-verified product / bottle reference",
+                    "source": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLMhfngxd2cqg6itoyzEU05rewpLMDznqz1g6T0_DW0-tvl4aIJm8QQdmI&s=10"
+                }
+            ]
         },
         "Kiko/Starry Gold": {
-            "images": []
+            "images": [
+                {
+                    "url": "https://imgcache.dealmoon.com/thumbimg.dealmoon.com/dealmoon/bcf/af8/e2e/81b5feef355083ffef71120.jpg_600_0_3_73b1.jpg",
+                    "kind": "manufacturer",
+                    "caption": "User-verified product / bottle reference",
+                    "source": "https://imgcache.dealmoon.com/thumbimg.dealmoon.com/dealmoon/bcf/af8/e2e/81b5feef355083ffef71120.jpg_600_0_3_73b1.jpg"
+                }
+            ]
         },
         "Konad/Black Stamping Polish": {
             "images": [
@@ -7218,10 +7239,14 @@
             "images": []
         },
         "Emily de Molly/So Extra": {
-            "images": []
-        },
-        "/Starry Gold": {
-            "images": []
+            "images": [
+                {
+                    "url": "https://whatsupbeauty.com/cdn/shop/files/IMG_1222_93ff84f7-dfe5-4d08-816e-99c2cc71abea_800x.jpg?v=1780268114",
+                    "kind": "manufacturer",
+                    "caption": "User-verified product / bottle reference",
+                    "source": "https://www.emilydemolly.com/products/so-extra?_su_rec=HxxUpNMLHgE6esyWWDCitSFZMPL2GJJsxyo4Butl28eUsYvdyz3LWMo4jyPKQq5iMk_9nW5lIwrftZ7ZUxR_dt5BV8ajr1DfdYczPoIiuTAvDyVD13jRbL7M04uCC9E8jPsilGJ5g3QtDk4ejEkL_-Jon5iFIEdd0H79-t4Oo73wy4ohoF06PoL_7i2dRADz339OO3JyF5EooEonA3u8C9FxqcUC0FHmoJ6ItOacor0ufeOjFvCNlbAt-ggc4kP9ygI2ighje4WHXg_nLe3673G3ihIi92yYFGOZqNht&_su_rec_id=c0220305-1992-4a26-8b5a-ac0eb5c189ae-1793554956"
+                }
+            ]
         },
         "/White Powder - Over Sticky Base": {
             "images": []
