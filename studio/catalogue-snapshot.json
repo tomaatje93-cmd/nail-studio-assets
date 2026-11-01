@@ -3247,7 +3247,14 @@
                     "shade_name": "Cyantific",
                     "status": "owned",
                     "category": "unknown",
-                    "images": []
+                    "images": [
+                        {
+                            "url": "https://www.lacquertracker.com/images/polish/6047917d0887cf7e192e6b79-604791830887cf7e192e6b7a.jpg",
+                            "kind": "manufacturer",
+                            "caption": "External reference candidate; confirm exact image and polish before approval",
+                            "source": "https://www.lacquertracker.com/polish/Holo_Taco/Cyantific"
+                        }
+                    ]
                 }
             },
             "holo-taco-dead-petals": {
@@ -3626,7 +3633,14 @@
                     "shade_name": "Foreshadow",
                     "status": "owned",
                     "category": "unknown",
-                    "images": []
+                    "images": [
+                        {
+                            "url": "https://www.lacquertracker.com/images/polish/66d9ee32902070499c7944c7-66d9ee3b902070499c7944c8.jpg",
+                            "kind": "manufacturer",
+                            "caption": "External reference candidate; confirm exact image and polish before approval",
+                            "source": "https://www.lacquertracker.com/polish/Holo_Taco/Foreshadow"
+                        }
+                    ]
                 }
             },
             "holo-taco-freezer-burn": {
