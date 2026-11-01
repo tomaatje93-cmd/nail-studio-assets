@@ -4097,7 +4097,14 @@
                     "shade_name": "Head Hunter",
                     "status": "owned",
                     "category": "unknown",
-                    "images": []
+                    "images": [
+                        {
+                            "url": "https://www.lacquertracker.com/images/polish/66d9ee6c902070499c7944cb-66d9ee74902070499c7944cc.jpg",
+                            "kind": "manufacturer",
+                            "caption": "Exact-shade bottle reference; provisional, visual confirmation required",
+                            "source": "https://www.lacquertracker.com/polish/Holo_Taco/Head_Hunter"
+                        }
+                    ]
                 }
             },
             "holo-taco-hi-def": {
@@ -4162,7 +4169,14 @@
                     "shade_name": "High Tea Hibiscus",
                     "status": "owned",
                     "category": "unknown",
-                    "images": []
+                    "images": [
+                        {
+                            "url": "https://www.lacquertracker.com/images/polish/6146354e8f754f6ecd4b4fc2-614635558f754f6ecd4b4fc3.jpg",
+                            "kind": "manufacturer",
+                            "caption": "Exact-shade bottle reference; provisional, visual confirmation required",
+                            "source": "https://www.lacquertracker.com/polish/Holo_Taco/High_Tea_Hibiscus"
+                        }
+                    ]
                 }
             },
             "holo-taco-hydropower": {
@@ -4276,7 +4290,14 @@
                     "shade_name": "Indigo Away",
                     "status": "owned",
                     "category": "unknown",
-                    "images": []
+                    "images": [
+                        {
+                            "url": "https://www.lacquertracker.com/images/polish/5e77cbe30a117c70cb3d0fa0-5e77cc000a117c70cb3d0fa1.jpg",
+                            "kind": "manufacturer",
+                            "caption": "Exact-shade bottle reference; provisional, visual confirmation required",
+                            "source": "https://www.lacquertracker.com/polish/Holo_Taco/Indigo_Away"
+                        }
+                    ]
                 }
             },
             "holo-taco-jam-session": {
@@ -5622,7 +5643,14 @@
                     "shade_name": "Shady Navy",
                     "status": "owned",
                     "category": "unknown",
-                    "images": []
+                    "images": [
+                        {
+                            "url": "https://www.lacquertracker.com/images/polish/61ec4f3b6608164ce27c96bc-61ec4fc16608164ce27c96c1.jpg",
+                            "kind": "manufacturer",
+                            "caption": "Exact-shade bottle reference; provisional, visual confirmation required",
+                            "source": "https://www.lacquertracker.com/polish/Holo_Taco/Shady_Navy"
+                        }
+                    ]
                 }
             },
             "holo-taco-shooting-star-taco": {
@@ -5879,7 +5907,14 @@
                     "shade_name": "Spyglass",
                     "status": "owned",
                     "category": "unknown",
-                    "images": []
+                    "images": [
+                        {
+                            "url": "https://www.lacquertracker.com/images/polish/6625ac8049ca4059c6da52bc-6625ac9549ca4059c6da52bd.jpg",
+                            "kind": "manufacturer",
+                            "caption": "Exact-shade bottle reference; provisional, visual confirmation required",
+                            "source": "https://www.lacquertracker.com/polish/Holo_Taco/Spyglass"
+                        }
+                    ]
                 }
             },
             "holo-taco-steep-dreams": {
