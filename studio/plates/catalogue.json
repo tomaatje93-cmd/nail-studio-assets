@@ -4994,6 +4994,218 @@
             ]
         },
         {
+            "collection": "Pro XL",
+            "reference_image": "../plates/images/moyou-pro-xl-02/plate-only.png",
+            "plate_number": "02",
+            "layout": "separate",
+            "brand": "MoYou London",
+            "status": "owned",
+            "reference_size": [
+                781,
+                405
+            ],
+            "stamps": [
+                {
+                    "id": "s01",
+                    "crop": [
+                        70,
+                        53,
+                        98,
+                        134
+                    ],
+                    "title": "Hanging dotted strands",
+                    "tags": [
+                        "repeating",
+                        "geometric"
+                    ],
+                    "image": "../plates/images/moyou-pro-xl-02/s01.png",
+                    "position": "row 1, column 1"
+                },
+                {
+                    "id": "s02",
+                    "crop": [
+                        178,
+                        53,
+                        98,
+                        134
+                    ],
+                    "title": "Scalloped scales",
+                    "tags": [
+                        "repeating",
+                        "geometric"
+                    ],
+                    "image": "../plates/images/moyou-pro-xl-02/s02.png",
+                    "position": "row 1, column 2"
+                },
+                {
+                    "id": "s03",
+                    "crop": [
+                        286,
+                        53,
+                        98,
+                        134
+                    ],
+                    "title": "Woven curved bands",
+                    "tags": [
+                        "repeating",
+                        "geometric"
+                    ],
+                    "image": "../plates/images/moyou-pro-xl-02/s03.png",
+                    "position": "row 1, column 3"
+                },
+                {
+                    "id": "s04",
+                    "crop": [
+                        394,
+                        53,
+                        98,
+                        134
+                    ],
+                    "title": "Triangle tessellation",
+                    "tags": [
+                        "repeating",
+                        "geometric"
+                    ],
+                    "image": "../plates/images/moyou-pro-xl-02/s04.png",
+                    "position": "row 1, column 4"
+                },
+                {
+                    "id": "s05",
+                    "crop": [
+                        502,
+                        53,
+                        98,
+                        134
+                    ],
+                    "title": "Honeycomb hexagons",
+                    "tags": [
+                        "repeating",
+                        "geometric"
+                    ],
+                    "image": "../plates/images/moyou-pro-xl-02/s05.png",
+                    "position": "row 1, column 5"
+                },
+                {
+                    "id": "s06",
+                    "crop": [
+                        610,
+                        53,
+                        98,
+                        134
+                    ],
+                    "title": "Layered wave scallops",
+                    "tags": [
+                        "repeating",
+                        "geometric"
+                    ],
+                    "image": "../plates/images/moyou-pro-xl-02/s06.png",
+                    "position": "row 1, column 6"
+                },
+                {
+                    "id": "s07",
+                    "crop": [
+                        70,
+                        210,
+                        98,
+                        134
+                    ],
+                    "title": "Diamond mesh",
+                    "tags": [
+                        "repeating",
+                        "geometric"
+                    ],
+                    "image": "../plates/images/moyou-pro-xl-02/s07.png",
+                    "position": "row 2, column 1"
+                },
+                {
+                    "id": "s08",
+                    "crop": [
+                        178,
+                        210,
+                        98,
+                        134
+                    ],
+                    "title": "Crossing diagonal lines",
+                    "tags": [
+                        "repeating",
+                        "geometric"
+                    ],
+                    "image": "../plates/images/moyou-pro-xl-02/s08.png",
+                    "position": "row 2, column 2"
+                },
+                {
+                    "id": "s09",
+                    "crop": [
+                        286,
+                        210,
+                        98,
+                        134
+                    ],
+                    "title": "Nested chevrons",
+                    "tags": [
+                        "repeating",
+                        "geometric"
+                    ],
+                    "image": "../plates/images/moyou-pro-xl-02/s09.png",
+                    "position": "row 2, column 3"
+                },
+                {
+                    "id": "s10",
+                    "crop": [
+                        394,
+                        210,
+                        98,
+                        134
+                    ],
+                    "title": "Geometric chevron ornament",
+                    "tags": [
+                        "repeating",
+                        "geometric"
+                    ],
+                    "image": "../plates/images/moyou-pro-xl-02/s10.png",
+                    "position": "row 2, column 4"
+                },
+                {
+                    "id": "s11",
+                    "crop": [
+                        502,
+                        210,
+                        98,
+                        134
+                    ],
+                    "title": "Abstract geometric blocks",
+                    "tags": [
+                        "repeating",
+                        "geometric"
+                    ],
+                    "image": "../plates/images/moyou-pro-xl-02/s11.png",
+                    "position": "row 2, column 5"
+                },
+                {
+                    "id": "s12",
+                    "crop": [
+                        610,
+                        210,
+                        98,
+                        134
+                    ],
+                    "title": "Dotted corner border",
+                    "tags": [
+                        "repeating",
+                        "geometric"
+                    ],
+                    "image": "../plates/images/moyou-pro-xl-02/s12.png",
+                    "position": "row 2, column 6"
+                }
+            ],
+            "id": "moyou-pro-xl-02",
+            "tags": [
+                "geometric",
+                "repeating",
+                "ornamental"
+            ]
+        },
+        {
             "brand": "MoYou London",
             "collection": "Sci-Fi",
             "plate_number": "05",
