@@ -126,6 +126,28 @@ function render() {
     app.innerHTML = `<span class="tag">Your collection</span><h1>All the shades.</h1><p class="muted">${catalog.rows.length} products · Open a polish to compare references${publicMode ? '.' : ' and set your own color.'}</p><div class="toolbar"><input id="search" aria-label="Search polishes" placeholder="Find a brand or shade…"></div><div class="grid" id="library"></div>`;
     document.querySelector('.toolbar').insertAdjacentHTML('beforeend', `<select id="category-filter" aria-label="Filter polish category"><option value="">All categories</option>${Object.entries(catalog.categories).map(([id, label])=>`<option value="${escapeHtml(id)}">${escapeHtml(label)} (${catalog.rows.filter(r=>r.category===id).length})</option>`).join('')}</select>`);
     document.querySelector('.toolbar').insertAdjacentHTML('beforeend', '<select id="finish-class-filter" aria-label="Filter by finish classification"><option value="">All finish types</option><option value="plain">Plain</option><option value="specialty">Specialty</option><option value="neither">Neither</option></select>');
+    if (!publicMode) {
+      document.querySelector('.toolbar').insertAdjacentHTML('afterend', '<details class="tag-filters" id="finish-class-editor"><summary>Classify finishes</summary><p class="muted">Choose a classification for each finish. Applies to all polishes using that finish.</p><div id="finish-class-choices"></div><button type="button" id="save-finish-classes">Save classifications</button><p id="finish-class-status" role="status"></p></details>');
+      const choices = document.querySelector('#finish-class-choices');
+      choices.innerHTML = Object.entries(catalog.finishOptions).map(([id, label]) => `<label style="display:flex;align-items:center;justify-content:space-between;gap:12px;margin:8px 0"><span>${escapeHtml(label)}</span><select data-finish="${escapeHtml(id)}" aria-label="Classify ${escapeHtml(label)}"><option value="plain">Plain</option><option value="specialty">Specialty</option><option value="neither">Neither</option></select></label>`).join('');
+      choices.querySelectorAll('select').forEach(select => { select.value = catalog.finishClasses?.[select.dataset.finish] || 'neither'; });
+      document.querySelector('#save-finish-classes').onclick = async () => {
+        const button = document.querySelector('#save-finish-classes');
+        const status = document.querySelector('#finish-class-status');
+        const finishClasses = Object.fromEntries([...choices.querySelectorAll('select')].map(select => [select.dataset.finish, select.value]));
+        button.disabled = true;
+        status.textContent = 'Saving…';
+        try {
+          const response = await fetch('api.php', {method:'POST', headers:{'Content-Type':'application/json','X-Polish-Editor':'1'}, body:JSON.stringify({finishClasses})});
+          const result = await response.json();
+          if (!response.ok) throw Error(result.error || 'Save failed.');
+          catalog.finishClasses = result.finishClasses;
+          status.textContent = 'Saved locally. Commit the configuration file to sync across devices.';
+          list();
+        } catch (error) { status.textContent = error.message; }
+        finally { button.disabled = false; }
+      };
+    }
     document.querySelector('#search').placeholder = 'Find a brand, shade or tag…';
     if (!publicMode) document.querySelector('.toolbar').insertAdjacentHTML('afterend', `<p><a class="review-link" href="#enrich">Complete polish catalogue (${catalog.rows.filter(row => !row.enrichment_complete || row.refinement_queued).length} needing review)</a></p>`);
     document.querySelector('.toolbar').insertAdjacentHTML('beforebegin', '<p class="muted">Swatches include illustrative finish effects. Open a polish for its photos and flat colour references.</p>');
