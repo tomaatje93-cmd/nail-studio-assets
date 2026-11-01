@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stamping plates · Nail Art Studio</title>
+<link rel="stylesheet" href="../studio.css">
+<link rel="stylesheet" href="../browse.css">
+</head>
+<body data-record-type="plate">
+<header class="studio-header">
+<a class="studio-brand" href="../">✦ NAIL ART STUDIO</a>
+<nav class="studio-nav" aria-label="Main navigation">
+<a href="../">Home</a>
+<a href="../polishes/">Polishes</a>
+<a
+        href="../plates/" aria-current="page">Stamping plates</a>
+<a href="../colour-lab/">Colour Lab</a>
+<a
+        href="../stamp-explorer/">Stamp Designer</a>
+</nav>
+</header>
+<main>
+<section class="intro">
+<h1>Stamping plates</h1>
+<p>Browse your collection and original reference pictures.</p>
+</section>
+<div class="filters">
+<label>Search<input id="search" type="search" placeholder="Search plates, colours or designs">
+</label>
+<label>Filter<select
+        id="filter">
+<option value="">All brands</option>
+</select>
+</label>
+</div>
+<p id="status" role="status">Loading collection…</p>
+<section id="cards" class="cards" aria-label="Stamping plates">
+</section>
+<p class="hint">Browse and plan here; save changes in your Nail Studio chat.</p>
+</main>
+<script src="../browse.js">
+</script>
+</body>
+</html>

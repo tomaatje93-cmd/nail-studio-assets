@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Stamp Designer · Nail Art Studio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../studio.css">
+</head>
+<body>
+<header class="studio-header"><a class="studio-brand" href="../">✦ NAIL ART STUDIO</a>
+    <nav class="studio-nav" aria-label="Main navigation"><a href="../">Home</a><a href="../polishes/">Polishes</a><a
+            href="../plates/">Stamping plates</a><a href="../colour-lab/">Colour Lab</a><a href="../stamp-explorer/"
+                                                                                           aria-current="page">Stamp
+        Designer</a></nav>
+</header>
+<main><h1>Stamp Designer & Explorer</h1>
+    <p>Browse individual designs from your owned stamping plates. Every image is the original catalogue crop, not a
+        generated approximation.</p>
+    <div class="toolbar"><input id="search" placeholder="Search designs, tags, plates…"
+                                aria-label="Search designs"><select id="plate" aria-label="Filter plate">
+        <option value="">All plates</option>
+    </select><select id="tag" aria-label="Filter tag">
+        <option value="">All categories</option>
+    </select>
+        <div class="tabs">
+            <button id="all" class="active">All stamps</button>
+            <button id="favs">Favourites ☆</button>
+        </div>
+    </div>
+    <div class="bar"><p id="count" class="muted"></p>
+        <button id="clear" title="Reset filters">Reset filters</button>
+    </div>
+    <div id="grid" class="grid"></div>
+    <p id="status" class="status note" role="status">Loading catalogue…</p></main>
+<div id="planner" class="planner" role="dialog" aria-modal="true" aria-label="Stamp placement planner">
+    <div class="planner-dialog">
+        <div class="bar"><strong id="plannerTitle">Stamp placement</strong>
+            <button id="plannerClose">Close</button>
+        </div>
+        <p class="planner-note">Photo-informed nail profiles for both hands. Left hand initially mirrors the right.
+            Curvature and nail widths are estimates; stamp dimensions are not physically calibrated.</p>
+        <div class="planner-layout">
+            <div class="nail-stage" id="nailStage">
+                <canvas id="handComposite"
+                        style="display:none;max-width:100%;max-height:100%;touch-action:none"></canvas>
+                <div id="nail" class="nail">
+                    <canvas id="nailCanvas" aria-label="Curved stamp preview"></canvas>
+                    <img id="nailArt" class="nail-art" alt="Original stamp design overlay" hidden></div>
+            </div>
+            <div class="planner-controls">
+                <div><label for="handPhoto">Hand photo (optional, stays in browser)</label><input id="handPhoto"
+                                                                                                  type="file"
+                                                                                                  accept="image/*">
+                </div>
+                <div><label for="photoNail">Nail area on photo</label>
+                    <button id="photoNail">Select nail area</button>
+                </div>
+                <div><label for="stampInk">Stamp ink</label><input id="stampInk" type="color" value="#f5e9dd"></div>
+                <div><label for="hand">Hand</label><select id="hand">
+                    <option value="right">Right</option>
+                    <option value="left">Left (mirrored estimate)</option>
+                </select></div>
+                <div><label for="finger">Nail</label><select id="finger">
+                    <option value="thumb">Thumb</option>
+                    <option value="index">Index</option>
+                    <option value="middle">Middle</option>
+                    <option value="ring">Ring</option>
+                    <option value="pinky">Pinky</option>
+                </select></div>
+                <div><label for="curve">C-curve strength
+                    <output id="curveOut"></output>
+                </label><input type="range" id="curve" min="0" max="80" value="32"></div>
+                <div><label for="longCurve">Lengthwise curvature
+                    <output id="longCurveOut"></output>
+                </label><input type="range" id="longCurve" min="-30" max="30" value="8"></div>
+                <div><label for="nailWidth">Nail width
+                    <output id="nailWidthOut"></output>
+                </label><input type="range" id="nailWidth" min="75" max="170" value="130"></div>
+                <div><label for="nailLength">Nail length
+                    <output id="nailLengthOut"></output>
+                </label><input type="range" id="nailLength" min="140" max="270" value="245"></div>
+                <div><label for="stampScale">Stamp size
+                    <output id="stampScaleOut"></output>
+                </label><input type="range" id="stampScale" min="20" max="180" value="75"></div>
+                <div><label for="stampX">Horizontal offset
+                    <output id="stampXOut"></output>
+                </label><input type="range" id="stampX" min="-70" max="70" value="0"></div>
+                <div><label for="stampY">Vertical offset
+                    <output id="stampYOut"></output>
+                </label><input type="range" id="stampY" min="-70" max="70" value="0"></div>
+                <div><label for="stampRotation">Rotation
+                    <output id="stampRotationOut"></output>
+                </label><input type="range" id="stampRotation" min="-180" max="180" value="0"></div>
+                <div><label for="nailColour">Nail base colour</label><select id="nailColour">
+                    <option value="#c89aa4">Natural pink</option>
+                    <option value="#eee8e5">Off-white</option>
+                    <option value="#28222d">Dark</option>
+                    <option value="#9b82ba">Lavender</option>
+                    <option value="#b5a4a5">Dusty rose</option>
+                </select></div>
+            </div>
+        </div>
+        <div class="planner-actions">
+            <button id="plannerReset">Reset placement</button>
+            <button id="plannerCopy">Copy design reference</button>
+            <button id="saveNail">Save nail to preview</button>
+            <button id="exportPreview">Export reference PNG + JSON</button>
+            <button id="exportPhoto">Export photo composite PNG</button>
+        </div>
+        <div id="previewNails" class="planner-note" aria-live="polite">No nails saved to preview.</div>
+        <p class="planner-note" id="plannerStatus" role="status"></p></div>
+</div>
+<div id="preview" class="plate-preview" role="dialog" aria-modal="true" aria-label="Plate preview">
+    <div class="dialog">
+        <div class="bar"><strong id="previewTitle"></strong>
+            <button id="close">Close</button>
+        </div>
+        <img id="previewImg" alt="">
+        <p id="previewNote" class="note"></p></div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

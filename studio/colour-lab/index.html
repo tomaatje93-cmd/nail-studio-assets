@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Colour Lab · Nail Art Studio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../studio.css">
+</head>
+<body>
+<header class="studio-header"><a class="studio-brand" href="../">✦ NAIL ART STUDIO</a>
+    <nav class="studio-nav" aria-label="Main navigation"><a href="../">Home</a><a href="../polishes/">Polishes</a><a
+            href="../plates/">Stamping plates</a><a href="../colour-lab/" aria-current="page">Colour Lab</a><a
+            href="../stamp-explorer/">Stamp Designer</a></nav>
+</header>
+<main><h1>Colour Lab</h1>
+    <p>Build colour combinations from your own polish collection. Read-only preview; nothing is saved.</p>
+    <div class="layout">
+        <section class="panel controls">
+            <div><label for="find">Find a base polish</label><input id="find" placeholder="Search shades or brands…"
+                                                                    autocomplete="off"></div>
+            <div><label for="base">Base shade</label><select id="base"></select></div>
+            <div id="baseSwatch" class="swatch"></div>
+            <div id="baseInfo"></div>
+            <div><label>Match type</label>
+                <div class="modes" id="modes"></div>
+            </div>
+            <div><label for="count">Recommendations</label><select id="count">
+                <option>6</option>
+                <option>12</option>
+                <option>24</option>
+            </select></div>
+            <p class="note">Colour matching uses OKLab, which better approximates perceived differences than raw RGB.
+                Hex colours are only approximations of complex finishes.</p></section>
+        <section class="panel"><h2>Complete manicure palettes</h2>
+            <p class="muted">Suggested combinations based on colour relationships and recorded finishes. Select one to
+                edit it below.</p>
+            <div class="recipes" id="recipes"></div>
+            <div class="bar"><h2>Matches <span id="total" class="muted"></span></h2>
+                <button id="copy">Copy palette</button>
+            </div>
+            <div class="palette" id="palette"></div>
+            <p id="paletteNames" class="muted"></p>
+            <div class="results" id="results"></div>
+        </section>
+    </div>
+    <p id="status" class="note" role="status">Loading catalogue…</p></main>
+<script src="app.js"></script>
+</body>
+</html>
