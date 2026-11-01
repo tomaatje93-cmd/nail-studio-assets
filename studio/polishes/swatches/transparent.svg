@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="100" viewBox="0 0 320 100" role="img" aria-labelledby="title">
+  <title id="title">Transparent polish — symbolic checkerboard preview</title>
+  <defs>
+    <pattern id="checks" width="24" height="24" patternUnits="userSpaceOnUse">
+      <rect width="24" height="24" fill="#F7F4F6"/>
+      <path d="M0 0h12v12H0zM12 12h12v12H12z" fill="#E5DDE3"/>
+    </pattern>
+    <clipPath id="corners"><rect width="320" height="100" rx="12"/></clipPath>
+  </defs>
+  <rect width="320" height="100" rx="12" fill="url(#checks)"/>
+  <g clip-path="url(#corners)"><path d="M-30 100L70 0h38L8 100z" fill="white" opacity=".25"/></g>
+  <rect x="93" y="33" width="134" height="34" rx="17" fill="#FFFDFB" stroke="#D8CBD4"/>
+  <text x="160" y="55" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="14" fill="#713F60">Transparent</text>
+</svg>

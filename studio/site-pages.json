@@ -1,0 +1,34 @@
+{
+    "pages": [
+        {
+            "id": "home",
+            "label": "Home",
+            "path": "",
+            "public": true
+        },
+        {
+            "id": "polishes",
+            "label": "Polishes",
+            "path": "polishes/",
+            "public": true
+        },
+        {
+            "id": "plates",
+            "label": "Stamping plates",
+            "path": "plates/",
+            "public": true
+        },
+        {
+            "id": "colour-lab",
+            "label": "Colour Lab",
+            "path": "colour-lab/",
+            "public": true
+        },
+        {
+            "id": "stamp-explorer",
+            "label": "Stamp Designer",
+            "path": "stamp-explorer/",
+            "public": true
+        }
+    ]
+}

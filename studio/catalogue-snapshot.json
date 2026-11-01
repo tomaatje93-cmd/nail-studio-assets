@@ -48,7 +48,14 @@
                 "id": "catrice-broken-glass",
                 "type": "polish",
                 "name": "Catrice Broken Glass",
-                "tags": [],
+                "tags": [
+                    "topper",
+                    "chunky-glitter",
+                    "glass-effect",
+                    "clear-base",
+                    "white",
+                    "glitter"
+                ],
                 "data": {
                     "brand": "Catrice",
                     "color_family": "white",
@@ -80,7 +87,11 @@
                 "id": "catrice-copper-cabana",
                 "type": "polish",
                 "name": "Catrice Copper Cabana",
-                "tags": [],
+                "tags": [
+                    "gold/copper",
+                    "color",
+                    "gold"
+                ],
                 "data": {
                     "brand": "Catrice",
                     "shade_name": "Copper Cabana",
@@ -118,7 +129,14 @@
                 "id": "catrice-cosmic-gold",
                 "type": "polish",
                 "name": "Catrice Cosmic Gold",
-                "tags": [],
+                "tags": [
+                    "topper",
+                    "gold",
+                    "iridescent",
+                    "effect-topper",
+                    "glitter",
+                    "shimmer"
+                ],
                 "data": {
                     "brand": "Catrice",
                     "color_family": "gold/copper",
@@ -150,7 +168,10 @@
                 "id": "cirque-colors-electric-daisy",
                 "type": "polish",
                 "name": "Cirque Colors Electric Daisy",
-                "tags": [],
+                "tags": [
+                    "swatch photographed",
+                    "green"
+                ],
                 "data": {
                     "brand": "Cirque Colors",
                     "shade_name": "Electric Daisy",
@@ -176,7 +197,10 @@
                 "id": "cirque-colors-harmony",
                 "type": "polish",
                 "name": "Cirque Colors Harmony",
-                "tags": [],
+                "tags": [
+                    "magnetic",
+                    "color"
+                ],
                 "data": {
                     "brand": "Cirque Colors",
                     "shade_name": "Harmony",
@@ -214,7 +238,15 @@
                 "id": "cirque-colors-starry-eyed",
                 "type": "polish",
                 "name": "Cirque Colors Starry Eyed",
-                "tags": [],
+                "tags": [
+                    "topper",
+                    "silver",
+                    "holographic",
+                    "magnetic",
+                    "layering",
+                    "glitter",
+                    "holo"
+                ],
                 "data": {
                     "brand": "Cirque Colors",
                     "color_family": "multicolor",
@@ -297,7 +329,9 @@
                 "id": "emily-de-molly-sheer-tint-opal",
                 "type": "polish",
                 "name": "Emily de Molly Sheer Tint Opal",
-                "tags": [],
+                "tags": [
+                    "sheer"
+                ],
                 "data": {
                     "brand": "Emily de Molly",
                     "color_family": "",
@@ -316,7 +350,10 @@
                 "id": "essence-black-plum-done",
                 "type": "polish",
                 "name": "Essence Black Plum & Done",
-                "tags": [],
+                "tags": [
+                    "swatch photographed",
+                    "purple"
+                ],
                 "data": {
                     "brand": "Essence",
                     "shade_name": "Black Plum & Done",
@@ -335,7 +372,11 @@
                 "id": "essence-colour-stay-topcoat",
                 "type": "polish",
                 "name": "Essence Colour Stay Topcoat",
-                "tags": [],
+                "tags": [
+                    "clear",
+                    "topcoat",
+                    "topper"
+                ],
                 "data": {
                     "brand": "Essence",
                     "shade_name": "Colour Stay Topcoat",
@@ -361,7 +402,12 @@
                 "id": "essence-crazy-cracking",
                 "type": "polish",
                 "name": "Essence Crazy Cracking",
-                "tags": [],
+                "tags": [
+                    "topper",
+                    "crackle",
+                    "blue",
+                    "layering"
+                ],
                 "data": {
                     "brand": "Essence",
                     "shade_name": "Crazy Cracking",
@@ -393,7 +439,9 @@
                 "id": "essence-dusk-till-yawn",
                 "type": "polish",
                 "name": "Essence Dusk Till Yawn",
-                "tags": [],
+                "tags": [
+                    "black"
+                ],
                 "data": {
                     "brand": "Essence",
                     "shade_name": "Dusk Till Yawn",
@@ -412,7 +460,10 @@
                 "id": "essence-emerald-energy",
                 "type": "polish",
                 "name": "Essence Emerald Energy",
-                "tags": [],
+                "tags": [
+                    "green",
+                    "color"
+                ],
                 "data": {
                     "brand": "Essence",
                     "shade_name": "Emerald Energy",
@@ -450,7 +501,15 @@
                 "id": "essence-glow-in-the-dark",
                 "type": "polish",
                 "name": "Essence Glow in the Dark",
-                "tags": [],
+                "tags": [
+                    "topper",
+                    "glow-in-the-dark",
+                    "mint-green",
+                    "sparkle",
+                    "green",
+                    "white",
+                    "glitter"
+                ],
                 "data": {
                     "brand": "Essence",
                     "color_family": "white",
@@ -482,7 +541,9 @@
                 "id": "essence-grape-escape",
                 "type": "polish",
                 "name": "Essence Grape Escape",
-                "tags": [],
+                "tags": [
+                    "purple"
+                ],
                 "data": {
                     "brand": "Essence",
                     "color_family": "",
@@ -501,7 +562,11 @@
                 "id": "essence-i-lilac-you",
                 "type": "polish",
                 "name": "Essence I Lilac You",
-                "tags": [],
+                "tags": [
+                    "personal swatch photographed",
+                    "matte comparison swatch",
+                    "purple"
+                ],
                 "data": {
                     "brand": "Essence",
                     "shade_name": "I Lilac You",
@@ -520,7 +585,10 @@
                 "id": "essence-let-it-indi-go",
                 "type": "polish",
                 "name": "Essence Let It Indi-Go",
-                "tags": [],
+                "tags": [
+                    "swatch photographed",
+                    "blue"
+                ],
                 "data": {
                     "brand": "Essence",
                     "color_family": "blue",
@@ -539,7 +607,15 @@
                 "id": "essence-love-you",
                 "type": "polish",
                 "name": "Essence Love You",
-                "tags": [],
+                "tags": [
+                    "topper",
+                    "lilac",
+                    "holographic",
+                    "confetti",
+                    "purple",
+                    "glitter",
+                    "holo"
+                ],
                 "data": {
                     "brand": "Essence",
                     "color_family": "purple",
@@ -571,7 +647,9 @@
                 "id": "essence-midnight-magic",
                 "type": "polish",
                 "name": "Essence Midnight Magic",
-                "tags": [],
+                "tags": [
+                    "dark"
+                ],
                 "data": {
                     "brand": "Essence",
                     "color_family": "",
@@ -590,7 +668,9 @@
                 "id": "essence-ocean-eyes",
                 "type": "polish",
                 "name": "Essence Ocean Eyes",
-                "tags": [],
+                "tags": [
+                    "blue"
+                ],
                 "data": {
                     "brand": "Essence",
                     "color_family": "",
@@ -609,7 +689,13 @@
                 "id": "essence-pink-ventures",
                 "type": "polish",
                 "name": "Essence Pink Ventures",
-                "tags": [],
+                "tags": [
+                    "topper",
+                    "pink",
+                    "glitter",
+                    "gel-look",
+                    "glossy"
+                ],
                 "data": {
                     "brand": "Essence",
                     "color_family": "pink",
@@ -641,7 +727,9 @@
                 "id": "essie-be-them-all",
                 "type": "polish",
                 "name": "Essie Be Them All",
-                "tags": [],
+                "tags": [
+                    "color"
+                ],
                 "data": {
                     "brand": "Essie",
                     "shade_name": "Be Them All",
@@ -679,7 +767,11 @@
                 "id": "essie-bikini-snapped",
                 "type": "polish",
                 "name": "Essie Bikini Snapped",
-                "tags": [],
+                "tags": [
+                    "shimmer",
+                    "aqua-blue",
+                    "blue"
+                ],
                 "data": {
                     "brand": "Essie",
                     "color_family": "blue",
@@ -749,7 +841,10 @@
                 "id": "essie-licorice",
                 "type": "polish",
                 "name": "Essie Licorice",
-                "tags": [],
+                "tags": [
+                    "black",
+                    "color"
+                ],
                 "data": {
                     "brand": "Essie",
                     "shade_name": "Licorice",
@@ -787,7 +882,9 @@
                 "id": "essie-light-as-linen",
                 "type": "polish",
                 "name": "Essie Light as Linen",
-                "tags": [],
+                "tags": [
+                    "white"
+                ],
                 "data": {
                     "brand": "Essie",
                     "color_family": "",
@@ -806,7 +903,9 @@
                 "id": "essie-now-or-never",
                 "type": "polish",
                 "name": "Essie Now or Never",
-                "tags": [],
+                "tags": [
+                    "black"
+                ],
                 "data": {
                     "brand": "Essie",
                     "color_family": "black",
@@ -825,7 +924,10 @@
                 "id": "essie-pearly-white",
                 "type": "polish",
                 "name": "Essie Pearly White",
-                "tags": [],
+                "tags": [
+                    "white",
+                    "pearl"
+                ],
                 "data": {
                     "brand": "Essie",
                     "color_family": "",
@@ -844,7 +946,11 @@
                 "id": "essie-play-date",
                 "type": "polish",
                 "name": "Essie Play Date",
-                "tags": [],
+                "tags": [
+                    "swatch photographed",
+                    "purple",
+                    "creme"
+                ],
                 "data": {
                     "brand": "Essie",
                     "color_family": "purple",
@@ -870,7 +976,9 @@
                 "id": "essie-really-red",
                 "type": "polish",
                 "name": "Essie Really Red",
-                "tags": [],
+                "tags": [
+                    "red"
+                ],
                 "data": {
                     "brand": "Essie",
                     "color_family": "red",
@@ -889,7 +997,10 @@
                 "id": "essie-surrounded-by-studs-sluts",
                 "type": "polish",
                 "name": "Essie Surrounded by Studs (Sluts)",
-                "tags": [],
+                "tags": [
+                    "swatch photographed",
+                    "blue"
+                ],
                 "data": {
                     "brand": "Essie",
                     "color_family": "blue",
@@ -908,7 +1019,9 @@
                 "id": "essie-twinkle-in-time",
                 "type": "polish",
                 "name": "Essie Twinkle in Time",
-                "tags": [],
+                "tags": [
+                    "sparkle"
+                ],
                 "data": {
                     "brand": "Essie",
                     "color_family": "",
@@ -927,7 +1040,11 @@
                 "id": "hema-always-sparkle",
                 "type": "polish",
                 "name": "Hema Always Sparkle",
-                "tags": [],
+                "tags": [
+                    "topper",
+                    "purple",
+                    "glitter"
+                ],
                 "data": {
                     "brand": "Hema",
                     "shade_name": "Always Sparkle",
@@ -953,7 +1070,9 @@
                 "id": "hema-bronzing-pearls",
                 "type": "polish",
                 "name": "Hema Bronzing Pearls",
-                "tags": [],
+                "tags": [
+                    "pearl"
+                ],
                 "data": {
                     "brand": "Hema",
                     "color_family": "",
@@ -972,7 +1091,9 @@
                 "id": "hema-buttercup",
                 "type": "polish",
                 "name": "Hema Buttercup",
-                "tags": [],
+                "tags": [
+                    "yellow"
+                ],
                 "data": {
                     "brand": "Hema",
                     "color_family": "yellow",
@@ -991,7 +1112,10 @@
                 "id": "hema-can-you-teal-the-love",
                 "type": "polish",
                 "name": "HEMA Can You Teal The Love",
-                "tags": [],
+                "tags": [
+                    "green",
+                    "color"
+                ],
                 "data": {
                     "brand": "HEMA",
                     "shade_name": "Can You Teal The Love",
@@ -1017,7 +1141,10 @@
                 "id": "hema-confetti",
                 "type": "polish",
                 "name": "Hema Confetti",
-                "tags": [],
+                "tags": [
+                    "topper",
+                    "glitter"
+                ],
                 "data": {
                     "brand": "Hema",
                     "color_family": "multicolor",
@@ -1036,7 +1163,9 @@
                 "id": "hema-cool-off-umber",
                 "type": "polish",
                 "name": "Hema Cool Off Umber",
-                "tags": [],
+                "tags": [
+                    "brown"
+                ],
                 "data": {
                     "brand": "Hema",
                     "color_family": "brown",
@@ -1055,7 +1184,10 @@
                 "id": "hema-cosmos-blue-matte",
                 "type": "polish",
                 "name": "Hema Cosmos Blue - Matte",
-                "tags": [],
+                "tags": [
+                    "blue",
+                    "matte"
+                ],
                 "data": {
                     "brand": "Hema",
                     "color_family": "",
@@ -1074,7 +1206,9 @@
                 "id": "hema-cosmos-blue",
                 "type": "polish",
                 "name": "Hema Cosmos Blue",
-                "tags": [],
+                "tags": [
+                    "blue"
+                ],
                 "data": {
                     "brand": "Hema",
                     "color_family": "blue",
@@ -1093,7 +1227,10 @@
                 "id": "hema-delft-blue",
                 "type": "polish",
                 "name": "Hema Delft Blue",
-                "tags": [],
+                "tags": [
+                    "swatch photographed",
+                    "blue"
+                ],
                 "data": {
                     "brand": "Hema",
                     "color_family": "blue",
@@ -1112,7 +1249,10 @@
                 "id": "hema-dutch-denim",
                 "type": "polish",
                 "name": "Hema Dutch Denim",
-                "tags": [],
+                "tags": [
+                    "swatch photographed",
+                    "blue"
+                ],
                 "data": {
                     "brand": "Hema",
                     "color_family": "blue",
@@ -1131,7 +1271,9 @@
                 "id": "hema-fancy-pearl",
                 "type": "polish",
                 "name": "Hema Fancy Pearl",
-                "tags": [],
+                "tags": [
+                    "pearl"
+                ],
                 "data": {
                     "brand": "Hema",
                     "color_family": "",
@@ -1150,7 +1292,9 @@
                 "id": "hema-festive-fuchsia",
                 "type": "polish",
                 "name": "Hema Festive Fuchsia",
-                "tags": [],
+                "tags": [
+                    "pink"
+                ],
                 "data": {
                     "brand": "Hema",
                     "color_family": "pink",
@@ -1169,7 +1313,10 @@
                 "id": "hema-forget-me-not",
                 "type": "polish",
                 "name": "Hema Forget Me Not",
-                "tags": [],
+                "tags": [
+                    "swatch photographed",
+                    "blue"
+                ],
                 "data": {
                     "brand": "Hema",
                     "color_family": "blue",
@@ -1188,7 +1335,11 @@
                 "id": "hema-glitter-gold",
                 "type": "polish",
                 "name": "Hema Glitter Gold",
-                "tags": [],
+                "tags": [
+                    "topper",
+                    "gold",
+                    "glitter"
+                ],
                 "data": {
                     "brand": "Hema",
                     "color_family": "gold/copper",
@@ -1207,7 +1358,10 @@
                 "id": "hema-gold-stars",
                 "type": "polish",
                 "name": "Hema Gold Stars",
-                "tags": [],
+                "tags": [
+                    "gold",
+                    "star-glitter"
+                ],
                 "data": {
                     "brand": "Hema",
                     "color_family": "",
@@ -1226,7 +1380,9 @@
                 "id": "hema-lava-out-loud",
                 "type": "polish",
                 "name": "Hema Lava Out Loud",
-                "tags": [],
+                "tags": [
+                    "lava"
+                ],
                 "data": {
                     "brand": "Hema",
                     "color_family": "",
@@ -1245,7 +1401,11 @@
                 "id": "hema-lilac-you-a-lot",
                 "type": "polish",
                 "name": "Hema Lilac You a Lot",
-                "tags": [],
+                "tags": [
+                    "personal swatch photographed",
+                    "matte comparison swatch",
+                    "purple"
+                ],
                 "data": {
                     "brand": "Hema",
                     "color_family": "purple",
@@ -1264,7 +1424,10 @@
                 "id": "hema-liquorice",
                 "type": "polish",
                 "name": "HEMA Liquorice",
-                "tags": [],
+                "tags": [
+                    "black",
+                    "color"
+                ],
                 "data": {
                     "brand": "HEMA",
                     "shade_name": "Liquorice",
@@ -1296,7 +1459,10 @@
                 "id": "hema-luscious-lilac",
                 "type": "polish",
                 "name": "Hema Luscious Lilac",
-                "tags": [],
+                "tags": [
+                    "lilac",
+                    "purple"
+                ],
                 "data": {
                     "brand": "Hema",
                     "color_family": "",
@@ -1315,7 +1481,10 @@
                 "id": "hema-matcha-made-in-heaven",
                 "type": "polish",
                 "name": "Hema Matcha Made in Heaven",
-                "tags": [],
+                "tags": [
+                    "swatch photographed",
+                    "green"
+                ],
                 "data": {
                     "brand": "Hema",
                     "color_family": "green",
@@ -1334,7 +1503,9 @@
                 "id": "hema-milkmaid",
                 "type": "polish",
                 "name": "Hema Milkmaid",
-                "tags": [],
+                "tags": [
+                    "white"
+                ],
                 "data": {
                     "brand": "Hema",
                     "color_family": "white",
@@ -1353,7 +1524,13 @@
                 "id": "hema-mon-amour",
                 "type": "polish",
                 "name": "Hema Mon Amour",
-                "tags": [],
+                "tags": [
+                    "topper",
+                    "heart-glitter",
+                    "clear-base",
+                    "pink",
+                    "glitter"
+                ],
                 "data": {
                     "brand": "Hema",
                     "color_family": "pink",
@@ -1379,7 +1556,9 @@
                 "id": "hema-out-of-space",
                 "type": "polish",
                 "name": "Hema Out of Space",
-                "tags": [],
+                "tags": [
+                    "space"
+                ],
                 "data": {
                     "brand": "Hema",
                     "color_family": "",
@@ -1398,7 +1577,11 @@
                 "id": "hema-passionate-raspberry",
                 "type": "polish",
                 "name": "Hema Passionate Raspberry",
-                "tags": [],
+                "tags": [
+                    "personal swatch photographed",
+                    "matte comparison swatch",
+                    "pink"
+                ],
                 "data": {
                     "brand": "Hema",
                     "color_family": "pink",
@@ -1417,7 +1600,11 @@
                 "id": "hema-pink-diamond",
                 "type": "polish",
                 "name": "Hema Pink Diamond",
-                "tags": [],
+                "tags": [
+                    "topper",
+                    "pink",
+                    "glitter"
+                ],
                 "data": {
                     "brand": "Hema",
                     "color_family": "pink",
@@ -1436,7 +1623,9 @@
                 "id": "hema-pink-sunrise",
                 "type": "polish",
                 "name": "Hema Pink Sunrise",
-                "tags": [],
+                "tags": [
+                    "pink"
+                ],
                 "data": {
                     "brand": "Hema",
                     "color_family": "",
@@ -1455,7 +1644,10 @@
                 "id": "hema-purpalicious",
                 "type": "polish",
                 "name": "HEMA Purpalicious",
-                "tags": [],
+                "tags": [
+                    "purple",
+                    "color"
+                ],
                 "data": {
                     "brand": "HEMA",
                     "shade_name": "Purpalicious",
@@ -1487,7 +1679,10 @@
                 "id": "hema-purple-blossom",
                 "type": "polish",
                 "name": "Hema Purple Blossom",
-                "tags": [],
+                "tags": [
+                    "glossy and matte swatches",
+                    "purple"
+                ],
                 "data": {
                     "brand": "Hema",
                     "color_family": "purple",
@@ -1506,7 +1701,11 @@
                 "id": "hema-purple-glitter",
                 "type": "polish",
                 "name": "Hema Purple Glitter",
-                "tags": [],
+                "tags": [
+                    "topper",
+                    "purple",
+                    "glitter"
+                ],
                 "data": {
                     "brand": "Hema",
                     "color_family": "purple",
@@ -1525,7 +1724,11 @@
                 "id": "hema-rose-petals",
                 "type": "polish",
                 "name": "Hema Rose Petals",
-                "tags": [],
+                "tags": [
+                    "topper",
+                    "pink",
+                    "glitter"
+                ],
                 "data": {
                     "brand": "Hema",
                     "shade_name": "Rose Petals",
@@ -1551,7 +1754,9 @@
                 "id": "hema-royal-orange",
                 "type": "polish",
                 "name": "Hema Royal Orange",
-                "tags": [],
+                "tags": [
+                    "orange"
+                ],
                 "data": {
                     "brand": "Hema",
                     "color_family": "orange",
@@ -1570,7 +1775,10 @@
                 "id": "hema-shimmering-pearl",
                 "type": "polish",
                 "name": "Hema Shimmering Pearl",
-                "tags": [],
+                "tags": [
+                    "pearl",
+                    "shimmer"
+                ],
                 "data": {
                     "brand": "Hema",
                     "color_family": "",
@@ -1589,7 +1797,10 @@
                 "id": "hema-steel-grey-matte",
                 "type": "polish",
                 "name": "Hema Steel Grey - Matte",
-                "tags": [],
+                "tags": [
+                    "gray",
+                    "matte"
+                ],
                 "data": {
                     "brand": "Hema",
                     "color_family": "",
@@ -1608,7 +1819,9 @@
                 "id": "hema-steel-grey",
                 "type": "polish",
                 "name": "Hema Steel Grey",
-                "tags": [],
+                "tags": [
+                    "gray"
+                ],
                 "data": {
                     "brand": "Hema",
                     "color_family": "gray",
@@ -1627,7 +1840,9 @@
                 "id": "hema-sunny-flowers",
                 "type": "polish",
                 "name": "Hema Sunny Flowers",
-                "tags": [],
+                "tags": [
+                    "yellow"
+                ],
                 "data": {
                     "brand": "Hema",
                     "color_family": "yellow",
@@ -1646,7 +1861,9 @@
                 "id": "hema-tickle-tackle",
                 "type": "polish",
                 "name": "HEMA Tickle Tackle",
-                "tags": [],
+                "tags": [
+                    "color"
+                ],
                 "data": {
                     "brand": "HEMA",
                     "shade_name": "Tickle Tackle",
@@ -1678,7 +1895,9 @@
                 "id": "hema-tompouce-bruin",
                 "type": "polish",
                 "name": "Hema Tompouce Bruin",
-                "tags": [],
+                "tags": [
+                    "brown"
+                ],
                 "data": {
                     "brand": "Hema",
                     "color_family": "brown",
@@ -1697,7 +1916,9 @@
                 "id": "hema-tompouce-geel",
                 "type": "polish",
                 "name": "Hema Tompouce Geel",
-                "tags": [],
+                "tags": [
+                    "yellow"
+                ],
                 "data": {
                     "brand": "Hema",
                     "color_family": "yellow",
@@ -1716,7 +1937,10 @@
                 "id": "hema-tompouce-roze",
                 "type": "polish",
                 "name": "Hema Tompouce Roze",
-                "tags": [],
+                "tags": [
+                    "glossy and matte swatches",
+                    "pink"
+                ],
                 "data": {
                     "brand": "Hema",
                     "color_family": "pink",
@@ -1735,7 +1959,13 @@
                 "id": "hema-twinkle-twinkle",
                 "type": "polish",
                 "name": "Hema Twinkle Twinkle",
-                "tags": [],
+                "tags": [
+                    "topper",
+                    "star-glitter",
+                    "gold",
+                    "clear-base",
+                    "glitter"
+                ],
                 "data": {
                     "brand": "Hema",
                     "color_family": "multicolor",
@@ -1767,7 +1997,9 @@
                 "id": "hema-vivid-jade",
                 "type": "polish",
                 "name": "Hema Vivid Jade",
-                "tags": [],
+                "tags": [
+                    "green"
+                ],
                 "data": {
                     "brand": "Hema",
                     "color_family": "green",
@@ -1786,7 +2018,9 @@
                 "id": "hema-white-lie",
                 "type": "polish",
                 "name": "Hema White Lie",
-                "tags": [],
+                "tags": [
+                    "white"
+                ],
                 "data": {
                     "brand": "Hema",
                     "color_family": "white",
@@ -1805,7 +2039,10 @@
                 "id": "hema-wicked-wine",
                 "type": "polish",
                 "name": "HEMA Wicked Wine",
-                "tags": [],
+                "tags": [
+                    "red",
+                    "color"
+                ],
                 "data": {
                     "brand": "HEMA",
                     "shade_name": "Wicked Wine",
@@ -1837,7 +2074,10 @@
                 "id": "hema-wooshy-wednesday",
                 "type": "polish",
                 "name": "Hema Wooshy Wednesday",
-                "tags": [],
+                "tags": [
+                    "swatch photographed",
+                    "blue"
+                ],
                 "data": {
                     "brand": "Hema",
                     "color_family": "blue",
@@ -1875,7 +2115,9 @@
                 "id": "herzlack-einhornnacht",
                 "type": "polish",
                 "name": "Herzlack Einhornnacht",
-                "tags": [],
+                "tags": [
+                    "unicorn"
+                ],
                 "data": {
                     "brand": "Herzlack",
                     "color_family": "",
@@ -1894,7 +2136,9 @@
                 "id": "herzlack-orange",
                 "type": "polish",
                 "name": "Herzlack Orange",
-                "tags": [],
+                "tags": [
+                    "orange"
+                ],
                 "data": {
                     "brand": "Herzlack",
                     "color_family": "orange",
@@ -1913,7 +2157,13 @@
                 "id": "herzlack-spektrum",
                 "type": "polish",
                 "name": "Herzlack Spektrum",
-                "tags": [],
+                "tags": [
+                    "topper",
+                    "iridescent",
+                    "chunky-glitter",
+                    "sheer",
+                    "glitter"
+                ],
                 "data": {
                     "brand": "Herzlack",
                     "color_family": "multicolor",
@@ -1945,7 +2195,9 @@
                 "id": "herzlack-zuckerstreusel",
                 "type": "polish",
                 "name": "Herzlack Zuckerstreusel",
-                "tags": [],
+                "tags": [
+                    "sprinkles"
+                ],
                 "data": {
                     "brand": "Herzlack",
                     "color_family": "",
@@ -1964,7 +2216,14 @@
                 "id": "holo-taco-8-bit-blues",
                 "type": "polish",
                 "name": "Holo Taco 8-Bit Blues",
-                "tags": [],
+                "tags": [
+                    "collection",
+                    "aqua-blue",
+                    "holographic",
+                    "glitter",
+                    "blue",
+                    "holo"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "blue",
@@ -1996,7 +2255,9 @@
                 "id": "holo-taco-alien-infatuation",
                 "type": "polish",
                 "name": "Holo Taco Alien Infatuation",
-                "tags": [],
+                "tags": [
+                    "purple"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "purple",
@@ -2022,7 +2283,13 @@
                 "id": "holo-taco-anti-hero",
                 "type": "polish",
                 "name": "Holo Taco Anti-Hero",
-                "tags": [],
+                "tags": [
+                    "collection",
+                    "holographic",
+                    "jelly",
+                    "purple",
+                    "holo"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "purple",
@@ -2060,7 +2327,12 @@
                 "id": "holo-taco-aurora-unicorn-skin",
                 "type": "polish",
                 "name": "Holo Taco Aurora Unicorn Skin",
-                "tags": [],
+                "tags": [
+                    "topper",
+                    "flakie",
+                    "iridescent",
+                    "shimmer"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "multicolor",
@@ -2098,7 +2370,14 @@
                 "id": "holo-taco-be-kind-rewind",
                 "type": "polish",
                 "name": "Holo Taco Be Kind Rewind",
-                "tags": [],
+                "tags": [
+                    "collection",
+                    "holographic",
+                    "jelly",
+                    "blue",
+                    "green",
+                    "holo"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "turquoise",
@@ -2136,7 +2415,13 @@
                 "id": "holo-taco-blue-flakie-holo-taco",
                 "type": "polish",
                 "name": "Holo Taco Blue Flakie Holo Taco",
-                "tags": [],
+                "tags": [
+                    "topper",
+                    "flakie",
+                    "blue",
+                    "holographic",
+                    "holo"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "blue",
@@ -2174,7 +2459,12 @@
                 "id": "holo-taco-blue-freezie",
                 "type": "polish",
                 "name": "Holo Taco Blue Freezie",
-                "tags": [],
+                "tags": [
+                    "collection",
+                    "holographic",
+                    "blue",
+                    "holo"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "blue",
@@ -2212,7 +2502,14 @@
                 "id": "holo-taco-blue-rizzler",
                 "type": "polish",
                 "name": "Holo Taco Blue Rizzler",
-                "tags": [],
+                "tags": [
+                    "collection",
+                    "holographic",
+                    "iridescent",
+                    "shimmer",
+                    "blue",
+                    "holo"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "blue",
@@ -2250,7 +2547,13 @@
                 "id": "holo-taco-bonus-life",
                 "type": "polish",
                 "name": "Holo Taco Bonus Life",
-                "tags": [],
+                "tags": [
+                    "collection",
+                    "glitter",
+                    "holographic",
+                    "green",
+                    "holo"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "green",
@@ -2307,7 +2610,10 @@
                 "id": "holo-taco-born-ugly",
                 "type": "polish",
                 "name": "Holo Taco Born Ugly",
-                "tags": [],
+                "tags": [
+                    "personal swatch photographed",
+                    "brown"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "brown",
@@ -2333,7 +2639,13 @@
                 "id": "holo-taco-box-office-bomb",
                 "type": "polish",
                 "name": "Holo Taco Box Office Bomb",
-                "tags": [],
+                "tags": [
+                    "collection",
+                    "holographic",
+                    "jelly",
+                    "orange",
+                    "holo"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "orange",
@@ -2371,7 +2683,10 @@
                 "id": "holo-taco-bring-me-the-teal",
                 "type": "polish",
                 "name": "Holo Taco Bring Me the Teal",
-                "tags": [],
+                "tags": [
+                    "swatch photographed",
+                    "blue"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "blue",
@@ -2397,7 +2712,11 @@
                 "id": "holo-taco-brownie-points",
                 "type": "polish",
                 "name": "Holo Taco Brownie Points",
-                "tags": [],
+                "tags": [
+                    "brown",
+                    "color",
+                    "creme"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "brown",
@@ -2435,7 +2754,14 @@
                 "id": "holo-taco-byte-my-peach",
                 "type": "polish",
                 "name": "Holo Taco Byte My Peach",
-                "tags": [],
+                "tags": [
+                    "collection",
+                    "glitter",
+                    "holographic",
+                    "orange",
+                    "pink",
+                    "holo"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "peach",
@@ -2473,7 +2799,13 @@
                 "id": "holo-taco-call-me-vixen",
                 "type": "polish",
                 "name": "Holo Taco Call Me Vixen",
-                "tags": [],
+                "tags": [
+                    "collection",
+                    "red",
+                    "shimmer",
+                    "holographic",
+                    "holo"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "red",
@@ -2505,7 +2837,11 @@
                 "id": "holo-taco-celestial-lights",
                 "type": "polish",
                 "name": "Holo Taco Celestial Lights",
-                "tags": [],
+                "tags": [
+                    "multicolor",
+                    "topper",
+                    "shimmer"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "multicolor",
@@ -2543,7 +2879,11 @@
                 "id": "holo-taco-cheap-champagne",
                 "type": "polish",
                 "name": "Holo Taco Cheap Champagne",
-                "tags": [],
+                "tags": [
+                    "gold",
+                    "metallic",
+                    "flakie"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "gold/copper",
@@ -2562,7 +2902,11 @@
                 "id": "holo-taco-circuit-breaker",
                 "type": "polish",
                 "name": "Holo Taco Circuit Breaker",
-                "tags": [],
+                "tags": [
+                    "gray",
+                    "holographic",
+                    "holo"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "gray",
@@ -2588,7 +2932,13 @@
                 "id": "holo-taco-coin-toss",
                 "type": "polish",
                 "name": "Holo Taco Coin Toss",
-                "tags": [],
+                "tags": [
+                    "collection",
+                    "glitter",
+                    "holographic",
+                    "gold",
+                    "holo"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "gold/copper",
@@ -2626,7 +2976,9 @@
                 "id": "holo-taco-cold-shoulder",
                 "type": "polish",
                 "name": "Holo Taco Cold Shoulder",
-                "tags": [],
+                "tags": [
+                    "blue"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "blue",
@@ -2645,7 +2997,9 @@
                 "id": "holo-taco-cold-slate",
                 "type": "polish",
                 "name": "Holo Taco Cold Slate",
-                "tags": [],
+                "tags": [
+                    "gray"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "gray",
@@ -2671,7 +3025,13 @@
                 "id": "holo-taco-coral-chaser",
                 "type": "polish",
                 "name": "Holo Taco Coral Chaser",
-                "tags": [],
+                "tags": [
+                    "collection",
+                    "holographic",
+                    "orange",
+                    "pink",
+                    "holo"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "coral",
@@ -2709,7 +3069,12 @@
                 "id": "holo-taco-cosmic-unicorn-skin",
                 "type": "polish",
                 "name": "Holo Taco Cosmic Unicorn Skin",
-                "tags": [],
+                "tags": [
+                    "topper",
+                    "flakie",
+                    "iridescent",
+                    "shimmer"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "multicolor",
@@ -2747,7 +3112,13 @@
                 "id": "holo-taco-crescent-moon-taco",
                 "type": "polish",
                 "name": "Holo Taco Crescent Moon Taco",
-                "tags": [],
+                "tags": [
+                    "topper",
+                    "glitter",
+                    "holographic",
+                    "iridescent",
+                    "holo"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "multicolor",
@@ -2785,7 +3156,12 @@
                 "id": "holo-taco-crimson-void",
                 "type": "polish",
                 "name": "Holo Taco Crimson Void",
-                "tags": [],
+                "tags": [
+                    "collection",
+                    "holographic",
+                    "red",
+                    "holo"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "dark red",
@@ -2823,7 +3199,13 @@
                 "id": "holo-taco-ctrl-cutie",
                 "type": "polish",
                 "name": "Holo Taco CTRL Cutie",
-                "tags": [],
+                "tags": [
+                    "collection",
+                    "glitter",
+                    "holographic",
+                    "pink",
+                    "holo"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "pink",
@@ -2861,7 +3243,10 @@
                 "id": "holo-taco-cyantific",
                 "type": "polish",
                 "name": "Holo Taco Cyantific",
-                "tags": [],
+                "tags": [
+                    "swatch photographed",
+                    "blue"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "blue",
@@ -2880,7 +3265,13 @@
                 "id": "holo-taco-dead-petals",
                 "type": "polish",
                 "name": "Holo Taco Dead Petals",
-                "tags": [],
+                "tags": [
+                    "collection",
+                    "holographic",
+                    "red",
+                    "purple",
+                    "holo"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "burgundy",
@@ -2918,7 +3309,10 @@
                 "id": "holo-taco-diamond-dasher-taco",
                 "type": "polish",
                 "name": "Holo Taco Diamond Dasher Taco",
-                "tags": [],
+                "tags": [
+                    "topper",
+                    "glitter"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "multicolor",
@@ -2950,7 +3344,9 @@
                 "id": "holo-taco-don-t-be-jelly",
                 "type": "polish",
                 "name": "Holo Taco Don't Be Jelly",
-                "tags": [],
+                "tags": [
+                    "jelly"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "",
@@ -2969,7 +3365,12 @@
                 "id": "holo-taco-dream-eater",
                 "type": "polish",
                 "name": "Holo Taco Dream Eater",
-                "tags": [],
+                "tags": [
+                    "collection",
+                    "holographic",
+                    "purple",
+                    "holo"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "purple",
@@ -3007,7 +3408,11 @@
                 "id": "holo-taco-electric-sweetener",
                 "type": "polish",
                 "name": "Holo Taco Electric Sweetener",
-                "tags": [],
+                "tags": [
+                    "collection",
+                    "shimmer",
+                    "purple"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "purple",
@@ -3045,7 +3450,11 @@
                 "id": "holo-taco-everything-taco",
                 "type": "polish",
                 "name": "Holo Taco Everything Taco",
-                "tags": [],
+                "tags": [
+                    "topper",
+                    "iridescent",
+                    "glitter"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "multicolor",
@@ -3109,7 +3518,9 @@
                 "id": "holo-taco-fake-date",
                 "type": "polish",
                 "name": "Holo Taco Fake Date",
-                "tags": [],
+                "tags": [
+                    "gold"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "gold/copper",
@@ -3128,7 +3539,13 @@
                 "id": "holo-taco-fallen-flake-taco",
                 "type": "polish",
                 "name": "Holo Taco Fallen Flake Taco",
-                "tags": [],
+                "tags": [
+                    "topper",
+                    "chrome",
+                    "flakie",
+                    "metallic",
+                    "glitter"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "multicolor",
@@ -3166,7 +3583,12 @@
                 "id": "holo-taco-flakie-holo-taco",
                 "type": "polish",
                 "name": "Holo Taco Flakie Holo Taco",
-                "tags": [],
+                "tags": [
+                    "topper",
+                    "flakie",
+                    "holographic",
+                    "holo"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "multicolor",
@@ -3204,7 +3626,9 @@
                 "id": "holo-taco-foreshadow",
                 "type": "polish",
                 "name": "Holo Taco Foreshadow",
-                "tags": [],
+                "tags": [
+                    "gray"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "gray",
@@ -3223,7 +3647,12 @@
                 "id": "holo-taco-freezer-burn",
                 "type": "polish",
                 "name": "Holo Taco Freezer Burn",
-                "tags": [],
+                "tags": [
+                    "topper",
+                    "iridescent",
+                    "shimmer",
+                    "blue"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "blue",
@@ -3261,7 +3690,9 @@
                 "id": "holo-taco-frost-light",
                 "type": "polish",
                 "name": "Holo Taco Frost Light",
-                "tags": [],
+                "tags": [
+                    "blue"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "blue",
@@ -3280,7 +3711,11 @@
                 "id": "holo-taco-galactic-unicorn-skin",
                 "type": "polish",
                 "name": "Holo Taco Galactic Unicorn Skin",
-                "tags": [],
+                "tags": [
+                    "topper",
+                    "iridescent",
+                    "shimmer"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "multicolor",
@@ -3318,7 +3753,9 @@
                 "id": "holo-taco-gift-receipt",
                 "type": "polish",
                 "name": "Holo Taco Gift Receipt",
-                "tags": [],
+                "tags": [
+                    "gray"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "gray",
@@ -3337,7 +3774,13 @@
                 "id": "holo-taco-girly-ghoul",
                 "type": "polish",
                 "name": "Holo Taco Girly Ghoul",
-                "tags": [],
+                "tags": [
+                    "collection",
+                    "holographic",
+                    "shimmer",
+                    "purple",
+                    "holo"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "purple",
@@ -3375,7 +3818,9 @@
                 "id": "holo-taco-glamethyst",
                 "type": "polish",
                 "name": "Holo Taco Glamethyst",
-                "tags": [],
+                "tags": [
+                    "purple"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "purple",
@@ -3394,7 +3839,13 @@
                 "id": "holo-taco-glitch-glam",
                 "type": "polish",
                 "name": "Holo Taco Glitch & Glam",
-                "tags": [],
+                "tags": [
+                    "collection",
+                    "glitter",
+                    "holographic",
+                    "purple",
+                    "holo"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "purple",
@@ -3432,7 +3883,11 @@
                 "id": "holo-taco-glossy-taco",
                 "type": "polish",
                 "name": "Holo Taco Glossy Taco",
-                "tags": [],
+                "tags": [
+                    "clear",
+                    "glossy",
+                    "topper"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "shade_name": "Glossy Taco",
@@ -3470,7 +3925,12 @@
                 "id": "holo-taco-gold-scattered-holo-taco",
                 "type": "polish",
                 "name": "Holo Taco Gold Scattered Holo Taco",
-                "tags": [],
+                "tags": [
+                    "topper",
+                    "gold",
+                    "holographic",
+                    "holo"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "gold/copper",
@@ -3496,7 +3956,13 @@
                 "id": "holo-taco-golden-flake-taco",
                 "type": "polish",
                 "name": "Holo Taco Golden Flake Taco",
-                "tags": [],
+                "tags": [
+                    "topper",
+                    "creme",
+                    "metallic",
+                    "gold",
+                    "glitter"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "gold/copper",
@@ -3534,7 +4000,12 @@
                 "id": "holo-taco-green-taffy",
                 "type": "polish",
                 "name": "Holo Taco Green Taffy",
-                "tags": [],
+                "tags": [
+                    "collection",
+                    "holographic",
+                    "green",
+                    "holo"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "green",
@@ -3572,7 +4043,12 @@
                 "id": "holo-taco-grim-keeper",
                 "type": "polish",
                 "name": "Holo Taco Grim Keeper",
-                "tags": [],
+                "tags": [
+                    "multicolor",
+                    "metallic",
+                    "color",
+                    "collection"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "shade_name": "Grim Keeper",
@@ -3610,7 +4086,10 @@
                 "id": "holo-taco-head-hunter",
                 "type": "polish",
                 "name": "Holo Taco Head Hunter",
-                "tags": [],
+                "tags": [
+                    "personal swatch photographed",
+                    "blue"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "blue",
@@ -3629,7 +4108,13 @@
                 "id": "holo-taco-hi-def",
                 "type": "polish",
                 "name": "Holo Taco Hi-Def",
-                "tags": [],
+                "tags": [
+                    "collection",
+                    "holographic",
+                    "jelly",
+                    "yellow",
+                    "holo"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "yellow",
@@ -3667,7 +4152,10 @@
                 "id": "holo-taco-high-tea-hibiscus",
                 "type": "polish",
                 "name": "Holo Taco High Tea Hibiscus",
-                "tags": [],
+                "tags": [
+                    "glossy and matte swatches",
+                    "purple"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "purple",
@@ -3686,7 +4174,9 @@
                 "id": "holo-taco-hydropower",
                 "type": "polish",
                 "name": "Holo Taco Hydropower",
-                "tags": [],
+                "tags": [
+                    "green"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "green",
@@ -3712,7 +4202,9 @@
                 "id": "holo-taco-i-m-over-brew",
                 "type": "polish",
                 "name": "Holo Taco I'm Over Brew",
-                "tags": [],
+                "tags": [
+                    "brown"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "brown",
@@ -3738,7 +4230,12 @@
                 "id": "holo-taco-ice-angel",
                 "type": "polish",
                 "name": "Holo Taco Ice Angel",
-                "tags": [],
+                "tags": [
+                    "collection",
+                    "white",
+                    "holographic",
+                    "holo"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "white",
@@ -3770,7 +4267,10 @@
                 "id": "holo-taco-indigo-away",
                 "type": "polish",
                 "name": "Holo Taco Indigo Away",
-                "tags": [],
+                "tags": [
+                    "swatch photographed",
+                    "blue"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "blue",
@@ -3789,7 +4289,14 @@
                 "id": "holo-taco-jam-session",
                 "type": "polish",
                 "name": "Holo Taco Jam Session",
-                "tags": [],
+                "tags": [
+                    "collection",
+                    "holographic",
+                    "iridescent",
+                    "shimmer",
+                    "pink",
+                    "holo"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "berry pink",
@@ -3827,7 +4334,9 @@
                 "id": "holo-taco-keep-it-evergreen",
                 "type": "polish",
                 "name": "Holo Taco Keep It Evergreen",
-                "tags": [],
+                "tags": [
+                    "green"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "green",
@@ -3853,7 +4362,10 @@
                 "id": "holo-taco-laven-duh",
                 "type": "polish",
                 "name": "Holo Taco Laven-duh",
-                "tags": [],
+                "tags": [
+                    "glossy and matte swatches",
+                    "purple"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "purple",
@@ -3872,7 +4384,12 @@
                 "id": "holo-taco-lavender-syrup",
                 "type": "polish",
                 "name": "Holo Taco Lavender Syrup",
-                "tags": [],
+                "tags": [
+                    "collection",
+                    "holographic",
+                    "purple",
+                    "holo"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "purple",
@@ -3910,7 +4427,9 @@
                 "id": "holo-taco-left-on-red",
                 "type": "polish",
                 "name": "Holo Taco Left on Red",
-                "tags": [],
+                "tags": [
+                    "red"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "red",
@@ -3929,7 +4448,12 @@
                 "id": "holo-taco-lemon-spritzer",
                 "type": "polish",
                 "name": "Holo Taco Lemon Spritzer",
-                "tags": [],
+                "tags": [
+                    "collection",
+                    "holographic",
+                    "yellow",
+                    "holo"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "yellow",
@@ -3967,7 +4491,12 @@
                 "id": "holo-taco-lemon-sucker",
                 "type": "polish",
                 "name": "Holo Taco Lemon Sucker",
-                "tags": [],
+                "tags": [
+                    "collection",
+                    "holographic",
+                    "yellow",
+                    "holo"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "yellow",
@@ -4005,7 +4534,13 @@
                 "id": "holo-taco-life-in-plastic",
                 "type": "polish",
                 "name": "Holo Taco Life in Plastic",
-                "tags": [],
+                "tags": [
+                    "collection",
+                    "holographic",
+                    "jelly",
+                    "pink",
+                    "holo"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "pink",
@@ -4043,7 +4578,11 @@
                 "id": "holo-taco-linear-holo-taco",
                 "type": "polish",
                 "name": "Holo Taco Linear Holo Taco",
-                "tags": [],
+                "tags": [
+                    "topper",
+                    "holographic",
+                    "holo"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "multicolor",
@@ -4081,7 +4620,10 @@
                 "id": "holo-taco-lo-fi-lavender",
                 "type": "polish",
                 "name": "Holo Taco Lo-fi Lavender",
-                "tags": [],
+                "tags": [
+                    "collection",
+                    "purple"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "purple",
@@ -4119,7 +4661,12 @@
                 "id": "holo-taco-lost-in-the-woods",
                 "type": "polish",
                 "name": "Holo Taco Lost in the Woods",
-                "tags": [],
+                "tags": [
+                    "collection",
+                    "holographic",
+                    "green",
+                    "holo"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "dark green",
@@ -4157,7 +4704,11 @@
                 "id": "holo-taco-lunar-unicorn-skin",
                 "type": "polish",
                 "name": "Holo Taco Lunar Unicorn Skin",
-                "tags": [],
+                "tags": [
+                    "topper",
+                    "iridescent",
+                    "shimmer"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "multicolor",
@@ -4214,7 +4765,13 @@
                 "id": "holo-taco-magneta-jelly",
                 "type": "polish",
                 "name": "Holo Taco Magneta Jelly",
-                "tags": [],
+                "tags": [
+                    "collection",
+                    "holographic",
+                    "pink",
+                    "purple",
+                    "holo"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "magenta",
@@ -4252,7 +4809,11 @@
                 "id": "holo-taco-matte-taco",
                 "type": "polish",
                 "name": "Holo Taco Matte Taco",
-                "tags": [],
+                "tags": [
+                    "clear",
+                    "matte",
+                    "topper"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "shade_name": "Matte Taco",
@@ -4290,7 +4851,9 @@
                 "id": "holo-taco-menchie-the-cat",
                 "type": "polish",
                 "name": "Holo Taco Menchie the Cat",
-                "tags": [],
+                "tags": [
+                    "pink"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "pink",
@@ -4309,7 +4872,12 @@
                 "id": "holo-taco-mint-mojito",
                 "type": "polish",
                 "name": "Holo Taco Mint Mojito",
-                "tags": [],
+                "tags": [
+                    "collection",
+                    "holographic",
+                    "green",
+                    "holo"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "green",
@@ -4347,7 +4915,10 @@
                 "id": "holo-taco-modest-moss",
                 "type": "polish",
                 "name": "Holo Taco Modest Moss",
-                "tags": [],
+                "tags": [
+                    "personal swatch photographed",
+                    "green"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "green",
@@ -4366,7 +4937,12 @@
                 "id": "holo-taco-moonlight-sacrifice",
                 "type": "polish",
                 "name": "Holo Taco Moonlight Sacrifice",
-                "tags": [],
+                "tags": [
+                    "topper",
+                    "collection",
+                    "jelly",
+                    "shimmer"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "shade_name": "Moonlight Sacrifice",
@@ -4404,7 +4980,9 @@
                 "id": "holo-taco-nature-calls",
                 "type": "polish",
                 "name": "Holo Taco Nature Calls",
-                "tags": [],
+                "tags": [
+                    "green"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "green",
@@ -4423,7 +5001,9 @@
                 "id": "holo-taco-never-tide-down",
                 "type": "polish",
                 "name": "Holo Taco Never Tide Down",
-                "tags": [],
+                "tags": [
+                    "blue"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "blue",
@@ -4442,7 +5022,12 @@
                 "id": "holo-taco-no-opalogies",
                 "type": "polish",
                 "name": "Holo Taco No Opalogies",
-                "tags": [],
+                "tags": [
+                    "topper",
+                    "flakie",
+                    "iridescent",
+                    "shimmer"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "multicolor",
@@ -4480,7 +5065,10 @@
                 "id": "holo-taco-not-milky-white",
                 "type": "polish",
                 "name": "Holo Taco Not Milky White",
-                "tags": [],
+                "tags": [
+                    "white",
+                    "creme"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "white",
@@ -4506,7 +5094,11 @@
                 "id": "holo-taco-one-coat-black",
                 "type": "polish",
                 "name": "Holo Taco One-Coat Black",
-                "tags": [],
+                "tags": [
+                    "black",
+                    "color",
+                    "creme"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "black",
@@ -4544,7 +5136,12 @@
                 "id": "holo-taco-orange-drink",
                 "type": "polish",
                 "name": "Holo Taco Orange Drink",
-                "tags": [],
+                "tags": [
+                    "collection",
+                    "holographic",
+                    "orange",
+                    "holo"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "orange",
@@ -4582,7 +5179,9 @@
                 "id": "holo-taco-party-punch",
                 "type": "polish",
                 "name": "Holo Taco Party Punch",
-                "tags": [],
+                "tags": [
+                    "pink"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "pink",
@@ -4601,7 +5200,13 @@
                 "id": "holo-taco-peach-tea",
                 "type": "polish",
                 "name": "Holo Taco Peach Tea",
-                "tags": [],
+                "tags": [
+                    "collection",
+                    "holographic",
+                    "orange",
+                    "pink",
+                    "holo"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "peach",
@@ -4639,7 +5244,12 @@
                 "id": "holo-taco-pink-fizz",
                 "type": "polish",
                 "name": "Holo Taco Pink Fizz",
-                "tags": [],
+                "tags": [
+                    "collection",
+                    "holographic",
+                    "pink",
+                    "holo"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "pink",
@@ -4677,7 +5287,12 @@
                 "id": "holo-taco-pirouette-pink",
                 "type": "polish",
                 "name": "Holo Taco Pirouette Pink",
-                "tags": [],
+                "tags": [
+                    "collection",
+                    "pink",
+                    "holographic",
+                    "holo"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "pink",
@@ -4709,7 +5324,12 @@
                 "id": "holo-taco-polar-princess",
                 "type": "polish",
                 "name": "Holo Taco Polar Princess",
-                "tags": [],
+                "tags": [
+                    "topper",
+                    "iridescent",
+                    "shimmer",
+                    "pink"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "pink",
@@ -4747,7 +5367,14 @@
                 "id": "holo-taco-pop-rocker",
                 "type": "polish",
                 "name": "Holo Taco Pop Rocker",
-                "tags": [],
+                "tags": [
+                    "collection",
+                    "holographic",
+                    "iridescent",
+                    "shimmer",
+                    "pink",
+                    "holo"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "pink",
@@ -4785,7 +5412,12 @@
                 "id": "holo-taco-purple-slushie",
                 "type": "polish",
                 "name": "Holo Taco Purple Slushie",
-                "tags": [],
+                "tags": [
+                    "collection",
+                    "holographic",
+                    "purple",
+                    "holo"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "purple",
@@ -4823,7 +5455,9 @@
                 "id": "holo-taco-rainbow-flood",
                 "type": "polish",
                 "name": "Holo Taco Rainbow Flood",
-                "tags": [],
+                "tags": [
+                    "purple"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "purple",
@@ -4842,7 +5476,9 @@
                 "id": "holo-taco-rainbow-snow",
                 "type": "polish",
                 "name": "Holo Taco Rainbow Snow",
-                "tags": [],
+                "tags": [
+                    "gray"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "gray",
@@ -4868,7 +5504,12 @@
                 "id": "holo-taco-red-licorice",
                 "type": "polish",
                 "name": "Holo Taco Red Licorice",
-                "tags": [],
+                "tags": [
+                    "collection",
+                    "holographic",
+                    "red",
+                    "holo"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "red",
@@ -4906,7 +5547,10 @@
                 "id": "holo-taco-rip-bestie",
                 "type": "polish",
                 "name": "Holo Taco RIP Bestie",
-                "tags": [],
+                "tags": [
+                    "collection",
+                    "shimmer"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "shade_name": "RIP Bestie",
@@ -4944,7 +5588,11 @@
                 "id": "holo-taco-scattered-holo-taco",
                 "type": "polish",
                 "name": "Holo Taco Scattered Holo Taco",
-                "tags": [],
+                "tags": [
+                    "topper",
+                    "holographic",
+                    "holo"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "multicolor",
@@ -4982,7 +5630,10 @@
                 "id": "holo-taco-shady-navy",
                 "type": "polish",
                 "name": "Holo Taco Shady Navy",
-                "tags": [],
+                "tags": [
+                    "swatch photographed",
+                    "blue"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "blue",
@@ -5001,7 +5652,12 @@
                 "id": "holo-taco-shooting-star-taco",
                 "type": "polish",
                 "name": "Holo Taco Shooting Star Taco",
-                "tags": [],
+                "tags": [
+                    "topper",
+                    "glitter",
+                    "holographic",
+                    "holo"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "multicolor",
@@ -5039,7 +5695,11 @@
                 "id": "holo-taco-smoothing-base",
                 "type": "polish",
                 "name": "Holo Taco Smoothing Base",
-                "tags": [],
+                "tags": [
+                    "clear",
+                    "base coat",
+                    "base"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "shade_name": "Smoothing Base",
@@ -5077,7 +5737,13 @@
                 "id": "holo-taco-solar-unicorn-skin",
                 "type": "polish",
                 "name": "Holo Taco Solar Unicorn Skin",
-                "tags": [],
+                "tags": [
+                    "topper",
+                    "flakie",
+                    "iridescent",
+                    "orange",
+                    "shimmer"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "orange",
@@ -5115,7 +5781,12 @@
                 "id": "holo-taco-sonic-unicorn-skin",
                 "type": "polish",
                 "name": "Holo Taco Sonic Unicorn Skin",
-                "tags": [],
+                "tags": [
+                    "topper",
+                    "iridescent",
+                    "blue",
+                    "shimmer"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "blue",
@@ -5153,7 +5824,14 @@
                 "id": "holo-taco-sour-note",
                 "type": "polish",
                 "name": "Holo Taco Sour Note",
-                "tags": [],
+                "tags": [
+                    "collection",
+                    "holographic",
+                    "iridescent",
+                    "shimmer",
+                    "green",
+                    "holo"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "green",
@@ -5191,7 +5869,9 @@
                 "id": "holo-taco-spirit-fingers",
                 "type": "polish",
                 "name": "Holo Taco Spirit Fingers",
-                "tags": [],
+                "tags": [
+                    "purple"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "purple",
@@ -5210,7 +5890,9 @@
                 "id": "holo-taco-spyglass",
                 "type": "polish",
                 "name": "Holo Taco Spyglass",
-                "tags": [],
+                "tags": [
+                    "blue"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "blue",
@@ -5229,7 +5911,9 @@
                 "id": "holo-taco-steep-dreams",
                 "type": "polish",
                 "name": "Holo Taco Steep Dreams",
-                "tags": [],
+                "tags": [
+                    "green"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "green",
@@ -5248,7 +5932,14 @@
                 "id": "holo-taco-sugar-rush",
                 "type": "polish",
                 "name": "Holo Taco Sugar Rush",
-                "tags": [],
+                "tags": [
+                    "collection",
+                    "holographic",
+                    "iridescent",
+                    "shimmer",
+                    "white",
+                    "holo"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "white",
@@ -5286,7 +5977,14 @@
                 "id": "holo-taco-sunken-secrets",
                 "type": "polish",
                 "name": "Holo Taco Sunken Secrets",
-                "tags": [],
+                "tags": [
+                    "collection",
+                    "holographic",
+                    "teal",
+                    "blue",
+                    "green",
+                    "holo"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "dark teal",
@@ -5324,7 +6022,15 @@
                 "id": "holo-taco-sunshine-crush",
                 "type": "polish",
                 "name": "Holo Taco Sunshine Crush",
-                "tags": [],
+                "tags": [
+                    "collection",
+                    "holographic",
+                    "iridescent",
+                    "shimmer",
+                    "yellow",
+                    "orange",
+                    "holo"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "yellow/orange",
@@ -5362,7 +6068,9 @@
                 "id": "holo-taco-toe-beans",
                 "type": "polish",
                 "name": "Holo Taco Toe Beans",
-                "tags": [],
+                "tags": [
+                    "pink"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "pink",
@@ -5381,7 +6089,12 @@
                 "id": "holo-taco-twilight-shimmer",
                 "type": "polish",
                 "name": "Holo Taco Twilight Shimmer",
-                "tags": [],
+                "tags": [
+                    "topper",
+                    "iridescent",
+                    "shimmer",
+                    "purple"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "purple",
@@ -5419,7 +6132,11 @@
                 "id": "holo-taco-unicorn-no-1",
                 "type": "polish",
                 "name": "Holo Taco Unicorn No. 1",
-                "tags": [],
+                "tags": [
+                    "topper",
+                    "iridescent",
+                    "shimmer"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "shade_name": "Unicorn No. 1",
@@ -5457,7 +6174,12 @@
                 "id": "holo-taco-unknown-swatch",
                 "type": "polish",
                 "name": "Holo Taco Unknown",
-                "tags": [],
+                "tags": [
+                    "topper",
+                    "unidentified",
+                    "suspected-mix",
+                    "received-from-someone-else"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "shade_name": "Unknown",
@@ -5476,7 +6198,12 @@
                 "id": "holo-taco-violet-nightmares",
                 "type": "polish",
                 "name": "Holo Taco Violet Nightmares",
-                "tags": [],
+                "tags": [
+                    "collection",
+                    "holographic",
+                    "purple",
+                    "holo"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "dark purple",
@@ -5533,7 +6260,10 @@
                 "id": "holo-taco-what-do-you-pink",
                 "type": "polish",
                 "name": "Holo Taco What Do You Pink?",
-                "tags": [],
+                "tags": [
+                    "glossy and matte swatches",
+                    "pink"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "pink",
@@ -5552,7 +6282,9 @@
                 "id": "holo-taco-wireless-mode",
                 "type": "polish",
                 "name": "Holo Taco Wireless Mode",
-                "tags": [],
+                "tags": [
+                    "blue"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "blue",
@@ -5578,7 +6310,13 @@
                 "id": "holo-taco-wreath-havoc-taco",
                 "type": "polish",
                 "name": "Holo Taco Wreath Havoc Taco",
-                "tags": [],
+                "tags": [
+                    "topper",
+                    "multichrome",
+                    "foil",
+                    "flakie",
+                    "glitter"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "multicolor",
@@ -5610,7 +6348,9 @@
                 "id": "holo-taco-zyler-the-cat",
                 "type": "polish",
                 "name": "Holo Taco Zyler the Cat",
-                "tags": [],
+                "tags": [
+                    "orange"
+                ],
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "orange",
@@ -5629,7 +6369,11 @@
                 "id": "kiko-blazing-burgundy",
                 "type": "polish",
                 "name": "Kiko Blazing Burgundy",
-                "tags": [],
+                "tags": [
+                    "burgundy",
+                    "red",
+                    "purple"
+                ],
                 "data": {
                     "brand": "Kiko",
                     "color_family": "",
@@ -5648,7 +6392,9 @@
                 "id": "kiko-starry-gold",
                 "type": "polish",
                 "name": "Kiko Starry Gold",
-                "tags": [],
+                "tags": [
+                    "gold"
+                ],
                 "data": {
                     "brand": "Kiko",
                     "color_family": "",
@@ -5667,7 +6413,10 @@
                 "id": "konad-black-stamping-polish",
                 "type": "polish",
                 "name": "Konad Black Stamping Polish",
-                "tags": [],
+                "tags": [
+                    "black",
+                    "stamping"
+                ],
                 "data": {
                     "brand": "Konad",
                     "shade_name": "Black Stamping Polish",
@@ -5693,7 +6442,10 @@
                 "id": "konad-white-stamping-polish",
                 "type": "polish",
                 "name": "Konad White Stamping Polish",
-                "tags": [],
+                "tags": [
+                    "white",
+                    "stamping"
+                ],
                 "data": {
                     "brand": "Konad",
                     "shade_name": "White Stamping Polish",
@@ -5719,7 +6471,10 @@
                 "id": "kruidvat-dusky-sea",
                 "type": "polish",
                 "name": "Kruidvat Dusky Sea",
-                "tags": [],
+                "tags": [
+                    "swatch photographed",
+                    "blue"
+                ],
                 "data": {
                     "brand": "Kruidvat",
                     "color_family": "blue",
@@ -5738,7 +6493,10 @@
                 "id": "kruidvat-green-lush",
                 "type": "polish",
                 "name": "Kruidvat Green Lush",
-                "tags": [],
+                "tags": [
+                    "swatch photographed",
+                    "green"
+                ],
                 "data": {
                     "brand": "Kruidvat",
                     "color_family": "green",
@@ -5757,7 +6515,9 @@
                 "id": "miss-sporty-020-mother-of-pearl",
                 "type": "polish",
                 "name": "Miss Sporty 020 Mother of Pearl",
-                "tags": [],
+                "tags": [
+                    "pearl"
+                ],
                 "data": {
                     "brand": "Miss Sporty",
                     "color_family": "",
@@ -5776,7 +6536,10 @@
                 "id": "miss-sporty-640-transcendent",
                 "type": "polish",
                 "name": "Miss Sporty 640 Transcendent",
-                "tags": [],
+                "tags": [
+                    "topper",
+                    "purple"
+                ],
                 "data": {
                     "brand": "Miss Sporty",
                     "color_family": "purple",
@@ -5814,7 +6577,11 @@
                 "id": "moyou-black-knight",
                 "type": "polish",
                 "name": "MoYou London Black Knight",
-                "tags": [],
+                "tags": [
+                    "stamping",
+                    "black",
+                    "matte"
+                ],
                 "data": {
                     "brand": "MoYou London",
                     "color_family": "black",
@@ -5846,7 +6613,15 @@
                 "id": "moyou-brachiosaurus",
                 "type": "polish",
                 "name": "MoYou London Triceratops",
-                "tags": [],
+                "tags": [
+                    "stamping",
+                    "green",
+                    "duochrome",
+                    "brachiosaurus",
+                    "triceratops",
+                    "jurassic-park",
+                    "metallic"
+                ],
                 "data": {
                     "brand": "MoYou London",
                     "color_family": "green",
@@ -5878,7 +6653,12 @@
                 "id": "moyou-deep-abyss",
                 "type": "polish",
                 "name": "MoYou London Deep Abyss",
-                "tags": [],
+                "tags": [
+                    "stamping",
+                    "green",
+                    "dark-green",
+                    "creme"
+                ],
                 "data": {
                     "brand": "MoYou London",
                     "color_family": "green",
@@ -5910,7 +6690,12 @@
                 "id": "moyou-electric-sky",
                 "type": "polish",
                 "name": "MoYou London Electric Sky",
-                "tags": [],
+                "tags": [
+                    "stamping",
+                    "blue",
+                    "sapphire-blue",
+                    "creme"
+                ],
                 "data": {
                     "brand": "MoYou London",
                     "color_family": "blue",
@@ -5942,7 +6727,13 @@
                 "id": "moyou-ever-green",
                 "type": "polish",
                 "name": "MoYou London Ever Green",
-                "tags": [],
+                "tags": [
+                    "stamping",
+                    "green",
+                    "rainforest-green",
+                    "teal",
+                    "creme"
+                ],
                 "data": {
                     "brand": "MoYou London",
                     "color_family": "green",
@@ -5974,7 +6765,13 @@
                 "id": "moyou-ivy-blue",
                 "type": "polish",
                 "name": "MoYou London Ivy Blue",
-                "tags": [],
+                "tags": [
+                    "stamping",
+                    "blue",
+                    "dark-blue",
+                    "space-cadet-blue",
+                    "creme"
+                ],
                 "data": {
                     "brand": "MoYou London",
                     "color_family": "blue",
@@ -6006,7 +6803,13 @@
                 "id": "moyou-liquid-gold",
                 "type": "polish",
                 "name": "MoYou London Liquid Gold",
-                "tags": [],
+                "tags": [
+                    "stamping",
+                    "gold/copper",
+                    "gold",
+                    "cool-gold",
+                    "metallic"
+                ],
                 "data": {
                     "brand": "MoYou London",
                     "color_family": "gold/copper",
@@ -6038,7 +6841,13 @@
                 "id": "moyou-little-pickle",
                 "type": "polish",
                 "name": "MoYou London Little Pickle",
-                "tags": [],
+                "tags": [
+                    "stamping",
+                    "green",
+                    "bright-green",
+                    "pickle-green",
+                    "creme"
+                ],
                 "data": {
                     "brand": "MoYou London",
                     "color_family": "green",
@@ -6070,7 +6879,12 @@
                 "id": "moyou-mellow-yellow",
                 "type": "polish",
                 "name": "MoYou London Mellow Yellow",
-                "tags": [],
+                "tags": [
+                    "stamping",
+                    "yellow",
+                    "mustard",
+                    "creme"
+                ],
                 "data": {
                     "brand": "MoYou London",
                     "color_family": "yellow",
@@ -6102,7 +6916,12 @@
                 "id": "moyou-mood-indigo",
                 "type": "polish",
                 "name": "MoYou London Mood Indigo",
-                "tags": [],
+                "tags": [
+                    "stamping",
+                    "blue",
+                    "navy",
+                    "creme"
+                ],
                 "data": {
                     "brand": "MoYou London",
                     "color_family": "blue",
@@ -6128,7 +6947,13 @@
                 "id": "moyou-mystique",
                 "type": "polish",
                 "name": "MoYou London Mystique",
-                "tags": [],
+                "tags": [
+                    "stamping",
+                    "gray",
+                    "silver",
+                    "steel-silver",
+                    "metallic"
+                ],
                 "data": {
                     "brand": "MoYou London",
                     "color_family": "gray",
@@ -6160,7 +6985,12 @@
                 "id": "moyou-platinum-gin",
                 "type": "polish",
                 "name": "MoYou London Platinum Gin",
-                "tags": [],
+                "tags": [
+                    "stamping",
+                    "gray",
+                    "silver",
+                    "metallic"
+                ],
                 "data": {
                     "brand": "MoYou London",
                     "color_family": "gray",
@@ -6192,7 +7022,13 @@
                 "id": "moyou-purple-house",
                 "type": "polish",
                 "name": "MoYou London Purple House",
-                "tags": [],
+                "tags": [
+                    "stamping",
+                    "purple",
+                    "dark-purple",
+                    "glitter",
+                    "metallic"
+                ],
                 "data": {
                     "brand": "MoYou London",
                     "color_family": "purple",
@@ -6224,7 +7060,12 @@
                 "id": "moyou-purple-punch",
                 "type": "polish",
                 "name": "MoYou London Purple Punch",
-                "tags": [],
+                "tags": [
+                    "stamping",
+                    "purple",
+                    "orchid-purple",
+                    "creme"
+                ],
                 "data": {
                     "brand": "MoYou London",
                     "color_family": "purple",
@@ -6256,7 +7097,13 @@
                 "id": "moyou-sangria",
                 "type": "polish",
                 "name": "MoYou London Sangria",
-                "tags": [],
+                "tags": [
+                    "stamping",
+                    "red",
+                    "burgundy",
+                    "merlot",
+                    "creme"
+                ],
                 "data": {
                     "brand": "MoYou London",
                     "color_family": "red",
@@ -6288,7 +7135,12 @@
                 "id": "moyou-silver-fox",
                 "type": "polish",
                 "name": "MoYou London Silver Fox",
-                "tags": [],
+                "tags": [
+                    "stamping",
+                    "gray",
+                    "medium-gray",
+                    "creme"
+                ],
                 "data": {
                     "brand": "MoYou London",
                     "color_family": "gray",
@@ -6320,7 +7172,14 @@
                 "id": "moyou-smudge-resistant-top-coat",
                 "type": "polish",
                 "name": "MoYou London Smudge Resistant Top Coat",
-                "tags": [],
+                "tags": [
+                    "topcoat",
+                    "glossy",
+                    "clear",
+                    "smudge-resistant",
+                    "stamping",
+                    "topper"
+                ],
                 "data": {
                     "brand": "MoYou London",
                     "color_family": "clear",
@@ -6352,7 +7211,12 @@
                 "id": "moyou-sweet-wisteria",
                 "type": "polish",
                 "name": "MoYou London Sweet Wisteria",
-                "tags": [],
+                "tags": [
+                    "stamping",
+                    "purple",
+                    "lavender",
+                    "creme"
+                ],
                 "data": {
                     "brand": "MoYou London",
                     "color_family": "purple",
@@ -6384,7 +7248,13 @@
                 "id": "moyou-thunderstorm",
                 "type": "polish",
                 "name": "MoYou London Thunderstorm",
-                "tags": [],
+                "tags": [
+                    "stamping",
+                    "blue",
+                    "indigo",
+                    "navy",
+                    "creme"
+                ],
                 "data": {
                     "brand": "MoYou London",
                     "color_family": "blue",
@@ -6416,7 +7286,12 @@
                 "id": "moyou-violet-haze",
                 "type": "polish",
                 "name": "MoYou London Violet Haze",
-                "tags": [],
+                "tags": [
+                    "stamping",
+                    "purple",
+                    "violet",
+                    "creme"
+                ],
                 "data": {
                     "brand": "MoYou London",
                     "color_family": "purple",
@@ -6448,7 +7323,9 @@
                 "id": "nails-inc-dream-dust",
                 "type": "polish",
                 "name": "Nails Inc Dream Dust",
-                "tags": [],
+                "tags": [
+                    "topper"
+                ],
                 "data": {
                     "brand": "Nails Inc",
                     "shade_name": "Dream Dust",
@@ -6467,7 +7344,9 @@
                 "id": "nails-inc-rainbow-wishes",
                 "type": "polish",
                 "name": "Nails Inc. Rainbow Wishes",
-                "tags": [],
+                "tags": [
+                    "multicolor"
+                ],
                 "data": {
                     "brand": "Nails Inc.",
                     "color_family": "",
@@ -6486,7 +7365,9 @@
                 "id": "opi-abstract-after-dark",
                 "type": "polish",
                 "name": "OPI Abstract After Dark",
-                "tags": [],
+                "tags": [
+                    "dark"
+                ],
                 "data": {
                     "brand": "OPI",
                     "color_family": "",
@@ -6550,7 +7431,9 @@
                 "id": "orly-flip-phone",
                 "type": "polish",
                 "name": "Orly Flip Phone",
-                "tags": [],
+                "tags": [
+                    "technology"
+                ],
                 "data": {
                     "brand": "Orly",
                     "color_family": "",
@@ -6576,7 +7459,12 @@
                 "id": "purple-powder-over-sticky-base",
                 "type": "polish",
                 "name": "Purple Powder - Over Sticky Base",
-                "tags": [],
+                "tags": [
+                    "nail-art powder",
+                    "loose powder",
+                    "purple",
+                    "topper"
+                ],
                 "data": {
                     "brand": "",
                     "color_family": "purple",
@@ -6595,7 +7483,10 @@
                 "id": "sally-hansen-beet-ing-heart",
                 "type": "polish",
                 "name": "Sally Hansen Beet-ing Heart",
-                "tags": [],
+                "tags": [
+                    "glossy and matte swatches",
+                    "pink"
+                ],
                 "data": {
                     "brand": "Sally Hansen",
                     "color_family": "pink",
@@ -6614,7 +7505,9 @@
                 "id": "sally-hansen-black-to-black",
                 "type": "polish",
                 "name": "Sally Hansen Black to Black",
-                "tags": [],
+                "tags": [
+                    "black"
+                ],
                 "data": {
                     "brand": "Sally Hansen",
                     "color_family": "black",
@@ -6633,7 +7526,11 @@
                 "id": "sally-hansen-coral-commotion",
                 "type": "polish",
                 "name": "Sally Hansen Coral Commotion",
-                "tags": [],
+                "tags": [
+                    "coral",
+                    "orange",
+                    "pink"
+                ],
                 "data": {
                     "brand": "Sally Hansen",
                     "color_family": "",
@@ -6652,7 +7549,9 @@
                 "id": "sally-hansen-go-for-gold",
                 "type": "polish",
                 "name": "Sally Hansen Go for Gold",
-                "tags": [],
+                "tags": [
+                    "gold"
+                ],
                 "data": {
                     "brand": "Sally Hansen",
                     "color_family": "",
@@ -6671,7 +7570,10 @@
                 "id": "sally-hansen-jet-setter",
                 "type": "polish",
                 "name": "Sally Hansen Jet Setter",
-                "tags": [],
+                "tags": [
+                    "swatch photographed",
+                    "blue"
+                ],
                 "data": {
                     "brand": "Sally Hansen",
                     "color_family": "blue",
@@ -6690,7 +7592,9 @@
                 "id": "sally-hansen-lustrous-gold",
                 "type": "polish",
                 "name": "Sally Hansen Lustrous Gold",
-                "tags": [],
+                "tags": [
+                    "gold"
+                ],
                 "data": {
                     "brand": "Sally Hansen",
                     "color_family": "",
@@ -6709,7 +7613,9 @@
                 "id": "sally-hansen-pink-pursuit",
                 "type": "polish",
                 "name": "Sally Hansen Pink Pursuit",
-                "tags": [],
+                "tags": [
+                    "pink"
+                ],
                 "data": {
                     "brand": "Sally Hansen",
                     "color_family": "pink",
@@ -6728,7 +7634,9 @@
                 "id": "sally-hansen-polar-platinum",
                 "type": "polish",
                 "name": "Sally Hansen Polar Platinum",
-                "tags": [],
+                "tags": [
+                    "silver"
+                ],
                 "data": {
                     "brand": "Sally Hansen",
                     "color_family": "",
@@ -6747,7 +7655,9 @@
                 "id": "sally-hansen-steel-the-show",
                 "type": "polish",
                 "name": "Sally Hansen Steel the Show",
-                "tags": [],
+                "tags": [
+                    "metallic"
+                ],
                 "data": {
                     "brand": "Sally Hansen",
                     "color_family": "",
@@ -6785,7 +7695,9 @@
                 "id": "so-extra",
                 "type": "polish",
                 "name": "So Extra",
-                "tags": [],
+                "tags": [
+                    "topper"
+                ],
                 "data": {
                     "brand": "",
                     "shade_name": "So Extra",
@@ -6804,7 +7716,10 @@
                 "id": "starry-gold",
                 "type": "polish",
                 "name": "Starry Gold",
-                "tags": [],
+                "tags": [
+                    "topper",
+                    "gold"
+                ],
                 "data": {
                     "brand": "",
                     "color_family": "gold/copper",
@@ -6823,7 +7738,12 @@
                 "id": "white-powder-over-sticky-base",
                 "type": "polish",
                 "name": "White Powder - Over Sticky Base",
-                "tags": [],
+                "tags": [
+                    "nail-art powder",
+                    "loose powder",
+                    "white",
+                    "topper"
+                ],
                 "data": {
                     "brand": "",
                     "color_family": "white",
@@ -6842,7 +7762,9 @@
                 "id": "zuckerstreusel",
                 "type": "polish",
                 "name": "Zuckerstreusel",
-                "tags": [],
+                "tags": [
+                    "topper"
+                ],
                 "data": {
                     "brand": "",
                     "shade_name": "Zuckerstreusel",

@@ -40,7 +40,14 @@
             "status": "owned",
             "category": "specialty",
             "id": "catrice-broken-glass",
-            "tags": []
+            "tags": [
+                "topper",
+                "chunky-glitter",
+                "glass-effect",
+                "clear-base",
+                "white",
+                "glitter"
+            ]
         },
         {
             "brand": "Catrice",
@@ -54,7 +61,11 @@
             "override_hex": "",
             "category": "unknown",
             "id": "catrice-copper-cabana",
-            "tags": []
+            "tags": [
+                "gold/copper",
+                "color",
+                "gold"
+            ]
         },
         {
             "brand": "Catrice",
@@ -68,7 +79,14 @@
             "status": "owned",
             "category": "specialty",
             "id": "catrice-cosmic-gold",
-            "tags": []
+            "tags": [
+                "topper",
+                "gold",
+                "iridescent",
+                "effect-topper",
+                "glitter",
+                "shimmer"
+            ]
         },
         {
             "brand": "Cirque Colors",
@@ -82,7 +100,10 @@
             "override_hex": "",
             "category": "unknown",
             "id": "cirque-colors-electric-daisy",
-            "tags": []
+            "tags": [
+                "swatch photographed",
+                "green"
+            ]
         },
         {
             "brand": "Cirque Colors",
@@ -96,7 +117,10 @@
             "override_hex": "",
             "category": "specialty",
             "id": "cirque-colors-harmony",
-            "tags": []
+            "tags": [
+                "magnetic",
+                "color"
+            ]
         },
         {
             "brand": "Cirque Colors",
@@ -110,7 +134,15 @@
             "status": "owned",
             "category": "specialty",
             "id": "cirque-colors-starry-eyed",
-            "tags": []
+            "tags": [
+                "topper",
+                "silver",
+                "holographic",
+                "magnetic",
+                "layering",
+                "glitter",
+                "holo"
+            ]
         },
         {
             "brand": "Cirque Colors",
@@ -152,7 +184,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "emily-de-molly-sheer-tint-opal",
-            "tags": []
+            "tags": [
+                "sheer"
+            ]
         },
         {
             "brand": "Essence",
@@ -166,7 +200,10 @@
             "override_hex": "",
             "category": "unknown",
             "id": "essence-black-plum-done",
-            "tags": []
+            "tags": [
+                "swatch photographed",
+                "purple"
+            ]
         },
         {
             "brand": "Essence",
@@ -180,7 +217,11 @@
             "override_hex": "",
             "category": "top",
             "id": "essence-colour-stay-topcoat",
-            "tags": []
+            "tags": [
+                "clear",
+                "topcoat",
+                "topper"
+            ]
         },
         {
             "brand": "Essence",
@@ -194,7 +235,12 @@
             "override_hex": "",
             "category": "specialty",
             "id": "essence-crazy-cracking",
-            "tags": []
+            "tags": [
+                "topper",
+                "crackle",
+                "blue",
+                "layering"
+            ]
         },
         {
             "brand": "Essence",
@@ -208,7 +254,9 @@
             "override_hex": "",
             "category": "unknown",
             "id": "essence-dusk-till-yawn",
-            "tags": []
+            "tags": [
+                "black"
+            ]
         },
         {
             "brand": "Essence",
@@ -222,7 +270,10 @@
             "override_hex": "",
             "category": "unknown",
             "id": "essence-emerald-energy",
-            "tags": []
+            "tags": [
+                "green",
+                "color"
+            ]
         },
         {
             "brand": "Essence",
@@ -236,7 +287,15 @@
             "status": "owned",
             "category": "specialty",
             "id": "essence-glow-in-the-dark",
-            "tags": []
+            "tags": [
+                "topper",
+                "glow-in-the-dark",
+                "mint-green",
+                "sparkle",
+                "green",
+                "white",
+                "glitter"
+            ]
         },
         {
             "brand": "Essence",
@@ -250,7 +309,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "essence-grape-escape",
-            "tags": []
+            "tags": [
+                "purple"
+            ]
         },
         {
             "brand": "Essence",
@@ -264,7 +325,11 @@
             "override_hex": "",
             "category": "unknown",
             "id": "essence-i-lilac-you",
-            "tags": []
+            "tags": [
+                "personal swatch photographed",
+                "matte comparison swatch",
+                "purple"
+            ]
         },
         {
             "brand": "Essence",
@@ -278,7 +343,10 @@
             "status": "owned",
             "category": "unknown",
             "id": "essence-let-it-indi-go",
-            "tags": []
+            "tags": [
+                "swatch photographed",
+                "blue"
+            ]
         },
         {
             "brand": "Essence",
@@ -292,7 +360,15 @@
             "status": "owned",
             "category": "specialty",
             "id": "essence-love-you",
-            "tags": []
+            "tags": [
+                "topper",
+                "lilac",
+                "holographic",
+                "confetti",
+                "purple",
+                "glitter",
+                "holo"
+            ]
         },
         {
             "brand": "Essence",
@@ -306,7 +382,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "essence-midnight-magic",
-            "tags": []
+            "tags": [
+                "dark"
+            ]
         },
         {
             "brand": "Essence",
@@ -320,7 +398,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "essence-ocean-eyes",
-            "tags": []
+            "tags": [
+                "blue"
+            ]
         },
         {
             "brand": "Essence",
@@ -334,7 +414,13 @@
             "status": "owned",
             "category": "specialty",
             "id": "essence-pink-ventures",
-            "tags": []
+            "tags": [
+                "topper",
+                "pink",
+                "glitter",
+                "gel-look",
+                "glossy"
+            ]
         },
         {
             "brand": "Essie",
@@ -348,7 +434,9 @@
             "override_hex": "",
             "category": "unknown",
             "id": "essie-be-them-all",
-            "tags": []
+            "tags": [
+                "color"
+            ]
         },
         {
             "brand": "Essie",
@@ -362,7 +450,11 @@
             "status": "owned",
             "category": "specialty",
             "id": "essie-bikini-snapped",
-            "tags": []
+            "tags": [
+                "shimmer",
+                "aqua-blue",
+                "blue"
+            ]
         },
         {
             "brand": "Essie",
@@ -404,7 +496,10 @@
             "override_hex": "",
             "category": "unknown",
             "id": "essie-licorice",
-            "tags": []
+            "tags": [
+                "black",
+                "color"
+            ]
         },
         {
             "brand": "Essie",
@@ -418,7 +513,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "essie-light-as-linen",
-            "tags": []
+            "tags": [
+                "white"
+            ]
         },
         {
             "brand": "Essie",
@@ -432,7 +529,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "essie-now-or-never",
-            "tags": []
+            "tags": [
+                "black"
+            ]
         },
         {
             "brand": "Essie",
@@ -446,7 +545,10 @@
             "status": "owned",
             "category": "unknown",
             "id": "essie-pearly-white",
-            "tags": []
+            "tags": [
+                "white",
+                "pearl"
+            ]
         },
         {
             "brand": "Essie",
@@ -460,7 +562,11 @@
             "status": "owned",
             "category": "creme",
             "id": "essie-play-date",
-            "tags": []
+            "tags": [
+                "swatch photographed",
+                "purple",
+                "creme"
+            ]
         },
         {
             "brand": "Essie",
@@ -474,7 +580,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "essie-really-red",
-            "tags": []
+            "tags": [
+                "red"
+            ]
         },
         {
             "brand": "Essie",
@@ -488,7 +596,10 @@
             "status": "owned",
             "category": "unknown",
             "id": "essie-surrounded-by-studs-sluts",
-            "tags": []
+            "tags": [
+                "swatch photographed",
+                "blue"
+            ]
         },
         {
             "brand": "Essie",
@@ -502,7 +613,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "essie-twinkle-in-time",
-            "tags": []
+            "tags": [
+                "sparkle"
+            ]
         },
         {
             "brand": "Hema",
@@ -516,7 +629,11 @@
             "override_hex": "#B8A6C7",
             "category": "specialty",
             "id": "hema-always-sparkle",
-            "tags": []
+            "tags": [
+                "topper",
+                "purple",
+                "glitter"
+            ]
         },
         {
             "brand": "Hema",
@@ -530,7 +647,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "hema-bronzing-pearls",
-            "tags": []
+            "tags": [
+                "pearl"
+            ]
         },
         {
             "brand": "Hema",
@@ -544,7 +663,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "hema-buttercup",
-            "tags": []
+            "tags": [
+                "yellow"
+            ]
         },
         {
             "brand": "HEMA",
@@ -558,7 +679,10 @@
             "override_hex": "",
             "category": "unknown",
             "id": "hema-can-you-teal-the-love",
-            "tags": []
+            "tags": [
+                "green",
+                "color"
+            ]
         },
         {
             "brand": "Hema",
@@ -572,7 +696,10 @@
             "status": "owned",
             "category": "specialty",
             "id": "hema-confetti",
-            "tags": []
+            "tags": [
+                "topper",
+                "glitter"
+            ]
         },
         {
             "brand": "Hema",
@@ -586,7 +713,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "hema-cool-off-umber",
-            "tags": []
+            "tags": [
+                "brown"
+            ]
         },
         {
             "brand": "Hema",
@@ -600,7 +729,10 @@
             "status": "owned",
             "category": "unknown",
             "id": "hema-cosmos-blue-matte",
-            "tags": []
+            "tags": [
+                "blue",
+                "matte"
+            ]
         },
         {
             "brand": "Hema",
@@ -614,7 +746,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "hema-cosmos-blue",
-            "tags": []
+            "tags": [
+                "blue"
+            ]
         },
         {
             "brand": "Hema",
@@ -628,7 +762,10 @@
             "status": "owned",
             "category": "unknown",
             "id": "hema-delft-blue",
-            "tags": []
+            "tags": [
+                "swatch photographed",
+                "blue"
+            ]
         },
         {
             "brand": "Hema",
@@ -642,7 +779,10 @@
             "status": "owned",
             "category": "unknown",
             "id": "hema-dutch-denim",
-            "tags": []
+            "tags": [
+                "swatch photographed",
+                "blue"
+            ]
         },
         {
             "brand": "Hema",
@@ -656,7 +796,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "hema-fancy-pearl",
-            "tags": []
+            "tags": [
+                "pearl"
+            ]
         },
         {
             "brand": "Hema",
@@ -670,7 +812,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "hema-festive-fuchsia",
-            "tags": []
+            "tags": [
+                "pink"
+            ]
         },
         {
             "brand": "Hema",
@@ -684,7 +828,10 @@
             "status": "owned",
             "category": "unknown",
             "id": "hema-forget-me-not",
-            "tags": []
+            "tags": [
+                "swatch photographed",
+                "blue"
+            ]
         },
         {
             "brand": "Hema",
@@ -698,7 +845,11 @@
             "status": "owned",
             "category": "specialty",
             "id": "hema-glitter-gold",
-            "tags": []
+            "tags": [
+                "topper",
+                "gold",
+                "glitter"
+            ]
         },
         {
             "brand": "Hema",
@@ -712,7 +863,10 @@
             "status": "owned",
             "category": "unknown",
             "id": "hema-gold-stars",
-            "tags": []
+            "tags": [
+                "gold",
+                "star-glitter"
+            ]
         },
         {
             "brand": "Hema",
@@ -726,7 +880,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "hema-lava-out-loud",
-            "tags": []
+            "tags": [
+                "lava"
+            ]
         },
         {
             "brand": "Hema",
@@ -740,7 +896,11 @@
             "status": "owned",
             "category": "unknown",
             "id": "hema-lilac-you-a-lot",
-            "tags": []
+            "tags": [
+                "personal swatch photographed",
+                "matte comparison swatch",
+                "purple"
+            ]
         },
         {
             "brand": "HEMA",
@@ -754,7 +914,10 @@
             "override_hex": "",
             "category": "unknown",
             "id": "hema-liquorice",
-            "tags": []
+            "tags": [
+                "black",
+                "color"
+            ]
         },
         {
             "brand": "Hema",
@@ -768,7 +931,10 @@
             "status": "owned",
             "category": "unknown",
             "id": "hema-luscious-lilac",
-            "tags": []
+            "tags": [
+                "lilac",
+                "purple"
+            ]
         },
         {
             "brand": "Hema",
@@ -782,7 +948,10 @@
             "status": "owned",
             "category": "unknown",
             "id": "hema-matcha-made-in-heaven",
-            "tags": []
+            "tags": [
+                "swatch photographed",
+                "green"
+            ]
         },
         {
             "brand": "Hema",
@@ -796,7 +965,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "hema-milkmaid",
-            "tags": []
+            "tags": [
+                "white"
+            ]
         },
         {
             "brand": "Hema",
@@ -810,7 +981,13 @@
             "status": "owned",
             "category": "specialty",
             "id": "hema-mon-amour",
-            "tags": []
+            "tags": [
+                "topper",
+                "heart-glitter",
+                "clear-base",
+                "pink",
+                "glitter"
+            ]
         },
         {
             "brand": "Hema",
@@ -824,7 +1001,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "hema-out-of-space",
-            "tags": []
+            "tags": [
+                "space"
+            ]
         },
         {
             "brand": "Hema",
@@ -838,7 +1017,11 @@
             "status": "owned",
             "category": "unknown",
             "id": "hema-passionate-raspberry",
-            "tags": []
+            "tags": [
+                "personal swatch photographed",
+                "matte comparison swatch",
+                "pink"
+            ]
         },
         {
             "brand": "Hema",
@@ -852,7 +1035,11 @@
             "status": "owned",
             "category": "specialty",
             "id": "hema-pink-diamond",
-            "tags": []
+            "tags": [
+                "topper",
+                "pink",
+                "glitter"
+            ]
         },
         {
             "brand": "Hema",
@@ -866,7 +1053,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "hema-pink-sunrise",
-            "tags": []
+            "tags": [
+                "pink"
+            ]
         },
         {
             "brand": "HEMA",
@@ -880,7 +1069,10 @@
             "override_hex": "",
             "category": "unknown",
             "id": "hema-purpalicious",
-            "tags": []
+            "tags": [
+                "purple",
+                "color"
+            ]
         },
         {
             "brand": "Hema",
@@ -894,7 +1086,10 @@
             "status": "owned",
             "category": "unknown",
             "id": "hema-purple-blossom",
-            "tags": []
+            "tags": [
+                "glossy and matte swatches",
+                "purple"
+            ]
         },
         {
             "brand": "Hema",
@@ -908,7 +1103,11 @@
             "status": "owned",
             "category": "specialty",
             "id": "hema-purple-glitter",
-            "tags": []
+            "tags": [
+                "topper",
+                "purple",
+                "glitter"
+            ]
         },
         {
             "brand": "Hema",
@@ -922,7 +1121,11 @@
             "override_hex": "#E18DB6",
             "category": "specialty",
             "id": "hema-rose-petals",
-            "tags": []
+            "tags": [
+                "topper",
+                "pink",
+                "glitter"
+            ]
         },
         {
             "brand": "Hema",
@@ -936,7 +1139,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "hema-royal-orange",
-            "tags": []
+            "tags": [
+                "orange"
+            ]
         },
         {
             "brand": "Hema",
@@ -950,7 +1155,10 @@
             "status": "owned",
             "category": "unknown",
             "id": "hema-shimmering-pearl",
-            "tags": []
+            "tags": [
+                "pearl",
+                "shimmer"
+            ]
         },
         {
             "brand": "Hema",
@@ -964,7 +1172,10 @@
             "status": "owned",
             "category": "unknown",
             "id": "hema-steel-grey-matte",
-            "tags": []
+            "tags": [
+                "gray",
+                "matte"
+            ]
         },
         {
             "brand": "Hema",
@@ -978,7 +1189,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "hema-steel-grey",
-            "tags": []
+            "tags": [
+                "gray"
+            ]
         },
         {
             "brand": "Hema",
@@ -992,7 +1205,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "hema-sunny-flowers",
-            "tags": []
+            "tags": [
+                "yellow"
+            ]
         },
         {
             "brand": "HEMA",
@@ -1006,7 +1221,9 @@
             "override_hex": "",
             "category": "unknown",
             "id": "hema-tickle-tackle",
-            "tags": []
+            "tags": [
+                "color"
+            ]
         },
         {
             "brand": "Hema",
@@ -1020,7 +1237,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "hema-tompouce-bruin",
-            "tags": []
+            "tags": [
+                "brown"
+            ]
         },
         {
             "brand": "Hema",
@@ -1034,7 +1253,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "hema-tompouce-geel",
-            "tags": []
+            "tags": [
+                "yellow"
+            ]
         },
         {
             "brand": "Hema",
@@ -1048,7 +1269,10 @@
             "status": "owned",
             "category": "unknown",
             "id": "hema-tompouce-roze",
-            "tags": []
+            "tags": [
+                "glossy and matte swatches",
+                "pink"
+            ]
         },
         {
             "brand": "Hema",
@@ -1062,7 +1286,13 @@
             "status": "owned",
             "category": "specialty",
             "id": "hema-twinkle-twinkle",
-            "tags": []
+            "tags": [
+                "topper",
+                "star-glitter",
+                "gold",
+                "clear-base",
+                "glitter"
+            ]
         },
         {
             "brand": "Hema",
@@ -1076,7 +1306,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "hema-vivid-jade",
-            "tags": []
+            "tags": [
+                "green"
+            ]
         },
         {
             "brand": "Hema",
@@ -1090,7 +1322,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "hema-white-lie",
-            "tags": []
+            "tags": [
+                "white"
+            ]
         },
         {
             "brand": "HEMA",
@@ -1104,7 +1338,10 @@
             "override_hex": "",
             "category": "unknown",
             "id": "hema-wicked-wine",
-            "tags": []
+            "tags": [
+                "red",
+                "color"
+            ]
         },
         {
             "brand": "Hema",
@@ -1118,7 +1355,10 @@
             "status": "owned",
             "category": "unknown",
             "id": "hema-wooshy-wednesday",
-            "tags": []
+            "tags": [
+                "swatch photographed",
+                "blue"
+            ]
         },
         {
             "brand": "Herzlack",
@@ -1146,7 +1386,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "herzlack-einhornnacht",
-            "tags": []
+            "tags": [
+                "unicorn"
+            ]
         },
         {
             "brand": "Herzlack",
@@ -1160,7 +1402,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "herzlack-orange",
-            "tags": []
+            "tags": [
+                "orange"
+            ]
         },
         {
             "brand": "Herzlack",
@@ -1174,7 +1418,13 @@
             "status": "owned",
             "category": "specialty",
             "id": "herzlack-spektrum",
-            "tags": []
+            "tags": [
+                "topper",
+                "iridescent",
+                "chunky-glitter",
+                "sheer",
+                "glitter"
+            ]
         },
         {
             "brand": "Herzlack",
@@ -1188,7 +1438,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "herzlack-zuckerstreusel",
-            "tags": []
+            "tags": [
+                "sprinkles"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1202,7 +1454,14 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-8-bit-blues",
-            "tags": []
+            "tags": [
+                "collection",
+                "aqua-blue",
+                "holographic",
+                "glitter",
+                "blue",
+                "holo"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1216,7 +1475,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "holo-taco-alien-infatuation",
-            "tags": []
+            "tags": [
+                "purple"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1230,7 +1491,13 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-anti-hero",
-            "tags": []
+            "tags": [
+                "collection",
+                "holographic",
+                "jelly",
+                "purple",
+                "holo"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1244,7 +1511,12 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-aurora-unicorn-skin",
-            "tags": []
+            "tags": [
+                "topper",
+                "flakie",
+                "iridescent",
+                "shimmer"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1258,7 +1530,14 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-be-kind-rewind",
-            "tags": []
+            "tags": [
+                "collection",
+                "holographic",
+                "jelly",
+                "blue",
+                "green",
+                "holo"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1272,7 +1551,13 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-blue-flakie-holo-taco",
-            "tags": []
+            "tags": [
+                "topper",
+                "flakie",
+                "blue",
+                "holographic",
+                "holo"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1286,7 +1571,12 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-blue-freezie",
-            "tags": []
+            "tags": [
+                "collection",
+                "holographic",
+                "blue",
+                "holo"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1300,7 +1590,14 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-blue-rizzler",
-            "tags": []
+            "tags": [
+                "collection",
+                "holographic",
+                "iridescent",
+                "shimmer",
+                "blue",
+                "holo"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1314,7 +1611,13 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-bonus-life",
-            "tags": []
+            "tags": [
+                "collection",
+                "glitter",
+                "holographic",
+                "green",
+                "holo"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1342,7 +1645,10 @@
             "status": "owned",
             "category": "unknown",
             "id": "holo-taco-born-ugly",
-            "tags": []
+            "tags": [
+                "personal swatch photographed",
+                "brown"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1356,7 +1662,13 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-box-office-bomb",
-            "tags": []
+            "tags": [
+                "collection",
+                "holographic",
+                "jelly",
+                "orange",
+                "holo"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1370,7 +1682,10 @@
             "status": "owned",
             "category": "unknown",
             "id": "holo-taco-bring-me-the-teal",
-            "tags": []
+            "tags": [
+                "swatch photographed",
+                "blue"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1384,7 +1699,11 @@
             "status": "owned",
             "category": "creme",
             "id": "holo-taco-brownie-points",
-            "tags": []
+            "tags": [
+                "brown",
+                "color",
+                "creme"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1398,7 +1717,14 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-byte-my-peach",
-            "tags": []
+            "tags": [
+                "collection",
+                "glitter",
+                "holographic",
+                "orange",
+                "pink",
+                "holo"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1412,7 +1738,13 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-call-me-vixen",
-            "tags": []
+            "tags": [
+                "collection",
+                "red",
+                "shimmer",
+                "holographic",
+                "holo"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1426,7 +1758,11 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-celestial-lights",
-            "tags": []
+            "tags": [
+                "multicolor",
+                "topper",
+                "shimmer"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1440,7 +1776,11 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-cheap-champagne",
-            "tags": []
+            "tags": [
+                "gold",
+                "metallic",
+                "flakie"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1454,7 +1794,11 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-circuit-breaker",
-            "tags": []
+            "tags": [
+                "gray",
+                "holographic",
+                "holo"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1468,7 +1812,13 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-coin-toss",
-            "tags": []
+            "tags": [
+                "collection",
+                "glitter",
+                "holographic",
+                "gold",
+                "holo"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1482,7 +1832,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "holo-taco-cold-shoulder",
-            "tags": []
+            "tags": [
+                "blue"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1496,7 +1848,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "holo-taco-cold-slate",
-            "tags": []
+            "tags": [
+                "gray"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1510,7 +1864,13 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-coral-chaser",
-            "tags": []
+            "tags": [
+                "collection",
+                "holographic",
+                "orange",
+                "pink",
+                "holo"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1524,7 +1884,12 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-cosmic-unicorn-skin",
-            "tags": []
+            "tags": [
+                "topper",
+                "flakie",
+                "iridescent",
+                "shimmer"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1538,7 +1903,13 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-crescent-moon-taco",
-            "tags": []
+            "tags": [
+                "topper",
+                "glitter",
+                "holographic",
+                "iridescent",
+                "holo"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1552,7 +1923,12 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-crimson-void",
-            "tags": []
+            "tags": [
+                "collection",
+                "holographic",
+                "red",
+                "holo"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1566,7 +1942,13 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-ctrl-cutie",
-            "tags": []
+            "tags": [
+                "collection",
+                "glitter",
+                "holographic",
+                "pink",
+                "holo"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1580,7 +1962,10 @@
             "status": "owned",
             "category": "unknown",
             "id": "holo-taco-cyantific",
-            "tags": []
+            "tags": [
+                "swatch photographed",
+                "blue"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1594,7 +1979,13 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-dead-petals",
-            "tags": []
+            "tags": [
+                "collection",
+                "holographic",
+                "red",
+                "purple",
+                "holo"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1608,7 +1999,10 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-diamond-dasher-taco",
-            "tags": []
+            "tags": [
+                "topper",
+                "glitter"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1622,7 +2016,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "holo-taco-don-t-be-jelly",
-            "tags": []
+            "tags": [
+                "jelly"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1636,7 +2032,12 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-dream-eater",
-            "tags": []
+            "tags": [
+                "collection",
+                "holographic",
+                "purple",
+                "holo"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1650,7 +2051,11 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-electric-sweetener",
-            "tags": []
+            "tags": [
+                "collection",
+                "shimmer",
+                "purple"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1664,7 +2069,11 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-everything-taco",
-            "tags": []
+            "tags": [
+                "topper",
+                "iridescent",
+                "glitter"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1692,7 +2101,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "holo-taco-fake-date",
-            "tags": []
+            "tags": [
+                "gold"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1706,7 +2117,13 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-fallen-flake-taco",
-            "tags": []
+            "tags": [
+                "topper",
+                "chrome",
+                "flakie",
+                "metallic",
+                "glitter"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1720,7 +2137,12 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-flakie-holo-taco",
-            "tags": []
+            "tags": [
+                "topper",
+                "flakie",
+                "holographic",
+                "holo"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1734,7 +2156,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "holo-taco-foreshadow",
-            "tags": []
+            "tags": [
+                "gray"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1748,7 +2172,12 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-freezer-burn",
-            "tags": []
+            "tags": [
+                "topper",
+                "iridescent",
+                "shimmer",
+                "blue"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1762,7 +2191,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "holo-taco-frost-light",
-            "tags": []
+            "tags": [
+                "blue"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1776,7 +2207,11 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-galactic-unicorn-skin",
-            "tags": []
+            "tags": [
+                "topper",
+                "iridescent",
+                "shimmer"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1790,7 +2225,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "holo-taco-gift-receipt",
-            "tags": []
+            "tags": [
+                "gray"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1804,7 +2241,13 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-girly-ghoul",
-            "tags": []
+            "tags": [
+                "collection",
+                "holographic",
+                "shimmer",
+                "purple",
+                "holo"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1818,7 +2261,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "holo-taco-glamethyst",
-            "tags": []
+            "tags": [
+                "purple"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1832,7 +2277,13 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-glitch-glam",
-            "tags": []
+            "tags": [
+                "collection",
+                "glitter",
+                "holographic",
+                "purple",
+                "holo"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1846,7 +2297,11 @@
             "override_hex": "",
             "category": "top",
             "id": "holo-taco-glossy-taco",
-            "tags": []
+            "tags": [
+                "clear",
+                "glossy",
+                "topper"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1860,7 +2315,12 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-gold-scattered-holo-taco",
-            "tags": []
+            "tags": [
+                "topper",
+                "gold",
+                "holographic",
+                "holo"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1874,7 +2334,13 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-golden-flake-taco",
-            "tags": []
+            "tags": [
+                "topper",
+                "creme",
+                "metallic",
+                "gold",
+                "glitter"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1888,7 +2354,12 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-green-taffy",
-            "tags": []
+            "tags": [
+                "collection",
+                "holographic",
+                "green",
+                "holo"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1902,7 +2373,12 @@
             "override_hex": "",
             "category": "specialty",
             "id": "holo-taco-grim-keeper",
-            "tags": []
+            "tags": [
+                "multicolor",
+                "metallic",
+                "color",
+                "collection"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1916,7 +2392,10 @@
             "status": "owned",
             "category": "unknown",
             "id": "holo-taco-head-hunter",
-            "tags": []
+            "tags": [
+                "personal swatch photographed",
+                "blue"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1930,7 +2409,13 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-hi-def",
-            "tags": []
+            "tags": [
+                "collection",
+                "holographic",
+                "jelly",
+                "yellow",
+                "holo"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1944,7 +2429,10 @@
             "status": "owned",
             "category": "unknown",
             "id": "holo-taco-high-tea-hibiscus",
-            "tags": []
+            "tags": [
+                "glossy and matte swatches",
+                "purple"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1958,7 +2446,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "holo-taco-hydropower",
-            "tags": []
+            "tags": [
+                "green"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1972,7 +2462,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "holo-taco-i-m-over-brew",
-            "tags": []
+            "tags": [
+                "brown"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -1986,7 +2478,12 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-ice-angel",
-            "tags": []
+            "tags": [
+                "collection",
+                "white",
+                "holographic",
+                "holo"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2000,7 +2497,10 @@
             "status": "owned",
             "category": "unknown",
             "id": "holo-taco-indigo-away",
-            "tags": []
+            "tags": [
+                "swatch photographed",
+                "blue"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2014,7 +2514,14 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-jam-session",
-            "tags": []
+            "tags": [
+                "collection",
+                "holographic",
+                "iridescent",
+                "shimmer",
+                "pink",
+                "holo"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2028,7 +2535,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "holo-taco-keep-it-evergreen",
-            "tags": []
+            "tags": [
+                "green"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2042,7 +2551,10 @@
             "status": "owned",
             "category": "unknown",
             "id": "holo-taco-laven-duh",
-            "tags": []
+            "tags": [
+                "glossy and matte swatches",
+                "purple"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2056,7 +2568,12 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-lavender-syrup",
-            "tags": []
+            "tags": [
+                "collection",
+                "holographic",
+                "purple",
+                "holo"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2070,7 +2587,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "holo-taco-left-on-red",
-            "tags": []
+            "tags": [
+                "red"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2084,7 +2603,12 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-lemon-spritzer",
-            "tags": []
+            "tags": [
+                "collection",
+                "holographic",
+                "yellow",
+                "holo"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2098,7 +2622,12 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-lemon-sucker",
-            "tags": []
+            "tags": [
+                "collection",
+                "holographic",
+                "yellow",
+                "holo"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2112,7 +2641,13 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-life-in-plastic",
-            "tags": []
+            "tags": [
+                "collection",
+                "holographic",
+                "jelly",
+                "pink",
+                "holo"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2126,7 +2661,11 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-linear-holo-taco",
-            "tags": []
+            "tags": [
+                "topper",
+                "holographic",
+                "holo"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2140,7 +2679,10 @@
             "status": "owned",
             "category": "unknown",
             "id": "holo-taco-lo-fi-lavender",
-            "tags": []
+            "tags": [
+                "collection",
+                "purple"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2154,7 +2696,12 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-lost-in-the-woods",
-            "tags": []
+            "tags": [
+                "collection",
+                "holographic",
+                "green",
+                "holo"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2168,7 +2715,11 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-lunar-unicorn-skin",
-            "tags": []
+            "tags": [
+                "topper",
+                "iridescent",
+                "shimmer"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2196,7 +2747,13 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-magneta-jelly",
-            "tags": []
+            "tags": [
+                "collection",
+                "holographic",
+                "pink",
+                "purple",
+                "holo"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2210,7 +2767,11 @@
             "override_hex": "",
             "category": "top",
             "id": "holo-taco-matte-taco",
-            "tags": []
+            "tags": [
+                "clear",
+                "matte",
+                "topper"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2224,7 +2785,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "holo-taco-menchie-the-cat",
-            "tags": []
+            "tags": [
+                "pink"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2238,7 +2801,12 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-mint-mojito",
-            "tags": []
+            "tags": [
+                "collection",
+                "holographic",
+                "green",
+                "holo"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2252,7 +2820,10 @@
             "status": "owned",
             "category": "unknown",
             "id": "holo-taco-modest-moss",
-            "tags": []
+            "tags": [
+                "personal swatch photographed",
+                "green"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2266,7 +2837,12 @@
             "override_hex": "#9DBFD7",
             "category": "specialty",
             "id": "holo-taco-moonlight-sacrifice",
-            "tags": []
+            "tags": [
+                "topper",
+                "collection",
+                "jelly",
+                "shimmer"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2280,7 +2856,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "holo-taco-nature-calls",
-            "tags": []
+            "tags": [
+                "green"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2294,7 +2872,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "holo-taco-never-tide-down",
-            "tags": []
+            "tags": [
+                "blue"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2308,7 +2888,12 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-no-opalogies",
-            "tags": []
+            "tags": [
+                "topper",
+                "flakie",
+                "iridescent",
+                "shimmer"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2322,7 +2907,10 @@
             "status": "owned",
             "category": "creme",
             "id": "holo-taco-not-milky-white",
-            "tags": []
+            "tags": [
+                "white",
+                "creme"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2336,7 +2924,11 @@
             "status": "owned",
             "category": "creme",
             "id": "holo-taco-one-coat-black",
-            "tags": []
+            "tags": [
+                "black",
+                "color",
+                "creme"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2350,7 +2942,12 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-orange-drink",
-            "tags": []
+            "tags": [
+                "collection",
+                "holographic",
+                "orange",
+                "holo"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2364,7 +2961,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "holo-taco-party-punch",
-            "tags": []
+            "tags": [
+                "pink"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2378,7 +2977,13 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-peach-tea",
-            "tags": []
+            "tags": [
+                "collection",
+                "holographic",
+                "orange",
+                "pink",
+                "holo"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2392,7 +2997,12 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-pink-fizz",
-            "tags": []
+            "tags": [
+                "collection",
+                "holographic",
+                "pink",
+                "holo"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2406,7 +3016,12 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-pirouette-pink",
-            "tags": []
+            "tags": [
+                "collection",
+                "pink",
+                "holographic",
+                "holo"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2420,7 +3035,12 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-polar-princess",
-            "tags": []
+            "tags": [
+                "topper",
+                "iridescent",
+                "shimmer",
+                "pink"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2434,7 +3054,14 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-pop-rocker",
-            "tags": []
+            "tags": [
+                "collection",
+                "holographic",
+                "iridescent",
+                "shimmer",
+                "pink",
+                "holo"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2448,7 +3075,12 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-purple-slushie",
-            "tags": []
+            "tags": [
+                "collection",
+                "holographic",
+                "purple",
+                "holo"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2462,7 +3094,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "holo-taco-rainbow-flood",
-            "tags": []
+            "tags": [
+                "purple"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2476,7 +3110,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "holo-taco-rainbow-snow",
-            "tags": []
+            "tags": [
+                "gray"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2490,7 +3126,12 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-red-licorice",
-            "tags": []
+            "tags": [
+                "collection",
+                "holographic",
+                "red",
+                "holo"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2504,7 +3145,10 @@
             "override_hex": "#392335",
             "category": "specialty",
             "id": "holo-taco-rip-bestie",
-            "tags": []
+            "tags": [
+                "collection",
+                "shimmer"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2518,7 +3162,11 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-scattered-holo-taco",
-            "tags": []
+            "tags": [
+                "topper",
+                "holographic",
+                "holo"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2532,7 +3180,10 @@
             "status": "owned",
             "category": "unknown",
             "id": "holo-taco-shady-navy",
-            "tags": []
+            "tags": [
+                "swatch photographed",
+                "blue"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2546,7 +3197,12 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-shooting-star-taco",
-            "tags": []
+            "tags": [
+                "topper",
+                "glitter",
+                "holographic",
+                "holo"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2560,7 +3216,11 @@
             "override_hex": "",
             "category": "base",
             "id": "holo-taco-smoothing-base",
-            "tags": []
+            "tags": [
+                "clear",
+                "base coat",
+                "base"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2574,7 +3234,13 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-solar-unicorn-skin",
-            "tags": []
+            "tags": [
+                "topper",
+                "flakie",
+                "iridescent",
+                "orange",
+                "shimmer"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2588,7 +3254,12 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-sonic-unicorn-skin",
-            "tags": []
+            "tags": [
+                "topper",
+                "iridescent",
+                "blue",
+                "shimmer"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2602,7 +3273,14 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-sour-note",
-            "tags": []
+            "tags": [
+                "collection",
+                "holographic",
+                "iridescent",
+                "shimmer",
+                "green",
+                "holo"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2616,7 +3294,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "holo-taco-spirit-fingers",
-            "tags": []
+            "tags": [
+                "purple"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2630,7 +3310,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "holo-taco-spyglass",
-            "tags": []
+            "tags": [
+                "blue"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2644,7 +3326,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "holo-taco-steep-dreams",
-            "tags": []
+            "tags": [
+                "green"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2658,7 +3342,14 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-sugar-rush",
-            "tags": []
+            "tags": [
+                "collection",
+                "holographic",
+                "iridescent",
+                "shimmer",
+                "white",
+                "holo"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2672,7 +3363,14 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-sunken-secrets",
-            "tags": []
+            "tags": [
+                "collection",
+                "holographic",
+                "teal",
+                "blue",
+                "green",
+                "holo"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2686,7 +3384,15 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-sunshine-crush",
-            "tags": []
+            "tags": [
+                "collection",
+                "holographic",
+                "iridescent",
+                "shimmer",
+                "yellow",
+                "orange",
+                "holo"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2700,7 +3406,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "holo-taco-toe-beans",
-            "tags": []
+            "tags": [
+                "pink"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2714,7 +3422,12 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-twilight-shimmer",
-            "tags": []
+            "tags": [
+                "topper",
+                "iridescent",
+                "shimmer",
+                "purple"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2728,7 +3441,11 @@
             "override_hex": "#D7B7DD",
             "category": "specialty",
             "id": "holo-taco-unicorn-no-1",
-            "tags": []
+            "tags": [
+                "topper",
+                "iridescent",
+                "shimmer"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2742,7 +3459,12 @@
             "override_hex": "",
             "category": "specialty",
             "id": "holo-taco-unknown-swatch",
-            "tags": []
+            "tags": [
+                "topper",
+                "unidentified",
+                "suspected-mix",
+                "received-from-someone-else"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2756,7 +3478,12 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-violet-nightmares",
-            "tags": []
+            "tags": [
+                "collection",
+                "holographic",
+                "purple",
+                "holo"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2784,7 +3511,10 @@
             "status": "owned",
             "category": "unknown",
             "id": "holo-taco-what-do-you-pink",
-            "tags": []
+            "tags": [
+                "glossy and matte swatches",
+                "pink"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2798,7 +3528,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "holo-taco-wireless-mode",
-            "tags": []
+            "tags": [
+                "blue"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2812,7 +3544,13 @@
             "status": "owned",
             "category": "specialty",
             "id": "holo-taco-wreath-havoc-taco",
-            "tags": []
+            "tags": [
+                "topper",
+                "multichrome",
+                "foil",
+                "flakie",
+                "glitter"
+            ]
         },
         {
             "brand": "Holo Taco",
@@ -2826,7 +3564,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "holo-taco-zyler-the-cat",
-            "tags": []
+            "tags": [
+                "orange"
+            ]
         },
         {
             "brand": "Kiko",
@@ -2840,7 +3580,11 @@
             "status": "owned",
             "category": "unknown",
             "id": "kiko-blazing-burgundy",
-            "tags": []
+            "tags": [
+                "burgundy",
+                "red",
+                "purple"
+            ]
         },
         {
             "brand": "Kiko",
@@ -2854,7 +3598,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "kiko-starry-gold",
-            "tags": []
+            "tags": [
+                "gold"
+            ]
         },
         {
             "brand": "Konad",
@@ -2868,7 +3614,10 @@
             "override_hex": "",
             "category": "stamping",
             "id": "konad-black-stamping-polish",
-            "tags": []
+            "tags": [
+                "black",
+                "stamping"
+            ]
         },
         {
             "brand": "Konad",
@@ -2882,7 +3631,10 @@
             "override_hex": "",
             "category": "stamping",
             "id": "konad-white-stamping-polish",
-            "tags": []
+            "tags": [
+                "white",
+                "stamping"
+            ]
         },
         {
             "brand": "Kruidvat",
@@ -2896,7 +3648,10 @@
             "status": "owned",
             "category": "unknown",
             "id": "kruidvat-dusky-sea",
-            "tags": []
+            "tags": [
+                "swatch photographed",
+                "blue"
+            ]
         },
         {
             "brand": "Kruidvat",
@@ -2910,7 +3665,10 @@
             "status": "owned",
             "category": "unknown",
             "id": "kruidvat-green-lush",
-            "tags": []
+            "tags": [
+                "swatch photographed",
+                "green"
+            ]
         },
         {
             "brand": "Miss Sporty",
@@ -2924,7 +3682,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "miss-sporty-020-mother-of-pearl",
-            "tags": []
+            "tags": [
+                "pearl"
+            ]
         },
         {
             "brand": "Miss Sporty",
@@ -2938,7 +3698,10 @@
             "status": "owned",
             "category": "unknown",
             "id": "miss-sporty-640-transcendent",
-            "tags": []
+            "tags": [
+                "topper",
+                "purple"
+            ]
         },
         {
             "brand": "Mooncat",
@@ -2966,7 +3729,11 @@
             "status": "owned",
             "category": "stamping",
             "id": "moyou-black-knight",
-            "tags": []
+            "tags": [
+                "stamping",
+                "black",
+                "matte"
+            ]
         },
         {
             "brand": "MoYou London",
@@ -2980,7 +3747,15 @@
             "status": "owned",
             "category": "stamping",
             "id": "moyou-brachiosaurus",
-            "tags": []
+            "tags": [
+                "stamping",
+                "green",
+                "duochrome",
+                "brachiosaurus",
+                "triceratops",
+                "jurassic-park",
+                "metallic"
+            ]
         },
         {
             "brand": "MoYou London",
@@ -2994,7 +3769,12 @@
             "status": "owned",
             "category": "stamping",
             "id": "moyou-deep-abyss",
-            "tags": []
+            "tags": [
+                "stamping",
+                "green",
+                "dark-green",
+                "creme"
+            ]
         },
         {
             "brand": "MoYou London",
@@ -3008,7 +3788,12 @@
             "status": "owned",
             "category": "stamping",
             "id": "moyou-electric-sky",
-            "tags": []
+            "tags": [
+                "stamping",
+                "blue",
+                "sapphire-blue",
+                "creme"
+            ]
         },
         {
             "brand": "MoYou London",
@@ -3022,7 +3807,13 @@
             "status": "owned",
             "category": "stamping",
             "id": "moyou-ever-green",
-            "tags": []
+            "tags": [
+                "stamping",
+                "green",
+                "rainforest-green",
+                "teal",
+                "creme"
+            ]
         },
         {
             "brand": "MoYou London",
@@ -3036,7 +3827,13 @@
             "status": "owned",
             "category": "stamping",
             "id": "moyou-ivy-blue",
-            "tags": []
+            "tags": [
+                "stamping",
+                "blue",
+                "dark-blue",
+                "space-cadet-blue",
+                "creme"
+            ]
         },
         {
             "brand": "MoYou London",
@@ -3050,7 +3847,13 @@
             "status": "owned",
             "category": "stamping",
             "id": "moyou-liquid-gold",
-            "tags": []
+            "tags": [
+                "stamping",
+                "gold/copper",
+                "gold",
+                "cool-gold",
+                "metallic"
+            ]
         },
         {
             "brand": "MoYou London",
@@ -3064,7 +3867,13 @@
             "status": "owned",
             "category": "stamping",
             "id": "moyou-little-pickle",
-            "tags": []
+            "tags": [
+                "stamping",
+                "green",
+                "bright-green",
+                "pickle-green",
+                "creme"
+            ]
         },
         {
             "brand": "MoYou London",
@@ -3078,7 +3887,12 @@
             "status": "owned",
             "category": "stamping",
             "id": "moyou-mellow-yellow",
-            "tags": []
+            "tags": [
+                "stamping",
+                "yellow",
+                "mustard",
+                "creme"
+            ]
         },
         {
             "brand": "MoYou London",
@@ -3092,7 +3906,12 @@
             "status": "owned",
             "category": "stamping",
             "id": "moyou-mood-indigo",
-            "tags": []
+            "tags": [
+                "stamping",
+                "blue",
+                "navy",
+                "creme"
+            ]
         },
         {
             "brand": "MoYou London",
@@ -3106,7 +3925,13 @@
             "status": "owned",
             "category": "stamping",
             "id": "moyou-mystique",
-            "tags": []
+            "tags": [
+                "stamping",
+                "gray",
+                "silver",
+                "steel-silver",
+                "metallic"
+            ]
         },
         {
             "brand": "MoYou London",
@@ -3120,7 +3945,12 @@
             "status": "owned",
             "category": "stamping",
             "id": "moyou-platinum-gin",
-            "tags": []
+            "tags": [
+                "stamping",
+                "gray",
+                "silver",
+                "metallic"
+            ]
         },
         {
             "brand": "MoYou London",
@@ -3134,7 +3964,13 @@
             "status": "owned",
             "category": "stamping",
             "id": "moyou-purple-house",
-            "tags": []
+            "tags": [
+                "stamping",
+                "purple",
+                "dark-purple",
+                "glitter",
+                "metallic"
+            ]
         },
         {
             "brand": "MoYou London",
@@ -3148,7 +3984,12 @@
             "status": "owned",
             "category": "stamping",
             "id": "moyou-purple-punch",
-            "tags": []
+            "tags": [
+                "stamping",
+                "purple",
+                "orchid-purple",
+                "creme"
+            ]
         },
         {
             "brand": "MoYou London",
@@ -3162,7 +4003,13 @@
             "status": "owned",
             "category": "stamping",
             "id": "moyou-sangria",
-            "tags": []
+            "tags": [
+                "stamping",
+                "red",
+                "burgundy",
+                "merlot",
+                "creme"
+            ]
         },
         {
             "brand": "MoYou London",
@@ -3176,7 +4023,12 @@
             "status": "owned",
             "category": "stamping",
             "id": "moyou-silver-fox",
-            "tags": []
+            "tags": [
+                "stamping",
+                "gray",
+                "medium-gray",
+                "creme"
+            ]
         },
         {
             "brand": "MoYou London",
@@ -3190,7 +4042,14 @@
             "status": "owned",
             "category": "top",
             "id": "moyou-smudge-resistant-top-coat",
-            "tags": []
+            "tags": [
+                "topcoat",
+                "glossy",
+                "clear",
+                "smudge-resistant",
+                "stamping",
+                "topper"
+            ]
         },
         {
             "brand": "MoYou London",
@@ -3204,7 +4063,12 @@
             "status": "owned",
             "category": "stamping",
             "id": "moyou-sweet-wisteria",
-            "tags": []
+            "tags": [
+                "stamping",
+                "purple",
+                "lavender",
+                "creme"
+            ]
         },
         {
             "brand": "MoYou London",
@@ -3218,7 +4082,13 @@
             "status": "owned",
             "category": "stamping",
             "id": "moyou-thunderstorm",
-            "tags": []
+            "tags": [
+                "stamping",
+                "blue",
+                "indigo",
+                "navy",
+                "creme"
+            ]
         },
         {
             "brand": "MoYou London",
@@ -3232,7 +4102,12 @@
             "status": "owned",
             "category": "stamping",
             "id": "moyou-violet-haze",
-            "tags": []
+            "tags": [
+                "stamping",
+                "purple",
+                "violet",
+                "creme"
+            ]
         },
         {
             "brand": "Nails Inc",
@@ -3246,7 +4121,9 @@
             "override_hex": "#C78C9E",
             "category": "specialty",
             "id": "nails-inc-dream-dust",
-            "tags": []
+            "tags": [
+                "topper"
+            ]
         },
         {
             "brand": "Nails Inc.",
@@ -3260,7 +4137,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "nails-inc-rainbow-wishes",
-            "tags": []
+            "tags": [
+                "multicolor"
+            ]
         },
         {
             "brand": "OPI",
@@ -3274,7 +4153,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "opi-abstract-after-dark",
-            "tags": []
+            "tags": [
+                "dark"
+            ]
         },
         {
             "brand": "OPI",
@@ -3316,7 +4197,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "orly-flip-phone",
-            "tags": []
+            "tags": [
+                "technology"
+            ]
         },
         {
             "brand": "",
@@ -3330,7 +4213,12 @@
             "status": "owned",
             "category": "specialty",
             "id": "purple-powder-over-sticky-base",
-            "tags": []
+            "tags": [
+                "nail-art powder",
+                "loose powder",
+                "purple",
+                "topper"
+            ]
         },
         {
             "brand": "Sally Hansen",
@@ -3344,7 +4232,10 @@
             "status": "owned",
             "category": "unknown",
             "id": "sally-hansen-beet-ing-heart",
-            "tags": []
+            "tags": [
+                "glossy and matte swatches",
+                "pink"
+            ]
         },
         {
             "brand": "Sally Hansen",
@@ -3358,7 +4249,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "sally-hansen-black-to-black",
-            "tags": []
+            "tags": [
+                "black"
+            ]
         },
         {
             "brand": "Sally Hansen",
@@ -3372,7 +4265,11 @@
             "status": "owned",
             "category": "unknown",
             "id": "sally-hansen-coral-commotion",
-            "tags": []
+            "tags": [
+                "coral",
+                "orange",
+                "pink"
+            ]
         },
         {
             "brand": "Sally Hansen",
@@ -3386,7 +4283,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "sally-hansen-go-for-gold",
-            "tags": []
+            "tags": [
+                "gold"
+            ]
         },
         {
             "brand": "Sally Hansen",
@@ -3400,7 +4299,10 @@
             "status": "owned",
             "category": "unknown",
             "id": "sally-hansen-jet-setter",
-            "tags": []
+            "tags": [
+                "swatch photographed",
+                "blue"
+            ]
         },
         {
             "brand": "Sally Hansen",
@@ -3414,7 +4316,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "sally-hansen-lustrous-gold",
-            "tags": []
+            "tags": [
+                "gold"
+            ]
         },
         {
             "brand": "Sally Hansen",
@@ -3428,7 +4332,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "sally-hansen-pink-pursuit",
-            "tags": []
+            "tags": [
+                "pink"
+            ]
         },
         {
             "brand": "Sally Hansen",
@@ -3442,7 +4348,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "sally-hansen-polar-platinum",
-            "tags": []
+            "tags": [
+                "silver"
+            ]
         },
         {
             "brand": "Sally Hansen",
@@ -3456,7 +4364,9 @@
             "status": "owned",
             "category": "unknown",
             "id": "sally-hansen-steel-the-show",
-            "tags": []
+            "tags": [
+                "metallic"
+            ]
         },
         {
             "brand": "Sally Hansen",
@@ -3484,7 +4394,9 @@
             "override_hex": "#B8A6C7",
             "category": "specialty",
             "id": "so-extra",
-            "tags": []
+            "tags": [
+                "topper"
+            ]
         },
         {
             "brand": "",
@@ -3498,7 +4410,10 @@
             "status": "owned",
             "category": "specialty",
             "id": "starry-gold",
-            "tags": []
+            "tags": [
+                "topper",
+                "gold"
+            ]
         },
         {
             "brand": "",
@@ -3512,7 +4427,12 @@
             "status": "owned",
             "category": "specialty",
             "id": "white-powder-over-sticky-base",
-            "tags": []
+            "tags": [
+                "nail-art powder",
+                "loose powder",
+                "white",
+                "topper"
+            ]
         },
         {
             "brand": "",
@@ -3526,7 +4446,9 @@
             "override_hex": "#B8A6C7",
             "category": "specialty",
             "id": "zuckerstreusel",
-            "tags": []
+            "tags": [
+                "topper"
+            ]
         }
     ],
     "categories": {
