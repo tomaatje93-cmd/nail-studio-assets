@@ -1,7 +1,8 @@
 const app = document.querySelector('#app');
 const publicMode = document.body.dataset.catalogueMode === 'public';
 let catalog, current, dirty = false, imageReferences = {};
-const overviewState = { scrollY: 0, search: '', category: '', tags: new Set(), tagMode: 'and' };
+const overviewState = { scrollY: 0, search: '', category: '', finishClass: '', tags: new Set(), tagMode: 'and' };
+const polishFinishClasses = row => [...new Set((row.finish || '').split(';').map(f => catalog.finishClasses?.[f.trim()] || 'neither'))];
 const normalizePolishTag = value => value.trim().toLowerCase();
 const normalizePolishQuery = value => value.toLowerCase().replace(/\bholographic\b/g, 'holo').replace(/\bdark (blue|green|purple)\b/g, 'dark-$1').replace(/\bgrey\b/g, 'gray');
 const filterTags = row => [...new Set([...(row.tags || []), ...[row.finish, row.color_family, row.role].flatMap(value => (value || '').split(';'))].map(normalizePolishTag).filter(Boolean))];
@@ -124,6 +125,7 @@ function render() {
     current = null;
     app.innerHTML = `<span class="tag">Your collection</span><h1>All the shades.</h1><p class="muted">${catalog.rows.length} products · Open a polish to compare references${publicMode ? '.' : ' and set your own color.'}</p><div class="toolbar"><input id="search" aria-label="Search polishes" placeholder="Find a brand or shade…"></div><div class="grid" id="library"></div>`;
     document.querySelector('.toolbar').insertAdjacentHTML('beforeend', `<select id="category-filter" aria-label="Filter polish category"><option value="">All categories</option>${Object.entries(catalog.categories).map(([id, label])=>`<option value="${escapeHtml(id)}">${escapeHtml(label)} (${catalog.rows.filter(r=>r.category===id).length})</option>`).join('')}</select>`);
+    document.querySelector('.toolbar').insertAdjacentHTML('beforeend', '<select id="finish-class-filter" aria-label="Filter by finish classification"><option value="">All finish types</option><option value="plain">Plain</option><option value="specialty">Specialty</option><option value="neither">Neither</option></select>');
     document.querySelector('#search').placeholder = 'Find a brand, shade or tag…';
     if (!publicMode) document.querySelector('.toolbar').insertAdjacentHTML('afterend', `<p><a class="review-link" href="#enrich">Complete polish catalogue (${catalog.rows.filter(row => !row.enrichment_complete || row.refinement_queued).length} needing review)</a></p>`);
     document.querySelector('.toolbar').insertAdjacentHTML('beforebegin', '<p class="muted">Swatches include illustrative finish effects. Open a polish for its photos and flat colour references.</p>');
@@ -135,7 +137,8 @@ function render() {
     function list() {
       const query = normalizePolishQuery(document.querySelector('#search').value.trim());
       const category = document.querySelector('#category-filter').value;
-      const rows = catalog.rows.filter(r => (!category || r.category === category) && (!overviewState.tags.size || (overviewState.tagMode === 'or' ? [...overviewState.tags].some(tag => filterTags(r).includes(tag)) : [...overviewState.tags].every(tag => filterTags(r).includes(tag)))) && [r.brand,r.shade_name,categoryLabel(r),...filterTags(r),...filterTags(r).map(tag => tag.replace(/-/g, ' '))].join(' ').toLowerCase().includes(query));
+      const finishClass = document.querySelector('#finish-class-filter').value;
+      const rows = catalog.rows.filter(r => (!category || r.category === category) && (!finishClass || polishFinishClasses(r).includes(finishClass)) && (!overviewState.tags.size || (overviewState.tagMode === 'or' ? [...overviewState.tags].some(tag => filterTags(r).includes(tag)) : [...overviewState.tags].every(tag => filterTags(r).includes(tag)))) && [r.brand,r.shade_name,categoryLabel(r),...filterTags(r),...filterTags(r).map(tag => tag.replace(/-/g, ' '))].join(' ').toLowerCase().includes(query));
       // AND counts describe the result of adding each tag to the current filters.
       const counts = overviewState.tagMode === 'and'
         ? new Map(tags.map(tag => [tag, rows.filter(row => filterTags(row).includes(tag)).length]))
@@ -165,6 +168,7 @@ function render() {
     }; });
     document.querySelector('#search').value = overviewState.search;
     document.querySelector('#category-filter').value = overviewState.category;
+    document.querySelector('#finish-class-filter').value = overviewState.finishClass;
     document.querySelectorAll('.tag-filter').forEach(button => { button.onclick = () => {
       const tag = button.dataset.tag;
       if (overviewState.tags.has(tag)) overviewState.tags.delete(tag); else overviewState.tags.add(tag);
@@ -179,6 +183,7 @@ function render() {
     list();
     document.querySelector('#search').oninput = () => { overviewState.search = document.querySelector('#search').value; list(); };
     document.querySelector('#category-filter').onchange = () => { overviewState.category = document.querySelector('#category-filter').value; list(); };
+    document.querySelector('#finish-class-filter').onchange = () => { overviewState.finishClass = document.querySelector('#finish-class-filter').value; list(); };
     const restoreY = overviewState.scrollY;
     requestAnimationFrame(() => { if (!location.hash || location.hash === '#') window.scrollTo({ top: restoreY, behavior: 'instant' }); });
     return;
