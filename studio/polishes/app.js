@@ -86,7 +86,7 @@ function overviewCard(row) {
     <div class="overview-card-body"><h2>${escapeHtml(row.shade_name)}</h2><p class="overview-brand">${brandMark(row.brand)}</p>
     ${swatch(effective(row),'small-swatch',row)}
     <div class="overview-attributes">${attributes.slice(0,4).map(value => `<span class="overview-attribute">${tagColourDot(value.toLowerCase())}${escapeHtml(value)}</span>`).join('')}</div>
-    ${missing.length ? `<span class="overview-missing" aria-label="Missing images: ${escapeHtml(missing.join(', '))}">＋ Add ${escapeHtml(missing.join(' & '))}</span>` : '<span class="overview-complete">✓ Bottle & swatch recorded</span>'}
+    ${!publicMode && missing.length ? `<span class="overview-missing" aria-label="Missing images: ${escapeHtml(missing.join(', '))}">＋ Add ${escapeHtml(missing.join(' & '))}</span>` : publicMode ? '' : '<span class="overview-complete">✓ Bottle & swatch recorded</span>'}
     </div></a>`;
 }
 function swatch(value, extra = '', row = null) {
@@ -99,7 +99,10 @@ function swatch(value, extra = '', row = null) {
 }
 function render() {
   if (publicMode && ['#enrich', '#finish-review'].includes(location.hash)) {
-    renderPublicReview(location.hash === '#finish-review'); return;
+    current = null;
+    dirty = false;
+    app.innerHTML = '<h1>Page unavailable</h1><p><a href="#">Browse polishes</a></p>';
+    return;
   }
   if (location.hash === '#enrich') { renderEnrichment(); return; }
   if (location.hash === '#finish-review') { renderFinishReview(); return; }
@@ -108,12 +111,12 @@ function render() {
   dirty = false;
   if (!row) {
     current = null;
-    app.innerHTML = `<span class="tag">Your collection</span><h1>All the shades.</h1><p class="muted">${catalog.rows.length} products · Open a polish to compare references${publicMode ? '. Save corrections through Nail Studio chat.' : ' and set your own color.'}</p><div class="toolbar"><input id="search" aria-label="Search polishes" placeholder="Find a brand or shade…"></div><div class="grid" id="library"></div>`;
+    app.innerHTML = `<span class="tag">Your collection</span><h1>All the shades.</h1><p class="muted">${catalog.rows.length} products · Open a polish to compare references${publicMode ? '.' : ' and set your own color.'}</p><div class="toolbar"><input id="search" aria-label="Search polishes" placeholder="Find a brand or shade…"></div><div class="grid" id="library"></div>`;
     document.querySelector('.toolbar').insertAdjacentHTML('beforeend', `<select id="category-filter" aria-label="Filter polish category"><option value="">All categories</option>${Object.entries(catalog.categories).map(([id, label])=>`<option value="${escapeHtml(id)}">${escapeHtml(label)} (${catalog.rows.filter(r=>r.category===id).length})</option>`).join('')}</select>`);
     document.querySelector('#search').placeholder = 'Find a brand, shade or tag…';
-    document.querySelector('.toolbar').insertAdjacentHTML('afterend', '<p><a class="review-link" href="#enrich">Enrich polishes — optional references</a></p>');
+    if (!publicMode) document.querySelector('.toolbar').insertAdjacentHTML('afterend', '<p><a class="review-link" href="#enrich">Enrich polishes — optional references</a></p>');
     document.querySelector('.toolbar').insertAdjacentHTML('beforebegin', '<p class="muted">Swatches include illustrative finish effects. Open a polish for its photos and flat colour references.</p>');
-    document.querySelector('.toolbar').insertAdjacentHTML('afterend', `<p><a class="review-link" href="#finish-review">Review unconfirmed finishes (${catalog.rows.filter(r=>!r.finish.trim()).length})</a></p>`);
+    if (!publicMode) document.querySelector('.toolbar').insertAdjacentHTML('afterend', `<p><a class="review-link" href="#finish-review">Review unconfirmed finishes (${catalog.rows.filter(r=>!r.finish.trim()).length})</a></p>`);
     document.querySelector('#library').insertAdjacentHTML('beforebegin', '<p id="result-count" class="muted" role="status" aria-live="polite"></p>');
     const tags = [...new Set(catalog.rows.flatMap(filterTags))].sort((a,b) => a.localeCompare(b));
     const tagCounts = new Map(tags.map(tag => [tag, catalog.rows.filter(row => filterTags(row).includes(tag)).length]));
@@ -228,20 +231,13 @@ function render() {
 }
 function renderPublicPolish(row) {
     current = null;
-    app.innerHTML = `<a href="#">← All polishes</a><p class="tag">${brandMark(row.brand)}</p><h1>${escapeHtml(row.shade_name)}</h1>${categoryBadge(row)}${polishTags(row.tags)}<p class="muted">${escapeHtml([row.color_family, row.finish, row.role].filter(Boolean).join(' · '))}</p>${swatch(effective(row), 'product-swatch', row)}<p>Colour in use: ${escapeHtml(displayLabel(row))}</p>${gallery(row)}<div class="grid">${['manufacturer', 'personal', 'override'].map(type => `<section class="card"><h2>${escapeHtml({manufacturer:'Manufacturer reference', personal:'Personal reference', override:'User override'}[type])}</h2>${swatch(row[type + '_hex'], 'small-swatch')}<p>${escapeHtml(row[type + '_hex'] || 'Not recorded')}</p></section>`).join('')}</div><p class="muted">Colour and finish previews are illustrative. Save corrections through Nail Studio chat using polish ID: <strong>${escapeHtml(row.id)}</strong>.</p><p><a href="../colour-lab/">Explore colour combinations →</a></p>`;
+    app.innerHTML = `<a href="#">← All polishes</a><p class="tag">${brandMark(row.brand)}</p><h1>${escapeHtml(row.shade_name)}</h1>${categoryBadge(row)}${polishTags(row.tags)}<p class="muted">${escapeHtml([row.color_family, row.finish, row.role].filter(Boolean).join(' · '))}</p>${swatch(effective(row), 'product-swatch', row)}<p>Colour in use: ${escapeHtml(displayLabel(row))}</p>${gallery(row)}<div class="grid">${['manufacturer', 'personal', 'override'].map(type => `<section class="card"><h2>${escapeHtml({manufacturer:'Manufacturer reference', personal:'Personal reference', override:'User override'}[type])}</h2>${swatch(row[type + '_hex'], 'small-swatch')}<p>${escapeHtml(row[type + '_hex'] || 'Not recorded')}</p></section>`).join('')}</div><p class="muted">Colour and finish previews are illustrative. </p><p><a href="../colour-lab/">Explore colour combinations →</a></p>`;
     for (const image of app.querySelectorAll('.photo-grid img')) {
         image.onerror = () => {
             image.hidden = true;
             image.closest('figure').querySelector('.photo-error').hidden = false;
         };
     }
-}
-
-function renderPublicReview(finishes) {
-    current = null;
-    dirty = false;
-    const rows = finishes ? catalog.rows.filter(row => !row.finish.trim()) : catalog.rows;
-    app.innerHTML = `<a href="#">← All polishes</a><h1>${finishes ? 'Unconfirmed finishes' : 'Product references'}</h1><p class="muted">${rows.length} products. Open a polish to review its pictures. Send confirmed finishes, exact product links or image references to Nail Studio chat with the polish ID to save them.</p><div class="grid">${rows.map(overviewCard).join('') || '<p>All polishes have a recorded finish.</p>'}</div>`;
 }
 
 function finishProductPhoto(row) {
