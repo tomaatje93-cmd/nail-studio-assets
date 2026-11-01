@@ -1,7 +1,6 @@
 const app = document.querySelector('#app');
 const publicMode = document.body.dataset.catalogueMode === 'public';
 let catalog, current, dirty = false, imageReferences = {};
-let finishReviewIds = null;
 const overviewState = { scrollY: 0, search: '', category: '', tags: new Set(), tagMode: 'and' };
 const normalizePolishTag = value => value.trim().toLowerCase();
 const normalizePolishQuery = value => value.toLowerCase().replace(/\bholographic\b/g, 'holo').replace(/\bdark (blue|green|purple)\b/g, 'dark-$1').replace(/\bgrey\b/g, 'gray');
@@ -38,7 +37,6 @@ if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
 window.addEventListener('scroll', () => {
   if (!location.hash || location.hash === '#') overviewState.scrollY = window.scrollY;
 }, { passive: true });
-const finishDrafts = new Map();
 const fields = ['manufacturer_hex', 'personal_hex', 'override_hex', 'manufacturer_source', 'personal_source'];
 const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const key = row => encodeURIComponent(row.id);
@@ -113,15 +111,13 @@ function polishHashMatches(row, hash) {
   } catch { return false; }
 }
 function render() {
-  if (publicMode && ['#enrich', '#finish-review'].includes(location.hash)) {
+  if (publicMode && (['#enrich', '#finish-review'].includes(location.hash) || location.hash.startsWith('#enrich/'))) {
     current = null;
     dirty = false;
     app.innerHTML = '<h1>Page unavailable</h1><p><a href="#">Browse polishes</a></p>';
     return;
   }
-  if (location.hash === '#enrich') { renderEnrichment(); return; }
-  if (location.hash === '#finish-review') { renderFinishReview(); return; }
-  finishReviewIds = null;
+  if (location.hash === '#enrich' || location.hash.startsWith('#enrich/') || location.hash === '#finish-review') { renderEnrichment(); return; }
   const row = catalog.rows.find(item => polishHashMatches(item, location.hash.slice(1)));
   dirty = false;
   if (!row) {
@@ -129,9 +125,8 @@ function render() {
     app.innerHTML = `<span class="tag">Your collection</span><h1>All the shades.</h1><p class="muted">${catalog.rows.length} products · Open a polish to compare references${publicMode ? '.' : ' and set your own color.'}</p><div class="toolbar"><input id="search" aria-label="Search polishes" placeholder="Find a brand or shade…"></div><div class="grid" id="library"></div>`;
     document.querySelector('.toolbar').insertAdjacentHTML('beforeend', `<select id="category-filter" aria-label="Filter polish category"><option value="">All categories</option>${Object.entries(catalog.categories).map(([id, label])=>`<option value="${escapeHtml(id)}">${escapeHtml(label)} (${catalog.rows.filter(r=>r.category===id).length})</option>`).join('')}</select>`);
     document.querySelector('#search').placeholder = 'Find a brand, shade or tag…';
-    if (!publicMode) document.querySelector('.toolbar').insertAdjacentHTML('afterend', '<p><a class="review-link" href="#enrich">Enrich polishes — optional references</a></p>');
+    if (!publicMode) document.querySelector('.toolbar').insertAdjacentHTML('afterend', `<p><a class="review-link" href="#enrich">Complete polish catalogue (${catalog.rows.filter(row => !row.enrichment_complete || row.refinement_queued).length} needing review)</a></p>`);
     document.querySelector('.toolbar').insertAdjacentHTML('beforebegin', '<p class="muted">Swatches include illustrative finish effects. Open a polish for its photos and flat colour references.</p>');
-    if (!publicMode) document.querySelector('.toolbar').insertAdjacentHTML('afterend', `<p><a class="review-link" href="#finish-review">Review unconfirmed finishes (${catalog.rows.filter(r=>!r.finish.trim()).length})</a></p>`);
     document.querySelector('#library').insertAdjacentHTML('beforebegin', '<p id="result-count" class="muted" role="status" aria-live="polite"></p>');
     const tags = [...new Set(catalog.rows.flatMap(filterTags))].sort((a,b) => a.localeCompare(b));
     const tagCounts = new Map(tags.map(tag => [tag, catalog.rows.filter(row => filterTags(row).includes(tag)).length]));
@@ -255,53 +250,6 @@ function renderPublicPolish(row) {
     }
 }
 
-function finishProductPhoto(row) {
-  const photos = (imageReferences[row.brand + '/' + row.shade_name]?.images || []).filter(photo=>safeImageUrl(photo.url) && safeImageUrl(photo.source));
-  const photo = photos.find(photo=>photo.kind === 'manufacturer') || photos[0];
-  if (!photo) return '<p class="muted">No product picture recorded.</p>';
-  return `<figure class="finish-photo"><a href="${escapeHtml(safeImageUrl(photo.url))}" target="_blank" rel="noopener"><img src="${escapeHtml(safeImageUrl(photo.url))}" alt="${escapeHtml(row.brand + ' ' + row.shade_name + ': ' + photo.caption)}" loading="lazy" referrerpolicy="no-referrer"></a><figcaption><p class="photo-error" hidden>Picture unavailable from the source.</p><a href="${escapeHtml(safeImageUrl(photo.source))}" target="_blank" rel="noopener">Photo source ↗</a></figcaption></figure>`;
-}
-function renderFinishReview() {
-  current = null; dirty = false;
-  if (!finishReviewIds) finishReviewIds = catalog.rows.filter(r=>!r.finish.trim()).map(r=>r.id);
-  const rows = finishReviewIds.map(id=>catalog.rows.find(r=>r.id===id)).filter(Boolean);
-  const remaining = catalog.rows.filter(r=>!r.finish.trim()).length;
-  app.innerHTML = `<a href="#">← All polishes</a><h1>Confirm the finishes.</h1><p class="muted">${remaining} finishes still unconfirmed. Select one or more finishes, then save each polish. Leave any you are unsure about for later.</p><p id="finish-status" role="status" aria-live="polite"></p><div class="grid finish-review">${rows.map(row=>{
-    const selected = finishDrafts.get(row.id) || row.finish.split(';').filter(Boolean);
-    return `<section class="card finish-card" data-polish-id="${escapeHtml(row.id)}"><span class="tag">${escapeHtml(row.brand)}</span><h2><a href="#${key(row)}">${escapeHtml(row.shade_name)}</a></h2>${swatch(effective(row),'small-swatch',row)}<p class="muted">${row.finish ? 'Saved: '+escapeHtml(row.finish.split(';').map(f=>catalog.finishOptions[f] || f).join(', ')) : 'Finish unconfirmed'}</p><div class="finish-choices" role="group" aria-label="Finishes for ${escapeHtml(row.shade_name)}">${Object.entries(catalog.finishOptions).map(([value,label])=>`<button type="button" class="finish-choice" data-finish="${escapeHtml(value)}" aria-pressed="${selected.includes(value)}">${escapeHtml(label)}</button>`).join('')}</div><button type="button" class="save-finish"${selected.length ? '' : ' disabled'}>Save finish</button></section>`;
-  }).join('') || '<p>All polishes have a recorded finish.</p>'}</div>`;
-  for (const card of app.querySelectorAll('.finish-card')) {
-    const row = catalog.rows.find(r=>r.id===card.dataset.polishId);
-    card.querySelector('h2').insertAdjacentHTML('afterend', finishProductPhoto(row));
-    const photo = card.querySelector('.finish-photo img');
-    if (photo) photo.onerror = () => { photo.hidden = true; card.querySelector('.photo-error').hidden = false; };
-    for (const button of card.querySelectorAll('.finish-choice')) button.onclick = () => {
-      button.setAttribute('aria-pressed', button.getAttribute('aria-pressed') !== 'true');
-      const selected = [...card.querySelectorAll('.finish-choice[aria-pressed="true"]')].map(b=>b.dataset.finish);
-      finishDrafts.set(row.id, selected);
-      card.querySelector('.small-swatch').outerHTML = swatch(effective(row), 'small-swatch', {...row,finish:selected.join(';')});
-      card.querySelector('.save-finish').disabled = !selected.length;
-      dirty = true;
-    };
-    card.querySelector('.save-finish').onclick = async () => {
-      const selected = finishDrafts.get(row.id) || row.finish.split(';').filter(Boolean);
-      const controls = [...app.querySelectorAll('button')]; controls.forEach(b=>b.disabled=true);
-      const status = document.querySelector('#finish-status'); status.textContent = 'Saving…';
-      try {
-        const response = await fetch('api.php', {method:'POST',headers:{'Content-Type':'application/json','X-Polish-Editor':'1'},body:JSON.stringify({id:row.id,version:catalog.version,finish:selected.join(';')})});
-        const result = await response.json(); if (!response.ok) throw Error(result.error || 'Save failed.');
-        catalog = result; imageReferences = result.imageReferences; finishDrafts.delete(row.id);
-        renderFinishReview(); dirty = finishDrafts.size > 0;
-        document.querySelector('#finish-status').textContent = `Saved ${row.shade_name}.`;
-      } catch(error) {
-        status.textContent = error.message;
-        controls.forEach(b=>b.disabled=false);
-        for (const c of app.querySelectorAll('.finish-card')) c.querySelector('.save-finish').disabled = !c.querySelector('.finish-choice[aria-pressed="true"]');
-      }
-    };
-  }
-  dirty = finishDrafts.size > 0;
-}
 function reference(type,title,description) {
   return `<section class="card"><h2>${title}</h2><p class="muted">${description}</p><div id="${type}-preview" class="swatch"></div><label for="${type}_hex">Hex</label><input id="${type}_hex" placeholder="Not recorded" maxlength="7"><label for="${type}_source">Source URL or archive/photo path</label><input id="${type}_source" placeholder="Source reference"><p><a id="${type}-search" target="_blank" rel="noopener">Find reference pictures ↗</a></p><label for="${type}-file">Choose a reference photo, then click the nail to sample</label><input type="file" id="${type}-file" accept="image/png,image/jpeg,image/webp"><canvas id="${type}-canvas" hidden></canvas><p class="muted">The image stays on this device. Keep personal photos in manis/photos/ and enter their archive path above.</p></section>`;
 }
@@ -363,5 +311,5 @@ async function save() {
   } catch(error){status.textContent=error.message;} finally {controls.forEach(el=>el.disabled=false);}
 }
 window.addEventListener('beforeunload',e=>{if(dirty){e.preventDefault();e.returnValue='';}});
-window.addEventListener('hashchange',event=>{if(dirty){if(!confirm('Leave and discard unsaved changes?')){history.replaceState(null,'',event.oldURL);return;}finishDrafts.clear();enrichmentDrafts.clear();}render();});
+window.addEventListener('hashchange',event=>{if(dirty){if(!confirm('Leave and discard unsaved changes?')){history.replaceState(null,'',event.oldURL);return;}if (typeof enrichmentDrafts !== 'undefined') enrichmentDrafts.clear();}render();});
 load().catch(error=>app.textContent=error.message);

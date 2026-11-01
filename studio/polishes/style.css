@@ -60,4 +60,15 @@
 .brand-mark{display:inline-flex;align-items:center;gap:7px;vertical-align:middle;max-width:100%;font:inherit;letter-spacing:normal}
 .brand-logo{display:block;width:18px;height:18px;flex:none;object-fit:contain;border-radius:3px}
 .brand-logo-white{filter:brightness(0) invert(1)}
+.enrichment-queue{display:grid;gap:12px}
+.enrichment-queue-row{display:flex;align-items:center;justify-content:space-between;gap:20px}
+.enrichment-queue-row h2{margin:0;font-size:19px}
+.enrichment-queue-row p{margin-bottom:0}
+.enrichment-fields{align-items:start;margin-bottom:24px}
+.enrichment-completion{margin-block:24px}
+.enrichment-checkbox{display:flex;align-items:center;gap:10px;margin-block:20px}
+.enrichment-checkbox input{width:auto;flex:none;margin:0}
+.enrichment-actions{display:flex;gap:12px;flex-wrap:wrap}
+.enrichment-actions button{width:auto}
+@media(max-width:600px){.enrichment-queue-row{align-items:start;flex-direction:column}.enrichment-actions button{width:100%}}
 .overview-brand .brand-mark{font-size:inherit}
