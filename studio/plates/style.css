@@ -1,0 +1,33 @@
+/* Plate editor layout only; shared components are in ../studio.css */
+:root{--catalog-width:2400px}
+header,main{max-width:var(--catalog-width)}
+p{line-height:1.6}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:20px}
+.grid>*{min-width:0;overflow-wrap:anywhere}
+.card{padding:18px}
+.card img{width:100%;height:180px;object-fit:contain;background:#eee9e3;border-radius:10px}
+.reference{display:block;width:100%;max-height:500px;object-fit:contain;background:#eee9e3;border-radius:14px;margin:24px 0}
+label{display:block;margin:14px 0 6px}
+#edit input,#edit select,#edit textarea,#edit button{width:100%}
+textarea{min-height:90px;resize:vertical}
+#edit button{margin:20px 0}
+.toolbar{margin:24px 0}
+.message{min-height:28px}
+summary{cursor:pointer;padding:12px 0}
+@media(min-width:1200px){header,main{padding-inline:clamp(24px,3vw,80px)}}
+
+/* Only overview cards resize; individual stamp editors keep their layout. */
+#plates {
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--plate-card-width, 250px)), 1fr));
+}
+#plates[data-card-size="large"] {
+    --plate-card-width: 420px;
+    --plate-image-height: 320px;
+}
+#plates[data-card-size="extra-large"] {
+    --plate-card-width: 640px;
+    --plate-image-height: 480px;
+}
+#plates .card img {
+    height: var(--plate-image-height, 180px);
+}

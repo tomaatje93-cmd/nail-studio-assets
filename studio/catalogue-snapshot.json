@@ -21,6 +21,7 @@
                     "manufacturer_hex": "",
                     "personal_hex": "",
                     "override_hex": "",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -39,6 +40,7 @@
                     "manufacturer_hex": "",
                     "personal_hex": "",
                     "override_hex": "",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -57,14 +59,17 @@
                     "role": "topper",
                     "shade_name": "Broken Glass",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/catrice-broken-glass/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Broken Glass Effect Topcoat – Product Front View Closed - Productitem 1 van 5",
                             "source": "https://www.catrice.eu/nl-nl/p/952096/broken-glass-effect-top-coat"
                         },
                         {
                             "url": "../../polishes/catrice-broken-glass/reference-2-2026-10-30.jpg",
+                            "kind": "swatch",
                             "caption": "Broken Glass Effect Topcoat – Product Texture - Productitem 2 van 5",
                             "source": "https://www.catrice.eu/nl-nl/p/952096/broken-glass-effect-top-coat"
                         }
@@ -86,19 +91,23 @@
                     "manufacturer_hex": "#BD5D34",
                     "personal_hex": "",
                     "override_hex": "",
+                    "category": "unknown",
                     "images": [
                         {
                             "url": "../../polishes/catrice-copper-cabana/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product photograph",
                             "source": "https://www.catrice.eu/de-de/p/954730/gel-affair-nail-lacquer"
                         },
                         {
                             "url": "../../polishes/catrice-copper-cabana/reference-2-2026-10-30.jpg",
+                            "kind": "swatch",
                             "caption": "Official application swatch",
                             "source": "https://www.catrice.eu/de-de/p/954730/gel-affair-nail-lacquer"
                         },
                         {
                             "url": "../../polishes/catrice-copper-cabana/reference-3-2026-10-30.jpg",
+                            "kind": "swatch",
                             "caption": "Official application swatch",
                             "source": "https://www.catrice.eu/de-de/p/954730/gel-affair-nail-lacquer"
                         }
@@ -120,14 +129,17 @@
                     "role": "topper",
                     "shade_name": "Cosmic Gold",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/catrice-cosmic-gold/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Cosmic Gold Effect Top Coat",
                             "source": "https://www.catrice.eu/nl-nl/p/949012/cosmic-gold-effect-top-coat"
                         },
                         {
                             "url": "../../polishes/catrice-cosmic-gold/reference-2-2026-10-30.jpg",
+                            "kind": "swatch",
                             "caption": "Official range texture picture showing multiple shades; not a standalone swatch of Cosmic Gold.",
                             "source": "https://www.catrice.eu/nl-nl/p/949012/cosmic-gold-effect-top-coat"
                         }
@@ -149,9 +161,11 @@
                     "manufacturer_hex": "",
                     "personal_hex": "",
                     "override_hex": "",
+                    "category": "unknown",
                     "images": [
                         {
                             "url": "../../polishes/cirque-colors-electric-daisy/manufacturer-05d91e080ada.jpg",
+                            "kind": "manufacturer",
                             "caption": "Manufacturer product image (automated archive; visual review pending)",
                             "source": "https://www.cirquecolors.com/products/electric-daisy"
                         }
@@ -173,19 +187,23 @@
                     "manufacturer_hex": "#286741",
                     "personal_hex": "",
                     "override_hex": "",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/cirque-colors-harmony/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product photograph",
                             "source": "https://www.cirquecolors.com/products/harmony"
                         },
                         {
                             "url": "../../polishes/cirque-colors-harmony/reference-2-2026-10-30.jpg",
+                            "kind": "swatch",
                             "caption": "Official swatch / application photo",
                             "source": "https://www.cirquecolors.com/products/harmony"
                         },
                         {
                             "url": "../../polishes/cirque-colors-harmony/reference-3-2026-10-30.jpg",
+                            "kind": "swatch",
                             "caption": "Official macro swatch showing magnetic pigment",
                             "source": "https://www.cirquecolors.com/products/harmony"
                         }
@@ -207,19 +225,23 @@
                     "role": "topper",
                     "shade_name": "Starry Eyed",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/cirque-colors-starry-eyed/reference-1-2026-10-30.jpg",
+                            "kind": "reference",
                             "caption": "User-provided reference image; product match and colour not yet verified.",
                             "source": "https://www.cirquecolors.com/products/starry-eyed"
                         },
                         {
                             "url": "../../polishes/cirque-colors-starry-eyed/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product photograph",
                             "source": "https://www.cirquecolors.com/products/starry-eyed"
                         },
                         {
                             "url": "../../polishes/cirque-colors-starry-eyed/reference-3-2026-10-30.jpg",
+                            "kind": "swatch",
                             "caption": "Official application: Starry Eyed over Royal Jelly (purple base), not the topper alone.",
                             "source": "https://www.cirquecolors.com/products/starry-eyed"
                         }
@@ -241,9 +263,11 @@
                     "manufacturer_hex": "",
                     "personal_hex": "",
                     "override_hex": "",
+                    "category": "unknown",
                     "images": [
                         {
                             "url": "../../polishes/cirque-colors-stunt-queen/manufacturer-cb7fdb10718e.jpg",
+                            "kind": "manufacturer",
                             "caption": "Manufacturer product image (automated archive; visual review pending)",
                             "source": "https://www.cirquecolors.com/products/stunt-queen"
                         }
@@ -265,6 +289,7 @@
                     "manufacturer_hex": "",
                     "personal_hex": "",
                     "override_hex": "",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -283,6 +308,7 @@
                     "role": "",
                     "shade_name": "Sheer Tint Opal",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -301,6 +327,7 @@
                     "manufacturer_hex": "",
                     "personal_hex": "",
                     "override_hex": "",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -319,9 +346,11 @@
                     "manufacturer_hex": "",
                     "personal_hex": "",
                     "override_hex": "",
+                    "category": "top",
                     "images": [
                         {
                             "url": "../../polishes/essence-colour-stay-topcoat/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Manufacturer Colour Shield â€” possible match, please check bottle",
                             "source": "https://www.essence.eu/de-de/p/934927/colour-shield-top-coat"
                         }
@@ -343,14 +372,17 @@
                     "manufacturer_hex": "#5182C2",
                     "personal_hex": "",
                     "override_hex": "",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/essence-crazy-cracking/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "CRAZY CRACKING mini nagellak – Product Front View Closed - Productitem 1 van 9",
                             "source": "https://www.essence.eu/nl-nl/p/951896/crazy-cracking-mini-nail-polish"
                         },
                         {
                             "url": "../../polishes/essence-crazy-cracking/reference-2-2026-10-30.jpg",
+                            "kind": "swatch",
                             "caption": "CRAZY CRACKING mini nagellak – Product Texture - Productitem 3 van 9",
                             "source": "https://www.essence.eu/nl-nl/p/951896/crazy-cracking-mini-nail-polish"
                         }
@@ -372,6 +404,7 @@
                     "manufacturer_hex": "",
                     "personal_hex": "",
                     "override_hex": "",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -390,19 +423,23 @@
                     "manufacturer_hex": "#546651",
                     "personal_hex": "",
                     "override_hex": "",
+                    "category": "unknown",
                     "images": [
                         {
                             "url": "../../polishes/essence-emerald-energy/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product photograph",
                             "source": "https://www.essence.eu/en-gb/p/958553/gel-nail-polish"
                         },
                         {
                             "url": "../../polishes/essence-emerald-energy/reference-2-2026-10-30.jpg",
+                            "kind": "swatch",
                             "caption": "Official application swatch",
                             "source": "https://www.essence.eu/en-gb/p/958553/gel-nail-polish"
                         },
                         {
                             "url": "../../polishes/essence-emerald-energy/reference-3-2026-10-30.jpg",
+                            "kind": "swatch",
                             "caption": "Official application swatch",
                             "source": "https://www.essence.eu/en-gb/p/958553/gel-nail-polish"
                         }
@@ -424,14 +461,17 @@
                     "role": "topper",
                     "shade_name": "Glow in the Dark",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/essence-glow-in-the-dark/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "GLOW IN THE DARK mini nail polish – Product Front View Closed - Product item 1 of 10",
                             "source": "https://www.essence.eu/en-de/p/951893/glow-in-the-dark-mini-nail-polish"
                         },
                         {
                             "url": "../../polishes/essence-glow-in-the-dark/reference-2-2026-10-30.jpg",
+                            "kind": "swatch",
                             "caption": "GLOW IN THE DARK mini nail polish – Product Texture - Product item 3 of 10",
                             "source": "https://www.essence.eu/en-de/p/951893/glow-in-the-dark-mini-nail-polish"
                         }
@@ -453,6 +493,7 @@
                     "role": "",
                     "shade_name": "Grape Escape",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -471,6 +512,7 @@
                     "manufacturer_hex": "",
                     "personal_hex": "",
                     "override_hex": "",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -489,6 +531,7 @@
                     "role": "color",
                     "shade_name": "Let It Indi-Go",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -507,14 +550,17 @@
                     "role": "topper",
                     "shade_name": "Love You",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/essence-love-you/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "LOVE YOU mini nagellak – Product Front View Closed - Productitem 1 van 6",
                             "source": "https://www.essence.eu/nl-nl/p/958535/love-you-mini-nail-polish"
                         },
                         {
                             "url": "../../polishes/essence-love-you/reference-2-2026-10-30.jpg",
+                            "kind": "swatch",
                             "caption": "LOVE YOU mini nagellak – Product Texture - Productitem 3 van 6",
                             "source": "https://www.essence.eu/nl-nl/p/958535/love-you-mini-nail-polish"
                         }
@@ -536,6 +582,7 @@
                     "role": "",
                     "shade_name": "Midnight Magic",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -554,6 +601,7 @@
                     "role": "",
                     "shade_name": "Ocean Eyes",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -572,14 +620,17 @@
                     "role": "topper",
                     "shade_name": "Pink Ventures",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/essence-pink-ventures/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "gel nail colour – Product Front View Closed - Productitem 1 van 7",
                             "source": "https://www.essence.eu/nl-be/p/934878/gel-nail-colour"
                         },
                         {
                             "url": "../../polishes/essence-pink-ventures/reference-2-2026-10-30.jpg",
+                            "kind": "swatch",
                             "caption": "gel nail colour – Product Texture - Productitem 3 van 7",
                             "source": "https://www.essence.eu/nl-be/p/934878/gel-nail-colour"
                         }
@@ -601,19 +652,23 @@
                     "manufacturer_hex": "#F77037",
                     "personal_hex": "",
                     "override_hex": "",
+                    "category": "unknown",
                     "images": [
                         {
                             "url": "../../polishes/essie-be-them-all/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product photograph",
                             "source": "https://www.essie.com/nail-polish/enamel/corals/be-them-all"
                         },
                         {
                             "url": "../../polishes/essie-be-them-all/reference-2-2026-10-30.jpg",
+                            "kind": "swatch",
                             "caption": "Official color / application reference",
                             "source": "https://www.essie.com/nail-polish/enamel/corals/be-them-all"
                         },
                         {
                             "url": "../../polishes/essie-be-them-all/reference-3-2026-10-30.jpg",
+                            "kind": "swatch",
                             "caption": "Official color / application reference",
                             "source": "https://www.essie.com/nail-polish/enamel/corals/be-them-all"
                         }
@@ -635,14 +690,17 @@
                     "role": "color",
                     "shade_name": "Bikini Snapped",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/essie-bikini-snapped/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product photograph",
                             "source": "https://www.essie.co.uk/nail-polish/enamel/metallics-and-glitters/bikini-snapped"
                         },
                         {
                             "url": "../../polishes/essie-bikini-snapped/reference-2-2026-10-30.jpg",
+                            "kind": "swatch",
                             "caption": "Official application / alternate product photograph",
                             "source": "https://www.essie.co.uk/nail-polish/enamel/metallics-and-glitters/bikini-snapped"
                         }
@@ -664,6 +722,7 @@
                     "manufacturer_hex": "",
                     "personal_hex": "",
                     "override_hex": "",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -682,6 +741,7 @@
                     "manufacturer_hex": "",
                     "personal_hex": "",
                     "override_hex": "",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -700,19 +760,23 @@
                     "manufacturer_hex": "#070300",
                     "personal_hex": "",
                     "override_hex": "",
+                    "category": "unknown",
                     "images": [
                         {
                             "url": "../../polishes/essie-licorice/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product photograph",
                             "source": "https://www.essie.com/nail-polish/enamel/grays/licorice"
                         },
                         {
                             "url": "../../polishes/essie-licorice/reference-2-2026-10-30.jpg",
+                            "kind": "swatch",
                             "caption": "Official color / application reference",
                             "source": "https://www.essie.com/nail-polish/enamel/grays/licorice"
                         },
                         {
                             "url": "../../polishes/essie-licorice/reference-3-2026-10-30.jpg",
+                            "kind": "swatch",
                             "caption": "Official color / application reference",
                             "source": "https://www.essie.com/nail-polish/enamel/grays/licorice"
                         }
@@ -734,6 +798,7 @@
                     "role": "",
                     "shade_name": "Light as Linen",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -752,6 +817,7 @@
                     "role": "color",
                     "shade_name": "Now or Never",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -770,6 +836,7 @@
                     "role": "",
                     "shade_name": "Pearly White",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -788,9 +855,11 @@
                     "role": "color",
                     "shade_name": "Play Date",
                     "status": "owned",
+                    "category": "creme",
                     "images": [
                         {
                             "url": "../../polishes/essie-play-date/manufacturer-backup-1c16b721147b.jpg",
+                            "kind": "manufacturer",
                             "caption": "Manufacturer page preview (automated exact-page backup; inspect visually)",
                             "source": "https://www.essie.com/nail-polish/enamel/purples/play-date"
                         }
@@ -812,6 +881,7 @@
                     "role": "color",
                     "shade_name": "Really Red",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -830,6 +900,7 @@
                     "role": "color",
                     "shade_name": "Surrounded by Studs (Sluts)",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -848,6 +919,7 @@
                     "role": "",
                     "shade_name": "Twinkle in Time",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -866,9 +938,11 @@
                     "manufacturer_hex": "",
                     "personal_hex": "",
                     "override_hex": "#B8A6C7",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/hema-always-sparkle/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "HEMA-hosted 59 Always Sparkle reference linked by supplied retailer listing; owned bottle version unconfirmed.",
                             "source": "https://www.yellowbello.nl/store/hema-borger/product/hema-long-lasting-nagellak-59-always-sparkle-febb891a3c5b85565335ba6921f97702c905b0e5"
                         }
@@ -890,6 +964,7 @@
                     "role": "",
                     "shade_name": "Bronzing Pearls",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -908,6 +983,7 @@
                     "role": "color",
                     "shade_name": "Buttercup",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -926,9 +1002,11 @@
                     "manufacturer_hex": "#1C7561",
                     "personal_hex": "",
                     "override_hex": "",
+                    "category": "unknown",
                     "images": [
                         {
                             "url": "../../polishes/hema-can-you-teal-the-love/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Archived HEMA product photograph via Pinterest â€” original listing unavailable",
                             "source": "https://au.pinterest.com/pin/long-lasting-nagellak-87-can-you-teal-the-love-hema--30821578693151404/"
                         }
@@ -950,6 +1028,7 @@
                     "role": "topper",
                     "shade_name": "Confetti",
                     "status": "owned",
+                    "category": "specialty",
                     "images": []
                 }
             },
@@ -968,6 +1047,7 @@
                     "role": "color",
                     "shade_name": "Cool Off Umber",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -986,6 +1066,7 @@
                     "role": "",
                     "shade_name": "Cosmos Blue - Matte",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -1004,6 +1085,7 @@
                     "role": "color",
                     "shade_name": "Cosmos Blue",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -1022,6 +1104,7 @@
                     "role": "color",
                     "shade_name": "Delft Blue",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -1040,6 +1123,7 @@
                     "role": "color",
                     "shade_name": "Dutch Denim",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -1058,6 +1142,7 @@
                     "role": "",
                     "shade_name": "Fancy Pearl",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -1076,6 +1161,7 @@
                     "role": "color",
                     "shade_name": "Festive Fuchsia",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -1094,6 +1180,7 @@
                     "role": "color",
                     "shade_name": "Forget Me Not",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -1112,6 +1199,7 @@
                     "role": "topper",
                     "shade_name": "Glitter Gold",
                     "status": "owned",
+                    "category": "specialty",
                     "images": []
                 }
             },
@@ -1130,6 +1218,7 @@
                     "role": "",
                     "shade_name": "Gold Stars",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -1148,6 +1237,7 @@
                     "role": "",
                     "shade_name": "Lava Out Loud",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -1166,6 +1256,7 @@
                     "role": "color",
                     "shade_name": "Lilac You a Lot",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -1184,14 +1275,17 @@
                     "manufacturer_hex": "#000000",
                     "personal_hex": "",
                     "override_hex": "",
+                    "category": "unknown",
                     "images": [
                         {
                             "url": "../../polishes/hema-liquorice/reference-1-2026-10-30.png",
+                            "kind": "swatch",
                             "caption": "Official polish texture / color reference",
                             "source": "https://www.hema.nl/mooi-gezond/make-up/nagellak/long-lasting-nagellak/long-lasting-nagellak-407-liquorice-11241022.html"
                         },
                         {
                             "url": "../../polishes/hema-liquorice/reference-2-2026-10-30.png",
+                            "kind": "swatch",
                             "caption": "Official polish texture / color reference",
                             "source": "https://www.hema.nl/mooi-gezond/make-up/nagellak/long-lasting-nagellak/long-lasting-nagellak-407-liquorice-11241022.html"
                         }
@@ -1213,6 +1307,7 @@
                     "role": "",
                     "shade_name": "Luscious Lilac",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -1231,6 +1326,7 @@
                     "role": "color",
                     "shade_name": "Matcha Made in Heaven",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -1249,6 +1345,7 @@
                     "role": "color",
                     "shade_name": "Milkmaid",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -1267,9 +1364,11 @@
                     "role": "topper",
                     "shade_name": "Mon Amour",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/hema-mon-amour/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official 10 Mon Amour bottle reference from indexed manufacturer page; owned bottle version unconfirmed.",
                             "source": "https://www.hema.nl/mooi-gezond/make-up/nagellak/topcoat-base-coat-nagellak/long-lasting-nagellak-10-mon-amour-11240310.html"
                         }
@@ -1291,6 +1390,7 @@
                     "role": "",
                     "shade_name": "Out of Space",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -1309,6 +1409,7 @@
                     "role": "color",
                     "shade_name": "Passionate Raspberry",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -1327,6 +1428,7 @@
                     "role": "topper",
                     "shade_name": "Pink Diamond",
                     "status": "owned",
+                    "category": "specialty",
                     "images": []
                 }
             },
@@ -1345,6 +1447,7 @@
                     "role": "",
                     "shade_name": "Pink Sunrise",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -1363,14 +1466,17 @@
                     "manufacturer_hex": "#800080",
                     "personal_hex": "",
                     "override_hex": "",
+                    "category": "unknown",
                     "images": [
                         {
                             "url": "../../polishes/hema-purpalicious/reference-1-2026-10-30.png",
+                            "kind": "swatch",
                             "caption": "Official polish texture / color reference",
                             "source": "https://www.hema.nl/mooi-gezond/make-up/nagellak/long-lasting-nagellak/long-lasting-nagellak-1036-purpalicious-11241036.html"
                         },
                         {
                             "url": "../../polishes/hema-purpalicious/reference-2-2026-10-30.png",
+                            "kind": "swatch",
                             "caption": "Official polish texture / color reference",
                             "source": "https://www.hema.nl/mooi-gezond/make-up/nagellak/long-lasting-nagellak/long-lasting-nagellak-1036-purpalicious-11241036.html"
                         }
@@ -1392,6 +1498,7 @@
                     "role": "color",
                     "shade_name": "Purple Blossom",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -1410,6 +1517,7 @@
                     "role": "topper",
                     "shade_name": "Purple Glitter",
                     "status": "owned",
+                    "category": "specialty",
                     "images": []
                 }
             },
@@ -1428,9 +1536,11 @@
                     "manufacturer_hex": "",
                     "personal_hex": "",
                     "override_hex": "#E18DB6",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/hema-rose-petals/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official 61 Rose Petals bottle reference from indexed manufacturer page; owned bottle version unconfirmed.",
                             "source": "https://www.hema.nl/mooi-gezond/make-up/nagellak/long-lasting-nagellak/long-lasting-nagellak-61-rose-petals-11240361.html"
                         }
@@ -1452,6 +1562,7 @@
                     "role": "color",
                     "shade_name": "Royal Orange",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -1470,6 +1581,7 @@
                     "role": "",
                     "shade_name": "Shimmering Pearl",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -1488,6 +1600,7 @@
                     "role": "",
                     "shade_name": "Steel Grey - Matte",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -1506,6 +1619,7 @@
                     "role": "color",
                     "shade_name": "Steel Grey",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -1524,6 +1638,7 @@
                     "role": "color",
                     "shade_name": "Sunny Flowers",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -1542,14 +1657,17 @@
                     "manufacturer_hex": "#483C32",
                     "personal_hex": "",
                     "override_hex": "",
+                    "category": "unknown",
                     "images": [
                         {
                             "url": "../../polishes/hema-tickle-tackle/reference-1-2026-10-30.png",
+                            "kind": "swatch",
                             "caption": "Official polish texture / color reference",
                             "source": "https://www.hema.nl/mooi-gezond/make-up/nagellak/long-lasting-nagellak/long-lasting-nagellak-1026-tickle-tackle-11241026.html"
                         },
                         {
                             "url": "../../polishes/hema-tickle-tackle/reference-2-2026-10-30.png",
+                            "kind": "swatch",
                             "caption": "Official polish texture / color reference",
                             "source": "https://www.hema.nl/mooi-gezond/make-up/nagellak/long-lasting-nagellak/long-lasting-nagellak-1026-tickle-tackle-11241026.html"
                         }
@@ -1571,6 +1689,7 @@
                     "role": "color",
                     "shade_name": "Tompouce Bruin",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -1589,6 +1708,7 @@
                     "role": "color",
                     "shade_name": "Tompouce Geel",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -1607,6 +1727,7 @@
                     "role": "color",
                     "shade_name": "Tompouce Roze",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -1625,14 +1746,17 @@
                     "role": "topper",
                     "shade_name": "Twinkle Twinkle",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/hema-twinkle-twinkle/reference-1-2026-10-30.png",
+                            "kind": "manufacturer",
                             "caption": "Official product photograph",
                             "source": "https://www.hema.nl/mooi-gezond/make-up/nagellak/topcoat-base-coat-nagellak/long-lasting-nagellak-77-twinkle-twinkle-11240177.html"
                         },
                         {
                             "url": "../../polishes/hema-twinkle-twinkle/reference-2-2026-10-30.png",
+                            "kind": "swatch",
                             "caption": "Official application / alternate product photograph",
                             "source": "https://www.hema.nl/mooi-gezond/make-up/nagellak/topcoat-base-coat-nagellak/long-lasting-nagellak-77-twinkle-twinkle-11240177.html"
                         }
@@ -1654,6 +1778,7 @@
                     "role": "color",
                     "shade_name": "Vivid Jade",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -1672,6 +1797,7 @@
                     "role": "color",
                     "shade_name": "White Lie",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -1690,14 +1816,17 @@
                     "manufacturer_hex": "#4E2A3B",
                     "personal_hex": "",
                     "override_hex": "",
+                    "category": "unknown",
                     "images": [
                         {
                             "url": "../../polishes/hema-wicked-wine/reference-1-2026-10-30.png",
+                            "kind": "swatch",
                             "caption": "Official polish texture / color reference",
                             "source": "https://www.hema.nl/mooi-gezond/make-up/nagellak/long-lasting-nagellak/long-lasting-nagellak-219-wicked-wine-11240809.html"
                         },
                         {
                             "url": "../../polishes/hema-wicked-wine/reference-2-2026-10-30.png",
+                            "kind": "swatch",
                             "caption": "Official polish texture / color reference",
                             "source": "https://www.hema.nl/mooi-gezond/make-up/nagellak/long-lasting-nagellak/long-lasting-nagellak-219-wicked-wine-11240809.html"
                         }
@@ -1719,6 +1848,7 @@
                     "role": "color",
                     "shade_name": "Wooshy Wednesday",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -1737,6 +1867,7 @@
                     "manufacturer_hex": "",
                     "personal_hex": "",
                     "override_hex": "",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -1755,6 +1886,7 @@
                     "role": "",
                     "shade_name": "Einhornnacht",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -1773,6 +1905,7 @@
                     "role": "color",
                     "shade_name": "Orange",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -1791,14 +1924,17 @@
                     "role": "topper",
                     "shade_name": "Spektrum",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/herzlack-spektrum/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product photograph",
                             "source": "https://herzlack.de/products/spektrum-topper"
                         },
                         {
                             "url": "../../polishes/herzlack-spektrum/reference-2-2026-10-30.jpg",
+                            "kind": "swatch",
                             "caption": "Official application photograph; layering may affect appearance",
                             "source": "https://herzlack.de/products/spektrum-topper"
                         }
@@ -1820,6 +1956,7 @@
                     "role": "",
                     "shade_name": "Zuckerstreusel",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -1838,14 +1975,17 @@
                     "role": "color",
                     "shade_name": "8-Bit Blues",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-8-bit-blues/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product photograph",
                             "source": "https://www.holotaco.com/products/8-bit-blues"
                         },
                         {
                             "url": "../../polishes/holo-taco-8-bit-blues/reference-2-2026-10-30.jpg",
+                            "kind": "swatch",
                             "caption": "Official application photograph; layering may affect appearance",
                             "source": "https://www.holotaco.com/products/8-bit-blues"
                         }
@@ -1867,9 +2007,11 @@
                     "role": "color",
                     "shade_name": "Alien Infatuation",
                     "status": "owned",
+                    "category": "unknown",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-alien-infatuation/manufacturer-71af4a2a77bc.jpg",
+                            "kind": "manufacturer",
                             "caption": "Manufacturer product image (automated archive; visual review pending)",
                             "source": "https://www.holotaco.com/products/alien-infatuation"
                         }
@@ -1891,19 +2033,23 @@
                     "role": "color",
                     "shade_name": "Anti-Hero",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-anti-hero/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/anti-hero"
                         },
                         {
                             "url": "../../polishes/holo-taco-anti-hero/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/anti-hero"
                         },
                         {
                             "url": "../../polishes/holo-taco-anti-hero/reference-3-2026-10-30.gif",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/anti-hero"
                         }
@@ -1925,19 +2071,23 @@
                     "role": "topper",
                     "shade_name": "Aurora Unicorn Skin",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-aurora-unicorn-skin/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/aurora-unicorn-skin"
                         },
                         {
                             "url": "../../polishes/holo-taco-aurora-unicorn-skin/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/aurora-unicorn-skin"
                         },
                         {
                             "url": "../../polishes/holo-taco-aurora-unicorn-skin/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/aurora-unicorn-skin"
                         }
@@ -1959,19 +2109,23 @@
                     "role": "color",
                     "shade_name": "Be Kind Rewind",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-be-kind-rewind/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/be-kind-rewind"
                         },
                         {
                             "url": "../../polishes/holo-taco-be-kind-rewind/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/be-kind-rewind"
                         },
                         {
                             "url": "../../polishes/holo-taco-be-kind-rewind/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/be-kind-rewind"
                         }
@@ -1993,19 +2147,23 @@
                     "role": "topper",
                     "shade_name": "Blue Flakie Holo Taco",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-blue-flakie-holo-taco/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/blue-flakie-holo-taco"
                         },
                         {
                             "url": "../../polishes/holo-taco-blue-flakie-holo-taco/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/blue-flakie-holo-taco"
                         },
                         {
                             "url": "../../polishes/holo-taco-blue-flakie-holo-taco/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/blue-flakie-holo-taco"
                         }
@@ -2027,19 +2185,23 @@
                     "role": "color",
                     "shade_name": "Blue Freezie",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-blue-freezie/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/blue-freezie"
                         },
                         {
                             "url": "../../polishes/holo-taco-blue-freezie/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/blue-freezie"
                         },
                         {
                             "url": "../../polishes/holo-taco-blue-freezie/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/blue-freezie"
                         }
@@ -2061,19 +2223,23 @@
                     "role": "color",
                     "shade_name": "Blue Rizzler",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-blue-rizzler/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/blue-rizzler"
                         },
                         {
                             "url": "../../polishes/holo-taco-blue-rizzler/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/blue-rizzler"
                         },
                         {
                             "url": "../../polishes/holo-taco-blue-rizzler/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/blue-rizzler"
                         }
@@ -2095,19 +2261,23 @@
                     "role": "color",
                     "shade_name": "Bonus Life",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-bonus-life/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/bonus-life"
                         },
                         {
                             "url": "../../polishes/holo-taco-bonus-life/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/bonus-life"
                         },
                         {
                             "url": "../../polishes/holo-taco-bonus-life/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/bonus-life"
                         }
@@ -2129,6 +2299,7 @@
                     "manufacturer_hex": "",
                     "personal_hex": "",
                     "override_hex": "",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -2147,9 +2318,11 @@
                     "role": "color",
                     "shade_name": "Born Ugly",
                     "status": "owned",
+                    "category": "unknown",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-born-ugly/manufacturer-c6019c91ca91.jpg",
+                            "kind": "manufacturer",
                             "caption": "Manufacturer product image (automated archive; visual review pending)",
                             "source": "https://www.holotaco.com/products/born-ugly"
                         }
@@ -2171,19 +2344,23 @@
                     "role": "color",
                     "shade_name": "Box Office Bomb",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-box-office-bomb/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/box-office-bomb"
                         },
                         {
                             "url": "../../polishes/holo-taco-box-office-bomb/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/box-office-bomb"
                         },
                         {
                             "url": "../../polishes/holo-taco-box-office-bomb/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/box-office-bomb"
                         }
@@ -2205,9 +2382,11 @@
                     "role": "color",
                     "shade_name": "Bring Me the Teal",
                     "status": "owned",
+                    "category": "unknown",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-bring-me-the-teal/manufacturer-805c513b1eac.jpg",
+                            "kind": "manufacturer",
                             "caption": "Manufacturer product image (automated archive; visual review pending)",
                             "source": "https://www.holotaco.com/products/bring-me-the-teal"
                         }
@@ -2229,19 +2408,23 @@
                     "role": "color",
                     "shade_name": "Brownie Points",
                     "status": "owned",
+                    "category": "creme",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-brownie-points/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product photograph",
                             "source": "https://www.holotaco.com/products/brownie-points"
                         },
                         {
                             "url": "../../polishes/holo-taco-brownie-points/reference-2-2026-10-30.jpg",
+                            "kind": "swatch",
                             "caption": "Official swatch / application photo",
                             "source": "https://www.holotaco.com/products/brownie-points"
                         },
                         {
                             "url": "../../polishes/holo-taco-brownie-points/reference-3-2026-10-30.jpg",
+                            "kind": "swatch",
                             "caption": "Official swatch / application photo",
                             "source": "https://www.holotaco.com/products/brownie-points"
                         }
@@ -2263,19 +2446,23 @@
                     "role": "color",
                     "shade_name": "Byte My Peach",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-byte-my-peach/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/byte-my-peach"
                         },
                         {
                             "url": "../../polishes/holo-taco-byte-my-peach/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/byte-my-peach"
                         },
                         {
                             "url": "../../polishes/holo-taco-byte-my-peach/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/byte-my-peach"
                         }
@@ -2297,14 +2484,17 @@
                     "role": "color",
                     "shade_name": "Call Me Vixen",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-call-me-vixen/product-2026-10-30.png",
+                            "kind": "manufacturer",
                             "caption": "User-supplied product reference, labelled deep cranberry shimmer nail polish with scattered holo.",
                             "source": ""
                         },
                         {
                             "url": "../../polishes/holo-taco-call-me-vixen/lunaxlacquer-swatch-2026-10-30.png",
+                            "kind": "swatch",
                             "caption": "User-supplied Call Me Vixen nail swatch; LunaXLacquer watermark retained. Coat count unknown. External reference, not a personal swatch.",
                             "source": ""
                         }
@@ -2326,19 +2516,23 @@
                     "role": "topper",
                     "shade_name": "Celestial Lights",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-celestial-lights/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product photograph",
                             "source": "https://www.holotaco.com/products/celestial-lights"
                         },
                         {
                             "url": "../../polishes/holo-taco-celestial-lights/reference-2-2026-10-30.jpg",
+                            "kind": "swatch",
                             "caption": "Official Celestial Lights swatch over a black base",
                             "source": "https://www.holotaco.com/products/celestial-lights"
                         },
                         {
                             "url": "../../polishes/holo-taco-celestial-lights/reference-3-2026-10-30.jpg",
+                            "kind": "swatch",
                             "caption": "Official Celestial Lights swatch over a purple base",
                             "source": "https://www.holotaco.com/products/celestial-lights"
                         }
@@ -2360,6 +2554,7 @@
                     "role": "color",
                     "shade_name": "Cheap Champagne",
                     "status": "owned",
+                    "category": "specialty",
                     "images": []
                 }
             },
@@ -2378,9 +2573,11 @@
                     "role": "color",
                     "shade_name": "Circuit Breaker",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-circuit-breaker/manufacturer-1e0c1e606ffe.jpg",
+                            "kind": "manufacturer",
                             "caption": "Manufacturer product image (automated archive; visual review pending)",
                             "source": "https://www.holotaco.com/products/circuit-breaker"
                         }
@@ -2402,19 +2599,23 @@
                     "role": "color",
                     "shade_name": "Coin Toss",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-coin-toss/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/coin-toss"
                         },
                         {
                             "url": "../../polishes/holo-taco-coin-toss/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/coin-toss"
                         },
                         {
                             "url": "../../polishes/holo-taco-coin-toss/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/coin-toss"
                         }
@@ -2436,6 +2637,7 @@
                     "role": "color",
                     "shade_name": "Cold Shoulder",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -2454,9 +2656,11 @@
                     "role": "color",
                     "shade_name": "Cold Slate",
                     "status": "owned",
+                    "category": "unknown",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-cold-slate/manufacturer-aa04c254dd03.jpg",
+                            "kind": "manufacturer",
                             "caption": "Manufacturer product image (automated archive; visual review pending)",
                             "source": "https://www.holotaco.com/products/cold-slate"
                         }
@@ -2478,19 +2682,23 @@
                     "role": "color",
                     "shade_name": "Coral Chaser",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-coral-chaser/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/coral-chaser"
                         },
                         {
                             "url": "../../polishes/holo-taco-coral-chaser/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/coral-chaser"
                         },
                         {
                             "url": "../../polishes/holo-taco-coral-chaser/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/coral-chaser"
                         }
@@ -2512,19 +2720,23 @@
                     "role": "topper",
                     "shade_name": "Cosmic Unicorn Skin",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-cosmic-unicorn-skin/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/cosmic-unicorn-skin"
                         },
                         {
                             "url": "../../polishes/holo-taco-cosmic-unicorn-skin/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/cosmic-unicorn-skin"
                         },
                         {
                             "url": "../../polishes/holo-taco-cosmic-unicorn-skin/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/cosmic-unicorn-skin"
                         }
@@ -2546,19 +2758,23 @@
                     "role": "topper",
                     "shade_name": "Crescent Moon Taco",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-crescent-moon-taco/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/crescent-moon-taco"
                         },
                         {
                             "url": "../../polishes/holo-taco-crescent-moon-taco/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/crescent-moon-taco"
                         },
                         {
                             "url": "../../polishes/holo-taco-crescent-moon-taco/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/crescent-moon-taco"
                         }
@@ -2580,19 +2796,23 @@
                     "role": "color",
                     "shade_name": "Crimson Void",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-crimson-void/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/crimson-void"
                         },
                         {
                             "url": "../../polishes/holo-taco-crimson-void/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/crimson-void"
                         },
                         {
                             "url": "../../polishes/holo-taco-crimson-void/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/crimson-void"
                         }
@@ -2614,19 +2834,23 @@
                     "role": "color",
                     "shade_name": "CTRL Cutie",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-ctrl-cutie/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/ctrl-cutie"
                         },
                         {
                             "url": "../../polishes/holo-taco-ctrl-cutie/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/ctrl-cutie"
                         },
                         {
                             "url": "../../polishes/holo-taco-ctrl-cutie/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/ctrl-cutie"
                         }
@@ -2648,6 +2872,7 @@
                     "role": "color",
                     "shade_name": "Cyantific",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -2666,19 +2891,23 @@
                     "role": "color",
                     "shade_name": "Dead Petals",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-dead-petals/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/dead-petals"
                         },
                         {
                             "url": "../../polishes/holo-taco-dead-petals/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/dead-petals"
                         },
                         {
                             "url": "../../polishes/holo-taco-dead-petals/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/dead-petals"
                         }
@@ -2700,14 +2929,17 @@
                     "role": "topper",
                     "shade_name": "Diamond Dasher Taco",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-diamond-dasher-taco/product-2026-10-30.png",
+                            "kind": "manufacturer",
                             "caption": "User-supplied Diamond Dasher Taco product reference.",
                             "source": ""
                         },
                         {
                             "url": "../../polishes/holo-taco-diamond-dasher-taco/lunaxlacquer-swatch-2026-10-30.png",
+                            "kind": "swatch",
                             "caption": "User-supplied Diamond Dasher Taco nail swatch over a dark base; base shade and coat count unknown. LunaXLacquer watermark retained. External reference, not a personal swatch.",
                             "source": ""
                         }
@@ -2729,6 +2961,7 @@
                     "role": "",
                     "shade_name": "Don't Be Jelly",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -2747,19 +2980,23 @@
                     "role": "color",
                     "shade_name": "Dream Eater",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-dream-eater/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/dream-eater"
                         },
                         {
                             "url": "../../polishes/holo-taco-dream-eater/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/dream-eater"
                         },
                         {
                             "url": "../../polishes/holo-taco-dream-eater/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/dream-eater"
                         }
@@ -2781,19 +3018,23 @@
                     "role": "color",
                     "shade_name": "Electric Sweetener",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-electric-sweetener/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/electric-sweetener"
                         },
                         {
                             "url": "../../polishes/holo-taco-electric-sweetener/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/electric-sweetener"
                         },
                         {
                             "url": "../../polishes/holo-taco-electric-sweetener/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/electric-sweetener"
                         }
@@ -2815,19 +3056,23 @@
                     "role": "topper",
                     "shade_name": "Everything Taco",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-everything-taco/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/everything-taco"
                         },
                         {
                             "url": "../../polishes/holo-taco-everything-taco/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/everything-taco"
                         },
                         {
                             "url": "../../polishes/holo-taco-everything-taco/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/everything-taco"
                         }
@@ -2849,9 +3094,11 @@
                     "manufacturer_hex": "",
                     "personal_hex": "",
                     "override_hex": "",
+                    "category": "unknown",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-existential-crisis/manufacturer-3d69913a3c18.jpg",
+                            "kind": "manufacturer",
                             "caption": "Manufacturer product image (automated archive; visual review pending)",
                             "source": "https://www.holotaco.com/products/existential-crisis"
                         }
@@ -2873,6 +3120,7 @@
                     "role": "color",
                     "shade_name": "Fake Date",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -2891,19 +3139,23 @@
                     "role": "topper",
                     "shade_name": "Fallen Flake Taco",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-fallen-flake-taco/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/fallen-flake-taco"
                         },
                         {
                             "url": "../../polishes/holo-taco-fallen-flake-taco/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/fallen-flake-taco"
                         },
                         {
                             "url": "../../polishes/holo-taco-fallen-flake-taco/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/fallen-flake-taco"
                         }
@@ -2925,19 +3177,23 @@
                     "role": "topper",
                     "shade_name": "Flakie Holo Taco",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-flakie-holo-taco/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/flakie-holo-taco"
                         },
                         {
                             "url": "../../polishes/holo-taco-flakie-holo-taco/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/flakie-holo-taco"
                         },
                         {
                             "url": "../../polishes/holo-taco-flakie-holo-taco/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/flakie-holo-taco"
                         }
@@ -2959,6 +3215,7 @@
                     "role": "color",
                     "shade_name": "Foreshadow",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -2977,19 +3234,23 @@
                     "role": "topper",
                     "shade_name": "Freezer Burn",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-freezer-burn/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/freezer-burn"
                         },
                         {
                             "url": "../../polishes/holo-taco-freezer-burn/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/freezer-burn"
                         },
                         {
                             "url": "../../polishes/holo-taco-freezer-burn/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/freezer-burn"
                         }
@@ -3011,6 +3272,7 @@
                     "role": "color",
                     "shade_name": "Frost Light",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -3029,19 +3291,23 @@
                     "role": "topper",
                     "shade_name": "Galactic Unicorn Skin",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-galactic-unicorn-skin/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/galactic-unicorn-skin"
                         },
                         {
                             "url": "../../polishes/holo-taco-galactic-unicorn-skin/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/galactic-unicorn-skin"
                         },
                         {
                             "url": "../../polishes/holo-taco-galactic-unicorn-skin/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/galactic-unicorn-skin"
                         }
@@ -3063,6 +3329,7 @@
                     "role": "color",
                     "shade_name": "Gift Receipt",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -3081,19 +3348,23 @@
                     "role": "color",
                     "shade_name": "Girly Ghoul",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-girly-ghoul/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/girly-ghoul"
                         },
                         {
                             "url": "../../polishes/holo-taco-girly-ghoul/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/girly-ghoul"
                         },
                         {
                             "url": "../../polishes/holo-taco-girly-ghoul/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/girly-ghoul"
                         }
@@ -3115,6 +3386,7 @@
                     "role": "color",
                     "shade_name": "Glamethyst",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -3133,19 +3405,23 @@
                     "role": "color",
                     "shade_name": "Glitch & Glam",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-glitch-glam/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/glitch-glam"
                         },
                         {
                             "url": "../../polishes/holo-taco-glitch-glam/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/glitch-glam"
                         },
                         {
                             "url": "../../polishes/holo-taco-glitch-glam/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/glitch-glam"
                         }
@@ -3167,19 +3443,23 @@
                     "manufacturer_hex": "",
                     "personal_hex": "",
                     "override_hex": "",
+                    "category": "top",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-glossy-taco/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product photograph",
                             "source": "https://www.holotaco.com/products/glossy-taco"
                         },
                         {
                             "url": "../../polishes/holo-taco-glossy-taco/reference-2-2026-10-30.jpg",
+                            "kind": "swatch",
                             "caption": "Official glossy finish over a holographic base polish",
                             "source": "https://www.holotaco.com/products/glossy-taco"
                         },
                         {
                             "url": "../../polishes/holo-taco-glossy-taco/reference-3-2026-10-30.jpg",
+                            "kind": "swatch",
                             "caption": "Official glossy finish over a holographic base polish",
                             "source": "https://www.holotaco.com/products/glossy-taco"
                         }
@@ -3201,9 +3481,11 @@
                     "role": "topper",
                     "shade_name": "Gold Scattered Holo Taco",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-gold-scattered-holo-taco/product-2026-10-30.png",
+                            "kind": "manufacturer",
                             "caption": "User-supplied product reference, labelled Gold Scattered Holo Taco: gold scattered holographic nail topper.",
                             "source": ""
                         }
@@ -3225,19 +3507,23 @@
                     "role": "topper",
                     "shade_name": "Golden Flake Taco",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-golden-flake-taco/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/gold-flake-taco"
                         },
                         {
                             "url": "../../polishes/holo-taco-golden-flake-taco/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/gold-flake-taco"
                         },
                         {
                             "url": "../../polishes/holo-taco-golden-flake-taco/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/gold-flake-taco"
                         }
@@ -3259,19 +3545,23 @@
                     "role": "color",
                     "shade_name": "Green Taffy",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-green-taffy/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/green-taffy"
                         },
                         {
                             "url": "../../polishes/holo-taco-green-taffy/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/green-taffy"
                         },
                         {
                             "url": "../../polishes/holo-taco-green-taffy/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/green-taffy"
                         }
@@ -3293,19 +3583,23 @@
                     "manufacturer_hex": "#46446A",
                     "personal_hex": "",
                     "override_hex": "",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-grim-keeper/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product photograph",
                             "source": "https://www.holotaco.com/products/grim-keeper"
                         },
                         {
                             "url": "../../polishes/holo-taco-grim-keeper/reference-2-2026-10-30.jpg",
+                            "kind": "swatch",
                             "caption": "Official swatch / application photo",
                             "source": "https://www.holotaco.com/products/grim-keeper"
                         },
                         {
                             "url": "../../polishes/holo-taco-grim-keeper/reference-3-2026-10-30.jpg",
+                            "kind": "swatch",
                             "caption": "Official swatch / application photo",
                             "source": "https://www.holotaco.com/products/grim-keeper"
                         }
@@ -3327,6 +3621,7 @@
                     "role": "color",
                     "shade_name": "Head Hunter",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -3345,19 +3640,23 @@
                     "role": "color",
                     "shade_name": "Hi-Def",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-hi-def/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/hi-def"
                         },
                         {
                             "url": "../../polishes/holo-taco-hi-def/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/hi-def"
                         },
                         {
                             "url": "../../polishes/holo-taco-hi-def/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/hi-def"
                         }
@@ -3379,6 +3678,7 @@
                     "role": "color",
                     "shade_name": "High Tea Hibiscus",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -3397,9 +3697,11 @@
                     "role": "color",
                     "shade_name": "Hydropower",
                     "status": "owned",
+                    "category": "unknown",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-hydropower/manufacturer-96a6b2f38f8f.jpg",
+                            "kind": "manufacturer",
                             "caption": "Manufacturer product image (automated archive; visual review pending)",
                             "source": "https://www.holotaco.com/products/hydropower"
                         }
@@ -3421,9 +3723,11 @@
                     "role": "color",
                     "shade_name": "I'm Over Brew",
                     "status": "owned",
+                    "category": "unknown",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-i-m-over-brew/manufacturer-f761b5912fe9.jpg",
+                            "kind": "manufacturer",
                             "caption": "Manufacturer product image (automated archive; visual review pending)",
                             "source": "https://www.holotaco.com/products/im-over-brew"
                         }
@@ -3445,14 +3749,17 @@
                     "role": "color",
                     "shade_name": "Ice Angel",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-ice-angel/product-2026-10-30.png",
+                            "kind": "manufacturer",
                             "caption": "User-supplied Ice Angel product reference; labelled icy ivory linear holographic nail polish.",
                             "source": ""
                         },
                         {
                             "url": "../../polishes/holo-taco-ice-angel/lunaxlacquer-swatch-2026-10-30.png",
+                            "kind": "swatch",
                             "caption": "User-supplied Ice Angel nail swatch; LunaXLacquer watermark retained. External reference, not a personal swatch.",
                             "source": ""
                         }
@@ -3474,6 +3781,7 @@
                     "role": "color",
                     "shade_name": "Indigo Away",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -3492,19 +3800,23 @@
                     "role": "color",
                     "shade_name": "Jam Session",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-jam-session/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/jam-session"
                         },
                         {
                             "url": "../../polishes/holo-taco-jam-session/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/jam-session"
                         },
                         {
                             "url": "../../polishes/holo-taco-jam-session/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/jam-session"
                         }
@@ -3526,9 +3838,11 @@
                     "role": "color",
                     "shade_name": "Keep It Evergreen",
                     "status": "owned",
+                    "category": "unknown",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-keep-it-evergreen/manufacturer-0e750030aeda.jpg",
+                            "kind": "manufacturer",
                             "caption": "Manufacturer product image (automated archive; visual review pending)",
                             "source": "https://www.holotaco.com/products/keep-it-evergreen"
                         }
@@ -3550,6 +3864,7 @@
                     "role": "color",
                     "shade_name": "Laven-duh",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -3568,19 +3883,23 @@
                     "role": "color",
                     "shade_name": "Lavender Syrup",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-lavender-syrup/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/lavender-syrup"
                         },
                         {
                             "url": "../../polishes/holo-taco-lavender-syrup/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/lavender-syrup"
                         },
                         {
                             "url": "../../polishes/holo-taco-lavender-syrup/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/lavender-syrup"
                         }
@@ -3602,6 +3921,7 @@
                     "role": "color",
                     "shade_name": "Left on Red",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -3620,19 +3940,23 @@
                     "role": "color",
                     "shade_name": "Lemon Spritzer",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-lemon-spritzer/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/lemon-spritzer"
                         },
                         {
                             "url": "../../polishes/holo-taco-lemon-spritzer/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/lemon-spritzer"
                         },
                         {
                             "url": "../../polishes/holo-taco-lemon-spritzer/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/lemon-spritzer"
                         }
@@ -3654,19 +3978,23 @@
                     "role": "color",
                     "shade_name": "Lemon Sucker",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-lemon-sucker/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/lemon-sucker"
                         },
                         {
                             "url": "../../polishes/holo-taco-lemon-sucker/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/lemon-sucker"
                         },
                         {
                             "url": "../../polishes/holo-taco-lemon-sucker/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/lemon-sucker"
                         }
@@ -3688,19 +4016,23 @@
                     "role": "color",
                     "shade_name": "Life in Plastic",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-life-in-plastic/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/life-in-plastic"
                         },
                         {
                             "url": "../../polishes/holo-taco-life-in-plastic/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/life-in-plastic"
                         },
                         {
                             "url": "../../polishes/holo-taco-life-in-plastic/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/life-in-plastic"
                         }
@@ -3722,19 +4054,23 @@
                     "role": "topper",
                     "shade_name": "Linear Holo Taco",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-linear-holo-taco/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/linear-holo-taco"
                         },
                         {
                             "url": "../../polishes/holo-taco-linear-holo-taco/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/linear-holo-taco"
                         },
                         {
                             "url": "../../polishes/holo-taco-linear-holo-taco/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/linear-holo-taco"
                         }
@@ -3756,19 +4092,23 @@
                     "role": "color",
                     "shade_name": "Lo-fi Lavender",
                     "status": "owned",
+                    "category": "unknown",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-lo-fi-lavender/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/lo-fi-lavender"
                         },
                         {
                             "url": "../../polishes/holo-taco-lo-fi-lavender/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/lo-fi-lavender"
                         },
                         {
                             "url": "../../polishes/holo-taco-lo-fi-lavender/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/lo-fi-lavender"
                         }
@@ -3790,19 +4130,23 @@
                     "role": "color",
                     "shade_name": "Lost in the Woods",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-lost-in-the-woods/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/lost-in-the-woods"
                         },
                         {
                             "url": "../../polishes/holo-taco-lost-in-the-woods/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/lost-in-the-woods"
                         },
                         {
                             "url": "../../polishes/holo-taco-lost-in-the-woods/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/lost-in-the-woods"
                         }
@@ -3824,19 +4168,23 @@
                     "role": "topper",
                     "shade_name": "Lunar Unicorn Skin",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-lunar-unicorn-skin/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/lunar-unicorn-skin"
                         },
                         {
                             "url": "../../polishes/holo-taco-lunar-unicorn-skin/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/lunar-unicorn-skin"
                         },
                         {
                             "url": "../../polishes/holo-taco-lunar-unicorn-skin/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/lunar-unicorn-skin"
                         }
@@ -3858,6 +4206,7 @@
                     "manufacturer_hex": "",
                     "personal_hex": "",
                     "override_hex": "",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -3876,19 +4225,23 @@
                     "role": "color",
                     "shade_name": "Magneta Jelly",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-magneta-jelly/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/magenta-jelly"
                         },
                         {
                             "url": "../../polishes/holo-taco-magneta-jelly/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/magenta-jelly"
                         },
                         {
                             "url": "../../polishes/holo-taco-magneta-jelly/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/magenta-jelly"
                         }
@@ -3910,19 +4263,23 @@
                     "manufacturer_hex": "",
                     "personal_hex": "",
                     "override_hex": "",
+                    "category": "top",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-matte-taco/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product photograph",
                             "source": "https://www.holotaco.com/products/matte-taco"
                         },
                         {
                             "url": "../../polishes/holo-taco-matte-taco/reference-2-2026-10-30.jpg",
+                            "kind": "swatch",
                             "caption": "Official matte finish over black polish",
                             "source": "https://www.holotaco.com/products/matte-taco"
                         },
                         {
                             "url": "../../polishes/holo-taco-matte-taco/reference-3-2026-10-30.jpg",
+                            "kind": "swatch",
                             "caption": "Official glossy versus matte comparison over black polish",
                             "source": "https://www.holotaco.com/products/matte-taco"
                         }
@@ -3944,6 +4301,7 @@
                     "role": "color",
                     "shade_name": "Menchie the Cat",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -3962,19 +4320,23 @@
                     "role": "color",
                     "shade_name": "Mint Mojito",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-mint-mojito/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/mint-mojito"
                         },
                         {
                             "url": "../../polishes/holo-taco-mint-mojito/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/mint-mojito"
                         },
                         {
                             "url": "../../polishes/holo-taco-mint-mojito/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/mint-mojito"
                         }
@@ -3996,6 +4358,7 @@
                     "role": "color",
                     "shade_name": "Modest Moss",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -4014,19 +4377,23 @@
                     "manufacturer_hex": "",
                     "personal_hex": "",
                     "override_hex": "#9DBFD7",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-moonlight-sacrifice/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/moonlight-sacrifice"
                         },
                         {
                             "url": "../../polishes/holo-taco-moonlight-sacrifice/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/moonlight-sacrifice"
                         },
                         {
                             "url": "../../polishes/holo-taco-moonlight-sacrifice/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/moonlight-sacrifice"
                         }
@@ -4048,6 +4415,7 @@
                     "role": "color",
                     "shade_name": "Nature Calls",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -4066,6 +4434,7 @@
                     "role": "color",
                     "shade_name": "Never Tide Down",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -4084,19 +4453,23 @@
                     "role": "topper",
                     "shade_name": "No Opalogies",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-no-opalogies/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/no-opalogies"
                         },
                         {
                             "url": "../../polishes/holo-taco-no-opalogies/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/no-opalogies"
                         },
                         {
                             "url": "../../polishes/holo-taco-no-opalogies/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/no-opalogies"
                         }
@@ -4118,9 +4491,11 @@
                     "role": "color",
                     "shade_name": "Not Milky White",
                     "status": "owned",
+                    "category": "creme",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-not-milky-white/manufacturer-backup-9271ac1fc226.jpg",
+                            "kind": "manufacturer",
                             "caption": "Manufacturer page preview (automated exact-page backup; inspect visually)",
                             "source": "https://www.holotaco.com/products/not-milky-white-2021"
                         }
@@ -4142,19 +4517,23 @@
                     "role": "color",
                     "shade_name": "One-Coat Black",
                     "status": "owned",
+                    "category": "creme",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-one-coat-black/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product photograph",
                             "source": "https://www.holotaco.com/products/one-coat-black"
                         },
                         {
                             "url": "../../polishes/holo-taco-one-coat-black/reference-2-2026-10-30.jpg",
+                            "kind": "swatch",
                             "caption": "Official swatch / application photo",
                             "source": "https://www.holotaco.com/products/one-coat-black"
                         },
                         {
                             "url": "../../polishes/holo-taco-one-coat-black/reference-3-2026-10-30.png",
+                            "kind": "swatch",
                             "caption": "Official swatch / application photo",
                             "source": "https://www.holotaco.com/products/one-coat-black"
                         }
@@ -4176,19 +4555,23 @@
                     "role": "color",
                     "shade_name": "Orange Drink",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-orange-drink/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/orange-drink"
                         },
                         {
                             "url": "../../polishes/holo-taco-orange-drink/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/orange-drink"
                         },
                         {
                             "url": "../../polishes/holo-taco-orange-drink/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/orange-drink"
                         }
@@ -4210,6 +4593,7 @@
                     "role": "color",
                     "shade_name": "Party Punch",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -4228,19 +4612,23 @@
                     "role": "color",
                     "shade_name": "Peach Tea",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-peach-tea/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/peach-tea"
                         },
                         {
                             "url": "../../polishes/holo-taco-peach-tea/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/peach-tea"
                         },
                         {
                             "url": "../../polishes/holo-taco-peach-tea/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/peach-tea"
                         }
@@ -4262,19 +4650,23 @@
                     "role": "color",
                     "shade_name": "Pink Fizz",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-pink-fizz/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/pink-fizz"
                         },
                         {
                             "url": "../../polishes/holo-taco-pink-fizz/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/pink-fizz"
                         },
                         {
                             "url": "../../polishes/holo-taco-pink-fizz/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/pink-fizz"
                         }
@@ -4296,14 +4688,17 @@
                     "role": "color",
                     "shade_name": "Pirouette Pink",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-pirouette-pink/product-2026-10-30.png",
+                            "kind": "manufacturer",
                             "caption": "User-supplied Pirouette Pink product reference, labelled pink crushed holographic nail polish.",
                             "source": ""
                         },
                         {
                             "url": "../../polishes/holo-taco-pirouette-pink/lunaxlacquer-swatch-2026-10-30.png",
+                            "kind": "swatch",
                             "caption": "User-supplied Pirouette Pink nail swatch; LunaXLacquer watermark retained. Coat count unknown. External reference, not a personal swatch.",
                             "source": ""
                         }
@@ -4325,19 +4720,23 @@
                     "role": "topper",
                     "shade_name": "Polar Princess",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-polar-princess/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/polar-princess"
                         },
                         {
                             "url": "../../polishes/holo-taco-polar-princess/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/polar-princess"
                         },
                         {
                             "url": "../../polishes/holo-taco-polar-princess/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/polar-princess"
                         }
@@ -4359,19 +4758,23 @@
                     "role": "color",
                     "shade_name": "Pop Rocker",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-pop-rocker/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/pop-rocker"
                         },
                         {
                             "url": "../../polishes/holo-taco-pop-rocker/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/pop-rocker"
                         },
                         {
                             "url": "../../polishes/holo-taco-pop-rocker/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/pop-rocker"
                         }
@@ -4393,19 +4796,23 @@
                     "role": "color",
                     "shade_name": "Purple Slushie",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-purple-slushie/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/purple-slushie"
                         },
                         {
                             "url": "../../polishes/holo-taco-purple-slushie/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/purple-slushie"
                         },
                         {
                             "url": "../../polishes/holo-taco-purple-slushie/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/purple-slushie"
                         }
@@ -4427,6 +4834,7 @@
                     "role": "color",
                     "shade_name": "Rainbow Flood",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -4445,9 +4853,11 @@
                     "role": "color",
                     "shade_name": "Rainbow Snow",
                     "status": "owned",
+                    "category": "unknown",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-rainbow-snow/manufacturer-fc5e902a5385.jpg",
+                            "kind": "manufacturer",
                             "caption": "Manufacturer product image (automated archive; visual review pending)",
                             "source": "https://www.holotaco.com/products/rainbow-snow"
                         }
@@ -4469,19 +4879,23 @@
                     "role": "color",
                     "shade_name": "Red Licorice",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-red-licorice/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/red-licorice"
                         },
                         {
                             "url": "../../polishes/holo-taco-red-licorice/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/red-licorice"
                         },
                         {
                             "url": "../../polishes/holo-taco-red-licorice/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/red-licorice"
                         }
@@ -4503,19 +4917,23 @@
                     "manufacturer_hex": "",
                     "personal_hex": "",
                     "override_hex": "#392335",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-rip-bestie/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/rip-bestie"
                         },
                         {
                             "url": "../../polishes/holo-taco-rip-bestie/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/rip-bestie"
                         },
                         {
                             "url": "../../polishes/holo-taco-rip-bestie/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/rip-bestie"
                         }
@@ -4537,19 +4955,23 @@
                     "role": "topper",
                     "shade_name": "Scattered Holo Taco",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-scattered-holo-taco/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/scattered-holo-taco"
                         },
                         {
                             "url": "../../polishes/holo-taco-scattered-holo-taco/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/scattered-holo-taco"
                         },
                         {
                             "url": "../../polishes/holo-taco-scattered-holo-taco/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/scattered-holo-taco"
                         }
@@ -4571,6 +4993,7 @@
                     "role": "color",
                     "shade_name": "Shady Navy",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -4589,19 +5012,23 @@
                     "role": "topper",
                     "shade_name": "Shooting Star Taco",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-shooting-star-taco/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/shooting-star-taco"
                         },
                         {
                             "url": "../../polishes/holo-taco-shooting-star-taco/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/shooting-star-taco"
                         },
                         {
                             "url": "../../polishes/holo-taco-shooting-star-taco/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/shooting-star-taco"
                         }
@@ -4623,19 +5050,23 @@
                     "manufacturer_hex": "#D5C5AF",
                     "personal_hex": "",
                     "override_hex": "",
+                    "category": "base",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-smoothing-base/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product photograph",
                             "source": "https://www.holotaco.com/products/smoothing-base"
                         },
                         {
                             "url": "../../polishes/holo-taco-smoothing-base/reference-2-2026-10-30.jpg",
+                            "kind": "swatch",
                             "caption": "Official swatch / application photo",
                             "source": "https://www.holotaco.com/products/smoothing-base"
                         },
                         {
                             "url": "../../polishes/holo-taco-smoothing-base/reference-3-2026-10-30.jpg",
+                            "kind": "swatch",
                             "caption": "Official swatch / application photo",
                             "source": "https://www.holotaco.com/products/smoothing-base"
                         }
@@ -4657,19 +5088,23 @@
                     "role": "topper",
                     "shade_name": "Solar Unicorn Skin",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-solar-unicorn-skin/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/solar-unicorn-skin"
                         },
                         {
                             "url": "../../polishes/holo-taco-solar-unicorn-skin/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/solar-unicorn-skin"
                         },
                         {
                             "url": "../../polishes/holo-taco-solar-unicorn-skin/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/solar-unicorn-skin"
                         }
@@ -4691,19 +5126,23 @@
                     "role": "topper",
                     "shade_name": "Sonic Unicorn Skin",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-sonic-unicorn-skin/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/sonic-unicorn-skin"
                         },
                         {
                             "url": "../../polishes/holo-taco-sonic-unicorn-skin/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/sonic-unicorn-skin"
                         },
                         {
                             "url": "../../polishes/holo-taco-sonic-unicorn-skin/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/sonic-unicorn-skin"
                         }
@@ -4725,19 +5164,23 @@
                     "role": "color",
                     "shade_name": "Sour Note",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-sour-note/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/sour-note"
                         },
                         {
                             "url": "../../polishes/holo-taco-sour-note/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/sour-note"
                         },
                         {
                             "url": "../../polishes/holo-taco-sour-note/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/sour-note"
                         }
@@ -4759,6 +5202,7 @@
                     "role": "color",
                     "shade_name": "Spirit Fingers",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -4777,6 +5221,7 @@
                     "role": "color",
                     "shade_name": "Spyglass",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -4795,6 +5240,7 @@
                     "role": "color",
                     "shade_name": "Steep Dreams",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -4813,19 +5259,23 @@
                     "role": "color",
                     "shade_name": "Sugar Rush",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-sugar-rush/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/sugar-rush"
                         },
                         {
                             "url": "../../polishes/holo-taco-sugar-rush/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/sugar-rush"
                         },
                         {
                             "url": "../../polishes/holo-taco-sugar-rush/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/sugar-rush"
                         }
@@ -4847,19 +5297,23 @@
                     "role": "color",
                     "shade_name": "Sunken Secrets",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-sunken-secrets/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/sunken-secrets"
                         },
                         {
                             "url": "../../polishes/holo-taco-sunken-secrets/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/sunken-secrets"
                         },
                         {
                             "url": "../../polishes/holo-taco-sunken-secrets/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/sunken-secrets"
                         }
@@ -4881,19 +5335,23 @@
                     "role": "color",
                     "shade_name": "Sunshine Crush",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-sunshine-crush/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/sunshine-crush"
                         },
                         {
                             "url": "../../polishes/holo-taco-sunshine-crush/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/sunshine-crush"
                         },
                         {
                             "url": "../../polishes/holo-taco-sunshine-crush/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/sunshine-crush"
                         }
@@ -4915,6 +5373,7 @@
                     "role": "color",
                     "shade_name": "Toe Beans",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -4933,19 +5392,23 @@
                     "role": "topper",
                     "shade_name": "Twilight Shimmer",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-twilight-shimmer/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/twilight-shimmer"
                         },
                         {
                             "url": "../../polishes/holo-taco-twilight-shimmer/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/twilight-shimmer"
                         },
                         {
                             "url": "../../polishes/holo-taco-twilight-shimmer/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/twilight-shimmer"
                         }
@@ -4967,19 +5430,23 @@
                     "manufacturer_hex": "",
                     "personal_hex": "",
                     "override_hex": "#D7B7DD",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-unicorn-no-1/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/unicorn-no-1"
                         },
                         {
                             "url": "../../polishes/holo-taco-unicorn-no-1/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/unicorn-no-1"
                         },
                         {
                             "url": "../../polishes/holo-taco-unicorn-no-1/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/unicorn-no-1"
                         }
@@ -5001,6 +5468,7 @@
                     "manufacturer_hex": "",
                     "personal_hex": "",
                     "override_hex": "",
+                    "category": "specialty",
                     "images": []
                 }
             },
@@ -5019,19 +5487,23 @@
                     "role": "color",
                     "shade_name": "Violet Nightmares",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-violet-nightmares/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/violet-nightmares"
                         },
                         {
                             "url": "../../polishes/holo-taco-violet-nightmares/reference-2-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/violet-nightmares"
                         },
                         {
                             "url": "../../polishes/holo-taco-violet-nightmares/reference-3-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product gallery image; application and layering as pictured by Holo Taco",
                             "source": "https://www.holotaco.com/products/violet-nightmares"
                         }
@@ -5053,6 +5525,7 @@
                     "manufacturer_hex": "",
                     "personal_hex": "",
                     "override_hex": "",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -5071,6 +5544,7 @@
                     "role": "color",
                     "shade_name": "What Do You Pink?",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -5089,9 +5563,11 @@
                     "role": "color",
                     "shade_name": "Wireless Mode",
                     "status": "owned",
+                    "category": "unknown",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-wireless-mode/manufacturer-3b90bb2bdd7b.jpg",
+                            "kind": "manufacturer",
                             "caption": "Manufacturer product image (automated archive; visual review pending)",
                             "source": "https://www.holotaco.com/products/wireless-mode"
                         }
@@ -5113,14 +5589,17 @@
                     "role": "topper",
                     "shade_name": "Wreath Havoc Taco",
                     "status": "owned",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-wreath-havoc-taco/product-2026-10-30.png",
+                            "kind": "manufacturer",
                             "caption": "User-supplied Wreath Havoc Taco product reference, labelled multichrome foil flake nail topper.",
                             "source": ""
                         },
                         {
                             "url": "../../polishes/holo-taco-wreath-havoc-taco/lunaxlacquer-swatch-2026-10-30.png",
+                            "kind": "swatch",
                             "caption": "User-supplied Wreath Havoc Taco nail swatch over a dark base; base shade and coat count unknown. LunaXLacquer watermark retained. External reference, not a personal swatch.",
                             "source": ""
                         }
@@ -5142,6 +5621,7 @@
                     "role": "color",
                     "shade_name": "Zyler the Cat",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -5160,6 +5640,7 @@
                     "role": "",
                     "shade_name": "Blazing Burgundy",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -5178,6 +5659,7 @@
                     "role": "",
                     "shade_name": "Starry Gold",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -5196,9 +5678,11 @@
                     "manufacturer_hex": "#151415",
                     "personal_hex": "",
                     "override_hex": "",
+                    "category": "stamping",
                     "images": [
                         {
                             "url": "../../polishes/konad-black-stamping-polish/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Manufacturer S25 Black â€” candidate bottle reference",
                             "source": "https://m.en.konadcosmetic.kr/product/special-nail-polish-s25-black-11ml/594/category/55/display/1/"
                         }
@@ -5220,9 +5704,11 @@
                     "manufacturer_hex": "#DDDFDD",
                     "personal_hex": "",
                     "override_hex": "",
+                    "category": "stamping",
                     "images": [
                         {
                             "url": "../../polishes/konad-white-stamping-polish/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official S01 White photograph; candidate bottle version.",
                             "source": "https://en.konadcosmetic.kr/product/detail.html?cate_no=55&display_group=1&product_no=571"
                         }
@@ -5244,6 +5730,7 @@
                     "role": "color",
                     "shade_name": "Dusky Sea",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -5262,6 +5749,7 @@
                     "role": "color",
                     "shade_name": "Green Lush",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -5280,6 +5768,7 @@
                     "role": "",
                     "shade_name": "020 Mother of Pearl",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -5298,6 +5787,7 @@
                     "role": "color",
                     "shade_name": "640 Transcendent",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -5316,6 +5806,7 @@
                     "manufacturer_hex": "",
                     "personal_hex": "",
                     "override_hex": "",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -5334,14 +5825,17 @@
                     "role": "stamping",
                     "shade_name": "Black Knight",
                     "status": "owned",
+                    "category": "stamping",
                     "images": [
                         {
                             "url": "../../polishes/moyou-black-knight/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product reference; packaging version may differ.",
                             "source": "https://moyou.co.uk/products/stamping-nail-polish-black-knight"
                         },
                         {
                             "url": "../../polishes/moyou-black-knight/reference-2-2026-10-30.jpg",
+                            "kind": "swatch",
                             "caption": "Official application and stamping reference; lighting and layering affect appearance.",
                             "source": "https://moyou.co.uk/products/stamping-nail-polish-black-knight"
                         }
@@ -5363,14 +5857,17 @@
                     "role": "stamping",
                     "shade_name": "Triceratops",
                     "status": "owned",
+                    "category": "stamping",
                     "images": [
                         {
                             "url": "../../polishes/moyou-brachiosaurus/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product reference; packaging version may differ.",
                             "source": "https://moyou.co.uk/products/premium-nail-polish-brachiosaurus"
                         },
                         {
                             "url": "../../polishes/moyou-brachiosaurus/reference-2-2026-10-30.jpg",
+                            "kind": "swatch",
                             "caption": "Official application and stamping reference; lighting and layering affect appearance.",
                             "source": "https://moyou.co.uk/products/premium-nail-polish-brachiosaurus"
                         }
@@ -5392,14 +5889,17 @@
                     "role": "stamping",
                     "shade_name": "Deep Abyss",
                     "status": "owned",
+                    "category": "stamping",
                     "images": [
                         {
                             "url": "../../polishes/moyou-deep-abyss/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product reference; packaging version may differ.",
                             "source": "https://moyou.co.uk/products/premium-nail-polish-deep-abyss"
                         },
                         {
                             "url": "../../polishes/moyou-deep-abyss/reference-2-2026-10-30.jpg",
+                            "kind": "swatch",
                             "caption": "Official application and stamping reference; lighting and layering affect appearance.",
                             "source": "https://moyou.co.uk/products/premium-nail-polish-deep-abyss"
                         }
@@ -5421,14 +5921,17 @@
                     "role": "stamping",
                     "shade_name": "Electric Sky",
                     "status": "owned",
+                    "category": "stamping",
                     "images": [
                         {
                             "url": "../../polishes/moyou-electric-sky/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product reference; packaging version may differ.",
                             "source": "https://moyou.co.uk/products/stamping-nail-polish-electric-sky"
                         },
                         {
                             "url": "../../polishes/moyou-electric-sky/reference-2-2026-10-30.jpg",
+                            "kind": "swatch",
                             "caption": "Official application and stamping reference; lighting and layering affect appearance.",
                             "source": "https://moyou.co.uk/products/stamping-nail-polish-electric-sky"
                         }
@@ -5450,14 +5953,17 @@
                     "role": "stamping",
                     "shade_name": "Ever Green",
                     "status": "owned",
+                    "category": "stamping",
                     "images": [
                         {
                             "url": "../../polishes/moyou-ever-green/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product reference; packaging version may differ.",
                             "source": "https://moyou.co.uk/products/stamping-nail-polish-ever-green"
                         },
                         {
                             "url": "../../polishes/moyou-ever-green/reference-2-2026-10-30.jpg",
+                            "kind": "swatch",
                             "caption": "Official application and stamping reference; lighting and layering affect appearance.",
                             "source": "https://moyou.co.uk/products/stamping-nail-polish-ever-green"
                         }
@@ -5479,14 +5985,17 @@
                     "role": "stamping",
                     "shade_name": "Ivy Blue",
                     "status": "owned",
+                    "category": "stamping",
                     "images": [
                         {
                             "url": "../../polishes/moyou-ivy-blue/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product reference; packaging version may differ.",
                             "source": "https://moyou.co.uk/products/premium-nail-polish-ivy-blue"
                         },
                         {
                             "url": "../../polishes/moyou-ivy-blue/reference-2-2026-10-30.jpg",
+                            "kind": "swatch",
                             "caption": "Official application and stamping reference; lighting and layering affect appearance.",
                             "source": "https://moyou.co.uk/products/premium-nail-polish-ivy-blue"
                         }
@@ -5508,14 +6017,17 @@
                     "role": "stamping",
                     "shade_name": "Liquid Gold",
                     "status": "owned",
+                    "category": "stamping",
                     "images": [
                         {
                             "url": "../../polishes/moyou-liquid-gold/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product reference; packaging version may differ.",
                             "source": "https://moyou.co.uk/products/stamping-nail-polish-liquid-gold"
                         },
                         {
                             "url": "../../polishes/moyou-liquid-gold/reference-2-2026-10-30.jpg",
+                            "kind": "swatch",
                             "caption": "Official application and stamping reference; lighting and layering affect appearance.",
                             "source": "https://moyou.co.uk/products/stamping-nail-polish-liquid-gold"
                         }
@@ -5537,14 +6049,17 @@
                     "role": "stamping",
                     "shade_name": "Little Pickle",
                     "status": "owned",
+                    "category": "stamping",
                     "images": [
                         {
                             "url": "../../polishes/moyou-little-pickle/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product reference; packaging version may differ.",
                             "source": "https://moyou.co.uk/products/stamping-nail-polish-little-pickle"
                         },
                         {
                             "url": "../../polishes/moyou-little-pickle/reference-2-2026-10-30.jpg",
+                            "kind": "swatch",
                             "caption": "Official application and stamping reference; lighting and layering affect appearance.",
                             "source": "https://moyou.co.uk/products/stamping-nail-polish-little-pickle"
                         }
@@ -5566,14 +6081,17 @@
                     "role": "stamping",
                     "shade_name": "Mellow Yellow",
                     "status": "owned",
+                    "category": "stamping",
                     "images": [
                         {
                             "url": "../../polishes/moyou-mellow-yellow/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product reference; packaging version may differ.",
                             "source": "https://moyou.co.uk/products/premium-nail-polish-mellow-yellow"
                         },
                         {
                             "url": "../../polishes/moyou-mellow-yellow/reference-2-2026-10-30.jpg",
+                            "kind": "swatch",
                             "caption": "Official application and stamping reference; lighting and layering affect appearance.",
                             "source": "https://moyou.co.uk/products/premium-nail-polish-mellow-yellow"
                         }
@@ -5595,9 +6113,11 @@
                     "role": "stamping",
                     "shade_name": "Mood Indigo",
                     "status": "owned",
+                    "category": "stamping",
                     "images": [
                         {
                             "url": "../../polishes/moyou-mood-indigo/reference-1-2026-10-30.jpg",
+                            "kind": "swatch",
                             "caption": "Official application and stamping reference; lighting and layering affect appearance.",
                             "source": "https://moyou.co.uk/products/stamping-nail-polish-mood-indigo"
                         }
@@ -5619,14 +6139,17 @@
                     "role": "stamping",
                     "shade_name": "Mystique",
                     "status": "owned",
+                    "category": "stamping",
                     "images": [
                         {
                             "url": "../../polishes/moyou-mystique/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product reference; packaging version may differ.",
                             "source": "https://moyou.co.uk/products/stamping-nail-polish-mystique"
                         },
                         {
                             "url": "../../polishes/moyou-mystique/reference-2-2026-10-30.jpg",
+                            "kind": "swatch",
                             "caption": "Official application and stamping reference; lighting and layering affect appearance.",
                             "source": "https://moyou.co.uk/products/stamping-nail-polish-mystique"
                         }
@@ -5648,14 +6171,17 @@
                     "role": "stamping",
                     "shade_name": "Platinum Gin",
                     "status": "owned",
+                    "category": "stamping",
                     "images": [
                         {
                             "url": "../../polishes/moyou-platinum-gin/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product reference; packaging version may differ.",
                             "source": "https://moyou.co.uk/products/premium-nail-polish-platinum-gin"
                         },
                         {
                             "url": "../../polishes/moyou-platinum-gin/reference-2-2026-10-30.jpg",
+                            "kind": "swatch",
                             "caption": "Official application and stamping reference; lighting and layering affect appearance.",
                             "source": "https://moyou.co.uk/products/premium-nail-polish-platinum-gin"
                         }
@@ -5677,14 +6203,17 @@
                     "role": "stamping",
                     "shade_name": "Purple House",
                     "status": "owned",
+                    "category": "stamping",
                     "images": [
                         {
                             "url": "../../polishes/moyou-purple-house/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product reference; packaging version may differ.",
                             "source": "https://moyou.co.uk/products/stamping-nail-polish-purple-house"
                         },
                         {
                             "url": "../../polishes/moyou-purple-house/reference-2-2026-10-30.jpg",
+                            "kind": "swatch",
                             "caption": "Official application and stamping reference; lighting and layering affect appearance.",
                             "source": "https://moyou.co.uk/products/stamping-nail-polish-purple-house"
                         }
@@ -5706,14 +6235,17 @@
                     "role": "stamping",
                     "shade_name": "Purple Punch",
                     "status": "owned",
+                    "category": "stamping",
                     "images": [
                         {
                             "url": "../../polishes/moyou-purple-punch/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product reference; packaging version may differ.",
                             "source": "https://moyou.co.uk/products/stamping-nail-polish-purple-punch"
                         },
                         {
                             "url": "../../polishes/moyou-purple-punch/reference-2-2026-10-30.jpg",
+                            "kind": "swatch",
                             "caption": "Official application and stamping reference; lighting and layering affect appearance.",
                             "source": "https://moyou.co.uk/products/stamping-nail-polish-purple-punch"
                         }
@@ -5735,14 +6267,17 @@
                     "role": "stamping",
                     "shade_name": "Sangria",
                     "status": "owned",
+                    "category": "stamping",
                     "images": [
                         {
                             "url": "../../polishes/moyou-sangria/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product reference; packaging version may differ.",
                             "source": "https://moyou.co.uk/products/stamping-nail-polish-sangria"
                         },
                         {
                             "url": "../../polishes/moyou-sangria/reference-2-2026-10-30.jpg",
+                            "kind": "swatch",
                             "caption": "Official application and stamping reference; lighting and layering affect appearance.",
                             "source": "https://moyou.co.uk/products/stamping-nail-polish-sangria"
                         }
@@ -5764,14 +6299,17 @@
                     "role": "stamping",
                     "shade_name": "Silver Fox",
                     "status": "owned",
+                    "category": "stamping",
                     "images": [
                         {
                             "url": "../../polishes/moyou-silver-fox/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product reference; packaging version may differ.",
                             "source": "https://moyou.co.uk/products/stamping-nail-polish-silver-fox"
                         },
                         {
                             "url": "../../polishes/moyou-silver-fox/reference-2-2026-10-30.jpg",
+                            "kind": "swatch",
                             "caption": "Official application and stamping reference; lighting and layering affect appearance.",
                             "source": "https://moyou.co.uk/products/stamping-nail-polish-silver-fox"
                         }
@@ -5793,14 +6331,17 @@
                     "role": "topper",
                     "shade_name": "Smudge Resistant Top Coat",
                     "status": "owned",
+                    "category": "top",
                     "images": [
                         {
                             "url": "../../polishes/moyou-smudge-resistant-top-coat/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product reference; packaging version may differ.",
                             "source": "https://moyou.co.uk/products/smudge-resistant-premium-top-coat-10ml"
                         },
                         {
                             "url": "../../polishes/moyou-smudge-resistant-top-coat/reference-2-2026-10-30.jpg",
+                            "kind": "swatch",
                             "caption": "Official application and stamping reference; lighting and layering affect appearance.",
                             "source": "https://moyou.co.uk/products/smudge-resistant-premium-top-coat-10ml"
                         }
@@ -5822,14 +6363,17 @@
                     "role": "stamping",
                     "shade_name": "Sweet Wisteria",
                     "status": "owned",
+                    "category": "stamping",
                     "images": [
                         {
                             "url": "../../polishes/moyou-sweet-wisteria/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product reference; packaging version may differ.",
                             "source": "https://moyou.co.uk/products/stamping-nail-polish-sweet-wisteria"
                         },
                         {
                             "url": "../../polishes/moyou-sweet-wisteria/reference-2-2026-10-30.jpg",
+                            "kind": "swatch",
                             "caption": "Official application and stamping reference; lighting and layering affect appearance.",
                             "source": "https://moyou.co.uk/products/stamping-nail-polish-sweet-wisteria"
                         }
@@ -5851,14 +6395,17 @@
                     "role": "stamping",
                     "shade_name": "Thunderstorm",
                     "status": "owned",
+                    "category": "stamping",
                     "images": [
                         {
                             "url": "../../polishes/moyou-thunderstorm/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product reference; packaging version may differ.",
                             "source": "https://moyou.co.uk/products/stamping-nail-polish-thunderstorm"
                         },
                         {
                             "url": "../../polishes/moyou-thunderstorm/reference-2-2026-10-30.jpg",
+                            "kind": "swatch",
                             "caption": "Official application and stamping reference; lighting and layering affect appearance.",
                             "source": "https://moyou.co.uk/products/stamping-nail-polish-thunderstorm"
                         }
@@ -5880,14 +6427,17 @@
                     "role": "stamping",
                     "shade_name": "Violet Haze",
                     "status": "owned",
+                    "category": "stamping",
                     "images": [
                         {
                             "url": "../../polishes/moyou-violet-haze/reference-1-2026-10-30.jpg",
+                            "kind": "manufacturer",
                             "caption": "Official product reference; packaging version may differ.",
                             "source": "https://moyou.co.uk/products/stamping-nail-polish-violet-haze"
                         },
                         {
                             "url": "../../polishes/moyou-violet-haze/reference-2-2026-10-30.jpg",
+                            "kind": "swatch",
                             "caption": "Official application and stamping reference; lighting and layering affect appearance.",
                             "source": "https://moyou.co.uk/products/stamping-nail-polish-violet-haze"
                         }
@@ -5909,6 +6459,7 @@
                     "manufacturer_hex": "",
                     "personal_hex": "",
                     "override_hex": "#C78C9E",
+                    "category": "specialty",
                     "images": []
                 }
             },
@@ -5927,6 +6478,7 @@
                     "role": "",
                     "shade_name": "Rainbow Wishes",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -5945,9 +6497,11 @@
                     "role": "",
                     "shade_name": "Abstract After Dark",
                     "status": "owned",
+                    "category": "unknown",
                     "images": [
                         {
                             "url": "../../polishes/opi-abstract-after-dark/manufacturer-701933fc7ec1.jpg",
+                            "kind": "manufacturer",
                             "caption": "Manufacturer product image (automated archive; visual review pending)",
                             "source": "https://www.opi.com/products/nail-lacquer-abstract-after-dark"
                         }
@@ -5969,6 +6523,7 @@
                     "manufacturer_hex": "",
                     "personal_hex": "",
                     "override_hex": "",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -5987,6 +6542,7 @@
                     "manufacturer_hex": "",
                     "personal_hex": "",
                     "override_hex": "",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -6005,9 +6561,11 @@
                     "role": "",
                     "shade_name": "Flip Phone",
                     "status": "owned",
+                    "category": "unknown",
                     "images": [
                         {
                             "url": "../../polishes/orly-flip-phone/manufacturer-f5b23cdf6a06.jpg",
+                            "kind": "manufacturer",
                             "caption": "Manufacturer product image (automated archive; visual review pending)",
                             "source": "https://orlybeauty.com/collections/all-nail-lacquer/products/flip-phone"
                         }
@@ -6029,6 +6587,7 @@
                     "role": "topper",
                     "shade_name": "Purple Powder - Over Sticky Base",
                     "status": "owned",
+                    "category": "specialty",
                     "images": []
                 }
             },
@@ -6047,6 +6606,7 @@
                     "role": "color",
                     "shade_name": "Beet-ing Heart",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -6065,6 +6625,7 @@
                     "role": "color",
                     "shade_name": "Black to Black",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -6083,6 +6644,7 @@
                     "role": "",
                     "shade_name": "Coral Commotion",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -6101,6 +6663,7 @@
                     "role": "",
                     "shade_name": "Go for Gold",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -6119,6 +6682,7 @@
                     "role": "color",
                     "shade_name": "Jet Setter",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -6137,6 +6701,7 @@
                     "role": "",
                     "shade_name": "Lustrous Gold",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -6155,6 +6720,7 @@
                     "role": "color",
                     "shade_name": "Pink Pursuit",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -6173,6 +6739,7 @@
                     "role": "",
                     "shade_name": "Polar Platinum",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -6191,6 +6758,7 @@
                     "role": "",
                     "shade_name": "Steel the Show",
                     "status": "owned",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -6209,6 +6777,7 @@
                     "manufacturer_hex": "",
                     "personal_hex": "",
                     "override_hex": "",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -6227,6 +6796,7 @@
                     "manufacturer_hex": "",
                     "personal_hex": "",
                     "override_hex": "#B8A6C7",
+                    "category": "specialty",
                     "images": []
                 }
             },
@@ -6245,6 +6815,7 @@
                     "role": "topper",
                     "shade_name": "Starry Gold",
                     "status": "owned",
+                    "category": "specialty",
                     "images": []
                 }
             },
@@ -6263,6 +6834,7 @@
                     "role": "topper",
                     "shade_name": "White Powder - Over Sticky Base",
                     "status": "owned",
+                    "category": "specialty",
                     "images": []
                 }
             },
@@ -6281,6 +6853,7 @@
                     "manufacturer_hex": "",
                     "personal_hex": "",
                     "override_hex": "#B8A6C7",
+                    "category": "specialty",
                     "images": []
                 }
             }
