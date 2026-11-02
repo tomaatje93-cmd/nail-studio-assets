@@ -1463,14 +1463,14 @@
         {
             "brand": "Holo Taco",
             "color_family": "purple",
-            "finish": "",
+            "finish": "jelly; shimmer; holo",
             "manufacturer_hex": "",
             "override_hex": "",
             "personal_hex": "",
             "role": "color",
             "shade_name": "Alien Infatuation",
             "status": "owned",
-            "category": "unknown",
+            "category": "specialty",
             "id": "holo-taco-alien-infatuation",
             "tags": [
                 "purple"
@@ -1663,14 +1663,14 @@
         {
             "brand": "Holo Taco",
             "color_family": "blue",
-            "finish": "",
+            "finish": "creme",
             "manufacturer_hex": "",
             "override_hex": "",
             "personal_hex": "",
             "role": "color",
             "shade_name": "Bring Me the Teal",
             "status": "owned",
-            "category": "unknown",
+            "category": "creme",
             "id": "holo-taco-bring-me-the-teal",
             "tags": [
                 "swatch photographed",
@@ -1825,14 +1825,14 @@
         {
             "brand": "Holo Taco",
             "color_family": "gray",
-            "finish": "",
+            "finish": "creme",
             "manufacturer_hex": "",
             "override_hex": "",
             "personal_hex": "",
             "role": "color",
             "shade_name": "Cold Slate",
             "status": "owned",
-            "category": "unknown",
+            "category": "creme",
             "id": "holo-taco-cold-slate",
             "tags": [
                 "gray"
@@ -2427,14 +2427,14 @@
         {
             "brand": "Holo Taco",
             "color_family": "brown",
-            "finish": "",
+            "finish": "creme",
             "manufacturer_hex": "",
             "override_hex": "",
             "personal_hex": "",
             "role": "color",
             "shade_name": "I'm Over Brew",
             "status": "owned",
-            "category": "unknown",
+            "category": "creme",
             "id": "holo-taco-i-m-over-brew",
             "tags": [
                 "brown"
@@ -2498,14 +2498,14 @@
         {
             "brand": "Holo Taco",
             "color_family": "green",
-            "finish": "",
+            "finish": "metallic; glitter; holo",
             "manufacturer_hex": "",
             "override_hex": "",
             "personal_hex": "",
             "role": "color",
             "shade_name": "Keep It Evergreen",
             "status": "owned",
-            "category": "unknown",
+            "category": "specialty",
             "id": "holo-taco-keep-it-evergreen",
             "tags": [
                 "green"
@@ -2637,14 +2637,14 @@
         {
             "brand": "Holo Taco",
             "color_family": "purple",
-            "finish": "",
+            "finish": "jelly; glitter; holo",
             "manufacturer_hex": "",
             "override_hex": "#AC91C7",
             "personal_hex": "",
             "role": "color",
             "shade_name": "Lo-fi Lavender",
             "status": "owned",
-            "category": "unknown",
+            "category": "specialty",
             "id": "holo-taco-lo-fi-lavender",
             "tags": [
                 "collection",
@@ -3059,14 +3059,14 @@
         {
             "brand": "Holo Taco",
             "color_family": "gray",
-            "finish": "",
+            "finish": "glitter; holo",
             "manufacturer_hex": "",
             "override_hex": "",
             "personal_hex": "",
             "role": "color",
             "shade_name": "Rainbow Snow",
             "status": "owned",
-            "category": "unknown",
+            "category": "specialty",
             "id": "holo-taco-rainbow-snow",
             "tags": [
                 "gray"

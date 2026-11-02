@@ -2404,14 +2404,14 @@
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "purple",
-                    "finish": "",
+                    "finish": "jelly; shimmer; holo",
                     "manufacturer_hex": "",
                     "override_hex": "",
                     "personal_hex": "",
                     "role": "color",
                     "shade_name": "Alien Infatuation",
                     "status": "owned",
-                    "category": "unknown",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-alien-infatuation/manufacturer-71af4a2a77bc.jpg",
@@ -2826,14 +2826,14 @@
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "blue",
-                    "finish": "",
+                    "finish": "creme",
                     "manufacturer_hex": "",
                     "override_hex": "",
                     "personal_hex": "",
                     "role": "color",
                     "shade_name": "Bring Me the Teal",
                     "status": "owned",
-                    "category": "unknown",
+                    "category": "creme",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-bring-me-the-teal/manufacturer-805c513b1eac.jpg",
@@ -3135,14 +3135,14 @@
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "gray",
-                    "finish": "",
+                    "finish": "creme",
                     "manufacturer_hex": "",
                     "override_hex": "",
                     "personal_hex": "",
                     "role": "color",
                     "shade_name": "Cold Slate",
                     "status": "owned",
-                    "category": "unknown",
+                    "category": "creme",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-cold-slate/manufacturer-aa04c254dd03.jpg",
@@ -4356,14 +4356,14 @@
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "brown",
-                    "finish": "",
+                    "finish": "creme",
                     "manufacturer_hex": "",
                     "override_hex": "",
                     "personal_hex": "",
                     "role": "color",
                     "shade_name": "I'm Over Brew",
                     "status": "owned",
-                    "category": "unknown",
+                    "category": "creme",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-i-m-over-brew/manufacturer-f761b5912fe9.jpg",
@@ -4493,14 +4493,14 @@
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "green",
-                    "finish": "",
+                    "finish": "metallic; glitter; holo",
                     "manufacturer_hex": "",
                     "override_hex": "",
                     "personal_hex": "",
                     "role": "color",
                     "shade_name": "Keep It Evergreen",
                     "status": "owned",
-                    "category": "unknown",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-keep-it-evergreen/manufacturer-0e750030aeda.jpg",
@@ -4775,14 +4775,14 @@
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "purple",
-                    "finish": "",
+                    "finish": "jelly; glitter; holo",
                     "manufacturer_hex": "",
                     "override_hex": "#AC91C7",
                     "personal_hex": "",
                     "role": "color",
                     "shade_name": "Lo-fi Lavender",
                     "status": "owned",
-                    "category": "unknown",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-lo-fi-lavender/reference-1-2026-10-30.jpg",
@@ -5621,14 +5621,14 @@
                 "data": {
                     "brand": "Holo Taco",
                     "color_family": "gray",
-                    "finish": "",
+                    "finish": "glitter; holo",
                     "manufacturer_hex": "",
                     "override_hex": "",
                     "personal_hex": "",
                     "role": "color",
                     "shade_name": "Rainbow Snow",
                     "status": "owned",
-                    "category": "unknown",
+                    "category": "specialty",
                     "images": [
                         {
                             "url": "../../polishes/holo-taco-rainbow-snow/manufacturer-fc5e902a5385.jpg",
