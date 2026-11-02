@@ -4849,7 +4849,14 @@
             "images": []
         },
         "Hema/Buttercup": {
-            "images": []
+            "images": [
+                {
+                    "url": "https://static.hema.nl/dw/image/v2/BBRK_PRD/on/demandware.static/-/Sites-HEMA-master-catalog/default/dw56e572ca/product/11240368_01_001.jpg?bgcolor=FFFFFF&sfrm=png&sw=395",
+                    "kind": "manufacturer",
+                    "caption": "Provisional indexed-search candidate; manual identity and download verification pending",
+                    "source": "https://www.hema.nl/mooi-gezond/make-up/nagellak/long-lasting-nagellak/long-lasting-nagellak-68-buttercup-11240368.html"
+                }
+            ]
         },
         "Hema/Can You Teal The Love": {
             "images": [
@@ -4901,7 +4908,14 @@
             ]
         },
         "Hema/Fancy Pearl": {
-            "images": []
+            "images": [
+                {
+                    "url": "https://static.hema.nl/dw/image/v2/BBRK_PRD/on/demandware.static/-/Sites-HEMA-master-catalog/default/dw3e90cc44/product/11241031_01_001.jpg?bgcolor=FFFFFF&sfrm=png&sw=395",
+                    "kind": "manufacturer",
+                    "caption": "Provisional indexed-search candidate; manual identity and download verification pending",
+                    "source": "https://www.hema.nl/mooi-gezond/make-up/nagellak/long-lasting-nagellak/long-lasting-nagellak-1031-fancy-pearl-11241031.html"
+                }
+            ]
         },
         "Hema/Festive Fuchsia": {
             "images": []
@@ -5102,7 +5116,14 @@
             "images": []
         },
         "Herzlack/Atlantis": {
-            "images": []
+            "images": [
+                {
+                    "url": "https://herzlack.de/cdn/shop/products/008_atlantis_web.jpg?v=1562800048&width=1000",
+                    "kind": "manufacturer",
+                    "caption": "Provisional indexed-search candidate; manual identity and download verification pending",
+                    "source": "https://herzlack.de/products/atlantis"
+                }
+            ]
         },
         "Herzlack/Einhornnacht": {
             "images": []
