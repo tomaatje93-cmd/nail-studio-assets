@@ -2,7 +2,7 @@
     "schema_version": 1,
     "counts": {
         "polish": 252,
-        "plate": 19
+        "plate": 27
     },
     "records": {
         "polish": {
@@ -10901,6 +10901,368 @@
                     ]
                 }
             },
+            "moyou-flower-power-23": {
+                "id": "moyou-flower-power-23",
+                "type": "plate",
+                "name": "MoYou London Flower Power 23",
+                "tags": [
+                    "floral",
+                    "botanical",
+                    "negative-space",
+                    "borders",
+                    "repeating"
+                ],
+                "data": {
+                    "brand": "MoYou London",
+                    "collection": "Flower Power",
+                    "plate_number": "23",
+                    "status": "owned",
+                    "layout": "separate",
+                    "reference_image": "plates/images/moyou-flower-power-23/reference.png",
+                    "reference_size": [
+                        800,
+                        415
+                    ],
+                    "stamps": [
+                        {
+                            "id": "s01",
+                            "title": "Flower and single vertical bar",
+                            "position": "Position 1",
+                            "tags": [
+                                "floral",
+                                "botanical"
+                            ],
+                            "image": "plates/images/moyou-flower-power-23/s01.png",
+                            "crop": [
+                                77,
+                                52,
+                                79,
+                                84
+                            ]
+                        },
+                        {
+                            "id": "s02",
+                            "title": "Rose and double vertical bars",
+                            "position": "Position 2",
+                            "tags": [
+                                "floral",
+                                "botanical"
+                            ],
+                            "image": "plates/images/moyou-flower-power-23/s02.png",
+                            "crop": [
+                                76,
+                                145,
+                                80,
+                                112
+                            ]
+                        },
+                        {
+                            "id": "s03",
+                            "title": "Daisy and vertical bar",
+                            "position": "Position 3",
+                            "tags": [
+                                "floral",
+                                "botanical"
+                            ],
+                            "image": "plates/images/moyou-flower-power-23/s03.png",
+                            "crop": [
+                                76,
+                                265,
+                                96,
+                                84
+                            ]
+                        },
+                        {
+                            "id": "s04",
+                            "title": "Long floral vine border",
+                            "position": "Position 4",
+                            "tags": [
+                                "floral",
+                                "botanical"
+                            ],
+                            "image": "plates/images/moyou-flower-power-23/s04.png",
+                            "crop": [
+                                169,
+                                52,
+                                80,
+                                298
+                            ]
+                        },
+                        {
+                            "id": "s05",
+                            "title": "Floral rectangular frame",
+                            "position": "Position 5",
+                            "tags": [
+                                "floral",
+                                "botanical"
+                            ],
+                            "image": "plates/images/moyou-flower-power-23/s05.png",
+                            "crop": [
+                                261,
+                                52,
+                                122,
+                                102
+                            ]
+                        },
+                        {
+                            "id": "s06",
+                            "title": "Leafy horizontal bar",
+                            "position": "Position 6",
+                            "tags": [
+                                "floral",
+                                "botanical"
+                            ],
+                            "image": "plates/images/moyou-flower-power-23/s06.png",
+                            "crop": [
+                                261,
+                                160,
+                                122,
+                                89
+                            ]
+                        },
+                        {
+                            "id": "s07",
+                            "title": "Rose rectangular frame",
+                            "position": "Position 7",
+                            "tags": [
+                                "floral",
+                                "botanical"
+                            ],
+                            "image": "plates/images/moyou-flower-power-23/s07.png",
+                            "crop": [
+                                261,
+                                254,
+                                122,
+                                96
+                            ]
+                        },
+                        {
+                            "id": "s08",
+                            "title": "Leaf scatter panel",
+                            "position": "Position 8",
+                            "tags": [
+                                "floral",
+                                "botanical"
+                            ],
+                            "image": "plates/images/moyou-flower-power-23/s08.png",
+                            "crop": [
+                                399,
+                                52,
+                                117,
+                                38
+                            ]
+                        },
+                        {
+                            "id": "s09",
+                            "title": "Single horizontal bar",
+                            "position": "Position 9",
+                            "tags": [
+                                "floral",
+                                "botanical"
+                            ],
+                            "image": "plates/images/moyou-flower-power-23/s09.png",
+                            "crop": [
+                                399,
+                                95,
+                                117,
+                                14
+                            ]
+                        },
+                        {
+                            "id": "s10",
+                            "title": "Open flower border",
+                            "position": "Position 10",
+                            "tags": [
+                                "floral",
+                                "botanical"
+                            ],
+                            "image": "plates/images/moyou-flower-power-23/s10.png",
+                            "crop": [
+                                399,
+                                112,
+                                117,
+                                39
+                            ]
+                        },
+                        {
+                            "id": "s11",
+                            "title": "Rounded petal pattern",
+                            "position": "Position 11",
+                            "tags": [
+                                "floral",
+                                "botanical"
+                            ],
+                            "image": "plates/images/moyou-flower-power-23/s11.png",
+                            "crop": [
+                                399,
+                                155,
+                                117,
+                                36
+                            ]
+                        },
+                        {
+                            "id": "s12",
+                            "title": "Thick horizontal bar",
+                            "position": "Position 12",
+                            "tags": [
+                                "floral",
+                                "botanical"
+                            ],
+                            "image": "plates/images/moyou-flower-power-23/s12.png",
+                            "crop": [
+                                399,
+                                197,
+                                117,
+                                22
+                            ]
+                        },
+                        {
+                            "id": "s13",
+                            "title": "Leafy branch border",
+                            "position": "Position 13",
+                            "tags": [
+                                "floral",
+                                "botanical"
+                            ],
+                            "image": "plates/images/moyou-flower-power-23/s13.png",
+                            "crop": [
+                                399,
+                                224,
+                                117,
+                                42
+                            ]
+                        },
+                        {
+                            "id": "s14",
+                            "title": "Double horizontal bars",
+                            "position": "Position 14",
+                            "tags": [
+                                "floral",
+                                "botanical"
+                            ],
+                            "image": "plates/images/moyou-flower-power-23/s14.png",
+                            "crop": [
+                                399,
+                                273,
+                                117,
+                                29
+                            ]
+                        },
+                        {
+                            "id": "s15",
+                            "title": "Small flower border",
+                            "position": "Position 15",
+                            "tags": [
+                                "floral",
+                                "botanical"
+                            ],
+                            "image": "plates/images/moyou-flower-power-23/s15.png",
+                            "crop": [
+                                399,
+                                306,
+                                117,
+                                44
+                            ]
+                        },
+                        {
+                            "id": "s16",
+                            "title": "Narrow continuous floral strip",
+                            "position": "Position 16",
+                            "tags": [
+                                "floral",
+                                "botanical"
+                            ],
+                            "image": "plates/images/moyou-flower-power-23/s16.png",
+                            "crop": [
+                                532,
+                                52,
+                                30,
+                                298
+                            ]
+                        },
+                        {
+                            "id": "s17",
+                            "title": "Upper narrow floral strip",
+                            "position": "Position 17",
+                            "tags": [
+                                "floral",
+                                "botanical"
+                            ],
+                            "image": "plates/images/moyou-flower-power-23/s17.png",
+                            "crop": [
+                                575,
+                                52,
+                                32,
+                                143
+                            ]
+                        },
+                        {
+                            "id": "s18",
+                            "title": "Lower narrow floral strip",
+                            "position": "Position 18",
+                            "tags": [
+                                "floral",
+                                "botanical"
+                            ],
+                            "image": "plates/images/moyou-flower-power-23/s18.png",
+                            "crop": [
+                                575,
+                                206,
+                                32,
+                                144
+                            ]
+                        },
+                        {
+                            "id": "s19",
+                            "title": "Small flower pattern",
+                            "position": "Position 19",
+                            "tags": [
+                                "floral",
+                                "botanical"
+                            ],
+                            "image": "plates/images/moyou-flower-power-23/s19.png",
+                            "crop": [
+                                616,
+                                52,
+                                103,
+                                83
+                            ]
+                        },
+                        {
+                            "id": "s20",
+                            "title": "Rose pattern",
+                            "position": "Position 20",
+                            "tags": [
+                                "floral",
+                                "botanical"
+                            ],
+                            "image": "plates/images/moyou-flower-power-23/s20.png",
+                            "crop": [
+                                616,
+                                160,
+                                103,
+                                85
+                            ]
+                        },
+                        {
+                            "id": "s21",
+                            "title": "Daisy pattern",
+                            "position": "Position 21",
+                            "tags": [
+                                "floral",
+                                "botanical"
+                            ],
+                            "image": "plates/images/moyou-flower-power-23/s21.png",
+                            "crop": [
+                                616,
+                                265,
+                                103,
+                                85
+                            ]
+                        }
+                    ]
+                }
+            },
             "moyou-frenchy-20": {
                 "id": "moyou-frenchy-20",
                 "type": "plate",
@@ -11649,6 +12011,1025 @@
                     ]
                 }
             },
+            "moyou-gothic-13": {
+                "id": "moyou-gothic-13",
+                "type": "plate",
+                "name": "MoYou London Gothic 13",
+                "tags": [
+                    "gothic",
+                    "ornamental",
+                    "stained-glass",
+                    "crosses",
+                    "lace"
+                ],
+                "data": {
+                    "brand": "MoYou London",
+                    "collection": "Gothic",
+                    "plate_number": "13",
+                    "status": "owned",
+                    "layout": "separate",
+                    "reference_image": "plates/images/moyou-gothic-13/reference.png",
+                    "reference_size": [
+                        800,
+                        415
+                    ],
+                    "stamps": [
+                        {
+                            "id": "s01",
+                            "title": "Rose window",
+                            "position": "Position 1",
+                            "tags": [
+                                "gothic",
+                                "ornamental"
+                            ],
+                            "image": "plates/images/moyou-gothic-13/s01.png",
+                            "crop": [
+                                76,
+                                53,
+                                134,
+                                137
+                            ]
+                        },
+                        {
+                            "id": "s02",
+                            "title": "Ornamental cross medallion",
+                            "position": "Position 2",
+                            "tags": [
+                                "gothic",
+                                "ornamental"
+                            ],
+                            "image": "plates/images/moyou-gothic-13/s02.png",
+                            "crop": [
+                                222,
+                                53,
+                                104,
+                                137
+                            ]
+                        },
+                        {
+                            "id": "s03",
+                            "title": "Pointed gothic window",
+                            "position": "Position 3",
+                            "tags": [
+                                "gothic",
+                                "ornamental"
+                            ],
+                            "image": "plates/images/moyou-gothic-13/s03.png",
+                            "crop": [
+                                347,
+                                53,
+                                101,
+                                137
+                            ]
+                        },
+                        {
+                            "id": "s04",
+                            "title": "Flourished diamond cross",
+                            "position": "Position 4",
+                            "tags": [
+                                "gothic",
+                                "ornamental"
+                            ],
+                            "image": "plates/images/moyou-gothic-13/s04.png",
+                            "crop": [
+                                468,
+                                53,
+                                102,
+                                137
+                            ]
+                        },
+                        {
+                            "id": "s05",
+                            "title": "Circular floral rose window",
+                            "position": "Position 5",
+                            "tags": [
+                                "gothic",
+                                "ornamental"
+                            ],
+                            "image": "plates/images/moyou-gothic-13/s05.png",
+                            "crop": [
+                                586,
+                                53,
+                                132,
+                                137
+                            ]
+                        },
+                        {
+                            "id": "s06",
+                            "title": "Floral lace panel",
+                            "position": "Position 6",
+                            "tags": [
+                                "gothic",
+                                "ornamental"
+                            ],
+                            "image": "plates/images/moyou-gothic-13/s06.png",
+                            "crop": [
+                                76,
+                                209,
+                                103,
+                                140
+                            ]
+                        },
+                        {
+                            "id": "s07",
+                            "title": "Ornamental lattice",
+                            "position": "Position 7",
+                            "tags": [
+                                "gothic",
+                                "ornamental"
+                            ],
+                            "image": "plates/images/moyou-gothic-13/s07.png",
+                            "crop": [
+                                183,
+                                209,
+                                103,
+                                140
+                            ]
+                        },
+                        {
+                            "id": "s08",
+                            "title": "Damask flourish",
+                            "position": "Position 8",
+                            "tags": [
+                                "gothic",
+                                "ornamental"
+                            ],
+                            "image": "plates/images/moyou-gothic-13/s08.png",
+                            "crop": [
+                                291,
+                                209,
+                                103,
+                                140
+                            ]
+                        },
+                        {
+                            "id": "s09",
+                            "title": "Pentagram medallion",
+                            "position": "Position 9",
+                            "tags": [
+                                "gothic",
+                                "ornamental"
+                            ],
+                            "image": "plates/images/moyou-gothic-13/s09.png",
+                            "crop": [
+                                399,
+                                209,
+                                103,
+                                140
+                            ]
+                        },
+                        {
+                            "id": "s10",
+                            "title": "Repeating gothic crosses",
+                            "position": "Position 10",
+                            "tags": [
+                                "gothic",
+                                "ornamental"
+                            ],
+                            "image": "plates/images/moyou-gothic-13/s10.png",
+                            "crop": [
+                                507,
+                                209,
+                                103,
+                                140
+                            ]
+                        },
+                        {
+                            "id": "s11",
+                            "title": "Blackletter text panel",
+                            "position": "Position 11",
+                            "tags": [
+                                "gothic",
+                                "ornamental"
+                            ],
+                            "image": "plates/images/moyou-gothic-13/s11.png",
+                            "crop": [
+                                615,
+                                209,
+                                103,
+                                140
+                            ]
+                        }
+                    ]
+                }
+            },
+            "moyou-henna-01": {
+                "id": "moyou-henna-01",
+                "type": "plate",
+                "name": "MoYou London Henna 01",
+                "tags": [
+                    "henna",
+                    "mandala",
+                    "paisley",
+                    "ornamental",
+                    "floral"
+                ],
+                "data": {
+                    "brand": "MoYou London",
+                    "collection": "Henna",
+                    "plate_number": "01",
+                    "status": "owned",
+                    "layout": "continuous",
+                    "reference_image": "plates/images/moyou-henna-01/reference.png",
+                    "reference_size": [
+                        800,
+                        415
+                    ],
+                    "stamps": []
+                }
+            },
+            "moyou-henna-07": {
+                "id": "moyou-henna-07",
+                "type": "plate",
+                "name": "MoYou London Henna 07",
+                "tags": [
+                    "henna",
+                    "geometric",
+                    "arrows",
+                    "feathers",
+                    "mandala",
+                    "lettering"
+                ],
+                "data": {
+                    "brand": "MoYou London",
+                    "collection": "Henna",
+                    "plate_number": "07",
+                    "status": "owned",
+                    "layout": "separate",
+                    "reference_image": "plates/images/moyou-henna-07/reference.png",
+                    "reference_size": [
+                        800,
+                        415
+                    ],
+                    "stamps": [
+                        {
+                            "id": "s01",
+                            "title": "Outlined zigzag border",
+                            "position": "Position 1",
+                            "tags": [
+                                "henna",
+                                "geometric"
+                            ],
+                            "image": "plates/images/moyou-henna-07/s01.png",
+                            "crop": [
+                                77,
+                                53,
+                                28,
+                                151
+                            ]
+                        },
+                        {
+                            "id": "s02",
+                            "title": "Triangle border",
+                            "position": "Position 2",
+                            "tags": [
+                                "henna",
+                                "geometric"
+                            ],
+                            "image": "plates/images/moyou-henna-07/s02.png",
+                            "crop": [
+                                104,
+                                53,
+                                20,
+                                151
+                            ]
+                        },
+                        {
+                            "id": "s03",
+                            "title": "Circle chain border",
+                            "position": "Position 3",
+                            "tags": [
+                                "henna",
+                                "geometric"
+                            ],
+                            "image": "plates/images/moyou-henna-07/s03.png",
+                            "crop": [
+                                122,
+                                53,
+                                25,
+                                151
+                            ]
+                        },
+                        {
+                            "id": "s04",
+                            "title": "Triangular fringe border",
+                            "position": "Position 4",
+                            "tags": [
+                                "henna",
+                                "geometric"
+                            ],
+                            "image": "plates/images/moyou-henna-07/s04.png",
+                            "crop": [
+                                147,
+                                53,
+                                47,
+                                151
+                            ]
+                        },
+                        {
+                            "id": "s05",
+                            "title": "Small downward arrow",
+                            "position": "Position 5",
+                            "tags": [
+                                "henna",
+                                "geometric"
+                            ],
+                            "image": "plates/images/moyou-henna-07/s05.png",
+                            "crop": [
+                                202,
+                                53,
+                                34,
+                                99
+                            ]
+                        },
+                        {
+                            "id": "s06",
+                            "title": "Spiral arrow",
+                            "position": "Position 6",
+                            "tags": [
+                                "henna",
+                                "geometric"
+                            ],
+                            "image": "plates/images/moyou-henna-07/s06.png",
+                            "crop": [
+                                241,
+                                53,
+                                40,
+                                99
+                            ]
+                        },
+                        {
+                            "id": "s07",
+                            "title": "Diamond arrow",
+                            "position": "Position 7",
+                            "tags": [
+                                "henna",
+                                "geometric"
+                            ],
+                            "image": "plates/images/moyou-henna-07/s07.png",
+                            "crop": [
+                                284,
+                                53,
+                                34,
+                                99
+                            ]
+                        },
+                        {
+                            "id": "s08",
+                            "title": "Crescent moon",
+                            "position": "Position 8",
+                            "tags": [
+                                "henna",
+                                "geometric"
+                            ],
+                            "image": "plates/images/moyou-henna-07/s08.png",
+                            "crop": [
+                                329,
+                                52,
+                                32,
+                                36
+                            ]
+                        },
+                        {
+                            "id": "s09",
+                            "title": "Radiating arch",
+                            "position": "Position 9",
+                            "tags": [
+                                "henna",
+                                "geometric"
+                            ],
+                            "image": "plates/images/moyou-henna-07/s09.png",
+                            "crop": [
+                                373,
+                                53,
+                                48,
+                                47
+                            ]
+                        },
+                        {
+                            "id": "s10",
+                            "title": "Peace symbol",
+                            "position": "Position 10",
+                            "tags": [
+                                "henna",
+                                "geometric"
+                            ],
+                            "image": "plates/images/moyou-henna-07/s10.png",
+                            "crop": [
+                                427,
+                                53,
+                                34,
+                                36
+                            ]
+                        },
+                        {
+                            "id": "s11",
+                            "title": "Dotted cross line",
+                            "position": "Position 11",
+                            "tags": [
+                                "henna",
+                                "geometric"
+                            ],
+                            "image": "plates/images/moyou-henna-07/s11.png",
+                            "crop": [
+                                471,
+                                59,
+                                36,
+                                69
+                            ]
+                        },
+                        {
+                            "id": "s12",
+                            "title": "Fine vertical stripe",
+                            "position": "Position 12",
+                            "tags": [
+                                "henna",
+                                "geometric"
+                            ],
+                            "image": "plates/images/moyou-henna-07/s12.png",
+                            "crop": [
+                                518,
+                                53,
+                                21,
+                                79
+                            ]
+                        },
+                        {
+                            "id": "s13",
+                            "title": "Solid feather",
+                            "position": "Position 13",
+                            "tags": [
+                                "henna",
+                                "geometric"
+                            ],
+                            "image": "plates/images/moyou-henna-07/s13.png",
+                            "crop": [
+                                329,
+                                93,
+                                44,
+                                90
+                            ]
+                        },
+                        {
+                            "id": "s14",
+                            "title": "Outlined feather",
+                            "position": "Position 14",
+                            "tags": [
+                                "henna",
+                                "geometric"
+                            ],
+                            "image": "plates/images/moyou-henna-07/s14.png",
+                            "crop": [
+                                424,
+                                95,
+                                37,
+                                85
+                            ]
+                        },
+                        {
+                            "id": "s15",
+                            "title": "Nested downward triangles",
+                            "position": "Position 15",
+                            "tags": [
+                                "henna",
+                                "geometric"
+                            ],
+                            "image": "plates/images/moyou-henna-07/s15.png",
+                            "crop": [
+                                374,
+                                99,
+                                47,
+                                65
+                            ]
+                        },
+                        {
+                            "id": "s16",
+                            "title": "Stacked diamond symbol",
+                            "position": "Position 16",
+                            "tags": [
+                                "henna",
+                                "geometric"
+                            ],
+                            "image": "plates/images/moyou-henna-07/s16.png",
+                            "crop": [
+                                206,
+                                149,
+                                32,
+                                65
+                            ]
+                        },
+                        {
+                            "id": "s17",
+                            "title": "Dotted circle line",
+                            "position": "Position 17",
+                            "tags": [
+                                "henna",
+                                "geometric"
+                            ],
+                            "image": "plates/images/moyou-henna-07/s17.png",
+                            "crop": [
+                                245,
+                                155,
+                                30,
+                                113
+                            ]
+                        },
+                        {
+                            "id": "s18",
+                            "title": "Faceted long diamond",
+                            "position": "Position 18",
+                            "tags": [
+                                "henna",
+                                "geometric"
+                            ],
+                            "image": "plates/images/moyou-henna-07/s18.png",
+                            "crop": [
+                                280,
+                                151,
+                                40,
+                                82
+                            ]
+                        },
+                        {
+                            "id": "s19",
+                            "title": "Solid cross",
+                            "position": "Position 19",
+                            "tags": [
+                                "henna",
+                                "geometric"
+                            ],
+                            "image": "plates/images/moyou-henna-07/s19.png",
+                            "crop": [
+                                328,
+                                181,
+                                23,
+                                27
+                            ]
+                        },
+                        {
+                            "id": "s20",
+                            "title": "Dotted diamond motif",
+                            "position": "Position 20",
+                            "tags": [
+                                "henna",
+                                "geometric"
+                            ],
+                            "image": "plates/images/moyou-henna-07/s20.png",
+                            "crop": [
+                                355,
+                                175,
+                                85,
+                                58
+                            ]
+                        },
+                        {
+                            "id": "s21",
+                            "title": "Small outlined diamond",
+                            "position": "Position 21",
+                            "tags": [
+                                "henna",
+                                "geometric"
+                            ],
+                            "image": "plates/images/moyou-henna-07/s21.png",
+                            "crop": [
+                                441,
+                                183,
+                                25,
+                                35
+                            ]
+                        },
+                        {
+                            "id": "s22",
+                            "title": "Faceted hexagon",
+                            "position": "Position 22",
+                            "tags": [
+                                "henna",
+                                "geometric"
+                            ],
+                            "image": "plates/images/moyou-henna-07/s22.png",
+                            "crop": [
+                                472,
+                                180,
+                                36,
+                                52
+                            ]
+                        },
+                        {
+                            "id": "s23",
+                            "title": "Stacked geometric symbols",
+                            "position": "Position 23",
+                            "tags": [
+                                "henna",
+                                "geometric"
+                            ],
+                            "image": "plates/images/moyou-henna-07/s23.png",
+                            "crop": [
+                                516,
+                                133,
+                                23,
+                                137
+                            ]
+                        },
+                        {
+                            "id": "s24",
+                            "title": "Dot and chevron line",
+                            "position": "Position 24",
+                            "tags": [
+                                "henna",
+                                "geometric"
+                            ],
+                            "image": "plates/images/moyou-henna-07/s24.png",
+                            "crop": [
+                                550,
+                                53,
+                                41,
+                                130
+                            ]
+                        },
+                        {
+                            "id": "s25",
+                            "title": "Outlined diamond line",
+                            "position": "Position 25",
+                            "tags": [
+                                "henna",
+                                "geometric"
+                            ],
+                            "image": "plates/images/moyou-henna-07/s25.png",
+                            "crop": [
+                                548,
+                                183,
+                                46,
+                                85
+                            ]
+                        },
+                        {
+                            "id": "s26",
+                            "title": "Triangle edge border",
+                            "position": "Position 26",
+                            "tags": [
+                                "henna",
+                                "geometric"
+                            ],
+                            "image": "plates/images/moyou-henna-07/s26.png",
+                            "crop": [
+                                599,
+                                53,
+                                24,
+                                151
+                            ]
+                        },
+                        {
+                            "id": "s27",
+                            "title": "Wavy and dotted border",
+                            "position": "Position 27",
+                            "tags": [
+                                "henna",
+                                "geometric"
+                            ],
+                            "image": "plates/images/moyou-henna-07/s27.png",
+                            "crop": [
+                                622,
+                                53,
+                                21,
+                                151
+                            ]
+                        },
+                        {
+                            "id": "s28",
+                            "title": "Zigzag filled band",
+                            "position": "Position 28",
+                            "tags": [
+                                "henna",
+                                "geometric"
+                            ],
+                            "image": "plates/images/moyou-henna-07/s28.png",
+                            "crop": [
+                                645,
+                                53,
+                                48,
+                                151
+                            ]
+                        },
+                        {
+                            "id": "s29",
+                            "title": "Narrow chevron border",
+                            "position": "Position 29",
+                            "tags": [
+                                "henna",
+                                "geometric"
+                            ],
+                            "image": "plates/images/moyou-henna-07/s29.png",
+                            "crop": [
+                                692,
+                                53,
+                                25,
+                                151
+                            ]
+                        },
+                        {
+                            "id": "s30",
+                            "title": "Triangles and stars",
+                            "position": "Position 30",
+                            "tags": [
+                                "henna",
+                                "geometric"
+                            ],
+                            "image": "plates/images/moyou-henna-07/s30.png",
+                            "crop": [
+                                76,
+                                213,
+                                88,
+                                57
+                            ]
+                        },
+                        {
+                            "id": "s31",
+                            "title": "Geometric hand-like symbol",
+                            "position": "Position 31",
+                            "tags": [
+                                "henna",
+                                "geometric"
+                            ],
+                            "image": "plates/images/moyou-henna-07/s31.png",
+                            "crop": [
+                                168,
+                                212,
+                                35,
+                                58
+                            ]
+                        },
+                        {
+                            "id": "s32",
+                            "title": "Sunburst eye symbol",
+                            "position": "Position 32",
+                            "tags": [
+                                "henna",
+                                "geometric"
+                            ],
+                            "image": "plates/images/moyou-henna-07/s32.png",
+                            "crop": [
+                                207,
+                                215,
+                                34,
+                                55
+                            ]
+                        },
+                        {
+                            "id": "s33",
+                            "title": "LOVE lettering",
+                            "position": "Position 33",
+                            "tags": [
+                                "henna",
+                                "geometric"
+                            ],
+                            "image": "plates/images/moyou-henna-07/s33.png",
+                            "crop": [
+                                326,
+                                233,
+                                48,
+                                35
+                            ]
+                        },
+                        {
+                            "id": "s34",
+                            "title": "PEACE lettering",
+                            "position": "Position 34",
+                            "tags": [
+                                "henna",
+                                "geometric"
+                            ],
+                            "image": "plates/images/moyou-henna-07/s34.png",
+                            "crop": [
+                                422,
+                                233,
+                                48,
+                                35
+                            ]
+                        },
+                        {
+                            "id": "s35",
+                            "title": "Triangle tessellation",
+                            "position": "Position 35",
+                            "tags": [
+                                "henna",
+                                "geometric"
+                            ],
+                            "image": "plates/images/moyou-henna-07/s35.png",
+                            "crop": [
+                                604,
+                                212,
+                                112,
+                                58
+                            ]
+                        },
+                        {
+                            "id": "s36",
+                            "title": "Floral half mandala",
+                            "position": "Position 36",
+                            "tags": [
+                                "henna",
+                                "geometric"
+                            ],
+                            "image": "plates/images/moyou-henna-07/s36.png",
+                            "crop": [
+                                77,
+                                273,
+                                132,
+                                77
+                            ]
+                        },
+                        {
+                            "id": "s37",
+                            "title": "Dotted triangle crest",
+                            "position": "Position 37",
+                            "tags": [
+                                "henna",
+                                "geometric"
+                            ],
+                            "image": "plates/images/moyou-henna-07/s37.png",
+                            "crop": [
+                                210,
+                                271,
+                                71,
+                                79
+                            ]
+                        },
+                        {
+                            "id": "s38",
+                            "title": "Striped pointed crest",
+                            "position": "Position 38",
+                            "tags": [
+                                "henna",
+                                "geometric"
+                            ],
+                            "image": "plates/images/moyou-henna-07/s38.png",
+                            "crop": [
+                                284,
+                                265,
+                                66,
+                                85
+                            ]
+                        },
+                        {
+                            "id": "s39",
+                            "title": "Fine ornamental triangle",
+                            "position": "Position 39",
+                            "tags": [
+                                "henna",
+                                "geometric"
+                            ],
+                            "image": "plates/images/moyou-henna-07/s39.png",
+                            "crop": [
+                                348,
+                                264,
+                                92,
+                                86
+                            ]
+                        },
+                        {
+                            "id": "s40",
+                            "title": "Arched patterned triangle",
+                            "position": "Position 40",
+                            "tags": [
+                                "henna",
+                                "geometric"
+                            ],
+                            "image": "plates/images/moyou-henna-07/s40.png",
+                            "crop": [
+                                440,
+                                265,
+                                84,
+                                85
+                            ]
+                        },
+                        {
+                            "id": "s41",
+                            "title": "Petalled triangle crest",
+                            "position": "Position 41",
+                            "tags": [
+                                "henna",
+                                "geometric"
+                            ],
+                            "image": "plates/images/moyou-henna-07/s41.png",
+                            "crop": [
+                                524,
+                                267,
+                                71,
+                                83
+                            ]
+                        },
+                        {
+                            "id": "s42",
+                            "title": "Floral half medallion",
+                            "position": "Position 42",
+                            "tags": [
+                                "henna",
+                                "geometric"
+                            ],
+                            "image": "plates/images/moyou-henna-07/s42.png",
+                            "crop": [
+                                596,
+                                274,
+                                121,
+                                76
+                            ]
+                        }
+                    ]
+                }
+            },
+            "moyou-holy-shapes-15": {
+                "id": "moyou-holy-shapes-15",
+                "type": "plate",
+                "name": "MoYou London Holy Shapes 15",
+                "tags": [
+                    "geometric",
+                    "triangles",
+                    "faceted",
+                    "linework"
+                ],
+                "data": {
+                    "brand": "MoYou London",
+                    "collection": "Holy Shapes",
+                    "plate_number": "15",
+                    "status": "owned",
+                    "layout": "separate",
+                    "reference_image": "plates/images/moyou-holy-shapes-15/reference.png",
+                    "reference_size": [
+                        800,
+                        415
+                    ],
+                    "stamps": [
+                        {
+                            "id": "s01",
+                            "title": "Small faceted triangle row",
+                            "position": "Row 1",
+                            "tags": [
+                                "geometric",
+                                "triangles",
+                                "faceted"
+                            ],
+                            "image": "plates/images/moyou-holy-shapes-15/s01.png",
+                            "crop": [
+                                76,
+                                52,
+                                647,
+                                45
+                            ]
+                        },
+                        {
+                            "id": "s02",
+                            "title": "Medium patterned triangle row",
+                            "position": "Row 2",
+                            "tags": [
+                                "geometric",
+                                "triangles",
+                                "faceted"
+                            ],
+                            "image": "plates/images/moyou-holy-shapes-15/s02.png",
+                            "crop": [
+                                76,
+                                103,
+                                647,
+                                57
+                            ]
+                        },
+                        {
+                            "id": "s03",
+                            "title": "Large geometric triangle row",
+                            "position": "Row 3",
+                            "tags": [
+                                "geometric",
+                                "triangles",
+                                "faceted"
+                            ],
+                            "image": "plates/images/moyou-holy-shapes-15/s03.png",
+                            "crop": [
+                                76,
+                                159,
+                                647,
+                                85
+                            ]
+                        },
+                        {
+                            "id": "s04",
+                            "title": "Large patchwork triangle row",
+                            "position": "Row 4",
+                            "tags": [
+                                "geometric",
+                                "triangles",
+                                "faceted"
+                            ],
+                            "image": "plates/images/moyou-holy-shapes-15/s04.png",
+                            "crop": [
+                                76,
+                                244,
+                                647,
+                                106
+                            ]
+                        }
+                    ]
+                }
+            },
             "moyou-holy-shapes-5": {
                 "id": "moyou-holy-shapes-5",
                 "type": "plate",
@@ -11962,6 +13343,319 @@
                     ]
                 }
             },
+            "moyou-illusion-02": {
+                "id": "moyou-illusion-02",
+                "type": "plate",
+                "name": "MoYou London Illusion 02",
+                "tags": [
+                    "geometric",
+                    "optical",
+                    "spirals",
+                    "repeating"
+                ],
+                "data": {
+                    "brand": "MoYou London",
+                    "collection": "Illusion",
+                    "plate_number": "02",
+                    "status": "owned",
+                    "layout": "separate",
+                    "reference_image": "plates/images/moyou-illusion-02/reference.png",
+                    "reference_size": [
+                        800,
+                        415
+                    ],
+                    "stamps": [
+                        {
+                            "id": "s01",
+                            "title": "Radiating semicircle",
+                            "position": "Position 1",
+                            "tags": [
+                                "geometric",
+                                "optical"
+                            ],
+                            "image": "plates/images/moyou-illusion-02/s01.png",
+                            "crop": [
+                                77,
+                                53,
+                                99,
+                                80
+                            ]
+                        },
+                        {
+                            "id": "s02",
+                            "title": "Twisted pinwheel",
+                            "position": "Position 2",
+                            "tags": [
+                                "geometric",
+                                "optical"
+                            ],
+                            "image": "plates/images/moyou-illusion-02/s02.png",
+                            "crop": [
+                                185,
+                                53,
+                                99,
+                                80
+                            ]
+                        },
+                        {
+                            "id": "s03",
+                            "title": "Bold spiral",
+                            "position": "Position 3",
+                            "tags": [
+                                "geometric",
+                                "optical"
+                            ],
+                            "image": "plates/images/moyou-illusion-02/s03.png",
+                            "crop": [
+                                294,
+                                53,
+                                99,
+                                80
+                            ]
+                        },
+                        {
+                            "id": "s04",
+                            "title": "Crescent vortex",
+                            "position": "Position 4",
+                            "tags": [
+                                "geometric",
+                                "optical"
+                            ],
+                            "image": "plates/images/moyou-illusion-02/s04.png",
+                            "crop": [
+                                402,
+                                53,
+                                99,
+                                80
+                            ]
+                        },
+                        {
+                            "id": "s05",
+                            "title": "Fine spiral",
+                            "position": "Position 5",
+                            "tags": [
+                                "geometric",
+                                "optical"
+                            ],
+                            "image": "plates/images/moyou-illusion-02/s05.png",
+                            "crop": [
+                                510,
+                                53,
+                                99,
+                                80
+                            ]
+                        },
+                        {
+                            "id": "s06",
+                            "title": "Warped checkerboard",
+                            "position": "Position 6",
+                            "tags": [
+                                "geometric",
+                                "optical"
+                            ],
+                            "image": "plates/images/moyou-illusion-02/s06.png",
+                            "crop": [
+                                619,
+                                53,
+                                99,
+                                80
+                            ]
+                        },
+                        {
+                            "id": "s07",
+                            "title": "Faceted circular rosette",
+                            "position": "Position 7",
+                            "tags": [
+                                "geometric",
+                                "optical"
+                            ],
+                            "image": "plates/images/moyou-illusion-02/s07.png",
+                            "crop": [
+                                77,
+                                161,
+                                99,
+                                81
+                            ]
+                        },
+                        {
+                            "id": "s08",
+                            "title": "Warped concentric rings",
+                            "position": "Position 8",
+                            "tags": [
+                                "geometric",
+                                "optical"
+                            ],
+                            "image": "plates/images/moyou-illusion-02/s08.png",
+                            "crop": [
+                                185,
+                                161,
+                                99,
+                                81
+                            ]
+                        },
+                        {
+                            "id": "s09",
+                            "title": "Square tunnel",
+                            "position": "Position 9",
+                            "tags": [
+                                "geometric",
+                                "optical"
+                            ],
+                            "image": "plates/images/moyou-illusion-02/s09.png",
+                            "crop": [
+                                294,
+                                161,
+                                99,
+                                81
+                            ]
+                        },
+                        {
+                            "id": "s10",
+                            "title": "Triangle pinwheel rosette",
+                            "position": "Position 10",
+                            "tags": [
+                                "geometric",
+                                "optical"
+                            ],
+                            "image": "plates/images/moyou-illusion-02/s10.png",
+                            "crop": [
+                                402,
+                                161,
+                                99,
+                                81
+                            ]
+                        },
+                        {
+                            "id": "s11",
+                            "title": "Radiating curved spokes",
+                            "position": "Position 11",
+                            "tags": [
+                                "geometric",
+                                "optical"
+                            ],
+                            "image": "plates/images/moyou-illusion-02/s11.png",
+                            "crop": [
+                                510,
+                                161,
+                                99,
+                                81
+                            ]
+                        },
+                        {
+                            "id": "s12",
+                            "title": "Curved fan vortex",
+                            "position": "Position 12",
+                            "tags": [
+                                "geometric",
+                                "optical"
+                            ],
+                            "image": "plates/images/moyou-illusion-02/s12.png",
+                            "crop": [
+                                619,
+                                161,
+                                99,
+                                81
+                            ]
+                        },
+                        {
+                            "id": "s13",
+                            "title": "Curved concentric bands",
+                            "position": "Position 13",
+                            "tags": [
+                                "geometric",
+                                "optical"
+                            ],
+                            "image": "plates/images/moyou-illusion-02/s13.png",
+                            "crop": [
+                                77,
+                                269,
+                                99,
+                                81
+                            ]
+                        },
+                        {
+                            "id": "s14",
+                            "title": "Flower spiral",
+                            "position": "Position 14",
+                            "tags": [
+                                "geometric",
+                                "optical"
+                            ],
+                            "image": "plates/images/moyou-illusion-02/s14.png",
+                            "crop": [
+                                185,
+                                269,
+                                99,
+                                81
+                            ]
+                        },
+                        {
+                            "id": "s15",
+                            "title": "Three-arm swirl",
+                            "position": "Position 15",
+                            "tags": [
+                                "geometric",
+                                "optical"
+                            ],
+                            "image": "plates/images/moyou-illusion-02/s15.png",
+                            "crop": [
+                                294,
+                                269,
+                                99,
+                                81
+                            ]
+                        },
+                        {
+                            "id": "s16",
+                            "title": "Fine wavy concentric lines",
+                            "position": "Position 16",
+                            "tags": [
+                                "geometric",
+                                "optical"
+                            ],
+                            "image": "plates/images/moyou-illusion-02/s16.png",
+                            "crop": [
+                                402,
+                                269,
+                                99,
+                                81
+                            ]
+                        },
+                        {
+                            "id": "s17",
+                            "title": "Wavy radial sunburst",
+                            "position": "Position 17",
+                            "tags": [
+                                "geometric",
+                                "optical"
+                            ],
+                            "image": "plates/images/moyou-illusion-02/s17.png",
+                            "crop": [
+                                510,
+                                269,
+                                99,
+                                81
+                            ]
+                        },
+                        {
+                            "id": "s18",
+                            "title": "Checkerboard circular vortex",
+                            "position": "Position 18",
+                            "tags": [
+                                "geometric",
+                                "optical"
+                            ],
+                            "image": "plates/images/moyou-illusion-02/s18.png",
+                            "crop": [
+                                619,
+                                269,
+                                99,
+                                81
+                            ]
+                        }
+                    ]
+                }
+            },
             "moyou-illusion-08": {
                 "id": "moyou-illusion-08",
                 "type": "plate",
@@ -12186,6 +13880,235 @@
                                 214,
                                 100,
                                 133
+                            ]
+                        }
+                    ]
+                }
+            },
+            "moyou-illusion-09": {
+                "id": "moyou-illusion-09",
+                "type": "plate",
+                "name": "MoYou London Illusion 09",
+                "tags": [
+                    "geometric",
+                    "optical",
+                    "repeating",
+                    "lines"
+                ],
+                "data": {
+                    "brand": "MoYou London",
+                    "collection": "Illusion",
+                    "plate_number": "09",
+                    "status": "owned",
+                    "layout": "separate",
+                    "reference_image": "plates/images/moyou-illusion-09/reference.png",
+                    "reference_size": [
+                        800,
+                        415
+                    ],
+                    "stamps": [
+                        {
+                            "id": "s01",
+                            "title": "Striped triangle illusion",
+                            "position": "Position 1",
+                            "tags": [
+                                "geometric",
+                                "optical",
+                                "repeating"
+                            ],
+                            "image": "plates/images/moyou-illusion-09/s01.png",
+                            "crop": [
+                                76,
+                                50,
+                                100,
+                                137
+                            ]
+                        },
+                        {
+                            "id": "s02",
+                            "title": "Interlocking hexagon tessellation",
+                            "position": "Position 2",
+                            "tags": [
+                                "geometric",
+                                "optical",
+                                "repeating"
+                            ],
+                            "image": "plates/images/moyou-illusion-09/s02.png",
+                            "crop": [
+                                184,
+                                50,
+                                100,
+                                137
+                            ]
+                        },
+                        {
+                            "id": "s03",
+                            "title": "Curving triangle tessellation",
+                            "position": "Position 3",
+                            "tags": [
+                                "geometric",
+                                "optical",
+                                "repeating"
+                            ],
+                            "image": "plates/images/moyou-illusion-09/s03.png",
+                            "crop": [
+                                292,
+                                50,
+                                100,
+                                137
+                            ]
+                        },
+                        {
+                            "id": "s04",
+                            "title": "Angular zigzag maze",
+                            "position": "Position 4",
+                            "tags": [
+                                "geometric",
+                                "optical",
+                                "repeating"
+                            ],
+                            "image": "plates/images/moyou-illusion-09/s04.png",
+                            "crop": [
+                                400,
+                                50,
+                                100,
+                                137
+                            ]
+                        },
+                        {
+                            "id": "s05",
+                            "title": "Offset checkerboard",
+                            "position": "Position 5",
+                            "tags": [
+                                "geometric",
+                                "optical",
+                                "repeating"
+                            ],
+                            "image": "plates/images/moyou-illusion-09/s05.png",
+                            "crop": [
+                                508,
+                                50,
+                                100,
+                                137
+                            ]
+                        },
+                        {
+                            "id": "s06",
+                            "title": "Curving stripe fan",
+                            "position": "Position 6",
+                            "tags": [
+                                "geometric",
+                                "optical",
+                                "repeating"
+                            ],
+                            "image": "plates/images/moyou-illusion-09/s06.png",
+                            "crop": [
+                                616,
+                                50,
+                                100,
+                                137
+                            ]
+                        },
+                        {
+                            "id": "s07",
+                            "title": "Faceted star tessellation",
+                            "position": "Position 7",
+                            "tags": [
+                                "geometric",
+                                "optical",
+                                "repeating"
+                            ],
+                            "image": "plates/images/moyou-illusion-09/s07.png",
+                            "crop": [
+                                76,
+                                211,
+                                100,
+                                137
+                            ]
+                        },
+                        {
+                            "id": "s08",
+                            "title": "Wavy diagonal stripes",
+                            "position": "Position 8",
+                            "tags": [
+                                "geometric",
+                                "optical",
+                                "repeating"
+                            ],
+                            "image": "plates/images/moyou-illusion-09/s08.png",
+                            "crop": [
+                                184,
+                                211,
+                                100,
+                                137
+                            ]
+                        },
+                        {
+                            "id": "s09",
+                            "title": "Elongated cube tessellation",
+                            "position": "Position 9",
+                            "tags": [
+                                "geometric",
+                                "optical",
+                                "repeating"
+                            ],
+                            "image": "plates/images/moyou-illusion-09/s09.png",
+                            "crop": [
+                                292,
+                                211,
+                                100,
+                                137
+                            ]
+                        },
+                        {
+                            "id": "s10",
+                            "title": "Stacked chevrons",
+                            "position": "Position 10",
+                            "tags": [
+                                "geometric",
+                                "optical",
+                                "repeating"
+                            ],
+                            "image": "plates/images/moyou-illusion-09/s10.png",
+                            "crop": [
+                                400,
+                                211,
+                                100,
+                                137
+                            ]
+                        },
+                        {
+                            "id": "s11",
+                            "title": "Narrow zigzag waves",
+                            "position": "Position 11",
+                            "tags": [
+                                "geometric",
+                                "optical",
+                                "repeating"
+                            ],
+                            "image": "plates/images/moyou-illusion-09/s11.png",
+                            "crop": [
+                                508,
+                                211,
+                                100,
+                                137
+                            ]
+                        },
+                        {
+                            "id": "s12",
+                            "title": "Three-dimensional cube tessellation",
+                            "position": "Position 12",
+                            "tags": [
+                                "geometric",
+                                "optical",
+                                "repeating"
+                            ],
+                            "image": "plates/images/moyou-illusion-09/s12.png",
+                            "crop": [
+                                616,
+                                211,
+                                100,
+                                137
                             ]
                         }
                     ]
@@ -12770,6 +14693,449 @@
                                 299,
                                 92,
                                 49
+                            ]
+                        }
+                    ]
+                }
+            },
+            "moyou-minimal-14": {
+                "id": "moyou-minimal-14",
+                "type": "plate",
+                "name": "MoYou London Minimal 14",
+                "tags": [
+                    "geometric",
+                    "celestial",
+                    "minimal",
+                    "linework",
+                    "eyes",
+                    "arrows"
+                ],
+                "data": {
+                    "brand": "MoYou London",
+                    "collection": "Minimal",
+                    "plate_number": "14",
+                    "status": "owned",
+                    "layout": "separate",
+                    "reference_image": "plates/images/moyou-minimal-14/reference.png",
+                    "reference_size": [
+                        800,
+                        415
+                    ],
+                    "stamps": [
+                        {
+                            "id": "s01",
+                            "title": "Vertical orbital symbol",
+                            "position": "Position 1",
+                            "tags": [
+                                "geometric",
+                                "linework"
+                            ],
+                            "image": "plates/images/moyou-minimal-14/s01.png",
+                            "crop": [
+                                84,
+                                65,
+                                40,
+                                72
+                            ]
+                        },
+                        {
+                            "id": "s02",
+                            "title": "Overlapping polygon star",
+                            "position": "Position 2",
+                            "tags": [
+                                "geometric",
+                                "linework"
+                            ],
+                            "image": "plates/images/moyou-minimal-14/s02.png",
+                            "crop": [
+                                128,
+                                52,
+                                110,
+                                111
+                            ]
+                        },
+                        {
+                            "id": "s03",
+                            "title": "Hexagonal orbital symbol",
+                            "position": "Position 3",
+                            "tags": [
+                                "geometric",
+                                "linework"
+                            ],
+                            "image": "plates/images/moyou-minimal-14/s03.png",
+                            "crop": [
+                                237,
+                                62,
+                                104,
+                                88
+                            ]
+                        },
+                        {
+                            "id": "s04",
+                            "title": "Radiating vertical bar",
+                            "position": "Position 4",
+                            "tags": [
+                                "geometric",
+                                "linework"
+                            ],
+                            "image": "plates/images/moyou-minimal-14/s04.png",
+                            "crop": [
+                                334,
+                                87,
+                                118,
+                                80
+                            ]
+                        },
+                        {
+                            "id": "s05",
+                            "title": "Crescent ornamental line",
+                            "position": "Position 5",
+                            "tags": [
+                                "geometric",
+                                "linework"
+                            ],
+                            "image": "plates/images/moyou-minimal-14/s05.png",
+                            "crop": [
+                                442,
+                                53,
+                                135,
+                                37
+                            ]
+                        },
+                        {
+                            "id": "s06",
+                            "title": "Orbital moon line",
+                            "position": "Position 6",
+                            "tags": [
+                                "geometric",
+                                "linework"
+                            ],
+                            "image": "plates/images/moyou-minimal-14/s06.png",
+                            "crop": [
+                                450,
+                                89,
+                                148,
+                                34
+                            ]
+                        },
+                        {
+                            "id": "s07",
+                            "title": "Moon phase horizontal line",
+                            "position": "Position 7",
+                            "tags": [
+                                "geometric",
+                                "linework"
+                            ],
+                            "image": "plates/images/moyou-minimal-14/s07.png",
+                            "crop": [
+                                462,
+                                124,
+                                160,
+                                47
+                            ]
+                        },
+                        {
+                            "id": "s08",
+                            "title": "Geometric orbit star",
+                            "position": "Position 8",
+                            "tags": [
+                                "geometric",
+                                "linework"
+                            ],
+                            "image": "plates/images/moyou-minimal-14/s08.png",
+                            "crop": [
+                                599,
+                                52,
+                                66,
+                                64
+                            ]
+                        },
+                        {
+                            "id": "s09",
+                            "title": "Compass sun",
+                            "position": "Position 9",
+                            "tags": [
+                                "geometric",
+                                "linework"
+                            ],
+                            "image": "plates/images/moyou-minimal-14/s09.png",
+                            "crop": [
+                                668,
+                                75,
+                                52,
+                                50
+                            ]
+                        },
+                        {
+                            "id": "s10",
+                            "title": "Dotted diamond",
+                            "position": "Position 10",
+                            "tags": [
+                                "geometric",
+                                "linework"
+                            ],
+                            "image": "plates/images/moyou-minimal-14/s10.png",
+                            "crop": [
+                                625,
+                                120,
+                                57,
+                                50
+                            ]
+                        },
+                        {
+                            "id": "s11",
+                            "title": "Eye and crescent medallion",
+                            "position": "Position 11",
+                            "tags": [
+                                "geometric",
+                                "linework"
+                            ],
+                            "image": "plates/images/moyou-minimal-14/s11.png",
+                            "crop": [
+                                77,
+                                150,
+                                115,
+                                112
+                            ]
+                        },
+                        {
+                            "id": "s12",
+                            "title": "Crescent moon",
+                            "position": "Position 12",
+                            "tags": [
+                                "geometric",
+                                "linework"
+                            ],
+                            "image": "plates/images/moyou-minimal-14/s12.png",
+                            "crop": [
+                                204,
+                                187,
+                                40,
+                                30
+                            ]
+                        },
+                        {
+                            "id": "s13",
+                            "title": "Long geometric arrow",
+                            "position": "Position 13",
+                            "tags": [
+                                "geometric",
+                                "linework"
+                            ],
+                            "image": "plates/images/moyou-minimal-14/s13.png",
+                            "crop": [
+                                241,
+                                185,
+                                215,
+                                32
+                            ]
+                        },
+                        {
+                            "id": "s14",
+                            "title": "Outlined triangle symbol",
+                            "position": "Position 14",
+                            "tags": [
+                                "geometric",
+                                "linework"
+                            ],
+                            "image": "plates/images/moyou-minimal-14/s14.png",
+                            "crop": [
+                                448,
+                                163,
+                                54,
+                                76
+                            ]
+                        },
+                        {
+                            "id": "s15",
+                            "title": "Filled triangle arrow line",
+                            "position": "Position 15",
+                            "tags": [
+                                "geometric",
+                                "linework"
+                            ],
+                            "image": "plates/images/moyou-minimal-14/s15.png",
+                            "crop": [
+                                502,
+                                176,
+                                162,
+                                50
+                            ]
+                        },
+                        {
+                            "id": "s16",
+                            "title": "Faceted diamond symbol",
+                            "position": "Position 16",
+                            "tags": [
+                                "geometric",
+                                "linework"
+                            ],
+                            "image": "plates/images/moyou-minimal-14/s16.png",
+                            "crop": [
+                                659,
+                                178,
+                                57,
+                                52
+                            ]
+                        },
+                        {
+                            "id": "s17",
+                            "title": "Vertical tree-like triangle symbol",
+                            "position": "Position 17",
+                            "tags": [
+                                "geometric",
+                                "linework"
+                            ],
+                            "image": "plates/images/moyou-minimal-14/s17.png",
+                            "crop": [
+                                87,
+                                253,
+                                36,
+                                89
+                            ]
+                        },
+                        {
+                            "id": "s18",
+                            "title": "Petalled circular sun",
+                            "position": "Position 18",
+                            "tags": [
+                                "geometric",
+                                "linework"
+                            ],
+                            "image": "plates/images/moyou-minimal-14/s18.png",
+                            "crop": [
+                                128,
+                                245,
+                                106,
+                                107
+                            ]
+                        },
+                        {
+                            "id": "s19",
+                            "title": "Orbital circular medallion",
+                            "position": "Position 19",
+                            "tags": [
+                                "geometric",
+                                "linework"
+                            ],
+                            "image": "plates/images/moyou-minimal-14/s19.png",
+                            "crop": [
+                                235,
+                                242,
+                                109,
+                                111
+                            ]
+                        },
+                        {
+                            "id": "s20",
+                            "title": "Crescent sunburst",
+                            "position": "Position 20",
+                            "tags": [
+                                "geometric",
+                                "linework"
+                            ],
+                            "image": "plates/images/moyou-minimal-14/s20.png",
+                            "crop": [
+                                342,
+                                230,
+                                107,
+                                111
+                            ]
+                        },
+                        {
+                            "id": "s21",
+                            "title": "Circle phase sequence",
+                            "position": "Position 21",
+                            "tags": [
+                                "geometric",
+                                "linework"
+                            ],
+                            "image": "plates/images/moyou-minimal-14/s21.png",
+                            "crop": [
+                                468,
+                                241,
+                                148,
+                                35
+                            ]
+                        },
+                        {
+                            "id": "s22",
+                            "title": "Eight-point compass star",
+                            "position": "Position 22",
+                            "tags": [
+                                "geometric",
+                                "linework"
+                            ],
+                            "image": "plates/images/moyou-minimal-14/s22.png",
+                            "crop": [
+                                622,
+                                236,
+                                59,
+                                48
+                            ]
+                        },
+                        {
+                            "id": "s23",
+                            "title": "Feathered horizontal arrow",
+                            "position": "Position 23",
+                            "tags": [
+                                "geometric",
+                                "linework"
+                            ],
+                            "image": "plates/images/moyou-minimal-14/s23.png",
+                            "crop": [
+                                465,
+                                285,
+                                164,
+                                28
+                            ]
+                        },
+                        {
+                            "id": "s24",
+                            "title": "Small sun horizontal line",
+                            "position": "Position 24",
+                            "tags": [
+                                "geometric",
+                                "linework"
+                            ],
+                            "image": "plates/images/moyou-minimal-14/s24.png",
+                            "crop": [
+                                465,
+                                313,
+                                135,
+                                34
+                            ]
+                        },
+                        {
+                            "id": "s25",
+                            "title": "Eye triangle",
+                            "position": "Position 25",
+                            "tags": [
+                                "geometric",
+                                "linework"
+                            ],
+                            "image": "plates/images/moyou-minimal-14/s25.png",
+                            "crop": [
+                                615,
+                                306,
+                                43,
+                                45
+                            ]
+                        },
+                        {
+                            "id": "s26",
+                            "title": "Circular eye symbol",
+                            "position": "Position 26",
+                            "tags": [
+                                "geometric",
+                                "linework"
+                            ],
+                            "image": "plates/images/moyou-minimal-14/s26.png",
+                            "crop": [
+                                664,
+                                285,
+                                49,
+                                41
                             ]
                         }
                     ]
