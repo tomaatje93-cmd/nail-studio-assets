@@ -1,7 +1,7 @@
 {
     "schema_version": 1,
     "counts": {
-        "polish": 252,
+        "polish": 253,
         "plate": 27
     },
     "records": {
@@ -6947,6 +6947,37 @@
                             "kind": "swatch",
                             "caption": "Official application and stamping reference; lighting and layering affect appearance.",
                             "source": "https://moyou.co.uk/products/premium-nail-polish-ivy-blue"
+                        }
+                    ]
+                }
+            },
+            "moyou-jungle-gold": {
+                "id": "moyou-jungle-gold",
+                "type": "polish",
+                "name": "MoYou London Jungle Gold",
+                "tags": [
+                    "stamping",
+                    "gold/copper",
+                    "multichrome",
+                    "metallic"
+                ],
+                "data": {
+                    "brand": "MoYou London",
+                    "shade_name": "Jungle Gold",
+                    "color_family": "gold/copper",
+                    "finish": "stamping;metallic;duochrome",
+                    "role": "stamping",
+                    "status": "owned",
+                    "manufacturer_hex": "",
+                    "personal_hex": "",
+                    "override_hex": "",
+                    "category": "stamping",
+                    "images": [
+                        {
+                            "url": "https://moyou.co.uk/cdn/shop/products/Premium-Nail-Polish-Jungle-Gold-Stamping-Nail-Polish-MoYou-London-stamping.jpg?v=1722791862&width=533",
+                            "kind": "manufacturer",
+                            "caption": "Official Jungle Gold product reference; packaging may differ from the owned bottle.",
+                            "source": "https://moyou.co.uk/products/stamping-nail-polish-jungle-gold"
                         }
                     ]
                 }
