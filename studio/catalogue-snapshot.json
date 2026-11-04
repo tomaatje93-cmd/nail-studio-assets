@@ -1,7 +1,7 @@
 {
     "schema_version": 1,
     "counts": {
-        "polish": 253,
+        "polish": 265,
         "plate": 27
     },
     "records": {
@@ -697,6 +697,25 @@
                     ]
                 }
             },
+            "essence-milky-glazed": {
+                "id": "essence-milky-glazed",
+                "type": "polish",
+                "name": "Essence Milky Glazed",
+                "tags": [],
+                "data": {
+                    "brand": "Essence",
+                    "shade_name": "Milky Glazed",
+                    "color_family": "",
+                    "finish": "",
+                    "role": "",
+                    "status": "owned",
+                    "manufacturer_hex": "",
+                    "personal_hex": "",
+                    "override_hex": "",
+                    "category": "unknown",
+                    "images": []
+                }
+            },
             "essence-ocean-eyes": {
                 "id": "essence-ocean-eyes",
                 "type": "polish",
@@ -1118,6 +1137,44 @@
                     "images": []
                 }
             },
+            "gabriella-salvete-amethyst": {
+                "id": "gabriella-salvete-amethyst",
+                "type": "polish",
+                "name": "Gabriella Salvete Amethyst",
+                "tags": [],
+                "data": {
+                    "brand": "Gabriella Salvete",
+                    "shade_name": "Amethyst",
+                    "color_family": "",
+                    "finish": "",
+                    "role": "",
+                    "status": "owned",
+                    "manufacturer_hex": "",
+                    "personal_hex": "",
+                    "override_hex": "",
+                    "category": "unknown",
+                    "images": []
+                }
+            },
+            "gabriella-salvete-juicy-plum": {
+                "id": "gabriella-salvete-juicy-plum",
+                "type": "polish",
+                "name": "Gabriella Salvete Juicy Plum",
+                "tags": [],
+                "data": {
+                    "brand": "Gabriella Salvete",
+                    "shade_name": "Juicy Plum",
+                    "color_family": "",
+                    "finish": "",
+                    "role": "",
+                    "status": "owned",
+                    "manufacturer_hex": "",
+                    "personal_hex": "",
+                    "override_hex": "",
+                    "category": "unknown",
+                    "images": []
+                }
+            },
             "hema-always-sparkle": {
                 "id": "hema-always-sparkle",
                 "type": "polish",
@@ -1317,6 +1374,25 @@
                             "source": "https://www.hema.nl/mooi-gezond/make-up/nagellak?start=72&sz=48"
                         }
                     ]
+                }
+            },
+            "hema-cranberry-crush": {
+                "id": "hema-cranberry-crush",
+                "type": "polish",
+                "name": "Hema Cranberry Crush",
+                "tags": [],
+                "data": {
+                    "brand": "Hema",
+                    "shade_name": "Cranberry Crush",
+                    "color_family": "",
+                    "finish": "",
+                    "role": "",
+                    "status": "owned",
+                    "manufacturer_hex": "",
+                    "personal_hex": "",
+                    "override_hex": "",
+                    "category": "unknown",
+                    "images": []
                 }
             },
             "hema-delft-blue": {
@@ -1729,6 +1805,25 @@
                     "role": "color",
                     "shade_name": "Passionate Raspberry",
                     "status": "owned",
+                    "category": "unknown",
+                    "images": []
+                }
+            },
+            "hema-pearly-snow": {
+                "id": "hema-pearly-snow",
+                "type": "polish",
+                "name": "Hema Pearly Snow",
+                "tags": [],
+                "data": {
+                    "brand": "Hema",
+                    "shade_name": "Pearly Snow",
+                    "color_family": "",
+                    "finish": "",
+                    "role": "",
+                    "status": "owned",
+                    "manufacturer_hex": "",
+                    "personal_hex": "",
+                    "override_hex": "",
                     "category": "unknown",
                     "images": []
                 }
@@ -7544,6 +7639,101 @@
                     "images": []
                 }
             },
+            "notino-karamba": {
+                "id": "notino-karamba",
+                "type": "polish",
+                "name": "Notino Karamba",
+                "tags": [],
+                "data": {
+                    "brand": "Notino",
+                    "shade_name": "Karamba",
+                    "color_family": "",
+                    "finish": "",
+                    "role": "",
+                    "status": "owned",
+                    "manufacturer_hex": "",
+                    "personal_hex": "",
+                    "override_hex": "",
+                    "category": "unknown",
+                    "images": []
+                }
+            },
+            "notino-matte-top-coat": {
+                "id": "notino-matte-top-coat",
+                "type": "polish",
+                "name": "Notino Matte Top Coat",
+                "tags": [],
+                "data": {
+                    "brand": "Notino",
+                    "shade_name": "Matte Top Coat",
+                    "color_family": "",
+                    "finish": "matte;topcoat",
+                    "role": "topper",
+                    "status": "owned",
+                    "manufacturer_hex": "",
+                    "personal_hex": "",
+                    "override_hex": "",
+                    "category": "top",
+                    "images": []
+                }
+            },
+            "notino-paranoir": {
+                "id": "notino-paranoir",
+                "type": "polish",
+                "name": "Notino Paranoir",
+                "tags": [],
+                "data": {
+                    "brand": "Notino",
+                    "shade_name": "Paranoir",
+                    "color_family": "",
+                    "finish": "",
+                    "role": "",
+                    "status": "owned",
+                    "manufacturer_hex": "",
+                    "personal_hex": "",
+                    "override_hex": "",
+                    "category": "unknown",
+                    "images": []
+                }
+            },
+            "notino-top-secret": {
+                "id": "notino-top-secret",
+                "type": "polish",
+                "name": "Notino Top Secret",
+                "tags": [],
+                "data": {
+                    "brand": "Notino",
+                    "shade_name": "Top Secret",
+                    "color_family": "",
+                    "finish": "",
+                    "role": "",
+                    "status": "owned",
+                    "manufacturer_hex": "",
+                    "personal_hex": "",
+                    "override_hex": "",
+                    "category": "unknown",
+                    "images": []
+                }
+            },
+            "notino-wishy-washy": {
+                "id": "notino-wishy-washy",
+                "type": "polish",
+                "name": "Notino Wishy Washy",
+                "tags": [],
+                "data": {
+                    "brand": "Notino",
+                    "shade_name": "Wishy Washy",
+                    "color_family": "",
+                    "finish": "",
+                    "role": "",
+                    "status": "owned",
+                    "manufacturer_hex": "",
+                    "personal_hex": "",
+                    "override_hex": "",
+                    "category": "unknown",
+                    "images": []
+                }
+            },
             "opi-abstract-after-dark": {
                 "id": "opi-abstract-after-dark",
                 "type": "polish",
@@ -7659,6 +7849,25 @@
                     "shade_name": "Purple Powder - Over Sticky Base",
                     "status": "owned",
                     "category": "specialty",
+                    "images": []
+                }
+            },
+            "rimmel-london-lovey-dovey": {
+                "id": "rimmel-london-lovey-dovey",
+                "type": "polish",
+                "name": "Rimmel London Lovey Dovey",
+                "tags": [],
+                "data": {
+                    "brand": "Rimmel London",
+                    "shade_name": "Lovey Dovey",
+                    "color_family": "",
+                    "finish": "",
+                    "role": "",
+                    "status": "owned",
+                    "manufacturer_hex": "",
+                    "personal_hex": "",
+                    "override_hex": "",
+                    "category": "unknown",
                     "images": []
                 }
             },
@@ -7851,6 +8060,25 @@
                     "role": "",
                     "shade_name": "Steel the Show",
                     "status": "owned",
+                    "category": "unknown",
+                    "images": []
+                }
+            },
+            "sally-hansen-tan-lime": {
+                "id": "sally-hansen-tan-lime",
+                "type": "polish",
+                "name": "Sally Hansen Tan-Lime",
+                "tags": [],
+                "data": {
+                    "brand": "Sally Hansen",
+                    "shade_name": "Tan-Lime",
+                    "color_family": "",
+                    "finish": "",
+                    "role": "",
+                    "status": "owned",
+                    "manufacturer_hex": "",
+                    "personal_hex": "",
+                    "override_hex": "",
                     "category": "unknown",
                     "images": []
                 }

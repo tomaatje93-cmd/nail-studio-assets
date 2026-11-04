@@ -386,6 +386,20 @@
         },
         {
             "brand": "Essence",
+            "shade_name": "Milky Glazed",
+            "color_family": "",
+            "finish": "",
+            "role": "",
+            "status": "owned",
+            "manufacturer_hex": "",
+            "personal_hex": "",
+            "override_hex": "",
+            "category": "unknown",
+            "id": "essence-milky-glazed",
+            "tags": []
+        },
+        {
+            "brand": "Essence",
             "color_family": "",
             "finish": "",
             "manufacturer_hex": "",
@@ -616,6 +630,34 @@
             ]
         },
         {
+            "brand": "Gabriella Salvete",
+            "shade_name": "Amethyst",
+            "color_family": "",
+            "finish": "",
+            "role": "",
+            "status": "owned",
+            "manufacturer_hex": "",
+            "personal_hex": "",
+            "override_hex": "",
+            "category": "unknown",
+            "id": "gabriella-salvete-amethyst",
+            "tags": []
+        },
+        {
+            "brand": "Gabriella Salvete",
+            "shade_name": "Juicy Plum",
+            "color_family": "",
+            "finish": "",
+            "role": "",
+            "status": "owned",
+            "manufacturer_hex": "",
+            "personal_hex": "",
+            "override_hex": "",
+            "category": "unknown",
+            "id": "gabriella-salvete-juicy-plum",
+            "tags": []
+        },
+        {
             "brand": "Hema",
             "shade_name": "Always Sparkle",
             "color_family": "multicolor",
@@ -747,6 +789,20 @@
             "tags": [
                 "blue"
             ]
+        },
+        {
+            "brand": "Hema",
+            "shade_name": "Cranberry Crush",
+            "color_family": "",
+            "finish": "",
+            "role": "",
+            "status": "owned",
+            "manufacturer_hex": "",
+            "personal_hex": "",
+            "override_hex": "",
+            "category": "unknown",
+            "id": "hema-cranberry-crush",
+            "tags": []
         },
         {
             "brand": "Hema",
@@ -1020,6 +1076,20 @@
                 "matte comparison swatch",
                 "pink"
             ]
+        },
+        {
+            "brand": "Hema",
+            "shade_name": "Pearly Snow",
+            "color_family": "",
+            "finish": "",
+            "role": "",
+            "status": "owned",
+            "manufacturer_hex": "",
+            "personal_hex": "",
+            "override_hex": "",
+            "category": "unknown",
+            "id": "hema-pearly-snow",
+            "tags": []
         },
         {
             "brand": "Hema",
@@ -4111,6 +4181,76 @@
             ]
         },
         {
+            "brand": "Notino",
+            "shade_name": "Karamba",
+            "color_family": "",
+            "finish": "",
+            "role": "",
+            "status": "owned",
+            "manufacturer_hex": "",
+            "personal_hex": "",
+            "override_hex": "",
+            "category": "unknown",
+            "id": "notino-karamba",
+            "tags": []
+        },
+        {
+            "brand": "Notino",
+            "shade_name": "Matte Top Coat",
+            "color_family": "",
+            "finish": "matte;topcoat",
+            "role": "topper",
+            "status": "owned",
+            "manufacturer_hex": "",
+            "personal_hex": "",
+            "override_hex": "",
+            "category": "top",
+            "id": "notino-matte-top-coat",
+            "tags": []
+        },
+        {
+            "brand": "Notino",
+            "shade_name": "Paranoir",
+            "color_family": "",
+            "finish": "",
+            "role": "",
+            "status": "owned",
+            "manufacturer_hex": "",
+            "personal_hex": "",
+            "override_hex": "",
+            "category": "unknown",
+            "id": "notino-paranoir",
+            "tags": []
+        },
+        {
+            "brand": "Notino",
+            "shade_name": "Top Secret",
+            "color_family": "",
+            "finish": "",
+            "role": "",
+            "status": "owned",
+            "manufacturer_hex": "",
+            "personal_hex": "",
+            "override_hex": "",
+            "category": "unknown",
+            "id": "notino-top-secret",
+            "tags": []
+        },
+        {
+            "brand": "Notino",
+            "shade_name": "Wishy Washy",
+            "color_family": "",
+            "finish": "",
+            "role": "",
+            "status": "owned",
+            "manufacturer_hex": "",
+            "personal_hex": "",
+            "override_hex": "",
+            "category": "unknown",
+            "id": "notino-wishy-washy",
+            "tags": []
+        },
+        {
             "brand": "OPI",
             "color_family": "",
             "finish": "",
@@ -4188,6 +4328,20 @@
                 "purple",
                 "topper"
             ]
+        },
+        {
+            "brand": "Rimmel London",
+            "shade_name": "Lovey Dovey",
+            "color_family": "",
+            "finish": "",
+            "role": "",
+            "status": "owned",
+            "manufacturer_hex": "",
+            "personal_hex": "",
+            "override_hex": "",
+            "category": "unknown",
+            "id": "rimmel-london-lovey-dovey",
+            "tags": []
         },
         {
             "brand": "Sally Hansen",
@@ -4336,6 +4490,20 @@
             "tags": [
                 "metallic"
             ]
+        },
+        {
+            "brand": "Sally Hansen",
+            "shade_name": "Tan-Lime",
+            "color_family": "",
+            "finish": "",
+            "role": "",
+            "status": "owned",
+            "manufacturer_hex": "",
+            "personal_hex": "",
+            "override_hex": "",
+            "category": "unknown",
+            "id": "sally-hansen-tan-lime",
+            "tags": []
         },
         {
             "brand": "Sally Hansen",
@@ -4692,6 +4860,9 @@
                 }
             ]
         },
+        "Essence/Milky Glazed": {
+            "images": []
+        },
         "Essence/Ocean Eyes": {
             "images": [
                 {
@@ -4854,6 +5025,12 @@
         "Essie/Twinkle in Time": {
             "images": []
         },
+        "Gabriella Salvete/Amethyst": {
+            "images": []
+        },
+        "Gabriella Salvete/Juicy Plum": {
+            "images": []
+        },
         "Hema/Always Sparkle": {
             "images": [
                 {
@@ -4905,6 +5082,9 @@
                     "source": "https://www.hema.nl/mooi-gezond/make-up/nagellak?start=72&sz=48"
                 }
             ]
+        },
+        "Hema/Cranberry Crush": {
+            "images": []
         },
         "Hema/Delft Blue": {
             "images": [
@@ -5013,6 +5193,9 @@
             "images": []
         },
         "Hema/Passionate Raspberry": {
+            "images": []
+        },
+        "Hema/Pearly Snow": {
             "images": []
         },
         "Hema/Pink Diamond": {
@@ -7396,6 +7579,21 @@
         "Nails Inc/Rainbow Wishes": {
             "images": []
         },
+        "Notino/Karamba": {
+            "images": []
+        },
+        "Notino/Matte Top Coat": {
+            "images": []
+        },
+        "Notino/Paranoir": {
+            "images": []
+        },
+        "Notino/Top Secret": {
+            "images": []
+        },
+        "Notino/Wishy Washy": {
+            "images": []
+        },
         "OPI/Abstract After Dark": {
             "images": [
                 {
@@ -7425,6 +7623,9 @@
         "/Purple Powder - Over Sticky Base": {
             "images": []
         },
+        "Rimmel London/Lovey Dovey": {
+            "images": []
+        },
         "Sally Hansen/Beet-ing Heart": {
             "images": []
         },
@@ -7450,6 +7651,9 @@
             "images": []
         },
         "Sally Hansen/Steel the Show": {
+            "images": []
+        },
+        "Sally Hansen/Tan-Lime": {
             "images": []
         },
         "Sally Hansen/The Queens Velvet": {
