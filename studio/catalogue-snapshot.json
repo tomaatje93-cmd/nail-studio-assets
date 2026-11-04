@@ -701,13 +701,16 @@
                 "id": "essence-milky-glazed",
                 "type": "polish",
                 "name": "Essence Milky Glazed",
-                "tags": [],
+                "tags": [
+                    "white",
+                    "sheer"
+                ],
                 "data": {
                     "brand": "Essence",
                     "shade_name": "Milky Glazed",
-                    "color_family": "",
-                    "finish": "",
-                    "role": "",
+                    "color_family": "white",
+                    "finish": "glossy",
+                    "role": "color",
                     "status": "owned",
                     "manufacturer_hex": "",
                     "personal_hex": "",
@@ -1141,18 +1144,21 @@
                 "id": "gabriella-salvete-amethyst",
                 "type": "polish",
                 "name": "Gabriella Salvete Amethyst",
-                "tags": [],
+                "tags": [
+                    "purple",
+                    "holo"
+                ],
                 "data": {
                     "brand": "Gabriella Salvete",
                     "shade_name": "Amethyst",
-                    "color_family": "",
-                    "finish": "",
-                    "role": "",
+                    "color_family": "purple",
+                    "finish": "holo",
+                    "role": "color",
                     "status": "owned",
                     "manufacturer_hex": "",
                     "personal_hex": "",
                     "override_hex": "",
-                    "category": "unknown",
+                    "category": "specialty",
                     "images": []
                 }
             },
@@ -1160,18 +1166,21 @@
                 "id": "gabriella-salvete-juicy-plum",
                 "type": "polish",
                 "name": "Gabriella Salvete Juicy Plum",
-                "tags": [],
+                "tags": [
+                    "purple",
+                    "holo"
+                ],
                 "data": {
                     "brand": "Gabriella Salvete",
                     "shade_name": "Juicy Plum",
-                    "color_family": "",
-                    "finish": "",
-                    "role": "",
+                    "color_family": "purple",
+                    "finish": "holo",
+                    "role": "color",
                     "status": "owned",
                     "manufacturer_hex": "",
                     "personal_hex": "",
                     "override_hex": "",
-                    "category": "unknown",
+                    "category": "specialty",
                     "images": []
                 }
             },
@@ -7861,8 +7870,8 @@
                     "brand": "Rimmel London",
                     "shade_name": "Lovey Dovey",
                     "color_family": "",
-                    "finish": "",
-                    "role": "",
+                    "finish": "glossy",
+                    "role": "color",
                     "status": "owned",
                     "manufacturer_hex": "",
                     "personal_hex": "",
@@ -8068,18 +8077,21 @@
                 "id": "sally-hansen-tan-lime",
                 "type": "polish",
                 "name": "Sally Hansen Tan-Lime",
-                "tags": [],
+                "tags": [
+                    "green",
+                    "neon"
+                ],
                 "data": {
                     "brand": "Sally Hansen",
                     "shade_name": "Tan-Lime",
-                    "color_family": "",
-                    "finish": "",
-                    "role": "",
+                    "color_family": "green",
+                    "finish": "creme;glossy",
+                    "role": "color",
                     "status": "owned",
                     "manufacturer_hex": "",
                     "personal_hex": "",
                     "override_hex": "",
-                    "category": "unknown",
+                    "category": "creme",
                     "images": []
                 }
             },

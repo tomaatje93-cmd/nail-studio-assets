@@ -387,16 +387,19 @@
         {
             "brand": "Essence",
             "shade_name": "Milky Glazed",
-            "color_family": "",
-            "finish": "",
-            "role": "",
+            "color_family": "white",
+            "finish": "glossy",
+            "role": "color",
             "status": "owned",
             "manufacturer_hex": "",
             "personal_hex": "",
             "override_hex": "",
             "category": "unknown",
             "id": "essence-milky-glazed",
-            "tags": []
+            "tags": [
+                "white",
+                "sheer"
+            ]
         },
         {
             "brand": "Essence",
@@ -632,30 +635,36 @@
         {
             "brand": "Gabriella Salvete",
             "shade_name": "Amethyst",
-            "color_family": "",
-            "finish": "",
-            "role": "",
+            "color_family": "purple",
+            "finish": "holo",
+            "role": "color",
             "status": "owned",
             "manufacturer_hex": "",
             "personal_hex": "",
             "override_hex": "",
-            "category": "unknown",
+            "category": "specialty",
             "id": "gabriella-salvete-amethyst",
-            "tags": []
+            "tags": [
+                "purple",
+                "holo"
+            ]
         },
         {
             "brand": "Gabriella Salvete",
             "shade_name": "Juicy Plum",
-            "color_family": "",
-            "finish": "",
-            "role": "",
+            "color_family": "purple",
+            "finish": "holo",
+            "role": "color",
             "status": "owned",
             "manufacturer_hex": "",
             "personal_hex": "",
             "override_hex": "",
-            "category": "unknown",
+            "category": "specialty",
             "id": "gabriella-salvete-juicy-plum",
-            "tags": []
+            "tags": [
+                "purple",
+                "holo"
+            ]
         },
         {
             "brand": "Hema",
@@ -4333,8 +4342,8 @@
             "brand": "Rimmel London",
             "shade_name": "Lovey Dovey",
             "color_family": "",
-            "finish": "",
-            "role": "",
+            "finish": "glossy",
+            "role": "color",
             "status": "owned",
             "manufacturer_hex": "",
             "personal_hex": "",
@@ -4494,16 +4503,19 @@
         {
             "brand": "Sally Hansen",
             "shade_name": "Tan-Lime",
-            "color_family": "",
-            "finish": "",
-            "role": "",
+            "color_family": "green",
+            "finish": "creme;glossy",
+            "role": "color",
             "status": "owned",
             "manufacturer_hex": "",
             "personal_hex": "",
             "override_hex": "",
-            "category": "unknown",
+            "category": "creme",
             "id": "sally-hansen-tan-lime",
-            "tags": []
+            "tags": [
+                "green",
+                "neon"
+            ]
         },
         {
             "brand": "Sally Hansen",
