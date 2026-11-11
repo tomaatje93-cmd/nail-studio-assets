@@ -7725,18 +7725,20 @@
                 "id": "notino-paranoir",
                 "type": "polish",
                 "name": "Notino Paranoir",
-                "tags": [],
+                "tags": [
+                    "black-sparkle"
+                ],
                 "data": {
                     "brand": "Notino",
                     "shade_name": "Paranoir",
-                    "color_family": "",
-                    "finish": "",
-                    "role": "",
+                    "color_family": "black",
+                    "finish": "jelly;glitter",
+                    "role": "color",
                     "status": "owned",
                     "manufacturer_hex": "",
                     "personal_hex": "",
                     "override_hex": "",
-                    "category": "unknown",
+                    "category": "specialty",
                     "images": []
                 }
             },

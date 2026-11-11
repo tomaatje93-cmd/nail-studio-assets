@@ -4220,16 +4220,18 @@
         {
             "brand": "Notino",
             "shade_name": "Paranoir",
-            "color_family": "",
-            "finish": "",
-            "role": "",
+            "color_family": "black",
+            "finish": "jelly;glitter",
+            "role": "color",
             "status": "owned",
             "manufacturer_hex": "",
             "personal_hex": "",
             "override_hex": "",
-            "category": "unknown",
+            "category": "specialty",
             "id": "notino-paranoir",
-            "tags": []
+            "tags": [
+                "black-sparkle"
+            ]
         },
         {
             "brand": "Notino",
