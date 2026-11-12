@@ -80,3 +80,45 @@
 #enrichment-colour-picker{height:48px;width:100%;padding:3px;cursor:pointer}
 @media(max-width:600px){.enrichment-queue-row{align-items:start;flex-direction:column}.enrichment-actions button{width:100%}}
 .overview-brand .brand-mark{font-size:inherit}
+
+.holo-glitter-burst {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    overflow: hidden;
+    pointer-events: none;
+}
+.holo-glitter-burst > span {
+    position: absolute;
+    left: var(--origin-x);
+    top: var(--origin-y);
+    width: var(--size);
+    height: var(--size);
+    clip-path: polygon(50% 0, 100% 38%, 73% 100%, 19% 87%, 0 29%);
+    background: linear-gradient(120deg, #ff68c4, #ffc576, #fbffad, #72ffcf, #79bbff, #c79aff, #fff, #ff68c4);
+    background-size: 150% 100%;
+    animation: holo-glitter-flight var(--flight) cubic-bezier(.12, .68, .27, 1) both,
+        holo-glitter-shine 360ms var(--shine-delay) linear 6 alternate;
+}
+.holo-glitter-burst > span:nth-child(5n) {
+    width: calc(var(--size) * 1.65);
+    height: calc(var(--size) * 1.65);
+    clip-path: polygon(50% 0, 59% 41%, 100% 50%, 59% 59%, 50% 100%, 41% 59%, 0 50%, 41% 41%);
+}
+@keyframes holo-glitter-flight {
+    0% { transform: translate(-50%, -50%) rotate(var(--angle)) scale(.45); opacity: 0; }
+    14% { opacity: 1; }
+    55% { opacity: .85; }
+    100% {
+        transform: translate(calc(var(--dx) - 50%), calc(var(--dy) - 50%))
+            rotate(calc(var(--angle) + 210deg)) rotateY(58deg) scale(.7);
+        opacity: 0;
+    }
+}
+@keyframes holo-glitter-shine {
+    from { background-position: 0 0; }
+    to { background-position: 100% 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+    .holo-glitter-burst { display: none; }
+}

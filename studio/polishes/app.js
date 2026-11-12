@@ -48,6 +48,40 @@ const displayLabel = row => transparent(row) ? transparentLabel(row) : effective
 const categoryLabel = row => catalog.categories[row.category] || catalog.categories.unknown;
 const categoryBadge = row => `<span class="category-badge category-${escapeHtml(row.category || 'unknown')}">${escapeHtml(categoryLabel(row))}</span>`;
 const tagLabel = tag => String(tag).toLowerCase() === 'glitter' ? `\u2728 ${escapeHtml(tag)} \u2728` : escapeHtml(String(tag).replace(/-/g, ' '));
+function burstHoloGlitter(button, event) {
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+    const rect = button.getBoundingClientRect();
+    const x = event.detail ? event.clientX : rect.left + rect.width / 2;
+    const y = event.detail ? event.clientY : rect.top + rect.height / 2;
+    const width = document.documentElement.clientWidth;
+    const height = document.documentElement.clientHeight;
+    const columns = width > height ? 12 : 8;
+    const rows = width > height ? 8 : 10;
+    const burst = document.createElement('div');
+    burst.className = 'holo-glitter-burst';
+    burst.setAttribute('aria-hidden', 'true');
+    burst.style.setProperty('--origin-x', `${x}px`);
+    burst.style.setProperty('--origin-y', `${y}px`);
+
+    // Jitter one destination per cell so the burst reaches the whole viewport.
+    for (let i = 0; i < columns * rows; i++) {
+        const particle = document.createElement('span');
+        const targetX = (i % columns + Math.random()) * width / columns;
+        const targetY = (Math.floor(i / columns) + Math.random()) * height / rows;
+        particle.style.setProperty('--dx', `${targetX - x}px`);
+        particle.style.setProperty('--dy', `${targetY - y}px`);
+        particle.style.setProperty('--size', `${5 + Math.random() * 12}px`);
+        particle.style.setProperty('--angle', `${Math.random() * 360}deg`);
+        particle.style.setProperty('--shine-delay', `-${Math.random() * 600}ms`);
+        particle.style.setProperty('--flight', `${1050 + Math.random() * 500}ms`);
+        burst.append(particle);
+    }
+
+    document.querySelector('.holo-glitter-burst')?.remove();
+    document.body.append(burst);
+    window.setTimeout(() => burst.remove(), 1600);
+}
 function polishTags(tags = []) {
   const labels = [...new Set(tags.map(normalizePolishTag))];
   return labels.length ? `<div class="polish-tags" aria-label="Polish tags">${labels.map(tag=>`<span class="polish-tag">${tagColourDot(tag)}${tagLabel(tag)}</span>`).join('')}</div>` : '<p class="muted">No tags recorded.</p>';
@@ -165,10 +199,12 @@ function render() {
     document.querySelector('#search').value = overviewState.search;
     document.querySelector('#category-filter').value = overviewState.category;
     document.querySelector('#finish-class-filter').value = overviewState.finishClass;
-    document.querySelectorAll('.tag-filter').forEach(button => { button.onclick = () => {
+    document.querySelectorAll('.tag-filter').forEach(button => { button.onclick = event => {
       const tag = button.dataset.tag;
-      if (overviewState.tags.has(tag)) overviewState.tags.delete(tag); else overviewState.tags.add(tag);
-      button.setAttribute('aria-pressed', String(overviewState.tags.has(tag)));
+      const activating = !overviewState.tags.has(tag);
+      if (activating) overviewState.tags.add(tag); else overviewState.tags.delete(tag);
+      button.setAttribute('aria-pressed', String(activating));
+      if (activating && tag === 'glitter') burstHoloGlitter(button, event);
       list();
     }; });
     document.querySelector('.clear-tag-filters').onclick = () => {
