@@ -82,7 +82,7 @@ function overviewCard(row) {
   const alternate = nailPhoto && nailPhoto.url !== photo?.url ? nailPhoto : null;
   const missing = [!bottle && 'Bottle', !nailPhoto && 'Nail swatch'].filter(Boolean);
   const attributes = [...new Set([row.finish, row.color_family].flatMap(value => (value || '').split(';')).map(value => value.trim()).filter(Boolean))];
-  return `<a class="card tile polish-overview-card" href="#${key(row)}">
+  return `<article class="card tile polish-overview-card"><a class="polish-card-main" href="#${key(row)}">
     <div class="overview-photo${photo ? '' : ' overview-photo-empty'}">
       ${photo ? `<img class="overview-product" src="${escapeHtml(safeImageUrl(photo.url))}" alt="${escapeHtml(row.brand + ' ' + row.shade_name + ' reference')}" loading="lazy" referrerpolicy="no-referrer">` : `<span class="overview-placeholder" aria-hidden="true">No photo yet</span>`}
       ${alternate ? `<img class="overview-nail" src="${escapeHtml(safeImageUrl(alternate.url))}" alt="${escapeHtml(row.shade_name + ' nail swatch')}" loading="lazy" referrerpolicy="no-referrer">` : ''}
@@ -92,7 +92,7 @@ function overviewCard(row) {
     ${swatch(effective(row),'small-swatch',row)}
     <div class="overview-attributes">${attributes.slice(0,4).map(value => `<span class="overview-attribute">${tagColourDot(value.toLowerCase())}${tagLabel(value)}</span>`).join('')}</div>
     ${!publicMode && missing.length ? `<span class="overview-missing" aria-label="Missing images: ${escapeHtml(missing.join(', '))}">＋ Add ${escapeHtml(missing.join(' & '))}</span>` : publicMode ? '' : '<span class="overview-complete">✓ Bottle & swatch recorded</span>'}
-    </div></a>${publicMode ? '' : `<a class="polish-card-edit" href="#enrich/${encodeURIComponent(row.id)}" aria-label="Edit ${escapeHtml(row.brand + ' ' + row.shade_name)}">Edit polish</a>`}`;
+    </div></a>${publicMode ? '' : `<a class="polish-card-edit" href="#enrich/${encodeURIComponent(row.id)}" aria-label="Edit ${escapeHtml(row.brand + ' ' + row.shade_name)}">✎ Edit polish</a>`}</article>`;
 }
 function swatch(value, extra = '', row = null) {
   const finishes = row ? row.finish.split(';').map(f=>f.trim()) : [];

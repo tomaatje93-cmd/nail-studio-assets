@@ -48,3 +48,9 @@ button:hover:not(:disabled){filter:brightness(1.12)}
 @media(max-width:600px){#library{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.polish-overview-card .overview-photo{height:170px}.overview-card-body{padding:11px}.overview-card-body h2{font-size:16px}.overview-photo-kind{font-size:10px}.overview-card-body .overview-attributes{gap:4px}.overview-attribute{font-size:10px}}
 
 .detail-image-editor{margin:24px 0}.detail-image-fields{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:18px}.detail-image-editor button{max-width:280px}.detail-image-editor a{font-weight:650}
+
+/* Keep the edit action inside each card without nesting interactive links. */
+.polish-card-main{display:flex;flex-direction:column;flex:1;min-width:0;color:inherit;text-decoration:none}
+.polish-card-main:focus-visible{outline:2px solid #a977d0;outline-offset:-2px}
+.polish-card-edit{display:block;align-self:flex-start;margin:0 16px 16px;padding:7px 12px;border:1px solid currentColor;border-radius:9px;font-size:13px;text-decoration:none}
+@media(max-width:600px){.polish-card-edit{margin:0 11px 11px}}
