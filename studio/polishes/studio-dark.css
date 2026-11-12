@@ -32,8 +32,28 @@ button:hover:not(:disabled){filter:brightness(1.12)}
 /* Image-first polish catalogue cards */
 #library{grid-template-columns:repeat(auto-fill,minmax(min(100%,235px),1fr));gap:18px}
 .polish-overview-card{padding:0;overflow:hidden;display:flex;flex-direction:column}
-.polish-overview-card .overview-photo{height:240px;margin:0;border-radius:0;overflow:hidden;position:relative;background:radial-gradient(circle at 50% 40%,#4c3c58,#241f30 75%)}
-.polish-overview-card .overview-photo img{max-height:none;width:100%;height:100%;max-width:100%;object-fit:contain;padding:12px;mask-image:none;-webkit-mask-image:none}
+.polish-overview-card .overview-photo,.card-frame-preview {
+    height: auto;
+    aspect-ratio: 1;
+    margin: 0;
+    border-radius: 0;
+    overflow: hidden;
+    position: relative;
+    background: radial-gradient(circle at 50% 40%,#4c3c58,#241f30 75%);
+}
+.polish-overview-card .overview-photo img,.card-frame-preview img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: none;
+    object-fit: contain;
+    box-sizing: border-box;
+    padding: 5%;
+    mask-image: none;
+    -webkit-mask-image: none;
+}
 .overview-card-body{display:flex;flex-direction:column;flex:1;padding:16px}
 .overview-card-body .small-swatch{height:18px;border-radius:999px;margin:0 0 14px}
 .overview-card-body h2{margin:0 0 5px;font-size:19px}
@@ -44,7 +64,7 @@ button:hover:not(:disabled){filter:brightness(1.12)}
 .overview-missing,.overview-complete{font-size:12px;margin-top:auto;padding-top:8px;color:#e2b6ff}
 .overview-complete{color:#b5d8c4}
 .polish-overview-card:hover{border-color:#a977d0;transform:translateY(-2px);transition:transform .15s,border-color .15s}
-@media(max-width:600px){#library{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.polish-overview-card .overview-photo{height:170px}.overview-card-body{padding:11px}.overview-card-body h2{font-size:16px}.overview-card-body .overview-attributes{gap:4px}.overview-attribute{font-size:10px}}
+@media(max-width:600px){#library{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.overview-card-body{padding:11px}.overview-card-body h2{font-size:16px}.overview-card-body .overview-attributes{gap:4px}.overview-attribute{font-size:10px}}
 
 .detail-image-editor{margin:24px 0}.detail-image-fields{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:18px}.detail-image-editor button{max-width:280px}.detail-image-editor a{font-weight:650}
 
@@ -53,3 +73,32 @@ button:hover:not(:disabled){filter:brightness(1.12)}
 .polish-card-main:focus-visible{outline:2px solid #a977d0;outline-offset:-2px}
 .polish-card-edit{display:block;align-self:flex-start;margin:0 16px 16px;padding:7px 12px;border:1px solid currentColor;border-radius:9px;font-size:13px;text-decoration:none}
 @media(max-width:600px){.polish-card-edit{margin:0 11px 11px}}
+
+/* Local-only used flag: separate from ownership and card navigation. */
+.used-control{display:flex;align-items:center;gap:8px;padding:8px 14px;font-size:14px;cursor:pointer}
+.used-control input{width:18px;height:18px;accent-color:#a977d0;cursor:pointer}
+.used-control .used-status{font-size:12px;color:#d9bdea}
+.used-control .used-status:empty{display:none}
+
+/* Keep the icon-only Used control at the lower-right of each catalogue tile. */
+.polish-overview-card .used-control{margin-top:auto;margin-left:auto;justify-content:flex-end;padding:0 12px 12px}
+.polish-overview-card .polish-card-edit{margin-right:auto}
+
+.card-frame-preview {
+    width: min(100%, 280px);
+    border-radius: 12px;
+    touch-action: none;
+    cursor: grab;
+    user-select: none;
+}
+.card-frame-preview:active {
+    cursor: grabbing;
+}
+.card-frame-controls input[type="range"] {
+    width: min(100%, 280px);
+    display: block;
+}
+.card-frame-controls button {
+    width: auto;
+    touch-action: manipulation;
+}

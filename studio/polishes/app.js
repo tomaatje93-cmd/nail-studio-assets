@@ -108,22 +108,72 @@ function brandMark(brand) {
   const image = url ? `<img class="brand-logo${whiteLogo ? ' brand-logo-white' : ''}" src="${escapeHtml(url)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.hidden=true">` : '';
   return `<span class="brand-mark">${image}<span>${escapeHtml(brand || 'Unspecified brand')}</span></span>`;
 }
-function overviewCard(row) {
+let usedSavePending = false;
+async function saveUsed(checkbox) {
+  if (usedSavePending) return;
+  const row = catalog.rows.find(item => item.id === checkbox.dataset.polishId);
+  if (!row) return;
+  const previous = row.used === true;
+  const desired = checkbox.checked;
+  const status = checkbox.closest('.used-control').querySelector('.used-status');
+  usedSavePending = true;
+  document.querySelectorAll('.used-checkbox').forEach(input => { input.disabled = true; });
+  status.textContent = '';
+  try {
+    const response = await fetch('api.php', {method:'POST', headers:{'Content-Type':'application/json','X-Polish-Editor':'1'}, body:JSON.stringify({id:row.id,version:catalog.version,used:desired})});
+    const result = await response.json();
+    if (!response.ok) throw Error(result.error || 'Save failed.');
+    catalog = result;
+    imageReferences = result.imageReferences;
+    if (current?.id === row.id) current.used = desired;
+    status.textContent = '';
+  } catch (error) {
+    checkbox.checked = previous;
+    status.textContent = error.message || 'Save failed';
+  } finally {
+    usedSavePending = false;
+    document.querySelectorAll('.used-checkbox').forEach(input => { input.disabled = false; });
+  }
+}
+function usedControl(row) {
+  return `<label class="used-control"><input type="checkbox" class="used-checkbox" data-polish-id="${escapeHtml(row.id)}" ${row.used === true ? 'checked' : ''} aria-label="Used: ${escapeHtml(row.brand + ' ' + row.shade_name)}" title="Used"> <span class="used-status" role="status" aria-live="polite"></span></label>`;
+}
+function bindUsedControls(scope = app) {
+  if (publicMode) return;
+  scope.querySelectorAll('.used-checkbox').forEach(input => { input.onchange = () => saveUsed(input); });
+}
+const defaultCardImageFrame = Object.freeze({x: 0, y: 0, zoom: 1});
+function validCardImageFrame(frame) {
+    return frame && Number.isFinite(frame.x) && Math.abs(frame.x) <= 0.5
+        && Number.isFinite(frame.y) && Math.abs(frame.y) <= 0.5
+        && Number.isFinite(frame.zoom) && frame.zoom >= 0.5 && frame.zoom <= 3;
+}
+function cardImageTransform(frame) {
+    const {x, y, zoom} = validCardImageFrame(frame) ? frame : defaultCardImageFrame;
+    return `translate(${x * 100}%, ${y * 100}%) scale(${zoom})`;
+}
+function catalogueCardPhotos(row) {
   const photos = (imageReferences[row.brand + '/' + row.shade_name]?.images || []).filter(photo => safeImageUrl(photo.url));
   const bottle = photos.find(photo => photo.kind === 'manufacturer') || photos.find(photo => /(?:bottle|product)/i.test(photo.caption || ''));
   const nailPhoto = photos.find(photo => photo.kind === 'swatch') || photos.find(photo => /(?:hand|nail|swatch)/i.test(photo.caption || ''));
-  const photo = bottle || nailPhoto || photos[0];
+  return {bottle, nailPhoto, first: photos[0]};
+}
+function overviewCard(row) {
+  const {bottle, nailPhoto, first} = catalogueCardPhotos(row);
+  const photo = bottle || nailPhoto || first;
+  const framing = bottle && validCardImageFrame(row.card_image_frame)
+      ? ` style="transform:${cardImageTransform(row.card_image_frame)}"` : '';
   const alternate = nailPhoto && nailPhoto.url !== photo?.url ? nailPhoto : null;
   const attributes = [...new Set([row.finish, row.color_family].flatMap(value => (value || '').split(';')).map(value => value.trim()).filter(Boolean))];
   return `<article class="card tile polish-overview-card"><a class="polish-card-main" href="#${key(row)}">
     <div class="overview-photo${photo ? '' : ' overview-photo-empty'}">
-      ${photo ? `<img class="overview-product" src="${escapeHtml(safeImageUrl(photo.url))}" alt="${escapeHtml(row.brand + ' ' + row.shade_name + ' reference')}" loading="lazy" referrerpolicy="no-referrer">` : `<span class="overview-placeholder" aria-hidden="true">No photo yet</span>`}
+      ${photo ? `<img class="overview-product"${framing} src="${escapeHtml(safeImageUrl(photo.url))}" alt="${escapeHtml(row.brand + ' ' + row.shade_name + ' reference')}" loading="lazy" referrerpolicy="no-referrer">` : `<span class="overview-placeholder" aria-hidden="true">No photo yet</span>`}
       ${alternate ? `<img class="overview-nail" src="${escapeHtml(safeImageUrl(alternate.url))}" alt="${escapeHtml(row.shade_name + ' nail swatch')}" loading="lazy" referrerpolicy="no-referrer">` : ''}
     </div>
     <div class="overview-card-body"><h2>${escapeHtml(row.shade_name)}</h2><p class="overview-brand">${brandMark(row.brand)}</p>
     ${swatch(effective(row),'small-swatch',row)}
     <div class="overview-attributes">${attributes.slice(0,4).map(value => `<span class="overview-attribute">${tagColourDot(value.toLowerCase())}${tagLabel(value)}</span>`).join('')}</div>
-    </div></a>${publicMode ? '' : `<a class="polish-card-edit" href="#enrich/${encodeURIComponent(row.id)}" aria-label="Edit ${escapeHtml(row.brand + ' ' + row.shade_name)}">✎ Edit polish</a>`}</article>`;
+    </div></a>${publicMode ? '' : `${usedControl(row)}<a class="polish-card-edit" href="#enrich/${encodeURIComponent(row.id)}" aria-label="Edit ${escapeHtml(row.brand + ' ' + row.shade_name)}">✎ Edit polish</a>`}</article>`;
 }
 function swatch(value, extra = '', row = null) {
   const finishes = row ? row.finish.split(';').map(f=>f.trim()) : [];
@@ -185,6 +235,7 @@ function render() {
       document.querySelector('.clear-tag-filters').disabled = !overviewState.tags.size;
       document.querySelector('#result-count').textContent = `${rows.length} of ${catalog.rows.length} products`;
       document.querySelector('#library').innerHTML = rows.map(overviewCard).join('') || '<p>No polishes match these filters.</p>';
+      bindUsedControls(document.querySelector('#library'));
       document.querySelectorAll('#library .overview-photo img').forEach(img => {
         img.onload = () => { if (img.classList.contains('overview-nail')) img.parentElement.classList.add('has-nail-photo'); };
         img.onerror = () => { img.hidden = true; if (img.classList.contains('overview-nail')) img.parentElement.classList.remove('has-nail-photo'); };
@@ -223,7 +274,8 @@ function render() {
   if (publicMode) { renderPublicPolish(row); return; }
   current = {...row};
   app.innerHTML = `<a href="#">← All polishes</a><p class="tag">${brandMark(row.brand)}</p><h1>${escapeHtml(row.shade_name)}</h1><p><a class="review-link" href="#enrich/${encodeURIComponent(row.id)}">✎ Edit polish</a></p><p class="muted">${escapeHtml([row.color_family,row.finish,row.role].filter(Boolean).join(' · ').replace(/-/g, ' '))}</p><p>Color in use: <strong id="effective"></strong></p>${gallery(row)}<div class="grid">${reference('manufacturer','Manufacturer reference','A listed hex or a sample from a manufacturer picture.')}${reference('personal','Your manicure / swatch','Sample a nail in your own photo, in the lighting you prefer.')}<section class="card"><h2>Your override</h2><p class="muted">Fine-tune the color used for this polish.</p><div id="override-preview" class="swatch"></div><label for="override_hex">Hex</label><input id="override_hex" placeholder="#735A91" maxlength="7"><label for="hue">Hue <output id="hue-value"></output></label><input type="range" id="hue" min="0" max="360" value="280"><label for="saturation">Saturation <output id="saturation-value"></output></label><input type="range" id="saturation" min="0" max="100" value="40"><label for="lightness">Lightness <output id="lightness-value"></output></label><input type="range" id="lightness" min="0" max="100" value="50"><button id="clear" class="secondary">Clear override</button></section></div><button id="save">Save colors</button><p id="status" role="status" aria-live="polite">Saved colors load from the JSON record. Changes are saved with the button above.</p><p class="muted">A single hex is a representative color; shimmer, transparency and magnetic effects vary with lighting. Photo samples are estimates.</p>`;
-  app.querySelector('h1').insertAdjacentHTML('afterend', categoryBadge(row) + polishTags(row.tags) + swatch(effective(current), 'product-swatch', current));
+  app.querySelector('h1').insertAdjacentHTML('afterend', categoryBadge(row) + polishTags(row.tags) + swatch(effective(current), 'product-swatch', current) + usedControl(row));
+  bindUsedControls();
   // Compact image enrichment inside the detail view; uses the existing editor endpoint.
   const imageEntry = imageReferences[row.brand + '/' + row.shade_name] || {};
   const imageKinds = imageEntry.images || [];
