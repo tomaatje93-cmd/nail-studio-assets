@@ -80,13 +80,11 @@ function overviewCard(row) {
   const nailPhoto = photos.find(photo => photo.kind === 'swatch') || photos.find(photo => /(?:hand|nail|swatch)/i.test(photo.caption || ''));
   const photo = bottle || nailPhoto || photos[0];
   const alternate = nailPhoto && nailPhoto.url !== photo?.url ? nailPhoto : null;
-  const missing = [!bottle && 'Bottle', !nailPhoto && 'Nail swatch'].filter(Boolean);
   const attributes = [...new Set([row.finish, row.color_family].flatMap(value => (value || '').split(';')).map(value => value.trim()).filter(Boolean))];
   return `<article class="card tile polish-overview-card"><a class="polish-card-main" href="#${key(row)}">
     <div class="overview-photo${photo ? '' : ' overview-photo-empty'}">
       ${photo ? `<img class="overview-product" src="${escapeHtml(safeImageUrl(photo.url))}" alt="${escapeHtml(row.brand + ' ' + row.shade_name + ' reference')}" loading="lazy" referrerpolicy="no-referrer">` : `<span class="overview-placeholder" aria-hidden="true">No photo yet</span>`}
       ${alternate ? `<img class="overview-nail" src="${escapeHtml(safeImageUrl(alternate.url))}" alt="${escapeHtml(row.shade_name + ' nail swatch')}" loading="lazy" referrerpolicy="no-referrer">` : ''}
-      <span class="overview-photo-kind">${escapeHtml(photo ? (photo === nailPhoto ? 'Nail swatch' : 'Bottle / product') : 'Image needed')}</span>
     </div>
     <div class="overview-card-body"><h2>${escapeHtml(row.shade_name)}</h2><p class="overview-brand">${brandMark(row.brand)}</p>
     ${swatch(effective(row),'small-swatch',row)}
@@ -122,34 +120,11 @@ function render() {
   dirty = false;
   if (!row) {
     current = null;
-    app.innerHTML = `<span class="tag">Your collection</span><h1>All the shades.</h1><p class="muted">${catalog.rows.length} products · Open a polish to compare references${publicMode ? '.' : ' and set your own color.'}</p><div class="toolbar"><input id="search" aria-label="Search polishes" placeholder="Find a brand or shade…"></div><div class="grid" id="library"></div>`;
+    app.innerHTML = `<span class="tag">Your collection</span><h1>All the shades.</h1><div class="toolbar"><input id="search" aria-label="Search polishes" placeholder="Find a brand or shade…"></div><div class="grid" id="library"></div>`;
     document.querySelector('.toolbar').insertAdjacentHTML('beforeend', `<select id="category-filter" aria-label="Filter polish category"><option value="">All categories</option>${Object.entries(catalog.categories).map(([id, label])=>`<option value="${escapeHtml(id)}">${escapeHtml(label)} (${catalog.rows.filter(r=>r.category===id).length})</option>`).join('')}</select>`);
     document.querySelector('.toolbar').insertAdjacentHTML('beforeend', '<select id="finish-class-filter" aria-label="Filter by finish classification"><option value="">All finish types</option><option value="plain">Plain</option><option value="specialty">Specialty</option><option value="neither">Neither</option></select>');
-    if (!publicMode) {
-      document.querySelector('.toolbar').insertAdjacentHTML('afterend', '<details class="tag-filters" id="finish-class-editor"><summary>Classify finishes</summary><p class="muted">Choose a classification for each finish. Applies to all polishes using that finish.</p><div id="finish-class-choices"></div><button type="button" id="save-finish-classes">Save classifications</button><p id="finish-class-status" role="status"></p></details>');
-      const choices = document.querySelector('#finish-class-choices');
-      choices.innerHTML = Object.entries(catalog.finishOptions).map(([id, label]) => `<label style="display:flex;align-items:center;justify-content:space-between;gap:12px;margin:8px 0"><span>${escapeHtml(label)}</span><select data-finish="${escapeHtml(id)}" aria-label="Classify ${escapeHtml(label)}"><option value="plain">Plain</option><option value="specialty">Specialty</option><option value="neither">Neither</option></select></label>`).join('');
-      choices.querySelectorAll('select').forEach(select => { select.value = catalog.finishClasses?.[select.dataset.finish] || 'neither'; });
-      document.querySelector('#save-finish-classes').onclick = async () => {
-        const button = document.querySelector('#save-finish-classes');
-        const status = document.querySelector('#finish-class-status');
-        const finishClasses = Object.fromEntries([...choices.querySelectorAll('select')].map(select => [select.dataset.finish, select.value]));
-        button.disabled = true;
-        status.textContent = 'Saving…';
-        try {
-          const response = await fetch('api.php', {method:'POST', headers:{'Content-Type':'application/json','X-Polish-Editor':'1'}, body:JSON.stringify({finishClasses})});
-          const result = await response.json();
-          if (!response.ok) throw Error(result.error || 'Save failed.');
-          catalog.finishClasses = result.finishClasses;
-          status.textContent = 'Saved locally. Commit the configuration file to sync across devices.';
-          list();
-        } catch (error) { status.textContent = error.message; }
-        finally { button.disabled = false; }
-      };
-    }
     document.querySelector('#search').placeholder = 'Find a brand, shade or tag…';
     if (!publicMode) document.querySelector('.toolbar').insertAdjacentHTML('afterend', `<p><a class="review-link" href="#enrich">Complete polish catalogue (${catalog.rows.filter(row => !row.enrichment_complete || row.refinement_queued).length} needing review)</a></p>`);
-    document.querySelector('.toolbar').insertAdjacentHTML('beforebegin', '<p class="muted">Swatches include illustrative finish effects. Open a polish for its photos and flat colour references.</p>');
     document.querySelector('#library').insertAdjacentHTML('beforebegin', '<p id="result-count" class="muted" role="status" aria-live="polite"></p>');
     const tags = [...new Set(catalog.rows.flatMap(filterTags))].sort((a,b) => a.localeCompare(b));
     const tagCounts = new Map(tags.map(tag => [tag, catalog.rows.filter(row => filterTags(row).includes(tag)).length]));

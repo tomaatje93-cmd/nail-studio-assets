@@ -32,6 +32,8 @@
 .overview-attributes{display:flex;flex-wrap:wrap;gap:6px;margin-top:auto}
 .overview-attribute{font-size:12px;line-height:1.4;padding:4px 9px;border-radius:999px;background:#f0e5ec;border:1px solid #dfcbd7;color:#713f60}
 .tag-filters{margin:20px 0;padding:16px;border:1px solid #e3d9d3;border-radius:12px;background:#fffdfb}
+.tag-filters:not([open]){margin:8px 0;padding:0}
+.tag-filters:not([open]) summary{padding:8px 12px}
 .tag-filters summary{cursor:pointer;font-weight:600}
 .tag-filter-options{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
 .tag-filter{width:auto;margin:0;padding:6px 12px;border-radius:999px;background:transparent;color:#713f60;font-size:13px}
