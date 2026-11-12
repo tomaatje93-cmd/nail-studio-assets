@@ -332,3 +332,29 @@
         font-size: 1.05rem;
     }
 }
+
+/* Comparison uses the available viewport, without changing catalogue page widths. */
+body:has(.compare-grid) main {
+    max-width: none;
+    width: 100%;
+}
+.compare-grid {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(260px, min(420px, calc(100vw - 48px)));
+    grid-template-columns: none;
+    justify-content: safe center;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    padding: 4px 2px 16px;
+    scroll-snap-type: x proximity;
+}
+.compare-grid > .compare-polish {
+    scroll-snap-align: start;
+}
+@media (max-width: 600px) {
+    .compare-grid {
+        grid-template-columns: none;
+        grid-auto-columns: minmax(220px, min(82vw, 320px));
+    }
+}
