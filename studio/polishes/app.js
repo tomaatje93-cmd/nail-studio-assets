@@ -91,7 +91,6 @@ function overviewCard(row) {
     <div class="overview-card-body"><h2>${escapeHtml(row.shade_name)}</h2><p class="overview-brand">${brandMark(row.brand)}</p>
     ${swatch(effective(row),'small-swatch',row)}
     <div class="overview-attributes">${attributes.slice(0,4).map(value => `<span class="overview-attribute">${tagColourDot(value.toLowerCase())}${tagLabel(value)}</span>`).join('')}</div>
-    ${!publicMode && missing.length ? `<span class="overview-missing" aria-label="Missing images: ${escapeHtml(missing.join(', '))}">＋ Add ${escapeHtml(missing.join(' & '))}</span>` : publicMode ? '' : '<span class="overview-complete">✓ Bottle & swatch recorded</span>'}
     </div></a>${publicMode ? '' : `<a class="polish-card-edit" href="#enrich/${encodeURIComponent(row.id)}" aria-label="Edit ${escapeHtml(row.brand + ' ' + row.shade_name)}">✎ Edit polish</a>`}</article>`;
 }
 function swatch(value, extra = '', row = null) {
