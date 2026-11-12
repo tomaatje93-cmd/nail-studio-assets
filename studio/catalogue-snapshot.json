@@ -14,7 +14,7 @@
                 "data": {
                     "brand": "BLP",
                     "shade_name": "Halo",
-                    "color_family": "",
+                    "color_family": "multicolor",
                     "finish": "",
                     "role": "",
                     "status": "owned",
@@ -169,13 +169,13 @@
                 "type": "polish",
                 "name": "Cirque Colors Electric Daisy",
                 "tags": [
-                    "swatch photographed",
-                    "green"
+                    "green",
+                    "swatch photographed"
                 ],
                 "data": {
                     "brand": "Cirque Colors",
                     "shade_name": "Electric Daisy",
-                    "color_family": "green",
+                    "color_family": "green;neon",
                     "finish": "",
                     "role": "color",
                     "status": "owned",
