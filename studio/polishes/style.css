@@ -343,7 +343,7 @@ body:has(.compare-grid) main > h1,
 body:has(.compare-grid) main > .muted,
 body:has(.compare-grid) main > a {
     display: block;
-    max-width: 1600px;
+    max-width: 2352px;
     margin-inline: auto;
 }
 body:has(.compare-grid) main > h1 {
@@ -449,4 +449,18 @@ body:has(.compare-grid) main > .muted {
     }
     .compare-photo { height: 210px; }
     .compare-polish h2 { font-size: 20px; }
+}
+
+/* Align comparison heading and navigation to the same page shell. */
+body:has(.compare-grid) .studio-header {
+    width: 100%;
+    max-width: 2400px;
+}
+body:has(.compare-grid) main > a,
+body:has(.compare-grid) main > h1,
+body:has(.compare-grid) main > .muted {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 2400px;
+    padding-inline: max(0px, calc(20px - clamp(16px, 2.5vw, 64px)));
 }
