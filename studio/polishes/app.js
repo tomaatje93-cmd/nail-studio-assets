@@ -234,19 +234,66 @@ function polishHashMatches(row, hash) {
     return slash >= 0 && brandKey(decoded.slice(0, slash)) === brandKey(row.brand) && decoded.slice(slash + 1) === row.shade_name;
   } catch { return false; }
 }
+function comparisonHash(ids) {
+    return '#compare/' + [...ids].map(encodeURIComponent).join('/');
+}
+
+function comparisonId(value) {
+    try {
+        return decodeURIComponent(value);
+    } catch {
+        return value;
+    }
+}
+
+function enableComparisonLink(ids) {
+    const button = app.querySelector('#copy-comparison-link');
+    const status = app.querySelector('#comparison-link-status');
+    const input = app.querySelector('#comparison-link');
+    button.onclick = async () => {
+        const url = location.origin + location.pathname + comparisonHash(ids);
+        if (navigator.clipboard?.writeText) {
+            try {
+                await navigator.clipboard.writeText(url);
+                input.hidden = true;
+                status.textContent = 'Comparison link copied.';
+                return;
+            } catch {
+                // A denied clipboard write uses the same fallback as an unavailable API.
+            }
+        }
+        if (!app.contains(input)) return;
+        status.textContent = 'Copy the link from the field below.';
+        input.value = url;
+        input.hidden = false;
+        input.focus();
+        input.select();
+    };
+}
+
 function renderComparison(hash) {
     current = null;
-    const rowsById = new Map(catalog.rows.map(row => [key(row), row]));
-    const rows = [...new Set(hash.slice('#compare/'.length).split('/'))].map(id => rowsById.get(id)).filter(Boolean);
-    if (rows.length < 2) {
-        app.innerHTML = '<h1 tabindex="-1">Compare polishes</h1><p>Choose at least two available polishes to compare.</p><a href="#">Back to catalogue</a>';
+    const ids = [...new Set(hash.slice('#compare/'.length).split('/').filter(Boolean).map(comparisonId))];
+    const rowsById = new Map(catalog.rows.map(row => [row.id, row]));
+    const rows = ids.map(id => rowsById.get(id)).filter(Boolean);
+    const missing = ids.length - rows.length;
+    const unavailable = missing ? `<p class="muted">${missing} ${missing === 1 ? 'polish from this link is' : 'polishes from this link are'} unavailable.</p>` : '';
+    if (!rows.length) {
+        app.innerHTML = `<h1 tabindex="-1">Compare polishes</h1>${unavailable}<p>There are no available polishes to compare.</p><a href="#">Back to catalogue</a>`;
     } else {
         comparison.active = true;
         comparison.ids = new Set(rows.map(row => row.id));
         app.innerHTML = `<a href="#">← Back to selection</a>
             <h1 tabindex="-1">Compare polishes</h1>
             <p class="muted">Colour previews are illustrative. Reference photos show how finishes can look in different lighting.</p>
+            ${unavailable}
+            ${rows.length >= 2 ? `<div class="catalogue-heading-actions">
+                <button type="button" id="copy-comparison-link" class="secondary">Copy comparison link</button>
+                <span id="comparison-link-status" role="status"></span>
+                <input id="comparison-link" type="text" aria-label="Comparison link" readonly hidden>
+            </div>` : ''}
             <div class="compare-grid">${rows.map(comparisonCard).join('')}</div>`;
+        if (rows.length >= 2) enableComparisonLink(comparison.ids);
         app.querySelectorAll('.compare-photo img').forEach(image => {
             image.onerror = () => {
                 image.hidden = true;
@@ -342,7 +389,7 @@ function render() {
       modeButton.focus({ preventScroll: true });
     };
     open.onclick = () => {
-      if (comparison.ids.size >= 2) location.hash = '#compare/' + [...comparison.ids].map(encodeURIComponent).join('/');
+      if (comparison.ids.size >= 2) location.hash = comparisonHash(comparison.ids);
     };
     updateComparison();
     const brands = [...new Set(catalog.rows.map(row => row.brand).filter(Boolean))].sort((a, b) => a.localeCompare(b));
