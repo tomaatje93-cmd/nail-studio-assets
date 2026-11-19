@@ -3,7 +3,7 @@
         {
             "brand": "BLP",
             "shade_name": "Halo",
-            "color_family": "multicolor",
+            "color_family": "",
             "finish": "",
             "role": "",
             "status": "owned",
@@ -91,7 +91,7 @@
         {
             "brand": "Cirque Colors",
             "shade_name": "Electric Daisy",
-            "color_family": "green;neon",
+            "color_family": "green",
             "finish": "",
             "role": "color",
             "status": "owned",
@@ -101,8 +101,8 @@
             "category": "unknown",
             "id": "cirque-colors-electric-daisy",
             "tags": [
-                "green",
-                "swatch photographed"
+                "swatch photographed",
+                "green"
             ]
         },
         {
@@ -4230,8 +4230,7 @@
             "category": "specialty",
             "id": "notino-paranoir",
             "tags": [
-                "black-sparkle",
-                "jelly"
+                "black-sparkle"
             ]
         },
         {
