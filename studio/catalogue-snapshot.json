@@ -2,27 +2,39 @@
     "schema_version": 1,
     "counts": {
         "polish": 265,
-        "plate": 26
+        "plate": 27
     },
     "records": {
         "polish": {
             "blp-halo": {
                 "id": "blp-halo",
                 "type": "polish",
-                "name": "BLP Halo",
+                "name": "ILNP Halo",
                 "tags": [],
                 "data": {
-                    "brand": "BLP",
+                    "brand": "ILNP",
                     "shade_name": "Halo",
-                    "color_family": "",
-                    "finish": "",
-                    "role": "",
+                    "color_family": "gold/copper;multicolor;nude;orange;peach;pink",
+                    "finish": "shimmer;holo",
+                    "role": "color",
                     "status": "owned",
                     "manufacturer_hex": "",
                     "personal_hex": "",
-                    "override_hex": "",
-                    "category": "unknown",
-                    "images": []
+                    "override_hex": "#F0924D",
+                    "card_image_frame": {
+                        "x": 0,
+                        "y": 0.025,
+                        "zoom": 1.22
+                    },
+                    "category": "specialty",
+                    "images": [
+                        {
+                            "url": "https://media.ilnp.com/uploads/2026/05/flow-state-deep-aquamarine-shimmer-holographic-nail-polish-16-600x600.jpg",
+                            "kind": "manufacturer",
+                            "caption": "User-verified product / bottle reference",
+                            "source": "https://www.ilnp.com/halo-orchid-pink-shimmer-holographic-nail-polish/"
+                        }
+                    ]
                 }
             },
             "blp-rush-hour": {
@@ -169,13 +181,13 @@
                 "type": "polish",
                 "name": "Cirque Colors Electric Daisy",
                 "tags": [
-                    "swatch photographed",
-                    "green"
+                    "green",
+                    "swatch photographed"
                 ],
                 "data": {
                     "brand": "Cirque Colors",
                     "shade_name": "Electric Daisy",
-                    "color_family": "green",
+                    "color_family": "green;neon",
                     "finish": "",
                     "role": "color",
                     "status": "owned",
@@ -452,13 +464,18 @@
                     "brand": "Essence",
                     "shade_name": "Dusk Till Yawn",
                     "color_family": "black",
-                    "finish": "",
+                    "finish": "creme",
                     "role": "color",
                     "status": "owned",
                     "manufacturer_hex": "",
                     "personal_hex": "",
                     "override_hex": "",
-                    "category": "unknown",
+                    "card_image_frame": {
+                        "x": 0,
+                        "y": -0.0786,
+                        "zoom": 1.52
+                    },
+                    "category": "creme",
                     "images": [
                         {
                             "url": "../../polishes/essence-dusk-till-yawn/reference-77ea3f23d7c0.jpg",
@@ -6155,16 +6172,23 @@
                 ],
                 "data": {
                     "brand": "Holo Taco",
-                    "color_family": "purple",
-                    "finish": "",
+                    "color_family": "multicolor;pink;silver",
+                    "finish": "shimmer;holo",
                     "manufacturer_hex": "",
-                    "override_hex": "",
+                    "override_hex": "#8B7296",
                     "personal_hex": "",
                     "role": "color",
                     "shade_name": "Spirit Fingers",
                     "status": "owned",
-                    "category": "unknown",
-                    "images": []
+                    "category": "specialty",
+                    "images": [
+                        {
+                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv8LQbtIxXn2x-8h5dVJfrxU0gXzJ73ALMBQ1vTd91teYnJlKgcKUKpAI&s=10",
+                            "kind": "manufacturer",
+                            "caption": "User-verified product / bottle reference",
+                            "source": "https://www.holotaco.com/products/spirit-fingers"
+                        }
+                    ]
                 }
             },
             "holo-taco-spyglass": {
@@ -6367,7 +6391,14 @@
                     "shade_name": "Toe Beans",
                     "status": "owned",
                     "category": "unknown",
-                    "images": []
+                    "images": [
+                        {
+                            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv8LQbtIxXn2x-8h5dVJfrxU0gXzJ73ALMBQ1vTd91teYnJlKgcKUKpAI&s=10",
+                            "kind": "manufacturer",
+                            "caption": "User-verified product / bottle reference",
+                            "source": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv8LQbtIxXn2x-8h5dVJfrxU0gXzJ73ALMBQ1vTd91teYnJlKgcKUKpAI&s=10"
+                        }
+                    ]
                 }
             },
             "holo-taco-twilight-shimmer": {
@@ -7726,7 +7757,8 @@
                 "type": "polish",
                 "name": "Notino Paranoir",
                 "tags": [
-                    "black-sparkle"
+                    "black-sparkle",
+                    "jelly"
                 ],
                 "data": {
                     "brand": "Notino",
@@ -14188,6 +14220,235 @@
                                 214,
                                 100,
                                 133
+                            ]
+                        }
+                    ]
+                }
+            },
+            "moyou-illusion-09": {
+                "id": "moyou-illusion-09",
+                "type": "plate",
+                "name": "MoYou London Illusion 09",
+                "tags": [
+                    "geometric",
+                    "optical",
+                    "repeating",
+                    "lines"
+                ],
+                "data": {
+                    "brand": "MoYou London",
+                    "collection": "Illusion",
+                    "plate_number": "09",
+                    "status": "owned",
+                    "layout": "separate",
+                    "reference_image": "plates/images/moyou-illusion-09/reference.png",
+                    "reference_size": [
+                        800,
+                        415
+                    ],
+                    "stamps": [
+                        {
+                            "id": "s01",
+                            "title": "Striped triangle illusion",
+                            "position": "Position 1",
+                            "tags": [
+                                "geometric",
+                                "optical",
+                                "repeating"
+                            ],
+                            "image": "plates/images/moyou-illusion-09/s01.png",
+                            "crop": [
+                                76,
+                                50,
+                                100,
+                                137
+                            ]
+                        },
+                        {
+                            "id": "s02",
+                            "title": "Interlocking hexagon tessellation",
+                            "position": "Position 2",
+                            "tags": [
+                                "geometric",
+                                "optical",
+                                "repeating"
+                            ],
+                            "image": "plates/images/moyou-illusion-09/s02.png",
+                            "crop": [
+                                184,
+                                50,
+                                100,
+                                137
+                            ]
+                        },
+                        {
+                            "id": "s03",
+                            "title": "Curving triangle tessellation",
+                            "position": "Position 3",
+                            "tags": [
+                                "geometric",
+                                "optical",
+                                "repeating"
+                            ],
+                            "image": "plates/images/moyou-illusion-09/s03.png",
+                            "crop": [
+                                292,
+                                50,
+                                100,
+                                137
+                            ]
+                        },
+                        {
+                            "id": "s04",
+                            "title": "Angular zigzag maze",
+                            "position": "Position 4",
+                            "tags": [
+                                "geometric",
+                                "optical",
+                                "repeating"
+                            ],
+                            "image": "plates/images/moyou-illusion-09/s04.png",
+                            "crop": [
+                                400,
+                                50,
+                                100,
+                                137
+                            ]
+                        },
+                        {
+                            "id": "s05",
+                            "title": "Offset checkerboard",
+                            "position": "Position 5",
+                            "tags": [
+                                "geometric",
+                                "optical",
+                                "repeating"
+                            ],
+                            "image": "plates/images/moyou-illusion-09/s05.png",
+                            "crop": [
+                                508,
+                                50,
+                                100,
+                                137
+                            ]
+                        },
+                        {
+                            "id": "s06",
+                            "title": "Curving stripe fan",
+                            "position": "Position 6",
+                            "tags": [
+                                "geometric",
+                                "optical",
+                                "repeating"
+                            ],
+                            "image": "plates/images/moyou-illusion-09/s06.png",
+                            "crop": [
+                                616,
+                                50,
+                                100,
+                                137
+                            ]
+                        },
+                        {
+                            "id": "s07",
+                            "title": "Faceted star tessellation",
+                            "position": "Position 7",
+                            "tags": [
+                                "geometric",
+                                "optical",
+                                "repeating"
+                            ],
+                            "image": "plates/images/moyou-illusion-09/s07.png",
+                            "crop": [
+                                76,
+                                211,
+                                100,
+                                137
+                            ]
+                        },
+                        {
+                            "id": "s08",
+                            "title": "Wavy diagonal stripes",
+                            "position": "Position 8",
+                            "tags": [
+                                "geometric",
+                                "optical",
+                                "repeating"
+                            ],
+                            "image": "plates/images/moyou-illusion-09/s08.png",
+                            "crop": [
+                                184,
+                                211,
+                                100,
+                                137
+                            ]
+                        },
+                        {
+                            "id": "s09",
+                            "title": "Elongated cube tessellation",
+                            "position": "Position 9",
+                            "tags": [
+                                "geometric",
+                                "optical",
+                                "repeating"
+                            ],
+                            "image": "plates/images/moyou-illusion-09/s09.png",
+                            "crop": [
+                                292,
+                                211,
+                                100,
+                                137
+                            ]
+                        },
+                        {
+                            "id": "s10",
+                            "title": "Stacked chevrons",
+                            "position": "Position 10",
+                            "tags": [
+                                "geometric",
+                                "optical",
+                                "repeating"
+                            ],
+                            "image": "plates/images/moyou-illusion-09/s10.png",
+                            "crop": [
+                                400,
+                                211,
+                                100,
+                                137
+                            ]
+                        },
+                        {
+                            "id": "s11",
+                            "title": "Narrow zigzag waves",
+                            "position": "Position 11",
+                            "tags": [
+                                "geometric",
+                                "optical",
+                                "repeating"
+                            ],
+                            "image": "plates/images/moyou-illusion-09/s11.png",
+                            "crop": [
+                                508,
+                                211,
+                                100,
+                                137
+                            ]
+                        },
+                        {
+                            "id": "s12",
+                            "title": "Three-dimensional cube tessellation",
+                            "position": "Position 12",
+                            "tags": [
+                                "geometric",
+                                "optical",
+                                "repeating"
+                            ],
+                            "image": "plates/images/moyou-illusion-09/s12.png",
+                            "crop": [
+                                616,
+                                211,
+                                100,
+                                137
                             ]
                         }
                     ]

@@ -5860,6 +5860,231 @@
         },
         {
             "brand": "MoYou London",
+            "collection": "Illusion",
+            "plate_number": "09",
+            "status": "owned",
+            "layout": "separate",
+            "reference_image": "../plates/images/moyou-illusion-09/reference.png",
+            "reference_size": [
+                800,
+                415
+            ],
+            "stamps": [
+                {
+                    "id": "s01",
+                    "title": "Striped triangle illusion",
+                    "position": "Position 1",
+                    "tags": [
+                        "geometric",
+                        "optical",
+                        "repeating"
+                    ],
+                    "image": "../plates/images/moyou-illusion-09/s01.png",
+                    "crop": [
+                        76,
+                        50,
+                        100,
+                        137
+                    ]
+                },
+                {
+                    "id": "s02",
+                    "title": "Interlocking hexagon tessellation",
+                    "position": "Position 2",
+                    "tags": [
+                        "geometric",
+                        "optical",
+                        "repeating"
+                    ],
+                    "image": "../plates/images/moyou-illusion-09/s02.png",
+                    "crop": [
+                        184,
+                        50,
+                        100,
+                        137
+                    ]
+                },
+                {
+                    "id": "s03",
+                    "title": "Curving triangle tessellation",
+                    "position": "Position 3",
+                    "tags": [
+                        "geometric",
+                        "optical",
+                        "repeating"
+                    ],
+                    "image": "../plates/images/moyou-illusion-09/s03.png",
+                    "crop": [
+                        292,
+                        50,
+                        100,
+                        137
+                    ]
+                },
+                {
+                    "id": "s04",
+                    "title": "Angular zigzag maze",
+                    "position": "Position 4",
+                    "tags": [
+                        "geometric",
+                        "optical",
+                        "repeating"
+                    ],
+                    "image": "../plates/images/moyou-illusion-09/s04.png",
+                    "crop": [
+                        400,
+                        50,
+                        100,
+                        137
+                    ]
+                },
+                {
+                    "id": "s05",
+                    "title": "Offset checkerboard",
+                    "position": "Position 5",
+                    "tags": [
+                        "geometric",
+                        "optical",
+                        "repeating"
+                    ],
+                    "image": "../plates/images/moyou-illusion-09/s05.png",
+                    "crop": [
+                        508,
+                        50,
+                        100,
+                        137
+                    ]
+                },
+                {
+                    "id": "s06",
+                    "title": "Curving stripe fan",
+                    "position": "Position 6",
+                    "tags": [
+                        "geometric",
+                        "optical",
+                        "repeating"
+                    ],
+                    "image": "../plates/images/moyou-illusion-09/s06.png",
+                    "crop": [
+                        616,
+                        50,
+                        100,
+                        137
+                    ]
+                },
+                {
+                    "id": "s07",
+                    "title": "Faceted star tessellation",
+                    "position": "Position 7",
+                    "tags": [
+                        "geometric",
+                        "optical",
+                        "repeating"
+                    ],
+                    "image": "../plates/images/moyou-illusion-09/s07.png",
+                    "crop": [
+                        76,
+                        211,
+                        100,
+                        137
+                    ]
+                },
+                {
+                    "id": "s08",
+                    "title": "Wavy diagonal stripes",
+                    "position": "Position 8",
+                    "tags": [
+                        "geometric",
+                        "optical",
+                        "repeating"
+                    ],
+                    "image": "../plates/images/moyou-illusion-09/s08.png",
+                    "crop": [
+                        184,
+                        211,
+                        100,
+                        137
+                    ]
+                },
+                {
+                    "id": "s09",
+                    "title": "Elongated cube tessellation",
+                    "position": "Position 9",
+                    "tags": [
+                        "geometric",
+                        "optical",
+                        "repeating"
+                    ],
+                    "image": "../plates/images/moyou-illusion-09/s09.png",
+                    "crop": [
+                        292,
+                        211,
+                        100,
+                        137
+                    ]
+                },
+                {
+                    "id": "s10",
+                    "title": "Stacked chevrons",
+                    "position": "Position 10",
+                    "tags": [
+                        "geometric",
+                        "optical",
+                        "repeating"
+                    ],
+                    "image": "../plates/images/moyou-illusion-09/s10.png",
+                    "crop": [
+                        400,
+                        211,
+                        100,
+                        137
+                    ]
+                },
+                {
+                    "id": "s11",
+                    "title": "Narrow zigzag waves",
+                    "position": "Position 11",
+                    "tags": [
+                        "geometric",
+                        "optical",
+                        "repeating"
+                    ],
+                    "image": "../plates/images/moyou-illusion-09/s11.png",
+                    "crop": [
+                        508,
+                        211,
+                        100,
+                        137
+                    ]
+                },
+                {
+                    "id": "s12",
+                    "title": "Three-dimensional cube tessellation",
+                    "position": "Position 12",
+                    "tags": [
+                        "geometric",
+                        "optical",
+                        "repeating"
+                    ],
+                    "image": "../plates/images/moyou-illusion-09/s12.png",
+                    "crop": [
+                        616,
+                        211,
+                        100,
+                        137
+                    ]
+                }
+            ],
+            "id": "moyou-illusion-09",
+            "tags": [
+                "geometric",
+                "optical",
+                "repeating",
+                "lines"
+            ]
+        },
+        {
+            "brand": "MoYou London",
             "collection": "Minimal",
             "plate_number": "10",
             "status": "owned",
